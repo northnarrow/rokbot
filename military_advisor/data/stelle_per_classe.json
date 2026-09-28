@@ -1,0 +1,2931 @@
+{
+  "stars_by_rarity": {
+    "Legendary": {
+      "starlight_type": "Dazzling Starlight Sculpture",
+      "starlight_variants": {
+        "regular": {
+          "star_exp": 100,
+          "luck": "+10%"
+        },
+        "blessed": {
+          "star_exp": 400,
+          "luck": "+20%"
+        },
+        "bundle_of": {
+          "star_exp": 800,
+          "luck": "+5%"
+        }
+      },
+      "summon_sculptures": 10,
+      "skill_upgrade_cost_per_upgrade": [
+        10,
+        10,
+        15,
+        15,
+        30,
+        30,
+        40,
+        40,
+        45,
+        45,
+        50,
+        50,
+        75,
+        75,
+        80,
+        80
+      ],
+      "skill_upgrade_total_after_summon": 690,
+      "total_including_summon": 700,
+      "common_builds_cost": {
+        "5111": 50,
+        "5511": 190,
+        "5551": 380,
+        "5555": 690,
+        "5515/5155 (stesso n. di upgrade di 5511)": 190,
+        "5115": 190,
+        "5151": 190
+      },
+      "expertise": "Si': skill 5 (expertise) quando le skill 1-4 sono tutte a livello 5; nessun costo aggiuntivo oltre ai 690 (heaven-guardian, wiki). In rokstats l'expertise ha unlockStar=null e replacesSlot (potenzia/sostituisce una skill).",
+      "stars": [
+        {
+          "star": 1,
+          "max_level": 10,
+          "promotion_requires_level": null,
+          "skills_unlocked": [
+            "skill 1 (attiva)"
+          ],
+          "skills_available_total": 1,
+          "max_skill_upgrades_spendable": 4,
+          "sculptures_for_unlock": 10,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            10,
+            15,
+            15
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 50,
+          "starlight_to_reach": null,
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 56400,
+            "method": "somma derivata delle righe 2..10 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 2,
+          "max_level": 20,
+          "promotion_requires_level": 10,
+          "skills_unlocked": [
+            "skill 2"
+          ],
+          "skills_available_total": 2,
+          "max_skill_upgrades_spendable": 8,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            30,
+            30,
+            40,
+            40
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 190,
+          "starlight_to_reach": {
+            "type": "Dazzling Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 561000,
+            "method": "somma derivata delle righe 2..20 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 3,
+          "max_level": 30,
+          "promotion_requires_level": 20,
+          "skills_unlocked": [
+            "skill 3"
+          ],
+          "skills_available_total": 3,
+          "max_skill_upgrades_spendable": 12,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            45,
+            45,
+            50,
+            50
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 380,
+          "starlight_to_reach": {
+            "type": "Dazzling Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 1794600,
+            "method": "somma derivata delle righe 2..30 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": "a 3 stelle si sblocca la possibilita' di avere un comandante secondario nella marcia (wiki Commander Guide, gamesguideinfo)"
+        },
+        {
+          "star": 4,
+          "max_level": 40,
+          "promotion_requires_level": 30,
+          "skills_unlocked": [
+            "skill 4"
+          ],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            75,
+            75,
+            80,
+            80
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 690,
+          "starlight_to_reach": {
+            "type": "Dazzling Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 6500,
+            "equivalent_regular_blessed_bundle": "65 / 17 / 9",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": null,
+          "expertise": "sbloccabile quando le 4 skill sono a 5 (non dipende dalla stella, di fatto richiede 4 stelle)",
+          "xp_to_reach_max_level_from_1": {
+            "value": 5442600,
+            "method": "somma derivata delle righe 2..40 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 5,
+          "max_level": 50,
+          "promotion_requires_level": 40,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 690,
+          "starlight_to_reach": {
+            "type": "Dazzling Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 16000,
+            "equivalent_regular_blessed_bundle": "160 / 40 / 20",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 22482600,
+            "method": "somma derivata delle righe 2..50 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 6,
+          "max_level": 60,
+          "promotion_requires_level": 50,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 690,
+          "starlight_to_reach": {
+            "type": "Dazzling Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 47862600,
+            "method": "somma derivata delle righe 2..60 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-09-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "per_upgrade_cost_table_16",
+            "totals_690_440_340_240",
+            "summon_10",
+            "starlight_not_skill",
+            "expertise_all_4_max"
+          ]
+        },
+        {
+          "url": "https://zoe-rok.com/tools/calculators (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+          "site": "zoe-rok.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "sculpture_cost_arrays_by_rarity",
+            "tome_values_100_to_50k"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-07-16",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_cap_plus10",
+            "talent_points_star5_6",
+            "skill_random",
+            "three_star_trick",
+            "secondary_needs_3_stars",
+            "expertise_epic_legendary"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2026-01-17",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "starlight_types",
+            "luck",
+            "star_exp",
+            "star_exp_requirements",
+            "starlight_sources"
+          ]
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-08-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_caps",
+            "guardians_no_ap",
+            "lohar_70"
+          ]
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+          "site": "gamesguideinfo.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_requires_level",
+            "starlight_grades",
+            "skill_upgrade_random",
+            "secondary_needs_3_stars",
+            "starting_epic_by_civ"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-03-20",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "xp_per_level_table",
+            "xp_sources"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2021-07-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "expertise_epic_legendary_only",
+            "rarity_list"
+          ]
+        }
+      ],
+      "gaps": [
+        "Star EXP richiesta per 2, 3 e 6 stelle non documentata",
+        "probabilita'/moltiplicatore del critico ('luck') non documentato"
+      ]
+    },
+    "Epic": {
+      "starlight_type": "Brand-new Starlight Sculpture",
+      "starlight_variants": {
+        "regular": {
+          "star_exp": 100,
+          "luck": "+10%"
+        },
+        "blessed": {
+          "star_exp": 400,
+          "luck": "+20%"
+        },
+        "bundle_of": {
+          "star_exp": 800,
+          "luck": "+5%"
+        }
+      },
+      "summon_sculptures": 10,
+      "skill_upgrade_cost_per_upgrade": [
+        10,
+        10,
+        10,
+        20,
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        30,
+        40,
+        40,
+        40,
+        40,
+        50
+      ],
+      "skill_upgrade_total_after_summon": 440,
+      "total_including_summon": 450,
+      "common_builds_cost": {
+        "5111": 50,
+        "5511": 140,
+        "5551": 270,
+        "5555": 440,
+        "5515/5155 (stesso n. di upgrade di 5511)": 140,
+        "5115": 140,
+        "5151": 140
+      },
+      "expertise": "Si': skill 5 (expertise) quando le skill 1-4 sono tutte a livello 5; nessun costo aggiuntivo oltre ai 440 (heaven-guardian, wiki). In rokstats l'expertise ha unlockStar=null e replacesSlot (potenzia/sostituisce una skill).",
+      "stars": [
+        {
+          "star": 1,
+          "max_level": 10,
+          "promotion_requires_level": null,
+          "skills_unlocked": [
+            "skill 1 (attiva)"
+          ],
+          "skills_available_total": 1,
+          "max_skill_upgrades_spendable": 4,
+          "sculptures_for_unlock": 10,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            10,
+            10,
+            20
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 50,
+          "starlight_to_reach": null,
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 47000,
+            "method": "somma derivata delle righe 2..10 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 2,
+          "max_level": 20,
+          "promotion_requires_level": 10,
+          "skills_unlocked": [
+            "skill 2"
+          ],
+          "skills_available_total": 2,
+          "max_skill_upgrades_spendable": 8,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            20,
+            20,
+            20,
+            30
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 140,
+          "starlight_to_reach": {
+            "type": "Brand-new Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 467500,
+            "method": "somma derivata delle righe 2..20 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 3,
+          "max_level": 30,
+          "promotion_requires_level": 20,
+          "skills_unlocked": [
+            "skill 3"
+          ],
+          "skills_available_total": 3,
+          "max_skill_upgrades_spendable": 12,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            30,
+            30,
+            30,
+            40
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 270,
+          "starlight_to_reach": {
+            "type": "Brand-new Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 1495500,
+            "method": "somma derivata delle righe 2..30 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": "a 3 stelle si sblocca la possibilita' di avere un comandante secondario nella marcia (wiki Commander Guide, gamesguideinfo)"
+        },
+        {
+          "star": 4,
+          "max_level": 40,
+          "promotion_requires_level": 30,
+          "skills_unlocked": [
+            "skill 4"
+          ],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            40,
+            40,
+            40,
+            50
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 440,
+          "starlight_to_reach": {
+            "type": "Brand-new Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 6500,
+            "equivalent_regular_blessed_bundle": "65 / 17 / 9",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": null,
+          "expertise": "sbloccabile quando le 4 skill sono a 5 (non dipende dalla stella, di fatto richiede 4 stelle)",
+          "xp_to_reach_max_level_from_1": {
+            "value": 4535500,
+            "method": "somma derivata delle righe 2..40 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 5,
+          "max_level": 50,
+          "promotion_requires_level": 40,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 440,
+          "starlight_to_reach": {
+            "type": "Brand-new Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 16000,
+            "equivalent_regular_blessed_bundle": "160 / 40 / 20",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 18735500,
+            "method": "somma derivata delle righe 2..50 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 6,
+          "max_level": 60,
+          "promotion_requires_level": 50,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 440,
+          "starlight_to_reach": {
+            "type": "Brand-new Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 39885500,
+            "method": "somma derivata delle righe 2..60 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-09-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "per_upgrade_cost_table_16",
+            "totals_690_440_340_240",
+            "summon_10",
+            "starlight_not_skill",
+            "expertise_all_4_max"
+          ]
+        },
+        {
+          "url": "https://zoe-rok.com/tools/calculators (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+          "site": "zoe-rok.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "sculpture_cost_arrays_by_rarity",
+            "tome_values_100_to_50k"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-07-16",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_cap_plus10",
+            "talent_points_star5_6",
+            "skill_random",
+            "three_star_trick",
+            "secondary_needs_3_stars",
+            "expertise_epic_legendary"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2026-01-17",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "starlight_types",
+            "luck",
+            "star_exp",
+            "star_exp_requirements",
+            "starlight_sources"
+          ]
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-08-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_caps",
+            "guardians_no_ap",
+            "lohar_70"
+          ]
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+          "site": "gamesguideinfo.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_requires_level",
+            "starlight_grades",
+            "skill_upgrade_random",
+            "secondary_needs_3_stars",
+            "starting_epic_by_civ"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-03-20",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "xp_per_level_table",
+            "xp_sources"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2021-07-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "expertise_epic_legendary_only",
+            "rarity_list"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/boudica",
+          "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+          "page_date": "2026-09-26",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "maxStar_6",
+            "unlockStar_1_4",
+            "expertise_unlockStar_null"
+          ]
+        }
+      ],
+      "gaps": [
+        "Star EXP richiesta per 2, 3 e 6 stelle non documentata",
+        "probabilita'/moltiplicatore del critico ('luck') non documentato"
+      ]
+    },
+    "Elite": {
+      "starlight_type": "Ordinary Starlight Sculpture",
+      "starlight_variants": {
+        "regular": {
+          "star_exp": 100,
+          "luck": "+10%"
+        },
+        "blessed": {
+          "star_exp": 400,
+          "luck": "+20%"
+        },
+        "bundle_of": {
+          "star_exp": 800,
+          "luck": "+5%"
+        }
+      },
+      "summon_sculptures": 10,
+      "skill_upgrade_cost_per_upgrade": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        20,
+        20,
+        20,
+        20,
+        20,
+        30,
+        30,
+        30,
+        30,
+        30,
+        40
+      ],
+      "skill_upgrade_total_after_summon": 340,
+      "total_including_summon": 350,
+      "common_builds_cost": {
+        "5111": 40,
+        "5511": 110,
+        "5551": 210,
+        "5555": 340,
+        "5515/5155 (stesso n. di upgrade di 5511)": 110,
+        "5115": 110,
+        "5151": 110
+      },
+      "expertise": "No: nessuna expertise (rokstats expertise=null per gli Elite; wiki: skill 5 solo Epic e Legendary).",
+      "stars": [
+        {
+          "star": 1,
+          "max_level": 10,
+          "promotion_requires_level": null,
+          "skills_unlocked": [
+            "skill 1 (attiva)"
+          ],
+          "skills_available_total": 1,
+          "max_skill_upgrades_spendable": 4,
+          "sculptures_for_unlock": 10,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 40,
+          "starlight_to_reach": null,
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 37600,
+            "method": "somma derivata delle righe 2..10 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 2,
+          "max_level": 20,
+          "promotion_requires_level": 10,
+          "skills_unlocked": [
+            "skill 2"
+          ],
+          "skills_available_total": 2,
+          "max_skill_upgrades_spendable": 8,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            20,
+            20,
+            20
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 110,
+          "starlight_to_reach": {
+            "type": "Ordinary Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 374000,
+            "method": "somma derivata delle righe 2..20 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 3,
+          "max_level": 30,
+          "promotion_requires_level": 20,
+          "skills_unlocked": [
+            "skill 3"
+          ],
+          "skills_available_total": 3,
+          "max_skill_upgrades_spendable": 12,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            20,
+            20,
+            30,
+            30
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 210,
+          "starlight_to_reach": {
+            "type": "Ordinary Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 1196400,
+            "method": "somma derivata delle righe 2..30 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": "a 3 stelle si sblocca la possibilita' di avere un comandante secondario nella marcia (wiki Commander Guide, gamesguideinfo)"
+        },
+        {
+          "star": 4,
+          "max_level": 40,
+          "promotion_requires_level": 30,
+          "skills_unlocked": [
+            "skill 4"
+          ],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            30,
+            30,
+            30,
+            40
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 340,
+          "starlight_to_reach": {
+            "type": "Ordinary Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 6500,
+            "equivalent_regular_blessed_bundle": "65 / 17 / 9",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": null,
+          "expertise": "non esiste per questa rarita'",
+          "xp_to_reach_max_level_from_1": {
+            "value": 3628400,
+            "method": "somma derivata delle righe 2..40 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 5,
+          "max_level": 50,
+          "promotion_requires_level": 40,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 340,
+          "starlight_to_reach": {
+            "type": "Ordinary Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 16000,
+            "equivalent_regular_blessed_bundle": "160 / 40 / 20",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 14988400,
+            "method": "somma derivata delle righe 2..50 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 6,
+          "max_level": 60,
+          "promotion_requires_level": 50,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 340,
+          "starlight_to_reach": {
+            "type": "Ordinary Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 31908400,
+            "method": "somma derivata delle righe 2..60 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-09-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "per_upgrade_cost_table_16",
+            "totals_690_440_340_240",
+            "summon_10",
+            "starlight_not_skill",
+            "expertise_all_4_max"
+          ]
+        },
+        {
+          "url": "https://zoe-rok.com/tools/calculators (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+          "site": "zoe-rok.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "sculpture_cost_arrays_by_rarity",
+            "tome_values_100_to_50k"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-07-16",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_cap_plus10",
+            "talent_points_star5_6",
+            "skill_random",
+            "three_star_trick",
+            "secondary_needs_3_stars",
+            "expertise_epic_legendary"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2026-01-17",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "starlight_types",
+            "luck",
+            "star_exp",
+            "star_exp_requirements",
+            "starlight_sources"
+          ]
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-08-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_caps",
+            "guardians_no_ap",
+            "lohar_70"
+          ]
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+          "site": "gamesguideinfo.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_requires_level",
+            "starlight_grades",
+            "skill_upgrade_random",
+            "secondary_needs_3_stars",
+            "starting_epic_by_civ"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-03-20",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "xp_per_level_table",
+            "xp_sources"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2021-07-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "expertise_epic_legendary_only",
+            "rarity_list"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/lancelot",
+          "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+          "page_date": "2026-09-26",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "maxStar_6",
+            "unlockStar_1_4",
+            "expertise_null"
+          ]
+        }
+      ],
+      "gaps": [
+        "Star EXP richiesta per 2, 3 e 6 stelle non documentata",
+        "probabilita'/moltiplicatore del critico ('luck') non documentato"
+      ]
+    },
+    "Advanced": {
+      "starlight_type": "Obsolete Starlight Sculpture",
+      "starlight_variants": {
+        "regular": {
+          "star_exp": 100,
+          "luck": "+10%"
+        },
+        "blessed": {
+          "star_exp": 400,
+          "luck": "+20%"
+        },
+        "bundle_of": {
+          "star_exp": 800,
+          "luck": "+5%"
+        }
+      },
+      "summon_sculptures": 10,
+      "skill_upgrade_cost_per_upgrade": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        30
+      ],
+      "skill_upgrade_total_after_summon": 240,
+      "total_including_summon": 250,
+      "common_builds_cost": {
+        "5111": 40,
+        "5511": 80,
+        "5551": 150,
+        "5555": 240,
+        "5515/5155 (stesso n. di upgrade di 5511)": 80,
+        "5115": 80,
+        "5151": 80
+      },
+      "expertise": "No: nessuna expertise (rokstats expertise=null per gli Elite; wiki: skill 5 solo Epic e Legendary).",
+      "stars": [
+        {
+          "star": 1,
+          "max_level": 10,
+          "promotion_requires_level": null,
+          "skills_unlocked": [
+            "skill 1 (attiva)"
+          ],
+          "skills_available_total": 1,
+          "max_skill_upgrades_spendable": 4,
+          "sculptures_for_unlock": 10,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 40,
+          "starlight_to_reach": null,
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 28200,
+            "method": "somma derivata delle righe 2..10 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 2,
+          "max_level": 20,
+          "promotion_requires_level": 10,
+          "skills_unlocked": [
+            "skill 2"
+          ],
+          "skills_available_total": 2,
+          "max_skill_upgrades_spendable": 8,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 80,
+          "starlight_to_reach": {
+            "type": "Obsolete Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 280500,
+            "method": "somma derivata delle righe 2..20 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 3,
+          "max_level": 30,
+          "promotion_requires_level": 20,
+          "skills_unlocked": [
+            "skill 3"
+          ],
+          "skills_available_total": 3,
+          "max_skill_upgrades_spendable": 12,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            10,
+            20,
+            20,
+            20
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 150,
+          "starlight_to_reach": {
+            "type": "Obsolete Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": null,
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 897300,
+            "method": "somma derivata delle righe 2..30 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": "a 3 stelle si sblocca la possibilita' di avere un comandante secondario nella marcia (wiki Commander Guide, gamesguideinfo)"
+        },
+        {
+          "star": 4,
+          "max_level": 40,
+          "promotion_requires_level": 30,
+          "skills_unlocked": [
+            "skill 4"
+          ],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [
+            20,
+            20,
+            20,
+            30
+          ],
+          "sculptures_cumulative_to_max_skills_at_this_star": 240,
+          "starlight_to_reach": {
+            "type": "Obsolete Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 6500,
+            "equivalent_regular_blessed_bundle": "65 / 17 / 9",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": null,
+          "expertise": "non esiste per questa rarita'",
+          "xp_to_reach_max_level_from_1": {
+            "value": 2721300,
+            "method": "somma derivata delle righe 2..40 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 5,
+          "max_level": 50,
+          "promotion_requires_level": 40,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 240,
+          "starlight_to_reach": {
+            "type": "Obsolete Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": 16000,
+            "equivalent_regular_blessed_bundle": "160 / 40 / 20",
+            "note": "valori wiki uguali per tutte le rarita'; esclusa la fortuna (critico)"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": 11196300,
+            "method": "somma derivata delle righe 2..50 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": null
+          },
+          "notes": null
+        },
+        {
+          "star": 6,
+          "max_level": 60,
+          "promotion_requires_level": 50,
+          "skills_unlocked": [],
+          "skills_available_total": 4,
+          "max_skill_upgrades_spendable": 16,
+          "sculptures_for_unlock": 0,
+          "sculptures_per_upgrade_in_this_star": [],
+          "sculptures_cumulative_to_max_skills_at_this_star": 240,
+          "starlight_to_reach": {
+            "type": "Obsolete Starlight Sculpture (+ Blessed / Bundle of)",
+            "star_exp_required": null,
+            "equivalent_regular_blessed_bundle": null,
+            "note": "Star EXP richiesta non documentata"
+          },
+          "talent_points_note": "punti talento extra alla promozione a 5 e 6 stelle (wiki Commander Guide, quantita' non indicata)",
+          "expertise": null,
+          "xp_to_reach_max_level_from_1": {
+            "value": null,
+            "method": "somma derivata delle righe 2..60 della tabella wiki Commanders/Experience (interpretazione: riga N = EXP da N-1 a N)",
+            "note": "righe mancanti nella tabella wiki per questa rarita'"
+          },
+          "notes": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-09-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "per_upgrade_cost_table_16",
+            "totals_690_440_340_240",
+            "summon_10",
+            "starlight_not_skill",
+            "expertise_all_4_max"
+          ]
+        },
+        {
+          "url": "https://zoe-rok.com/tools/calculators (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+          "site": "zoe-rok.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "sculpture_cost_arrays_by_rarity",
+            "tome_values_100_to_50k"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-07-16",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_cap_plus10",
+            "talent_points_star5_6",
+            "skill_random",
+            "three_star_trick",
+            "secondary_needs_3_stars",
+            "expertise_epic_legendary"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2026-01-17",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "starlight_types",
+            "luck",
+            "star_exp",
+            "star_exp_requirements",
+            "starlight_sources"
+          ]
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+          "site": "heaven-guardian.com",
+          "page_date": "2026-08-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_level_caps",
+            "guardians_no_ap",
+            "lohar_70"
+          ]
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+          "site": "gamesguideinfo.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "star_requires_level",
+            "starlight_grades",
+            "skill_upgrade_random",
+            "secondary_needs_3_stars",
+            "starting_epic_by_civ"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2023-03-20",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "xp_per_level_table",
+            "xp_sources"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders",
+          "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+          "page_date": "2021-07-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "expertise_epic_legendary_only",
+            "rarity_list"
+          ]
+        }
+      ],
+      "gaps": [
+        "Star EXP richiesta per 2, 3 e 6 stelle non documentata",
+        "probabilita'/moltiplicatore del critico ('luck') non documentato",
+        "nessun dato di gioco (rokstats) per gli Advanced: maxStar e livelli 51-60 non confermati; la tabella wiki XP ha righe vuote dal 51 al 60 per Advanced"
+      ]
+    }
+  },
+  "xp_table": {
+    "columns": [
+      "level",
+      "Legendary",
+      "Epic",
+      "Elite",
+      "Advanced"
+    ],
+    "interpretation": "Tabella wiki 'EXP requirements for each level'. La riga 1 e' '-', la riga 60 e' 'Max' e le righe 51-59 ripetono il valore della 50: interpretazione probabile = EXP per passare al livello N dal precedente, ma la tabella e' ambigua e non verificata con dati di gioco.",
+    "rows": [
+      [
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        2,
+        120,
+        100,
+        80,
+        60
+      ],
+      [
+        3,
+        360,
+        300,
+        240,
+        180
+      ],
+      [
+        4,
+        720,
+        600,
+        480,
+        360
+      ],
+      [
+        5,
+        1200,
+        1000,
+        800,
+        600
+      ],
+      [
+        6,
+        3600,
+        3000,
+        2400,
+        1800
+      ],
+      [
+        7,
+        7200,
+        6000,
+        4800,
+        3600
+      ],
+      [
+        8,
+        10800,
+        9000,
+        7200,
+        5400
+      ],
+      [
+        9,
+        14400,
+        12000,
+        9600,
+        7200
+      ],
+      [
+        10,
+        18000,
+        15000,
+        12000,
+        9000
+      ],
+      [
+        11,
+        22200,
+        18500,
+        14800,
+        11100
+      ],
+      [
+        12,
+        27000,
+        22500,
+        18000,
+        13500
+      ],
+      [
+        13,
+        32400,
+        27000,
+        21600,
+        16200
+      ],
+      [
+        14,
+        38400,
+        32000,
+        25600,
+        19200
+      ],
+      [
+        15,
+        45000,
+        37500,
+        30000,
+        22500
+      ],
+      [
+        16,
+        52200,
+        43500,
+        34800,
+        26100
+      ],
+      [
+        17,
+        60000,
+        50000,
+        40000,
+        30000
+      ],
+      [
+        18,
+        67800,
+        56500,
+        45200,
+        33900
+      ],
+      [
+        19,
+        75600,
+        63000,
+        50400,
+        37800
+      ],
+      [
+        20,
+        84000,
+        70000,
+        56000,
+        42000
+      ],
+      [
+        21,
+        90000,
+        75000,
+        60000,
+        45000
+      ],
+      [
+        22,
+        96000,
+        80000,
+        64000,
+        48000
+      ],
+      [
+        23,
+        103200,
+        86000,
+        68800,
+        51600
+      ],
+      [
+        24,
+        110400,
+        92000,
+        73600,
+        55200
+      ],
+      [
+        25,
+        117600,
+        98000,
+        78400,
+        58800
+      ],
+      [
+        26,
+        126000,
+        105000,
+        84000,
+        63000
+      ],
+      [
+        27,
+        134400,
+        112000,
+        89600,
+        67200
+      ],
+      [
+        28,
+        142800,
+        119000,
+        95200,
+        71400
+      ],
+      [
+        29,
+        151200,
+        126000,
+        100800,
+        75600
+      ],
+      [
+        30,
+        162000,
+        135000,
+        108000,
+        8100
+      ],
+      [
+        31,
+        180000,
+        150000,
+        120000,
+        90000
+      ],
+      [
+        32,
+        204000,
+        170000,
+        136000,
+        102000
+      ],
+      [
+        33,
+        234000,
+        195000,
+        156000,
+        117000
+      ],
+      [
+        34,
+        270000,
+        225000,
+        180000,
+        135000
+      ],
+      [
+        35,
+        312000,
+        260000,
+        208000,
+        156000
+      ],
+      [
+        36,
+        360000,
+        300000,
+        240000,
+        180000
+      ],
+      [
+        37,
+        414000,
+        345000,
+        276000,
+        207000
+      ],
+      [
+        38,
+        474000,
+        395000,
+        316000,
+        237000
+      ],
+      [
+        39,
+        540000,
+        450000,
+        360000,
+        270000
+      ],
+      [
+        40,
+        660000,
+        550000,
+        440000,
+        330000
+      ],
+      [
+        41,
+        810000,
+        675000,
+        540000,
+        405000
+      ],
+      [
+        42,
+        960000,
+        800000,
+        640000,
+        480000
+      ],
+      [
+        43,
+        1140000,
+        950000,
+        760000,
+        570000
+      ],
+      [
+        44,
+        1320000,
+        1100000,
+        880000,
+        660000
+      ],
+      [
+        45,
+        1530000,
+        1275000,
+        1020000,
+        765000
+      ],
+      [
+        46,
+        1740000,
+        1450000,
+        1160000,
+        870000
+      ],
+      [
+        47,
+        1980000,
+        1650000,
+        1320000,
+        990000
+      ],
+      [
+        48,
+        2220000,
+        1850000,
+        1480000,
+        1110000
+      ],
+      [
+        49,
+        2520000,
+        2100000,
+        1680000,
+        1245000
+      ],
+      [
+        50,
+        2820000,
+        2350000,
+        1880000,
+        1380000
+      ],
+      [
+        51,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        52,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        53,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        54,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        55,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        56,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        57,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        58,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        59,
+        2820000,
+        2350000,
+        1880000,
+        null
+      ],
+      [
+        60,
+        "Max",
+        "Max",
+        "Max",
+        null
+      ]
+    ],
+    "ratios": "Legendary = 1,2 x Epic; Elite = 0,8 x Epic; Advanced = 0,6 x Epic (tranne righe 49-50 Advanced, 1.245.000 e 1.380.000 invece di 1.260.000 e 1.410.000)",
+    "known_typos": [
+      "Advanced livello 30: la wiki riporta '81,00'; dal rapporto 0,6 x Epic il valore coerente e' 81.000 (usato nelle somme derivate)"
+    ],
+    "derived_sums": {
+      "Legendary": {
+        "lv1_to_10": 56400,
+        "lv1_to_20": 561000,
+        "lv1_to_30": 1794600,
+        "lv1_to_40": 5442600,
+        "lv1_to_50": 22482600,
+        "lv1_to_60": 47862600
+      },
+      "Epic": {
+        "lv1_to_10": 47000,
+        "lv1_to_20": 467500,
+        "lv1_to_30": 1495500,
+        "lv1_to_40": 4535500,
+        "lv1_to_50": 18735500,
+        "lv1_to_60": 39885500
+      },
+      "Elite": {
+        "lv1_to_10": 37600,
+        "lv1_to_20": 374000,
+        "lv1_to_30": 1196400,
+        "lv1_to_40": 3628400,
+        "lv1_to_50": 14988400,
+        "lv1_to_60": 31908400
+      },
+      "Advanced": {
+        "lv1_to_10": 28200,
+        "lv1_to_20": 280500,
+        "lv1_to_30": 897300,
+        "lv1_to_40": 2721300,
+        "lv1_to_50": 11196300,
+        "lv1_to_60": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+        "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+        "page_date": "2023-03-20",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "xp_per_level_table",
+          "xp_sources"
+        ]
+      }
+    ],
+    "unverified_against": [
+      "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-experience-and-leveling-calculator/ (calcolatore JS non scaricabile: challenge anti-bot; wp-json non contiene lo script)"
+    ],
+    "derived_sums_note": "somme derivate (non pubblicate dalla fonte): per il 60 e' la somma delle righe 2-59 perche' la riga 60 vale 'Max'; Advanced oltre il 50 non calcolabile"
+  },
+  "sources": [
+    {
+      "url": "file:///home/user/military_advisor/data/fragments/sculture_stelle.json",
+      "site": "military_advisor (frammento gia' raccolto; fonti originali citate nel file)",
+      "page_date": "2026-09-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "tavern_frequency",
+        "lohar_trial",
+        "ceroli",
+        "vip_shop"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/baibars",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/belisarius",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/bjorn-ironside",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/boudica",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/catherine-de-medici",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/constance",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/eulji-mundeok",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/gaius-marius",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/hermann",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/imhotep",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/joan-of-arc",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/keira",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/kusunoki-masashige",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/lancelot",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "maxStar_6",
+        "unlockStar_1_4",
+        "expertise_null"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/lohar",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "skills.3.levels"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/matilda-of-flanders",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/narses",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/osman-i",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/pelagius",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/pericles",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/queen-tamar-of-georgia",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/scipio-africanus",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/sun-tzu",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/tomoe-gozen",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://app.rokstats.online/commanders/wak-chanil-ajaw",
+      "site": "app.rokstats.online (gameVersion 1.1.12.20, JSON commander-dossier-data)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "rarity",
+        "obtain",
+        "unlockStar",
+        "expertise"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1125881: Update 1.0.50 \"Anniversary Festival\")",
+      "site": "forum-global.lilithgame.com (ufficiale)",
+      "page_date": "2021-09-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "exp_stored_at_star_cap"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes \"Winter's Embrace\")",
+      "site": "forum-global.lilithgame.com (ufficiale)",
+      "page_date": "2025-12-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "hedvig_theme_commander_exp_5pct"
+      ]
+    },
+    {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-09-19",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "per_upgrade_cost_table_16",
+        "totals_690_440_340_240",
+        "summon_10",
+        "starlight_not_skill",
+        "expertise_all_4_max"
+      ]
+    },
+    {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "star_level_caps",
+        "guardians_no_ap",
+        "lohar_70"
+      ]
+    },
+    {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-09-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "brand_new_starlight_60k_food_x20_vip4",
+        "dazzling_starlight_400k_wood_x5_vip5",
+        "epic_200_gems_x50_vip9"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Barbarian_Fort",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2024-11-25",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "fort_exp_books",
+        "brand_new_starlight_chance"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Barbarians",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2024-11-07",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "barbarian_exp_lv1_25",
+        "exp_to_both_commanders"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Silver_Chests",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-12-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "silver_contents",
+        "no_lohar_keira"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-07-16",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "star_level_cap_plus10",
+        "talent_points_star5_6",
+        "skill_random",
+        "three_star_trick",
+        "secondary_needs_3_stars",
+        "expertise_epic_legendary"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2021-07-13",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "expertise_epic_legendary_only",
+        "rarity_list"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Baibars",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2021-03-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Belisarius",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-10-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Björn_Ironside",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2021-06-22",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Boudica",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2026-01-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Centurion",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-02-20",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/City_Keeper",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Constance",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-13",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Diaochan",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-02-21",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Dragon_Lancer",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Eulji_Mundeok",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2021-11-08",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-03-20",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "xp_per_level_table",
+        "xp_sources"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Gaius_Marius",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-02-21",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Hermann",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-04-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Joan_of_Arc",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-10-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Keira",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Kusunoki_Masashige",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Lancelot",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Lohar",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2024-11-21",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Markswoman",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Matilda_of_Flanders",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-11-25",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Osman_I",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Pelagius",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Scipio_Africanus",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2021-11-08",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Sun_Tzu",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2023-10-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Tomoe_Gozen",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2026-01-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Šárka",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-09-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get",
+        "starting_commander"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Expedition",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2024-03-11",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "medal_store_prices",
+        "featured_epic_weekly",
+        "constance_400",
+        "no_commander_exp_in_expedition"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Holy_Sites",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2025-03-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "guardian_exp",
+        "sanctum_of_courage_exp_10"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2022-11-19",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "universal_sculptures",
+        "specific_sculpture_sources",
+        "summon_10",
+        "random_skill_upgrade"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2026-01-17",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "starlight_types",
+        "luck",
+        "star_exp",
+        "star_exp_requirements",
+        "starlight_sources"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+      "site": "riseofkingdoms.fandom.com (wiki community, API MediaWiki)",
+      "page_date": "2020-01-11",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "epic_universal_x3",
+        "brand_new_starlight_x2",
+        "tome_lv1_x40"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "epic_sources",
+        "elite_advanced_sources",
+        "totals"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/tavern/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "free_silver_3_to_10_by_level",
+        "free_golden_cooldown_3d_lv1_2d_lv25"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "epic_sources",
+        "lohar_trial_route",
+        "sun_tzu_lohar_recommended",
+        "epic_first"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "featured_epic_weekly",
+        "constance",
+        "aethelflaed_daily_cap",
+        "no_troop_loss"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "xp_sources_ranked",
+        "guardians_neutral_units_xp",
+        "forts_books",
+        "reset_returns_tomes"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "silver_free_5_day",
+        "golden_free_every_2_days"
+      ]
+    },
+    {
+      "url": "https://roktalents.com/static/js/main.68410830.chunk.js",
+      "site": "roktalents.com (bundle JS)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "quick_study_5_10_15"
+      ]
+    },
+    {
+      "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+      "site": "gamesguideinfo.com",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "star_requires_level",
+        "starlight_grades",
+        "skill_upgrade_random",
+        "secondary_needs_3_stars",
+        "starting_epic_by_civ"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Baibars",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Belisarius",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Bjorn%20Ironside",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Boudica",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Catherine%20de%27%20Medici",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Centurion",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/City%20Keeper",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Constance",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Diaochan",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Dragon%20Lancer",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Eulji%20Mundeok",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Gaius%20Marius",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Hermann",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Imhotep",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Joan%20of%20Arc",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Keira",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Kusunoki%20Masashige",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Lancelot",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Lohar",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Markswoman",
+      "site": "zoe-rok.com",
+      "page_date": "2024-10-15",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Matilda%20of%20Flanders",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Narses",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Osman%20I",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Pelagius",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Pericles",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Queen%20Tamar%20of%20Georgia",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Sarka",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Scipio%20Africanus",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Sun%20Tzu",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-16",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Tomoe%20Gozen",
+      "site": "zoe-rok.com",
+      "page_date": "2025-12-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/commanders/Wak%20Chanil%20Ajaw",
+      "site": "zoe-rok.com",
+      "page_date": "2026-04-14",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "how_to_get"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/tools/calculators (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+      "site": "zoe-rok.com",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "sculpture_cost_arrays_by_rarity",
+        "tome_values_100_to_50k"
+      ]
+    }
+  ],
+  "from": "ottenimento_epic_elite_stelle.json"
+}

@@ -77,6 +77,7 @@ def merge(fragments_dir: Path | None = None, data_dir: Path | None = None) -> Di
     index: Dict[str, Any] = {"generated": _dt.datetime.now().isoformat(timespec="seconds"), "groups": {}, "topics": {}}
     commanders: Dict[str, Dict[str, Any]] = {}
 
+    acquisition_files: List[Any] = []
     files = sorted(fragments_dir.glob("*.json")) if fragments_dir.exists() else []
     # prima i verificati, così vincono nel merge
     files.sort(key=lambda p: (0 if p.name.endswith(".verified.json") else 1, p.name))
@@ -88,6 +89,10 @@ def merge(fragments_dir: Path | None = None, data_dir: Path | None = None) -> Di
             continue
         group = path.name.replace(".verified.json", "").replace(".json", "")
         verified = path.name.endswith(".verified.json")
+        if group.startswith("ottenimento_"):
+            # come si ottengono le sculture: si aggancia ai comandanti dopo il merge
+            acquisition_files.append((path.name, data))
+            continue
         if group not in TOPIC_FILES and "commanders" not in data:
             TOPIC_FILES[group] = f"{group}.json"  # argomento non previsto: copiato con il suo nome
         if group in TOPIC_FILES:
@@ -119,6 +124,31 @@ def merge(fragments_dir: Path | None = None, data_dir: Path | None = None) -> Di
                     commanders[key] = _merge_records(cur, rec)
         index["groups"][path.name] = {"records": len(recs), "new": n_new, "verified": verified,
                                       "unreachable": data.get("unreachable") or []}
+
+    # sculture: come ottenerle (campo "acquisition" su ogni comandante) e stelle per rarità
+    attached, missing = 0, []
+    stars: Dict[str, Any] = {}
+    for fname, data in acquisition_files:
+        if data.get("stars_by_rarity"):
+            stars = {"stars_by_rarity": data.get("stars_by_rarity"), "xp_table": data.get("xp_table"),
+                     "sources": data.get("sources") or [], "from": fname}
+        for rec in data.get("commanders") or []:
+            if not isinstance(rec, dict) or not rec.get("name"):
+                continue
+            tier = "L" if str(rec.get("rarity") or "").lower() == "legendary" else "N"
+            key = f"{normalize_name(rec['name'])}|{tier}"
+            target = commanders.get(key)
+            if target is None:
+                missing.append(rec["name"])
+                continue
+            target["acquisition"] = {k: rec.get(k) for k in (
+                "obtain", "universal_sculptures_ok", "best_free_path", "f2p_viable", "notes",
+                "sources", "gaps", "conflicts") if rec.get(k) not in (None, [], "")}
+            target["acquisition"]["from"] = fname
+            attached += 1
+    if stars:
+        (data_dir / "stelle_per_classe.json").write_text(json.dumps(stars, ensure_ascii=False, indent=2), encoding="utf-8")
+    index["acquisition"] = {"attached": attached, "not_matched": missing, "stars_file": bool(stars)}
 
     out_list = sorted(commanders.values(), key=lambda c: (c.get("rarity") != "Legendary", c.get("name", "")))
     (data_dir / "commanders.json").write_text(

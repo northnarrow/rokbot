@@ -18,7 +18,8 @@ Bot personale per Rise of Kingdoms, con un **consigliere militare** che conosce 
 |---|---|
 | `military_advisor/` | consigliere, knowledge base, regole per il bot, strumenti di controllo per PC e telefono |
 | `military_advisor/docs/` | guide in italiano: difesa, attacco, routine, talenti, eventi, meccaniche, KvK e alleanza, automazione |
-| `military_advisor/data/` | dati con fonti: 142 comandanti, armamenti, equipaggiamento, truppe, strategie |
+| `military_advisor/data/` | dati con fonti: 142 comandanti (con come ottenere le sculture), armamenti, equipaggiamento, truppe, strategie |
+| `extra/` | lista informativa di bug, exploit e truffe noti, **non usata dal bot** |
 
 Dettagli e comandi: [`military_advisor/README.md`](military_advisor/README.md). Primi test: [`military_advisor/GUIDA_TEST.md`](military_advisor/GUIDA_TEST.md).
 
@@ -27,6 +28,7 @@ Dettagli e comandi: [`military_advisor/README.md`](military_advisor/README.md). 
 ```
 pip install mss pygetwindow pytest
 python -m military_advisor pc-check
+python -m military_advisor heads      # come ottenere le sculture di ogni comandante
 python -m pytest -q military_advisor/tests
 ```
 

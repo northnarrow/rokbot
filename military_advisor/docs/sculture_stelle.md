@@ -77,7 +77,7 @@ Le sculture del comandante non servono per le stelle: servono per le skill. **No
 1. L'upgrade di skill sceglie **a caso** tra le skill sbloccate (gamesguideinfo). Quindi il comandante resta a **1 stella (livello 10)** finché la skill 1 non arriva a 5. È il **5-1-1-1**. Heaven-guardian lo consiglia per Aethelflaed, i nostri dati per Cao Cao e Charles Martel.
 2. Poi si passa a 2 stelle e si porta la skill 2 a 5: è il **5-5-1-1**, il classico per molti F2P.
 3. Poi le altre stelle e le skill, nell'ordine specifico di ogni comandante. Heaven-guardian consiglia di alzare le stelle prima di spingere oltre il livello 30.
-4. Svantaggio: a 1 stella l'XP oltre il livello 10 va persa. Durante l'attesa quel comandante non va nelle marce di farm e non riceve tomi.
+4. A 1 stella il livello resta bloccato a 10. Secondo la patch ufficiale 1.0.50 l'XP oltre il limite viene conservata e si applica dopo la promozione, quindi farlo farmare non spreca nulla. Una guida precedente sosteneva il contrario.
 
 ## 4. Esperienza (XP)
 

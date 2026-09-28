@@ -33,6 +33,7 @@ def main(argv=None) -> int:
     sub.add_parser("build-kb")
     sub.add_parser("kb-stats")
     sub.add_parser("rules")
+    sub.add_parser("heads", help="come ottenere le sculture di ogni comandante, senza gemme")
     sub.add_parser("daily")
     pc = sub.add_parser("phone-check", help="controllo del telefono via ADB, sola lettura")
     pc.add_argument("--out", default="test_telefono")
@@ -53,6 +54,23 @@ def main(argv=None) -> int:
         out = KnowledgeBase().stats()
         out["strategies"] = StrategyBook().stats()
         print(json.dumps(out, ensure_ascii=False, indent=2))
+        return 0
+    if args.cmd == "heads":
+        kb = KnowledgeBase()
+        order = {"si": 0, "lento": 1, "no": 2}
+        rows = []
+        for c in kb.commanders:
+            a = c.get("acquisition") or {}
+            if not a:
+                continue
+            free = [o.get("source") for o in (a.get("obtain") or []) if o.get("free")]
+            rows.append((order.get(str(a.get("f2p_viable")), 3), c.get("rarity") or "", c["name"], a, free))
+        rows.sort(key=lambda r: (r[0], r[1] != "Legendary", r[2]))
+        for _, rar, name, a, free in rows:
+            uni = {True: "universali sì", False: "universali NO"}.get(a.get("universal_sculptures_ok"), "universali ?")
+            print(f"[{a.get('f2p_viable') or '?':5}] {name} ({rar}, {uni}) - gratis: {', '.join(map(str, free)) or 'nessuna fonte gratuita'}")
+            if a.get("best_free_path"):
+                print(f"         percorso senza gemme: {a['best_free_path'][:220]}")
         return 0
     if args.cmd == "pc-check":
         from .pc_tools import pc_report

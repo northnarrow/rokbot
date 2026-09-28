@@ -28,6 +28,7 @@ TOPIC_FILES = {
     "strategia_difesa": "strategia_difesa.json", "strategia_attacco": "strategia_attacco.json",
     "strategia_routine": "strategia_routine.json", "talenti": "talenti.json", "eventi_pve": "eventi_pve.json",
     "meccaniche": "meccaniche.json", "kvk_alleanza": "kvk_alleanza.json", "automazione": "automazione.json",
+    "segreti_pro": "segreti_pro.json", "sculture_stelle": "sculture_stelle.json",
 }
 
 

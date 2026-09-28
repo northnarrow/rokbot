@@ -1,0 +1,4390 @@
+{
+ "retrieved": "2026-09-28",
+ "game": "Rise of Kingdoms",
+ "topic": "Sculture leggendarie (teste d'oro) e stelle dei comandanti senza gemme",
+ "scope_note": "Solo metodi leciti; le fonti a gemme/soldi sono marcate requires_gems=true con alternativa gratuita. Le stime numeriche derivate sono marcate come tali.",
+ "sculpture_sources": [
+  {
+   "id": "tavern_golden_free",
+   "name": "Tavern - Golden Chest gratuita",
+   "kind": "permanente",
+   "sculpture_type": "sculture di comandanti leggendari del pool Golden Chest (Julius Caesar, Charles Martel, El Cid, Cao Cao, Cleopatra VII, Mehmed II, Mulan, Ragnar Lodbrok, Seondeok; dal 1.1.01 anche Pepin III e Casimir III) o il comandante stesso",
+   "quantity": null,
+   "frequency": "1 apertura gratuita ogni 3 giorni a Tavern lv1, ogni 2 giorni a Tavern lv25 (riseofkingdomsguides); 'circa ogni 2 giorni, migliora col livello della Tavern' (handbook). Stima derivata: ~15 aperture/mese a Tavern 25.",
+   "requirements": "Tavern; livello piu' alto = cooldown piu' corto",
+   "cost_without_gems": "0 (gratis)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Le probabilita' mostrate sono contestate dalla community: non pianificare su un drop specifico (handbook). Quantita' di sculture per apertura non pubblicata.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_silver_3_to_10_by_level",
+      "free_golden_cooldown_3d_lv1_2d_lv25"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2161435: version 1.1.01 Homestead Revel)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-11-08",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_chests_pepin_casimir",
+      "advanced_special_offers",
+      "achilles_hector_legendary_tavern"
+     ]
+    }
+   ],
+   "gaps": [
+    "numero medio di sculture leggendarie per Golden Chest non documentato"
+   ]
+  },
+  {
+   "id": "golden_keys_daily_objectives",
+   "name": "Golden Key dal forziere Daily Objectives (100 Activity Points)",
+   "kind": "permanente",
+   "sculpture_type": "come Golden Chest",
+   "quantity": "1 Golden Key al giorno (fuori Season of Conquest); in Season of Conquest il forziere da 100 punti attivita' contiene una Sovereign Key invece della Golden Key (patch 1.1.02)",
+   "frequency": "giornaliera (stima derivata: ~30 chiavi/mese)",
+   "requirements": "completare le missioni giornaliere fino a 100 Activity Points",
+   "cost_without_gems": "0 (gratis)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Fonte ufficiale 1.1.02 conferma che il forziere da 100 punti conteneva una Golden Key; gamesguideinfo (guida datata, era 'Rise of Civilizations') cita 1 Silver + 1 Golden Key dalle Daily Objectives.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-12-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+      "hedvig_theme_commander_exp_5pct"
+     ]
+    },
+    {
+     "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+     "site": "gamesguideinfo.com",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_requires_level",
+      "starlight_grades",
+      "skill_upgrade_random",
+      "daily_objectives_keys"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "golden_keys_other",
+   "name": "Golden Keys da eventi, negozi evento, Expedition, Alliance Shop, VIP shop, gift code",
+   "kind": "varie",
+   "sculpture_type": "Golden Keys (-> Golden Chest)",
+   "quantity": null,
+   "frequency": "irregolare; eventi e negozi evento sono la fonte principale per un F2P (handbook)",
+   "requirements": "partecipare agli eventi; valute evento; Medals of the Conqueror",
+   "cost_without_gems": "valute di gioco (medaglie, crediti, monete evento)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Conservare le Golden Keys e aprirle durante eventi che premiano le aperture (pagano due volte); nessun vantaggio meccanico ad aprirle a blocchi di 10 (handbook). Le monete residue di Esmeralda's Prayer si convertono in Golden Keys (eventi_pve.json).",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "medal_store",
+      "featured_epic_weekly",
+      "aethelflaed_daily_cap",
+      "constance",
+      "daily_chest_by_stars"
+     ]
+    }
+   ],
+   "gaps": [
+    "quantita' di Golden Keys per evento non documentate"
+   ]
+  },
+  {
+   "id": "tavern_silver",
+   "name": "Tavern - Silver Chests gratuite",
+   "kind": "permanente",
+   "sculpture_type": "sculture epiche/elite/advanced, Starlight Sculptures, Tomes of Knowledge",
+   "quantity": "5 aperture gratuite/giorno (handbook); da 3 (Tavern 1-4) a 10 (Tavern 25) secondo riseofkingdomsguides",
+   "frequency": "giornaliera",
+   "requirements": "Tavern",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Unica fonte dove 'non aprire e' l'unico vero errore' (handbook). Nessuna scultura leggendaria, ma Starlight Sculptures (promozione stelle) e tomi.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_silver_3_to_10_by_level",
+      "free_golden_cooldown_3d_lv1_2d_lv25"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "vip_daily_chest",
+   "name": "Forziere VIP giornaliero",
+   "kind": "permanente",
+   "sculpture_type": "Universal Legendary Sculptures",
+   "quantity": "VIP 10: 1/giorno; VIP 12: 2/giorno; VIP 14: 3/giorno",
+   "frequency": "giornaliera (stima derivata: 30/60/90 al mese)",
+   "requirements": "livello VIP 10/12/14; per un F2P i punti VIP arrivano soprattutto dal forziere VIP giornaliero e dall'Alliance Shop (strategia_routine.json)",
+   "cost_without_gems": "0 una volta raggiunto il livello",
+   "requires_gems": false,
+   "free_alternative": "Accumulare punti VIP gratis ogni giorno (login streak, Alliance Shop con Individual Credits)",
+   "notes": "handbook: raggiungere VIP 10+ gratis richiede moltissimo tempo. Queste sculture sono le 'teste d'oro' universali piu' affidabili.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_10_12_14_daily_sculptures",
+      "vip6_second_builder"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs_690_440_340_240",
+      "vip_10_12_14",
+      "universal_sources",
+      "exceptions_minamoto_aethelflaed_hannibal",
+      "specific_sources"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": [
+    "tempo medio F2P per arrivare a VIP 10 non documentato"
+   ]
+  },
+  {
+   "id": "vip_shop_universal",
+   "name": "VIP Shop - Universal Legendary Commander Sculpture",
+   "kind": "permanente",
+   "sculpture_type": "Universal Legendary Sculptures",
+   "quantity": "fino a 20/settimana",
+   "frequency": "settimanale",
+   "requirements": "VIP 13",
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": "Forziere VIP giornaliero (VIP 10/12/14) ed eventi gratuiti",
+   "notes": "2.000 gemme l'una (40.000 per tutte e 20): RICHIEDE GEMME, escluso dal piano gratuito.",
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "brand_new_starlight_60k_food_x20_vip4",
+      "dazzling_starlight_400k_wood_x5_vip5",
+      "universal_2000_gems_x20_vip13",
+      "epic_200_gems_x50_vip9"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "vip_shop_starlight",
+   "name": "VIP Shop - Starlight Sculptures pagate in risorse",
+   "kind": "permanente",
+   "sculpture_type": "Brand-new Starlight Sculpture; Dazzling Starlight Sculpture (materiali di promozione stelle, non sculture leggendarie)",
+   "quantity": "Brand-new: 20/settimana a 60.000 Food; Dazzling: 5/settimana a 400.000 Wood",
+   "frequency": "settimanale",
+   "requirements": "VIP 4 (Brand-new), VIP 5 (Dazzling)",
+   "cost_without_gems": "risorse (Food/Wood)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Utile per le stelle; priorita' cala quando i comandanti importanti non ne hanno piu' bisogno (heaven-guardian).",
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "brand_new_starlight_60k_food_x20_vip4",
+      "dazzling_starlight_400k_wood_x5_vip5",
+      "universal_2000_gems_x20_vip13",
+      "epic_200_gems_x50_vip9"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "mge",
+   "name": "Mightiest Governor Event (MGE)",
+   "kind": "evento ricorrente (date dal pannello Events)",
+   "sculpture_type": "sculture del comandante leggendario in evidenza (commander-specific)",
+   "quantity": null,
+   "frequency": "ricorrente, nessuna data fissa; 6 fasi (5 da 24h + Final Sprint 48h) secondo riseofkingdomsguides",
+   "requirements": "punti per fase: training T1 5, T2 10, T3 20, T4 40, T5 100 per truppa; raccolta per 100 unita': Food/Wood 1, Stone 2, Gold 5, gemme 150 per gemma; potenza: 2 punti per punto potenza (heaven-guardian); molti regni applicano 'fixed MGE' con posti/cap assegnati",
+   "cost_without_gems": "speedup e risorse accumulati (nessuna gemma necessaria per i milestone)",
+   "requires_gems": false,
+   "free_alternative": "Puntare ai milestone personali e alle ricompense di fase invece che alla classifica (heaven-guardian); gemme raccolte in fase Gathering contano 150 punti l'una ma sono un costo in gemme",
+   "notes": "Premi: milestone individuali, premi di fase e classifica finale (heaven-guardian). Le soglie e le sculture per rango NON sono pubblicate dalle fonti consultate: leggere l'anteprima premi in gioco. riseofkingdomsguides: prepararsi almeno 3 mesi prima; saltare l'MGE senza T5. handbook: non spendere sculture o tomi per l'MGE se il pannello non li premia.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "stages",
+      "training_points",
+      "fixed_mge_rules",
+      "dont_spend_sculptures_tomes",
+      "decide_rank"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-win-mightiest-governor-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "training_points",
+      "gathering_points",
+      "power_2_points",
+      "save_speedups",
+      "fixed_mge",
+      "f2p_milestones"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "6_stages_24h_final_48h",
+      "prepare_3_months",
+      "skip_without_t5"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": [
+    "tabella premi per rango/milestone (numero sculture) non trovata",
+    "soglie di punti tipiche per entrare nei premi non documentate (dipendono dal regno)"
+   ]
+  },
+  {
+   "id": "ark_of_osiris",
+   "name": "Ark of Osiris",
+   "kind": "evento d'alleanza 30v30 con registrazione",
+   "sculpture_type": "Universal/legendary sculptures",
+   "quantity": "10 legendary commander sculptures (riseofkingdomsguides)",
+   "frequency": "'ogni due settimane' (riseofkingdomsguides; stima derivata ~20/mese se si partecipa sempre)",
+   "requirements": "essere selezionati nella squadra dell'alleanza",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Condizioni esatte (vittoria/sconfitta/partecipazione) non documentate nelle guide 2026 consultate.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs_690_440_340_240",
+      "vip_10_12_14",
+      "universal_sources",
+      "exceptions_minamoto_aethelflaed_hannibal",
+      "specific_sources"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": [
+    "premi per vittoria/sconfitta non confermati"
+   ]
+  },
+  {
+   "id": "expedition_store",
+   "name": "Expedition - Medal Store (Medals of the Conqueror)",
+   "kind": "permanente",
+   "sculpture_type": "sculture Aethelflaed (solo da qui, niente universali); scultura epica in evidenza (settimanale); Constance; Dazzling Starlight Sculptures; Silver/Golden Keys; occasionalmente sculture leggendarie specifiche (2.500 medaglie, riseofkingdomsguides)",
+   "quantity": "Aethelflaed: fino a 3 sculture/giorno (heaven-guardian)",
+   "frequency": "giornaliera (stima derivata: ~90 sculture Aethelflaed/mese)",
+   "requirements": "stage completati con 3 stelle aumentano le medaglie giornaliere",
+   "cost_without_gems": "Medals of the Conqueror (gratis)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Aethelflaed e' uno dei leggendari piu' facili da expertizzare per un F2P (heaven-guardian). Anche Julius Caesar, Charles Martel, El Cid, Cao Cao, Frederick I, Mehmed II, Pyrrhus, Ragnar Lodbrok, Thutmose III hanno 'Expedition' tra le fonti su rokstats.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "medal_store",
+      "featured_epic_weekly",
+      "aethelflaed_daily_cap",
+      "constance",
+      "daily_chest_by_stars"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    },
+    {
+     "url": "https://app.rokstats.online/commanders/<slug> (135 pagine comandanti)",
+     "site": "app.rokstats.online (game version 1.1.12.20)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "obtain"
+     ]
+    }
+   ],
+   "gaps": [
+    "prezzi in medaglie delle sculture Aethelflaed non documentati"
+   ]
+  },
+  {
+   "id": "alliance_shop",
+   "name": "Alliance Shop (Individual Credits)",
+   "kind": "permanente",
+   "sculpture_type": "sculture di comandanti (se presenti a rotazione)",
+   "quantity": null,
+   "frequency": "stock a rotazione: controllare ogni giorno",
+   "requirements": "Individual Credits da aiuti, donazioni tecnologia, eventi d'alleanza",
+   "cost_without_gems": "Individual Credits",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "handbook: sculture prima priorita'. kvk_alleanza.json annota che la tabella prezzi raccolta non contiene sculture: vedi conflicts.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-alliance-shop-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sculptures_first",
+      "credits_sources",
+      "check_daily"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "past_glory_donation",
+      "honor_sources",
+      "conquest_coins"
+     ]
+    }
+   ],
+   "gaps": [
+    "presenza reale di sculture leggendarie nello shop non confermata"
+   ]
+  },
+  {
+   "id": "legendary_tavern_sovereign",
+   "name": "Legendary Tavern (Sovereign Keys) - KvK/Season of Conquest",
+   "kind": "evento legato ai KvK",
+   "sculpture_type": "sculture leggendarie (anche Achilles e Hector dal 1.1.01)",
+   "quantity": "almeno 1 scultura leggendaria ogni 10 forzieri; a 200 forzieri si sceglie il comandante preferito; fino a 2.000 forzieri/giorno; le chiavi avanzate passano agli eventi successivi",
+   "frequency": "durante gli eventi Legendary Tavern",
+   "requirements": "Sovereign Keys: soprattutto dai premi KvK; in Season of Conquest 1 Sovereign Key/giorno dal forziere Daily Objectives (100 punti)",
+   "cost_without_gems": "Sovereign Keys (gratis da KvK)",
+   "requires_gems": false,
+   "free_alternative": "Non comprare Sovereign Keys con gemme: sovrapprezzate (riseofkingdomsguides)",
+   "notes": "Sculture di comandanti gia' maxati diventano 'legendary marks' scambiabili.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sovereign_keys",
+      "1_legendary_per_10_chests",
+      "choose_commander_at_200",
+      "2000_per_day",
+      "keys_roll_over",
+      "sovereign_keys_from_kvk"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-12-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+      "hedvig_theme_commander_exp_5pct"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2161435: version 1.1.01 Homestead Revel)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-11-08",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_chests_pepin_casimir",
+      "advanced_special_offers",
+      "achilles_hector_legendary_tavern"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "a_will_to_skill",
+   "name": "A Will to Skill (evento)",
+   "kind": "evento Lost Kingdom / stagione",
+   "sculpture_type": "consuma Universal Commander Sculptures",
+   "quantity": null,
+   "frequency": "all'inizio di alcuni Lost Kingdom (es. Song of Troy); solo regni di almeno 21 giorni",
+   "requirements": "avere Universal Sculptures da investire in comandanti della lista",
+   "cost_without_gems": "Universal Sculptures proprie",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Non e' una fonte di sculture: premia l'USO di sculture universali su comandanti selezionati con ricompense extra. Momento ideale per spendere universali gia' destinate a un comandante in lista.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1835007: Update 1.0.88: Giving Thanks)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-10-31",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "a_will_to_skill_use_universal",
+      "trial_commander_sculptures"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2139649: 1.1.00 Patchnotes: Song of Troy)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-09-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "a_will_to_skill_exchange_universal",
+      "happy_hundred_sign_in",
+      "21_days_kingdom"
+     ]
+    }
+   ],
+   "gaps": [
+    "lista comandanti e premi variabili per stagione"
+   ]
+  },
+  {
+   "id": "kvk_honor_shop",
+   "name": "KvK / Lost Kingdom: honor, Conquest Coins, Conquest Tavern",
+   "kind": "stagionale",
+   "sculpture_type": "sculture da premi KvK / Conquest Tavern (Season of Conquest)",
+   "quantity": null,
+   "frequency": "per stagione KvK",
+   "requirements": "Honor individuale; Crusader Achievements; Conquest Coins (Path of Greatness)",
+   "cost_without_gems": "honor e valute KvK",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Le guide consultate non pubblicano quantita' di sculture per soglia honor. Dal 1.1.12 cinque comandanti aggiunti alla Conquest Tavern della Season of Conquest (ldshop). Past Glory stadio 3 chiede donazioni di sculture: mai donare sculture del comandante in sviluppo (kvk_alleanza.json).",
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "past_glory_donation",
+      "honor_sources",
+      "conquest_coins"
+     ]
+    },
+    {
+     "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/halloween-guide.html",
+     "site": "ldshop.gg",
+     "page_date": "2026-09-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "conquest_tavern_new_commanders",
+      "esmeralda_race_against_time_present"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sovereign_keys",
+      "1_legendary_per_10_chests",
+      "choose_commander_at_200",
+      "2000_per_day",
+      "keys_roll_over",
+      "sovereign_keys_from_kvk"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1546002: Update 1.0.72: Heroic Tales)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2023-08-01",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "donate_sculptures_crusader_fortress"
+     ]
+    }
+   ],
+   "gaps": [
+    "tabella premi honor KvK con sculture non trovata"
+   ]
+  },
+  {
+   "id": "karuak",
+   "name": "Karuak Ceremony",
+   "kind": "evento a rotazione",
+   "sculpture_type": "sculture di comandanti",
+   "quantity": "10 commander sculptures in un singolo round (riseofkingdomsguides)",
+   "frequency": "ruota con Ceroli Crisis, Ian's Ballads, Lohar's Trial",
+   "requirements": "lineup PvE forte",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Rarita' delle sculture non specificata.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": [
+    "rarita' e condizioni esatte"
+   ]
+  },
+  {
+   "id": "arms_training",
+   "name": "Arms Training (Armsmaster Lohar)",
+   "kind": "evento a rotazione (3 giorni)",
+   "sculpture_type": "legendary commander sculptures",
+   "quantity": "20 (premio di classifica, riseofkingdomsguides)",
+   "frequency": "a rotazione",
+   "requirements": "classifica",
+   "cost_without_gems": "consumabili per tentativi (opzionali)",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Premio di rango: per F2P non garantito.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "build_research_train_events",
+   "name": "Eventi di costruzione/ricerca/addestramento (classifica)",
+   "kind": "eventi ricorrenti",
+   "sculpture_type": "legendary commander sculptures",
+   "quantity": "20 al rango 1 (riseofkingdomsguides)",
+   "frequency": "ricorrenti",
+   "requirements": "classifica",
+   "cost_without_gems": "speedup",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Solo top rank: per F2P usare i milestone.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "lohar_trial",
+   "name": "Lohar's Trial",
+   "kind": "evento circa mensile (2 giorni)",
+   "sculpture_type": "sculture di Lohar (epico)",
+   "quantity": null,
+   "frequency": "circa ogni mese",
+   "requirements": "Bone Necklaces da barbari -> relics -> evocare Lohar; sconfiggerlo in rally d'alleanza",
+   "cost_without_gems": "Action Points",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Fonte gratuita principale per Lohar, il miglior moltiplicatore di XP (fino a +70%).",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohars-trial-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_sculptures_free",
+      "monthly"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohar-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_farming",
+      "peacekeeping_quick_study"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    }
+   ],
+   "gaps": [
+    "quantita' di sculture per boss"
+   ]
+  },
+  {
+   "id": "osiris_league",
+   "name": "Osiris League (scommesse)",
+   "kind": "stagioni Osiris League",
+   "sculpture_type": "sculture di comandanti leggendari nel negozio monete e nel negozio Eye for Talent",
+   "quantity": null,
+   "frequency": "durante le stagioni",
+   "requirements": "monete delle scommesse",
+   "cost_without_gems": "monete evento",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Priorita': sculture leggendarie del piano (riseofkingdomsguides via eventi_pve.json).",
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    }
+   ],
+   "gaps": [
+    "prezzi e quantita'"
+   ]
+  },
+  {
+   "id": "ceroli",
+   "name": "Ceroli Crisis / Ceroli Assault",
+   "kind": "evento a rotazione",
+   "sculpture_type": "sculture (se offerte) e Keira nel Ceroli Shop",
+   "quantity": null,
+   "frequency": "a rotazione",
+   "requirements": "medaglie Ceroli",
+   "cost_without_gems": "medaglie evento",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Priorita' handbook: materiali/blueprint > sculture > speedup > risorse.",
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ],
+   "gaps": [
+    "sculture leggendarie non confermate"
+   ]
+  },
+  {
+   "id": "golden_kingdom",
+   "name": "Golden Kingdom",
+   "kind": "evento ricorrente",
+   "sculpture_type": "forzieri ogni 4 piani (contenuto non dettagliato)",
+   "quantity": null,
+   "frequency": "ricorrente",
+   "requirements": "marce PvE sostenibili",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Le guide consultate non elencano sculture tra i premi.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/golden-kingdom-event-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_chest_every_4_floors"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-golden-kingdom-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "strategy"
+     ]
+    }
+   ],
+   "gaps": [
+    "premi in sculture non documentati"
+   ]
+  },
+  {
+   "id": "champions_of_olympia",
+   "name": "Champions of Olympia",
+   "kind": "evento PvP a finestre",
+   "sculpture_type": "non documentato",
+   "quantity": null,
+   "frequency": "finestre dal pannello Events",
+   "requirements": "squadra",
+   "cost_without_gems": null,
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Nessuna fonte consultata riporta premi in sculture.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/champions-of-olympia-guide-in-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "no_reward_data"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-champions-of-olympia-guide-tips/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-05",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "no_reward_data"
+     ]
+    }
+   ],
+   "gaps": [
+    "premi non documentati"
+   ]
+  },
+  {
+   "id": "esmeralda",
+   "name": "Esmeralda's Prayer / Collection",
+   "kind": "stagionale",
+   "sculpture_type": "premi della ruota; Dreams of Spring da' sculture epiche",
+   "quantity": null,
+   "frequency": "stagionale (Spring Symphony 10 giorni; Halloween 2026)",
+   "requirements": "Wishing Coins gratuite da Dreams of Spring, Race Against Time, Esmeralda's Collection, Tempest Clash",
+   "cost_without_gems": "monete gratuite",
+   "requires_gems": false,
+   "free_alternative": "Spin a gemme 1.200 l'uno: RICHIEDE GEMME, non consigliato",
+   "notes": "Race Against Time ora da' materiali leggendari invece di sculture leggendarie (riseofkingdomsguides); eventi_pve.json riporta ancora top 10 con sculture: vedi conflicts.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/spring-symphony-and-esmeraldas-prayer-event-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_coin_sources",
+      "1200_gems_spin",
+      "race_against_time_now_materials"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    },
+    {
+     "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/halloween-guide.html",
+     "site": "ldshop.gg",
+     "page_date": "2026-09-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "conquest_tavern_new_commanders",
+      "esmeralda_race_against_time_present"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "protect_supplies",
+   "name": "Protect the Supplies",
+   "kind": "stagionale",
+   "sculpture_type": "sculture di comandanti 'golden'",
+   "quantity": "solo top 10 in classifica",
+   "frequency": null,
+   "requirements": "classifica",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "",
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "login_events",
+   "name": "Eventi di login (Sign-In Spoils, Springtime Check-In, Happy Hundred, New Tavern Commanders)",
+   "kind": "stagionali/aggiornamenti",
+   "sculpture_type": "comandante leggendario intero (Sign-In Spoils 7 giorni: 1.0.86, 1.0.99) o sculture leggendarie (Springtime Check-In 1.0.90; sculture di un nuovo comandante greco 1.0.71)",
+   "quantity": null,
+   "frequency": "a ogni grande aggiornamento/festivita'",
+   "requirements": "accedere 7 giorni (a volte consecutivi)",
+   "cost_without_gems": "0",
+   "requires_gems": false,
+   "free_alternative": null,
+   "notes": "Mai saltare un login durante questi eventi.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1782979: Update 1.0.86: Anchors Aweigh)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-09-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sign_in_spoils_7_days_legendary_commander"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2124406: Update 1.0.99: Elysian Feast)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-09-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sign_in_spoils_7_days_legendary_commander"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1896244: Update 1.0.90: Return of the King)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-12-31",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "springtime_check_in_legendary_sculptures",
+      "sign_in_spoils_7_days",
+      "new_tavern_commanders_event",
+      "legendary_commander_swap"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1497163: Update Patch Note 1.0.71: Ode to Greece)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2023-07-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sign_in_spoils_sculptures_new_commander",
+      "treasures_of_pyrrhus"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2139649: 1.1.00 Patchnotes: Song of Troy)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-09-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "a_will_to_skill_exchange_universal",
+      "happy_hundred_sign_in",
+      "21_days_kingdom"
+     ]
+    }
+   ],
+   "gaps": [
+    "quantita' di sculture per evento"
+   ]
+  },
+  {
+   "id": "card_king",
+   "name": "Card King",
+   "kind": "evento senza calendario",
+   "sculpture_type": "sculture leggendarie o Universal Legendary a scelta",
+   "quantity": "dipende dalle coppie trovate",
+   "frequency": "irregolare (annunciato 3 giorni prima)",
+   "requirements": "-",
+   "cost_without_gems": "0 per i primi 2 flip",
+   "requires_gems": true,
+   "free_alternative": "Fare solo i 2 flip gratuiti",
+   "notes": "Dopo i 2 flip gratuiti ogni carta costa 300 gemme (3.000 per tutte): RICHIEDE GEMME.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/card-king-event-guide-and-schedule/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "2_free_flips",
+      "300_gems_per_flip",
+      "no_schedule"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs_690_440_340_240",
+      "vip_10_12_14",
+      "universal_sources",
+      "exceptions_minamoto_aethelflaed_hannibal",
+      "specific_sources"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "wheel_of_fortune",
+   "name": "Wheel of Fortune",
+   "kind": "evento a gemme (~ogni 3 settimane, 3 giorni)",
+   "sculpture_type": "sculture del comandante leggendario in evidenza",
+   "quantity": null,
+   "frequency": null,
+   "requirements": "-",
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": "1 spin gratuito all'inizio; per il resto usare fonti gratuite",
+   "notes": "ESCLUSO dal piano gratuito: richiede gemme. Molti leggendari (Bai Qi, Huo Qubing, Qin Shi Huang, Yi Seong-Gye, Prime...) su rokstats hanno come fonte solo Wheel of Fortune + Universal Sculpture: per un F2P si costruiscono solo con universali.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-wheel-of-fortune-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "paid_spins_conditions",
+      "sculptures_best_reward"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    },
+    {
+     "url": "https://app.rokstats.online/commanders/<slug> (135 pagine comandanti)",
+     "site": "app.rokstats.online (game version 1.1.12.20)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "obtain"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "more_than_gems",
+   "name": "More Than Gems",
+   "kind": "evento a spesa di gemme (2 giorni)",
+   "sculpture_type": "Universal Legendary Sculptures",
+   "quantity": "7.000 gemme/giorno = 5; 25.000/giorno = 13 (26 in due giorni con 50.000)",
+   "frequency": "irregolare (settimane o mesi; riseofkingdomsguides: ogni 2-3 mesi)",
+   "requirements": "spendere gemme",
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": "Richiede gemme, ma un F2P puo' usare gemme GUADAGNATE giocando (Expedition, depositi di gemme, eventi) per acquisti che farebbe comunque (VIP, Books of Covenant): obiettivo efficiente 7.000/giorno (heaven-guardian). Solo con conferma utente.",
+   "notes": "handbook: 7.000/giorno ha la miglior efficienza; il salto a 25.000 costa 2.250 gemme per scultura extra.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-more-than-gems-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "7000_5",
+      "25000_13",
+      "26_over_two_days",
+      "no_fixed_date"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-dominate-more-than-gems-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "tiers_300_1000_3000_7000_25000",
+      "7000_5",
+      "25000_13",
+      "interval_varies"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/more-than-gems-event-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "2_days",
+      "every_2_3_months",
+      "26_for_50k"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "daily_special_offer",
+   "name": "Daily Special Offer / Advanced Daily Special Offer",
+   "kind": "pacchetti",
+   "sculpture_type": "sculture garantite del comandante scelto",
+   "quantity": null,
+   "frequency": "giornaliero",
+   "requirements": null,
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": "Fonti gratuite sopra",
+   "notes": "A pagamento (soldi reali): escluso.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2102690: Update 1.0.98 Island Mystery)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "advanced_daily_special_offer_paid"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2161435: version 1.1.01 Homestead Revel)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-11-08",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_chests_pepin_casimir",
+      "advanced_special_offers",
+      "achilles_hector_legendary_tavern"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "commander_swap_reset",
+   "name": "Legendary Commander Swap / Commander Reset events",
+   "kind": "eventi rari",
+   "sculpture_type": "scambio livelli/skill/stelle tra due leggendari; reset con rimborso sculture",
+   "quantity": null,
+   "frequency": "rari",
+   "requirements": null,
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": "Evitare l'errore a monte: pianificare prima di spendere",
+   "notes": "Swap: ticket a 100 gemme (max 120) o bundle 4,99 USD da 12 ticket; 2 swap, irreversibili; le sculture in eccesso restano (FAQ ufficiale). Reset con rimborso fino a 690 sculture per max ~69.000 gemme (handbook). RICHIEDE GEMME.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1904121: Commander Swap FAQ)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-01-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "swap_tickets_100_gems_or_4.99",
+      "2_swaps",
+      "keeps_sculptures"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    }
+   ],
+   "gaps": []
+  },
+  {
+   "id": "city_hall_milestones",
+   "name": "City Hall milestones / Growth Fund",
+   "kind": "progressione",
+   "sculpture_type": null,
+   "quantity": null,
+   "frequency": null,
+   "requirements": null,
+   "cost_without_gems": null,
+   "requires_gems": true,
+   "free_alternative": null,
+   "notes": "Growth Fund e' un acquisto (~81.000 gemme sui milestone City Hall, handbook): richiede soldi. Nessuna fonte consultata documenta sculture leggendarie gratuite nei milestone City Hall.",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-f2p-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "f2p_priority",
+      "epic_440_vs_690",
+      "hoard_speedups_kvk",
+      "collect_free_sources"
+     ]
+    }
+   ],
+   "gaps": [
+    "premi City Hall in sculture non documentati"
+   ]
+  },
+  {
+   "id": "lucerne_scrolls",
+   "name": "Lucerne Scrolls",
+   "kind": "evento",
+   "sculpture_type": "non documentato",
+   "quantity": null,
+   "frequency": null,
+   "requirements": null,
+   "cost_without_gems": null,
+   "requires_gems": null,
+   "free_alternative": null,
+   "notes": "Nessuna fonte raggiungibile/consultata descrive questo evento.",
+   "sources": [],
+   "gaps": [
+    "evento non trovato nelle fonti"
+   ]
+  }
+ ],
+ "stars": {
+  "summary": "Ogni comandante ha da 1 a 6 stelle; ogni stella alza il livello massimo (1★=10, 2★=20, 3★=30, 4★=40, 5★=50, 6★=60) e le stelle 1-4 sbloccano le skill 1-4; la quinta (expertise) si sblocca con tutte le skill a 5.",
+  "star_table": [
+   {
+    "stars": 1,
+    "max_level": 10,
+    "unlocks": "skill 1"
+   },
+   {
+    "stars": 2,
+    "max_level": 20,
+    "unlocks": "skill 2"
+   },
+   {
+    "stars": 3,
+    "max_level": 30,
+    "unlocks": "skill 3"
+   },
+   {
+    "stars": 4,
+    "max_level": 40,
+    "unlocks": "skill 4"
+   },
+   {
+    "stars": 5,
+    "max_level": 50,
+    "unlocks": "cap livello"
+   },
+   {
+    "stars": 6,
+    "max_level": 60,
+    "unlocks": "cap massimo"
+   }
+  ],
+  "unlock_star_by_skill": {
+   "skill1": 1,
+   "skill2": 2,
+   "skill3": 3,
+   "skill4": 4,
+   "expertise": null,
+   "note": "campo unlockStar dai dati di gioco rokstats (1.1.12.20); maxStar 6"
+  },
+  "how_to_promote": "Raggiunto il livello massimo della stella, si attiva il pulsante di promozione: si inseriscono Starlight Sculptures (o Auto-Add) e si conferma con Develop. La guida gamesguideinfo (datata) indica una Starlight Sculpture per grado: Dazzling per leggendari, Brand-new per epici, Ordinary per elite, Obsolete per advanced.",
+  "promotion_materials": [
+   "Starlight Sculptures dalle Silver Chests (handbook)",
+   "VIP Shop: Brand-new Starlight 60.000 Food x20/sett. (VIP 4), Dazzling Starlight 400.000 Wood x5/sett. (VIP 5)",
+   "Expedition Store: Dazzling Starlight Sculptures"
+  ],
+  "sculptures_per_star": null,
+  "skill_costs": {
+   "legendary_total_after_summon": 690,
+   "epic": 440,
+   "elite": 340,
+   "advanced": 240,
+   "legendary_total_including_summon": 700,
+   "note": "Le sculture servono alle SKILL, non alle stelle. Tabella livelli di riseofkingdomsguides (10 per i primi livelli, poi 15-30 per i leggendari) incompleta."
+  },
+  "skill_upgrade_randomness": "L'upgrade di skill sceglie a caso una delle skill sbloccate e non maxate (gamesguideinfo, guida datata): per questo si tiene il comandante a 1 stella (lv 10) finche' la skill 1 non e' a 5 (heaven-guardian per Aethelflaed; commanders.json per Cao Cao e Charles Martel).",
+  "recommended_order": [
+   "1) Livellare fino a lv10 e NON promuovere a 2★ finche' la skill 1 non e' 5 (5-1-1-1 'a 1 stella').",
+   "2) Promuovere a 2★, portare la skill 2 a 5 prima di sbloccare la 3 (5-5-1-1) se il comandante rende a 5511.",
+   "3) Poi 3★/4★ e le skill secondo l'ordine specifico del comandante (5-5-1-5, 5-1-5-5, ecc.).",
+   "4) Oltre il lv30 servono piu' stelle: heaven-guardian consiglia di alzare le stelle prima di spingere oltre il 30.",
+   "5) Accumulare (bank) le sculture leggendarie finche' si puo' maxare una skill in un colpo solo (handbook), cosi' il comandante resta poco tempo bloccato a 1 stella."
+  ],
+  "tradeoff": "Tenere un comandante a 1 stella blocca il livello a 10: l'esperienza guadagnata oltre il cap e' persa, quindi durante l'attesa non metterlo nelle marce di farm e non usare tomi su di lui.",
+  "sources": [
+   {
+    "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+    "site": "heaven-guardian.com",
+    "page_date": "2026-08-03",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "star_level_caps",
+     "guardians_no_ap",
+     "lohar_70",
+     "quick_study_15",
+     "order_star_before_30",
+     "exp_rune"
+    ]
+   },
+   {
+    "url": "https://app.rokstats.online/commanders/mulan",
+    "site": "app.rokstats.online (game version 1.1.12.20, generato 2026-09-26)",
+    "page_date": "2026-09-26",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "unlockStar_1_2_3_4",
+     "maxStar_6",
+     "khan_slayer_exp_15_30_45_70_95",
+     "obtain"
+    ]
+   },
+   {
+    "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+    "site": "gamesguideinfo.com",
+    "page_date": null,
+    "retrieved": "2026-09-28",
+    "fields": [
+     "star_requires_level",
+     "starlight_grades",
+     "skill_upgrade_random",
+     "daily_objectives_keys"
+    ]
+   },
+   {
+    "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+    "site": "heaven-guardian.com",
+    "page_date": "2026-09-02",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "brand_new_starlight_60k_food_x20_vip4",
+     "dazzling_starlight_400k_wood_x5_vip5",
+     "universal_2000_gems_x20_vip13",
+     "epic_200_gems_x50_vip9"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "silver_free_5_day",
+     "golden_free_every_2_days",
+     "save_golden_keys_for_events",
+     "starlight",
+     "key_sources",
+     "displayed_odds"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "medal_store",
+     "featured_epic_weekly",
+     "aethelflaed_daily_cap",
+     "constance",
+     "daily_chest_by_stars"
+    ]
+   },
+   {
+    "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+    "site": "heaven-guardian.com",
+    "page_date": "2026-09-19",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "costs_690_440_340_240",
+     "vip_10_12_14",
+     "universal_sources",
+     "exceptions_minamoto_aethelflaed_hannibal",
+     "specific_sources"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "cost_table",
+     "universal_sources",
+     "ark_10_every_two_weeks",
+     "rank1_20_in_build_research_train",
+     "arms_training_20",
+     "karuak_10",
+     "expedition_shop_2500_medals",
+     "post_summon_bundle_10_universal"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-09-09",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "costs",
+     "finish_first_skill",
+     "spreading_mistake",
+     "prime_separate"
+    ]
+   },
+   {
+    "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+    "site": "heaven-guardian.com",
+    "page_date": "2026-08-06",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "up_to_3_per_day",
+     "no_universal",
+     "keep_1_star_until_arrow_of_iron_5",
+     "synergy_35"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "epic_first",
+     "bank_legendary_until_max_skill",
+     "one_epic_first_skill"
+    ]
+   },
+   {
+    "url": "file:///home/user/military_advisor/data/commanders.json",
+    "site": "military_advisor (dati gia' raccolti da allclash, riseofkingdomsguides, heaven-guardian, hokbuild, touchscreengaming)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "f2p_friendly",
+     "skill_upgrade_order"
+    ]
+   }
+  ],
+  "gaps": [
+   "numero di Starlight Sculptures per ogni stella non trovato nelle fonti",
+   "se le sculture di altri comandanti siano usabili come materiale di promozione: non confermato",
+   "costo in sculture per singolo livello di skill leggendaria (per calcolare 5-1-1-1) non completo"
+  ]
+ },
+ "xp": {
+  "summary": "L'esperienza viene da barbari (fonte principale), forti barbari (rally), guardiani dei Holy Sites (senza AP), Tomes of Knowledge, Expedition ed eventi. Non lasciare mai gli Action Points al massimo: e' la piu' grande perdita di XP quotidiana (handbook).",
+  "total_xp_per_level": null,
+  "sources_ranked": [
+   {
+    "rank": 1,
+    "source": "Barbari sulla mappa",
+    "detail": "XP ai comandanti della marcia; il livello dei barbari scala col City Hall; attaccare il livello piu' alto che si pulisce senza perdite",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "xp_sources_ranked",
+       "farming_loop",
+       "capped_ap",
+       "commander_reset_events",
+       "tomes_aim"
+      ]
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "source": "Forti barbari (solo rally)",
+    "detail": "piu' XP per tentativo; ogni partecipante riceve libri esperienza, speedup, casse; unirsi a ogni rally",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "xp_sources_ranked",
+       "farming_loop",
+       "capped_ap",
+       "commander_reset_events",
+       "tomes_aim"
+      ]
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "source": "Guardiani dei Holy Sites",
+    "detail": "XP senza consumare Action Points; 2 spawn al giorno (eventi_pve.json)",
+    "sources": [
+     {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_level_caps",
+       "guardians_no_ap",
+       "lohar_70",
+       "quick_study_15",
+       "order_star_before_30",
+       "exp_rune"
+      ]
+     },
+     {
+      "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+      "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+      "page_date": "2026-09-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "expedition_store",
+       "lohar_trial",
+       "osiris_league_shop",
+       "race_against_time",
+       "protect_supplies",
+       "ceroli_shop"
+      ]
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "source": "Tomes of Knowledge",
+    "detail": "XP istantanea mirata; usarli solo sul primario gia' deciso e negli ultimi tratti lenti; esistono tomi Lv5/Lv6/Lv7 (premi ufficiali del forum)",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "xp_sources_ranked",
+       "farming_loop",
+       "capped_ap",
+       "commander_reset_events",
+       "tomes_aim"
+      ]
+     },
+     {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_level_caps",
+       "guardians_no_ap",
+       "lohar_70",
+       "quick_study_15",
+       "order_star_before_30",
+       "exp_rune"
+      ]
+     }
+    ]
+   },
+   {
+    "rank": 5,
+    "source": "Expedition, eventi, gift code",
+    "detail": "droppano tomi",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "xp_sources_ranked",
+       "farming_loop",
+       "capped_ap",
+       "commander_reset_events",
+       "tomes_aim"
+      ]
+     }
+    ]
+   }
+  ],
+  "xp_bonus_commanders": [
+   {
+    "commander": "Lohar (epico)",
+    "skill": "Lohar's Trial (skill 3)",
+    "bonus": "+10/20/30/50/70% EXP da barbari a primario e secondario (lv1-5)",
+    "how_to_get": "Lohar's Trial mensile (gratis)",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     },
+     {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_level_caps",
+       "guardians_no_ap",
+       "lohar_70",
+       "quick_study_15",
+       "order_star_before_30",
+       "exp_rune"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Mulan (leggendario, Tavern)",
+    "skill": "Khan Slayer (skill 3)",
+    "bonus": "EXP Bonus 15/30/45/70/95% (upgradePreview rokstats)",
+    "how_to_get": "Golden Chest / universali",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/mulan",
+      "site": "app.rokstats.online (game version 1.1.12.20, generato 2026-09-26)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "unlockStar_1_2_3_4",
+       "maxStar_6",
+       "khan_slayer_exp_15_30_45_70_95",
+       "obtain"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Aethelflaed (leggendario, Expedition)",
+    "skill": "Synergy (skill 3)",
+    "bonus": "+5/10/17/25/35% EXP da barbari (e danni ai barbari)",
+    "how_to_get": "Expedition Store",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     },
+     {
+      "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "up_to_3_per_day",
+       "no_universal",
+       "keep_1_star_until_arrow_of_iron_5",
+       "synergy_35"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Boudica (epico)",
+    "skill": "Group Battle (skill 2)",
+    "bonus": "+20% EXP da barbari gia' dal livello 1 (fisso)",
+    "how_to_get": "Tavern/Expedition",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Moctezuma I",
+    "skill": "Flower War",
+    "bonus": "+5..25% EXP",
+    "how_to_get": "MGE/Legendary Chests",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Diaochan",
+    "skill": "Dance of the Silver Lotus",
+    "bonus": "+5..25% EXP",
+    "how_to_get": "-",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     }
+    ]
+   },
+   {
+    "commander": "Talento Peacekeeping",
+    "skill": "Quick Study",
+    "bonus": "+X% EXP da barbari (heaven-guardian: +15%)",
+    "how_to_get": "albero Peacekeeping del primario",
+    "sources": [
+     {
+      "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+      "site": "app.rokstats.online (game version 1.1.12.20)",
+      "page_date": "2026-09-26",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_exp_10_20_30_50_70",
+       "aethelflaed_exp_5_10_17_25_35",
+       "boudica_exp_20",
+       "moctezuma_exp_5_25",
+       "diaochan_exp_5_25",
+       "quick_study_talent"
+      ]
+     },
+     {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-08-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_level_caps",
+       "guardians_no_ap",
+       "lohar_70",
+       "quick_study_15",
+       "order_star_before_30",
+       "exp_rune"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohar-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_farming",
+       "peacekeeping_quick_study"
+      ]
+     }
+    ]
+   }
+  ],
+  "other_bonuses": [
+   "Rune di esperienza sulla mappa prima di una sessione di farm (heaven-guardian, riseofkingdomsguides)",
+   "City theme Hedvig nel Season of Conquest Shop: Commander EXP Gain +5% (6 Conquest Coins; patch 1.1.02)",
+   "VIP alto = piu' recupero AP (riseofkingdomsguides)"
+  ],
+  "farming_loop": [
+   "Coppia di farm economica con talenti Peacekeeping (Cao Cao + Lohar standard; Lohar primario + comandante da livellare secondario secondo heaven-guardian, oppure il comandante da livellare primario per avere i talenti secondo handbook).",
+   "Spendere AP ogni volta che si rigenerano, mai al cap.",
+   "Item di recupero AP durante eventi XP/MGE barbari, non a caso.",
+   "Unirsi a tutti i rally ai forti.",
+   "Non usare la coppia da campo costosa sui barbari (perdite e XP sprecata)."
+  ],
+  "reset": "Il reset del comandante restituisce l'XP come tomi e i punti talento; le sculture solo durante eventi Commander Reset a pagamento (handbook).",
+  "sources": [
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "xp_sources_ranked",
+     "farming_loop",
+     "capped_ap",
+     "commander_reset_events",
+     "tomes_aim"
+    ]
+   },
+   {
+    "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+    "site": "heaven-guardian.com",
+    "page_date": "2026-08-03",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "star_level_caps",
+     "guardians_no_ap",
+     "lohar_70",
+     "quick_study_15",
+     "order_star_before_30",
+     "exp_rune"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-leveling-guide/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "lohar_aethelflaed_35",
+     "runes",
+     "vip_ap",
+     "cao_cao_5111"
+    ]
+   },
+   {
+    "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+    "site": "app.rokstats.online (game version 1.1.12.20)",
+    "page_date": "2026-09-26",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "lohar_exp_10_20_30_50_70",
+     "aethelflaed_exp_5_10_17_25_35",
+     "boudica_exp_20",
+     "moctezuma_exp_5_25",
+     "diaochan_exp_5_25",
+     "quick_study_talent"
+    ]
+   },
+   {
+    "url": "https://app.rokstats.online/commanders/mulan",
+    "site": "app.rokstats.online (game version 1.1.12.20, generato 2026-09-26)",
+    "page_date": "2026-09-26",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "unlockStar_1_2_3_4",
+     "maxStar_6",
+     "khan_slayer_exp_15_30_45_70_95",
+     "obtain"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+    "site": "forum-global.lilithgame.com (ufficiale)",
+    "page_date": "2025-12-12",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+     "hedvig_theme_commander_exp_5pct"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohar-guide",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "lohar_farming",
+     "peacekeeping_quick_study"
+    ]
+   }
+  ],
+  "gaps": [
+   "XP richiesta per livello e totale fino a lv60 (calcolatori riseofkingdomsguides generati via JS, non leggibili)",
+   "valori XP dei Tomes of Knowledge per livello",
+   "valore esatto del talento Quick Study (solo heaven-guardian: 15%)"
+  ]
+ },
+ "f2p_strategy": {
+  "principles": [
+   "Profondita' prima dell'ampiezza: tutte le sculture sullo stesso comandante finche' la skill chiave non e' maxata (handbook commanders hub, best-epic).",
+   "Finire la prima skill del primario prima di toccare altri comandanti: 5-1-1-1 vale piu' di un secondo comandante da zero (handbook).",
+   "Epico prima: 440 sculture per 5555 contro 690 di un leggendario; una coppia epica completa batte una leggendaria a meta' (handbook f2p-guide).",
+   "Accumulare le sculture leggendarie finche' si puo' maxare una skill in un colpo, senza smettere di costruire epici nel frattempo (handbook best-epic).",
+   "Universal Legendary Sculptures solo su comandanti che non si ottengono in altro modo gratis (tipicamente quelli da Wheel of Fortune/MGE), mai su comandanti da Golden Chest o su Aethelflaed (strategia_routine.json).",
+   "Un solo tipo di truppa: civilta', comandanti e ricerca nella stessa direzione (handbook)."
+  ],
+  "build_patterns": {
+   "5-1-1-1": "skill 1 al massimo tenendo il comandante a 1 stella: ottimo come secondario economico (handbook: un ottimo primo skill fa un ottimo secondario).",
+   "5-5-1-1": "passo successivo classico per molti F2P (Charles Martel, Frederick I, El Cid, Leonidas, Pyrrhus, Huo Qubing).",
+   "5-5-1-5 / 5-1-5-5 / 5-5-5-1": "target specifici per comandante prima dell'expertise.",
+   "5-5-5-5 (expertise)": "690 sculture per un leggendario: progetto di piu' stagioni per un F2P."
+  },
+  "candidates_2026": {
+   "note": "Derivato: incrocio tra f2p_friendly in commanders.json e fonti di ottenimento rokstats (1.1.12.20). Verificare sempre la tier list della stagione.",
+   "free_specific_sources": [
+    {
+     "commander": "Aethelflaed",
+     "why": "sculture gratis ogni giorno in Expedition; +35% EXP; leggendario piu' facile da expertizzare per F2P",
+     "build": "Arrow of Iron a 5 a 1 stella, poi 5515 o 5155",
+     "obtain": [
+      "Expedition"
+     ]
+    },
+    {
+     "commander": "Charles Martel",
+     "why": "garrison/fanteria; Golden Chest + Expedition + MGE",
+     "build": "5-5-1-1 F2P",
+     "obtain": [
+      "Tavern",
+      "Expedition",
+      "MGE"
+     ]
+    },
+    {
+     "commander": "El Cid",
+     "why": "arcieri open field; Golden Chest + Expedition + MGE",
+     "build": "5-5-1-1",
+     "obtain": [
+      "Tavern",
+      "Expedition",
+      "MGE"
+     ]
+    },
+    {
+     "commander": "Cao Cao",
+     "why": "farm/cavalleria; Golden Chest + Expedition",
+     "build": "5-1-1-1 a 1 stella, 5511 per peacekeeping",
+     "obtain": [
+      "Tavern",
+      "Expedition",
+      "Daily Special Offer"
+     ]
+    },
+    {
+     "commander": "Frederick I",
+     "why": "leadership/rally; Golden Chest + Expedition",
+     "build": "5-5-1-1",
+     "obtain": [
+      "Tavern",
+      "Expedition"
+     ]
+    },
+    {
+     "commander": "Pyrrhus",
+     "why": "fanteria; Tavern + Expedition + eventi",
+     "build": "5-5-1-1",
+     "obtain": [
+      "Tavern",
+      "Expedition",
+      "Event"
+     ]
+    },
+    {
+     "commander": "Mulan",
+     "why": "supporto + EXP bonus fino a 95%",
+     "build": "secondo il ruolo",
+     "obtain": [
+      "Tavern"
+     ]
+    }
+   ],
+   "mge_or_universal": [
+    {
+     "commander": "Gorgo",
+     "obtain": [
+      "MGE",
+      "Universal"
+     ],
+     "build": "5515"
+    },
+    {
+     "commander": "Leonidas I",
+     "obtain": [
+      "MGE",
+      "Legendary Chests",
+      "Universal"
+     ],
+     "build": "5511"
+    },
+    {
+     "commander": "Nebuchadnezzar II",
+     "obtain": [
+      "MGE",
+      "Legendary Chests",
+      "Universal"
+     ],
+     "build": "skill 1 a 5, poi 5515"
+    },
+    {
+     "commander": "Cyrus the Great",
+     "obtain": [
+      "Legendary Chests",
+      "Wheel of Fortune",
+      "Universal"
+     ],
+     "build": "5515"
+    }
+   ],
+   "universal_only_for_f2p": [
+    "Bai Qi",
+    "Huo Qubing",
+    "Qin Shi Huang",
+    "Richard I",
+    "William Wallace",
+    "Philip II",
+    "Sun Tzu Prime",
+    "Scipio Africanus Prime",
+    "Yi Seong-Gye"
+   ],
+   "epic_backbone": [
+    "Lohar (farm, Lohar's Trial)",
+    "Boudica",
+    "Sun Tzu",
+    "Joan of Arc",
+    "Baibars",
+    "Belisarius",
+    "Hermann",
+    "Kusunoki Masashige",
+    "Pelagius",
+    "Scipio Africanus",
+    "Constance (raccolta, Expedition)"
+   ],
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/commanders.json",
+     "site": "military_advisor (dati gia' raccolti da allclash, riseofkingdomsguides, heaven-guardian, hokbuild, touchscreengaming)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "f2p_friendly",
+      "skill_upgrade_order"
+     ]
+    },
+    {
+     "url": "https://app.rokstats.online/commanders/<slug> (135 pagine comandanti)",
+     "site": "app.rokstats.online (game version 1.1.12.20)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "obtain"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "epic_first",
+      "bank_legendary_until_max_skill",
+      "one_epic_first_skill"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs",
+      "finish_first_skill",
+      "spreading_mistake",
+      "prime_separate"
+     ]
+    }
+   ]
+  },
+  "mistakes": [
+   "Spargere sculture su molti comandanti (errore n.1, handbook).",
+   "Promuovere a 2★ prima di avere la skill 1 a 5 (skill random).",
+   "Usare universali su comandanti da Golden Chest/Expedition o su Aethelflaed (non accettate).",
+   "Spendere sculture/tomi solo per punti MGE se il pannello non li premia.",
+   "Donare in Past Glory le sculture del comandante in sviluppo.",
+   "Livellare comandanti che non userai (XP e' una risorsa finita).",
+   "Confondere Prime ed epico: il Prime e' un comandante separato con sculture proprie.",
+   "Aprire Golden Keys fuori da eventi che premiano le aperture.",
+   "Comprare Sovereign/Golden Keys o spin con gemme."
+  ],
+  "mge_planning": {
+   "choose": "Partecipare con obiettivo ai premi solo se il comandante in evidenza e' nel piano (tipo truppa, coppia, stagione del regno); altrimenti fare solo i milestone.",
+   "check_rules": "Leggere la posta del regno: in molti regni l'MGE e' 'fixed' con posti, cap e punteggi massimi; vincere un rank non approvato crea problemi (handbook, heaven-guardian).",
+   "points": {
+    "training_per_troop": {
+     "T1": 5,
+     "T2": 10,
+     "T3": 20,
+     "T4": 40,
+     "T5": 100
+    },
+    "gathering_per_100": {
+     "food": 1,
+     "wood": 1,
+     "stone": 2,
+     "gold": 5
+    },
+    "gem_gathered": 150,
+    "power": "2 punti per punto potenza (fase Increasing Power)",
+    "example": "20.000 T4 = 800.000 punti (handbook)",
+    "upgrade_note": "l'upgrade di truppe puo' valere solo la differenza tra i tier: verificare con un lotto piccolo"
+   },
+   "threshold_to_enter_rewards": null,
+   "how_to_estimate": "Annotare sculture possedute, premio del rank atteso e sculture ancora necessarie per uno stato utile (es. 5-1-1-1); calcolare speedup/risorse per i punti; ricontrollare la classifica prima della spinta finale e fermarsi al budget (handbook).",
+   "preparation_without_gems": [
+    "Accumulare speedup di training, ricerca, costruzione, cura e universali per settimane (heaven-guardian); riseofkingdomsguides: almeno 3 mesi.",
+    "Preparare un lotto di truppe da riscuotere nella fase Training e lunghi upgrade da finire nella fase Power, senza fermare Academy e cantiere (handbook).",
+    "Risparmiare item AP per la fase Barbari; pianificare la raccolta (oro vale di piu' per punto) per la fase Gathering.",
+    "Senza T5 saltare la competizione (riseofkingdomsguides)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "stages",
+      "training_points",
+      "fixed_mge_rules",
+      "dont_spend_sculptures_tomes",
+      "decide_rank"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-win-mightiest-governor-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "training_points",
+      "gathering_points",
+      "power_2_points",
+      "save_speedups",
+      "fixed_mge",
+      "f2p_milestones"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "6_stages_24h_final_48h",
+      "prepare_3_months",
+      "skip_without_t5"
+     ]
+    }
+   ]
+  },
+  "kvk_heads": {
+   "summary": "Nei KvK le 'teste' arrivano soprattutto come Sovereign Keys (premi KvK e forziere giornaliero da 100 punti in Season of Conquest) da aprire nella Legendary Tavern: almeno 1 leggendaria ogni 10 forzieri e scelta del comandante a 200 forzieri. Conservare le chiavi (passano all'evento successivo) e aprirle quando si puo' arrivare alla scelta a 200.",
+   "use": [
+    "Indirizzarle al comandante del piano che sara' usato nella stagione successiva (handbook kvk-2: cosa faranno quelle sculture dopo la transizione di stagione).",
+    "Usare universali durante 'A Will to Skill' se il comandante del piano e' in lista (premi extra).",
+    "Non donare sculture del comandante in sviluppo in Past Glory."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sovereign_keys",
+      "1_legendary_per_10_chests",
+      "choose_commander_at_200",
+      "2000_per_day",
+      "keys_roll_over",
+      "sovereign_keys_from_kvk"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-12-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+      "hedvig_theme_commander_exp_5pct"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2139649: 1.1.00 Patchnotes: Song of Troy)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-09-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "a_will_to_skill_exchange_universal",
+      "happy_hundred_sign_in",
+      "21_days_kingdom"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "past_glory_donation",
+      "honor_sources",
+      "conquest_coins"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-09-09",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "costs",
+     "finish_first_skill",
+     "spreading_mistake",
+     "prime_separate"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "epic_first",
+     "bank_legendary_until_max_skill",
+     "one_epic_first_skill"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-f2p-guide",
+    "site": "riseofkingdomshandbook.com",
+    "page_date": "2026-08-18",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "f2p_priority",
+     "epic_440_vs_690",
+     "hoard_speedups_kvk",
+     "collect_free_sources"
+    ]
+   },
+   {
+    "url": "file:///home/user/military_advisor/data/commanders.json",
+    "site": "military_advisor (dati gia' raccolti da allclash, riseofkingdomsguides, heaven-guardian, hokbuild, touchscreengaming)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "f2p_friendly",
+     "skill_upgrade_order"
+    ]
+   },
+   {
+    "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+    "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "vip_chest",
+     "tavern_rules",
+     "events",
+     "bot_rules"
+    ]
+   }
+  ]
+ },
+ "plan": {
+  "weekly": [
+   {
+    "day": "ogni giorno",
+    "actions": [
+     "Missioni giornaliere fino a 100 Activity Points (Golden Key; Sovereign Key in SoC)",
+     "Aprire le 5 Silver gratuite e la Golden gratuita se pronta",
+     "Riscuotere forziere VIP",
+     "Expedition: forziere giornaliero + comprare sculture Aethelflaed (se nel piano)",
+     "Controllare Alliance Shop (sculture a rotazione)",
+     "Spendere AP sui barbari con coppia Lohar/Peacekeeping; rally ai forti; guardiani Holy Sites",
+     "Aiutare l'alleanza (Individual Credits)"
+    ],
+    "sources": [
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+      "site": "forum-global.lilithgame.com (ufficiale)",
+      "page_date": "2025-12-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+       "hedvig_theme_commander_exp_5pct"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "silver_free_5_day",
+       "golden_free_every_2_days",
+       "save_golden_keys_for_events",
+       "starlight",
+       "key_sources",
+       "displayed_odds"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "vip_10_12_14_daily_sculptures",
+       "vip6_second_builder"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "medal_store",
+       "featured_epic_weekly",
+       "aethelflaed_daily_cap",
+       "constance",
+       "daily_chest_by_stars"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-alliance-shop-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "sculptures_first",
+       "credits_sources",
+       "check_daily"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "xp_sources_ranked",
+       "farming_loop",
+       "capped_ap",
+       "commander_reset_events",
+       "tomes_aim"
+      ]
+     }
+    ]
+   },
+   {
+    "day": "1 volta a settimana",
+    "actions": [
+     "VIP Shop: Brand-new (x20) e Dazzling Starlight (x5) pagate in risorse se servono stelle",
+     "Expedition Store: scultura epica in evidenza se e' nel piano",
+     "Rivedere il conteggio sculture del comandante obiettivo e il prossimo passo (5-1-1-1 -> 5-5-1-1)",
+     "Controllare il calendario eventi (MGE, Lohar's Trial, eventi chiavi)"
+    ],
+    "sources": [
+     {
+      "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+      "site": "heaven-guardian.com",
+      "page_date": "2026-09-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "brand_new_starlight_60k_food_x20_vip4",
+       "dazzling_starlight_400k_wood_x5_vip5",
+       "universal_2000_gems_x20_vip13",
+       "epic_200_gems_x50_vip9"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "medal_store",
+       "featured_epic_weekly",
+       "aethelflaed_daily_cap",
+       "constance",
+       "daily_chest_by_stars"
+      ]
+     },
+     {
+      "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+      "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+      "page_date": "2026-09-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "vip_chest",
+       "tavern_rules",
+       "events",
+       "bot_rules"
+      ]
+     }
+    ]
+   }
+  ],
+  "monthly": [
+   {
+    "item": "Lohar's Trial (~1/mese)",
+    "action": "raccogliere Bone Necklaces tutto il mese, evocare/rally Lohar",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohars-trial-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "lohar_sculptures_free",
+       "monthly"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "Ark of Osiris (~2/mese)",
+    "action": "registrarsi con l'alleanza",
+    "sources": [
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "cost_table",
+       "universal_sources",
+       "ark_10_every_two_weeks",
+       "rank1_20_in_build_research_train",
+       "arms_training_20",
+       "karuak_10",
+       "expedition_shop_2500_medals",
+       "post_summon_bundle_10_universal"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "MGE",
+    "action": "partecipare solo se il comandante e' nel piano; altrimenti milestone",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-09-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "stages",
+       "training_points",
+       "fixed_mge_rules",
+       "dont_spend_sculptures_tomes",
+       "decide_rank"
+      ]
+     }
+    ]
+   },
+   {
+    "item": "Eventi che premiano aperture di chiavi",
+    "action": "aprire le Golden Keys accumulate",
+    "sources": [
+     {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "silver_free_5_day",
+       "golden_free_every_2_days",
+       "save_golden_keys_for_events",
+       "starlight",
+       "key_sources",
+       "displayed_odds"
+      ]
+     }
+    ]
+   }
+  ],
+  "monthly_estimates_derived": {
+   "flag": "STIME DERIVATE (non da fonte diretta): calcolate dalle cadenze citate; le quantita' per forziere/evento non pubblicate restano null.",
+   "golden_chest_openings": "~15 gratuite (Tavern 25, ogni 2 giorni) + ~30 Golden Keys dalle Daily Objectives (fuori SoC) = ~45 aperture/mese; sculture leggendarie risultanti: null (drop rate non documentato)",
+   "universal_legendary_vip": {
+    "VIP<10": 0,
+    "VIP10": 30,
+    "VIP12": 60,
+    "VIP14": 90
+   },
+   "ark_of_osiris": "~20 sculture/mese se si gioca ogni 2 settimane (10 per partita secondo riseofkingdomsguides)",
+   "aethelflaed": "fino a ~90/mese (3/giorno) -> 690 in circa 8 mesi di acquisti costanti (stima derivata, medaglie permettendo)",
+   "sovereign_keys_soc": "~30/mese durante la Season of Conquest (1/giorno) -> ~3 sculture leggendarie garantite/mese dalla regola 1 ogni 10 forzieri (derivata)",
+   "time_to_5111_or_5511": null,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_silver_3_to_10_by_level",
+      "free_golden_cooldown_3d_lv1_2d_lv25"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-12-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+      "hedvig_theme_commander_exp_5pct"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_10_12_14_daily_sculptures",
+      "vip6_second_builder"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_table",
+      "universal_sources",
+      "ark_10_every_two_weeks",
+      "rank1_20_in_build_research_train",
+      "arms_training_20",
+      "karuak_10",
+      "expedition_shop_2500_medals",
+      "post_summon_bundle_10_universal"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sovereign_keys",
+      "1_legendary_per_10_chests",
+      "choose_commander_at_200",
+      "2000_per_day",
+      "keys_roll_over",
+      "sovereign_keys_from_kvk"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   {
+    "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+    "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "vip_chest",
+     "tavern_rules",
+     "events",
+     "bot_rules"
+    ]
+   },
+   {
+    "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+    "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "expedition_store",
+     "lohar_trial",
+     "osiris_league_shop",
+     "race_against_time",
+     "protect_supplies",
+     "ceroli_shop"
+    ]
+   }
+  ]
+ },
+ "bot_rules": [
+  {
+   "id": "claim_free_keys",
+   "when": "Ogni giorno, dopo il reset",
+   "then": "Completare missioni giornaliere fino a 100 Activity Points e riscuotere il forziere (Golden Key / Sovereign Key); aprire le Silver gratuite e la Golden gratuita quando disponibile.",
+   "why": "Fonti gratuite garantite; non aprirle e' 'l'unico vero errore' della Tavern.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-12-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+      "hedvig_theme_commander_exp_5pct"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hold_golden_keys",
+   "when": "L'utente possiede Golden Keys NON gratuite-giornaliere e non c'e' un evento che premia le aperture",
+   "then": "Conservarle; proporre l'apertura quando parte un evento che conta le aperture.",
+   "why": "Le chiavi aperte in evento pagano due volte.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vip_chest",
+   "when": "Ogni giorno",
+   "then": "Riscuotere il forziere VIP (punti VIP; Universal Legendary a VIP 10/12/14). Non spendere le universali.",
+   "why": "Unica fonte giornaliera garantita di teste d'oro universali.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_10_12_14_daily_sculptures",
+      "vip6_second_builder"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs_690_440_340_240",
+      "vip_10_12_14",
+      "universal_sources",
+      "exceptions_minamoto_aethelflaed_hannibal",
+      "specific_sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "never_spend_sculptures_without_confirm",
+   "when": "Qualsiasi azione che consuma sculture (skill upgrade, scambio universali, donazioni Past Glory/Crusader Fortress, A Will to Skill)",
+   "then": "Mostrare comandante, skill attuali, costo e risultato atteso; procedere solo dopo conferma esplicita.",
+   "why": "Le sculture sono la risorsa piu' scarsa; lo spreco si recupera solo con eventi a gemme.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs",
+      "finish_first_skill",
+      "spreading_mistake",
+      "prime_separate"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1904121: Commander Swap FAQ)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2025-01-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "swap_tickets_100_gems_or_4.99",
+      "2_swaps",
+      "keeps_sculptures"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "protect_universal",
+   "when": "Sculture universali leggendarie in inventario",
+   "then": "Non convertirle mai automaticamente; suggerirle solo per il comandante obiettivo non ottenibile gratis in altro modo; mai per Aethelflaed, Minamoto, Hannibal (non accettate).",
+   "why": "Universali = teste d'oro piu' flessibili; alcuni comandanti non le accettano.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costs_690_440_340_240",
+      "vip_10_12_14",
+      "universal_sources",
+      "exceptions_minamoto_aethelflaed_hannibal",
+      "specific_sources"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_chest",
+      "tavern_rules",
+      "events",
+      "bot_rules"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "one_star_until_skill1",
+   "when": "Il comandante obiettivo e' a 1 stella e la skill 1 < 5",
+   "then": "Non proporre la promozione a 2 stelle; non dargli tomi; accumulare sculture finche' bastano per portare la skill 1 a 5.",
+   "why": "L'upgrade di skill e' casuale tra le skill sbloccate.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+     "site": "gamesguideinfo.com",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_requires_level",
+      "starlight_grades",
+      "skill_upgrade_random",
+      "daily_objectives_keys"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "epic_first",
+      "bank_legendary_until_max_skill",
+      "one_epic_first_skill"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "promote_after_skill_target",
+   "when": "La skill obiettivo del comandante e' a 5 e il comandante e' al cap di livello della stella",
+   "then": "Proporre la promozione usando Starlight Sculptures della rarita' giusta.",
+   "why": "Stelle = cap livello e skill successive.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_level_caps",
+      "guardians_no_ap",
+      "lohar_70",
+      "quick_study_15",
+      "order_star_before_30",
+      "exp_rune"
+     ]
+    },
+    {
+     "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+     "site": "gamesguideinfo.com",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_requires_level",
+      "starlight_grades",
+      "skill_upgrade_random",
+      "daily_objectives_keys"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ap_never_capped",
+   "when": "Action Points vicino al massimo",
+   "then": "Mandare la coppia di farm (Lohar/Peacekeeping) sui barbari del livello piu' alto pulibile senza perdite, con il comandante da livellare in marcia.",
+   "why": "AP al cap = XP persa.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    },
+    {
+     "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+     "site": "app.rokstats.online (game version 1.1.12.20)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_exp_10_20_30_50_70",
+      "aethelflaed_exp_5_10_17_25_35",
+      "boudica_exp_20",
+      "moctezuma_exp_5_25",
+      "diaochan_exp_5_25",
+      "quick_study_talent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "join_fort_rallies",
+   "when": "L'alleanza apre un rally a un forte barbaro",
+   "then": "Unirsi con la coppia di farm.",
+   "why": "XP, tomi e Books of Covenant gratis.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tomes_targeted",
+   "when": "L'utente vuole usare Tomes of Knowledge",
+   "then": "Suggerirli solo sul primario gia' deciso e che NON e' bloccato dal cap di stella.",
+   "why": "I tomi sono l'unica XP mirabile.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "expedition_daily",
+   "when": "Ogni giorno",
+   "then": "Riscuotere il forziere Expedition e comprare le sculture Aethelflaed (se nel piano) e l'epico in evidenza (se nel piano).",
+   "why": "Fonte gratuita giornaliera di sculture.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "medal_store",
+      "featured_epic_weekly",
+      "aethelflaed_daily_cap",
+      "constance",
+      "daily_chest_by_stars"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "up_to_3_per_day",
+      "no_universal",
+      "keep_1_star_until_arrow_of_iron_5",
+      "synergy_35"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mge_prepare",
+   "when": "L'MGE annunciato ha come premio un comandante del piano dell'utente",
+   "then": "Proporre un piano: regole del regno (fixed MGE), punti stimati da speedup/risorse accumulati, milestone raggiungibili; niente gemme.",
+   "why": "Ottenere sculture mirate senza svuotare le riserve KvK.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "stages",
+      "training_points",
+      "fixed_mge_rules",
+      "dont_spend_sculptures_tomes",
+      "decide_rank"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-win-mightiest-governor-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "training_points",
+      "gathering_points",
+      "power_2_points",
+      "save_speedups",
+      "fixed_mge",
+      "f2p_milestones"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mge_skip",
+   "when": "L'MGE premia un comandante fuori piano o l'utente non ha T5",
+   "then": "Solo milestone con attivita' normali; non spendere speedup di riserva.",
+   "why": "Riserve per KvK ed eventi migliori.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "6_stages_24h_final_48h",
+      "prepare_3_months",
+      "skip_without_t5"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-f2p-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "f2p_priority",
+      "epic_440_vs_690",
+      "hoard_speedups_kvk",
+      "collect_free_sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "no_gem_purchases",
+   "when": "Offerta di chiavi, spin, carte, sculture o ticket a gemme/soldi",
+   "then": "Non comprare; indicare l'alternativa gratuita; eventuale spesa di gemme guadagnate (es. More Than Gems 7.000/giorno) solo su richiesta esplicita.",
+   "why": "Obiettivo zero gemme.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "brand_new_starlight_60k_food_x20_vip4",
+      "dazzling_starlight_400k_wood_x5_vip5",
+      "universal_2000_gems_x20_vip13",
+      "epic_200_gems_x50_vip9"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/card-king-event-guide-and-schedule/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "2_free_flips",
+      "300_gems_per_flip",
+      "no_schedule"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/spring-symphony-and-esmeraldas-prayer-event-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_coin_sources",
+      "1200_gems_spin",
+      "race_against_time_now_materials"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-more-than-gems-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "7000_5",
+      "25000_13",
+      "26_over_two_days",
+      "no_fixed_date"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sovereign_keys_hold",
+   "when": "Sovereign Keys in inventario fuori da Legendary Tavern",
+   "then": "Conservarle; alla Legendary Tavern proporre l'apertura, possibilmente fino a 200 per scegliere il comandante.",
+   "why": "Le chiavi passano agli eventi successivi; la scelta arriva a 200 forzieri.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sovereign_keys",
+      "1_legendary_per_10_chests",
+      "choose_commander_at_200",
+      "2000_per_day",
+      "keys_roll_over",
+      "sovereign_keys_from_kvk"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "login_events",
+   "when": "Evento Sign-In/Check-In attivo",
+   "then": "Promemoria di login giornaliero fino al completamento.",
+   "why": "Comandanti leggendari o sculture gratis.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1782979: Update 1.0.86: Anchors Aweigh)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-09-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sign_in_spoils_7_days_legendary_commander"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1896244: Update 1.0.90: Return of the King)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-12-31",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "springtime_check_in_legendary_sculptures",
+      "sign_in_spoils_7_days",
+      "new_tavern_commanders_event",
+      "legendary_commander_swap"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lohar_trial",
+   "when": "Lohar's Trial attivo",
+   "then": "Farmare Bone Necklaces, usare relics coordinandosi con l'alleanza, partecipare ai rally su Lohar.",
+   "why": "Sculture Lohar gratis = +70% EXP.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohars-trial-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_sculptures_free",
+      "monthly"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "past_glory_guard",
+   "when": "Past Glory stadio 3 o Crusader Fortress chiedono sculture",
+   "then": "Escludere le sculture dei comandanti del piano; proporre solo sculture di comandanti non usati.",
+   "why": "Donazione irreversibile.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "past_glory_donation",
+      "honor_sources",
+      "conquest_coins"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1546002: Update 1.0.72: Heroic Tales)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2023-08-01",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "donate_sculptures_crusader_fortress"
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "silver_free_5_day",
+    "golden_free_every_2_days",
+    "save_golden_keys_for_events",
+    "starlight",
+    "key_sources",
+    "displayed_odds"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/tavern/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "free_silver_3_to_10_by_level",
+    "free_golden_cooldown_3d_lv1_2d_lv25"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sovereign_keys",
+    "1_legendary_per_10_chests",
+    "choose_commander_at_200",
+    "2000_per_day",
+    "keys_roll_over",
+    "sovereign_keys_from_kvk"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2179486: 1.1.02 Pachnotes: Winter's Embrace)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-12-12",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "daily_objective_chest_100_activity_golden_key_sovereign_in_soc",
+    "hedvig_theme_commander_exp_5pct"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2161435: version 1.1.01 Homestead Revel)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-11-08",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "golden_chests_pepin_casimir",
+    "advanced_special_offers",
+    "achilles_hector_legendary_tavern"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2139649: 1.1.00 Patchnotes: Song of Troy)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-09-30",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "a_will_to_skill_exchange_universal",
+    "happy_hundred_sign_in",
+    "21_days_kingdom"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1835007: Update 1.0.88: Giving Thanks)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2024-10-31",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "a_will_to_skill_use_universal",
+    "trial_commander_sculptures"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1896244: Update 1.0.90: Return of the King)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2024-12-31",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "springtime_check_in_legendary_sculptures",
+    "sign_in_spoils_7_days",
+    "new_tavern_commanders_event",
+    "legendary_commander_swap"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1782979: Update 1.0.86: Anchors Aweigh)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2024-09-12",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sign_in_spoils_7_days_legendary_commander"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2124406: Update 1.0.99: Elysian Feast)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-09-04",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sign_in_spoils_7_days_legendary_commander"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1497163: Update Patch Note 1.0.71: Ode to Greece)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2023-07-04",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sign_in_spoils_sculptures_new_commander",
+    "treasures_of_pyrrhus"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 2102690: Update 1.0.98 Island Mystery)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-11-14",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "advanced_daily_special_offer_paid"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1904121: Commander Swap FAQ)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2025-01-07",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "swap_tickets_100_gems_or_4.99",
+    "2_swaps",
+    "keeps_sculptures"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1546002: Update 1.0.72: Heroic Tales)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2023-08-01",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "donate_sculptures_crusader_fortress"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-09-19",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "costs_690_440_340_240",
+    "vip_10_12_14",
+    "universal_sources",
+    "exceptions_minamoto_aethelflaed_hannibal",
+    "specific_sources"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "cost_table",
+    "universal_sources",
+    "ark_10_every_two_weeks",
+    "rank1_20_in_build_research_train",
+    "arms_training_20",
+    "karuak_10",
+    "expedition_shop_2500_medals",
+    "post_summon_bundle_10_universal"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_10_12_14_daily_sculptures",
+    "vip6_second_builder"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-09-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "brand_new_starlight_60k_food_x20_vip4",
+    "dazzling_starlight_400k_wood_x5_vip5",
+    "universal_2000_gems_x20_vip13",
+    "epic_200_gems_x50_vip9"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "stages",
+    "training_points",
+    "fixed_mge_rules",
+    "dont_spend_sculptures_tomes",
+    "decide_rank"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-win-mightiest-governor-event/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-09-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "training_points",
+    "gathering_points",
+    "power_2_points",
+    "save_speedups",
+    "fixed_mge",
+    "f2p_milestones"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "6_stages_24h_final_48h",
+    "prepare_3_months",
+    "skip_without_t5"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-more-than-gems-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "7000_5",
+    "25000_13",
+    "26_over_two_days",
+    "no_fixed_date"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-dominate-more-than-gems-event/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-08-03",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "tiers_300_1000_3000_7000_25000",
+    "7000_5",
+    "25000_13",
+    "interval_varies"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/more-than-gems-event-guide/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "2_days",
+    "every_2_3_months",
+    "26_for_50k"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-wheel-of-fortune-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "paid_spins_conditions",
+    "sculptures_best_reward"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/card-king-event-guide-and-schedule/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "2_free_flips",
+    "300_gems_per_flip",
+    "no_schedule"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/spring-symphony-and-esmeraldas-prayer-event-guide/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "free_coin_sources",
+    "1200_gems_spin",
+    "race_against_time_now_materials"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohars-trial-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lohar_sculptures_free",
+    "monthly"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-lohar-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lohar_farming",
+    "peacekeeping_quick_study"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-best-epic-commanders-f2p",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "epic_first",
+    "bank_legendary_until_max_skill",
+    "one_epic_first_skill"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "costs",
+    "finish_first_skill",
+    "spreading_mistake",
+    "prime_separate"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-f2p-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "f2p_priority",
+    "epic_440_vs_690",
+    "hoard_speedups_kvk",
+    "collect_free_sources"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-alliance-shop-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sculptures_first",
+    "credits_sources",
+    "check_daily"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "medal_store",
+    "featured_epic_weekly",
+    "aethelflaed_daily_cap",
+    "constance",
+    "daily_chest_by_stars"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/aethelflaed-rise-of-kingdoms-guide-talents-pairings/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-08-06",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "up_to_3_per_day",
+    "no_universal",
+    "keep_1_star_until_arrow_of_iron_5",
+    "synergy_35"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "xp_sources_ranked",
+    "farming_loop",
+    "capped_ap",
+    "commander_reset_events",
+    "tomes_aim"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+   "site": "heaven-guardian.com",
+   "page_date": "2026-08-03",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "star_level_caps",
+    "guardians_no_ap",
+    "lohar_70",
+    "quick_study_15",
+    "order_star_before_30",
+    "exp_rune"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-leveling-guide/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lohar_aethelflaed_35",
+    "runes",
+    "vip_ap",
+    "cao_cao_5111"
+   ]
+  },
+  {
+   "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+   "site": "gamesguideinfo.com",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "star_requires_level",
+    "starlight_grades",
+    "skill_upgrade_random",
+    "daily_objectives_keys"
+   ]
+  },
+  {
+   "url": "https://app.rokstats.online/commanders/mulan",
+   "site": "app.rokstats.online (game version 1.1.12.20, generato 2026-09-26)",
+   "page_date": "2026-09-26",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "unlockStar_1_2_3_4",
+    "maxStar_6",
+    "khan_slayer_exp_15_30_45_70_95",
+    "obtain"
+   ]
+  },
+  {
+   "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+   "site": "app.rokstats.online (game version 1.1.12.20)",
+   "page_date": "2026-09-26",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lohar_exp_10_20_30_50_70",
+    "aethelflaed_exp_5_10_17_25_35",
+    "boudica_exp_20",
+    "moctezuma_exp_5_25",
+    "diaochan_exp_5_25",
+    "quick_study_talent"
+   ]
+  },
+  {
+   "url": "https://app.rokstats.online/commanders/<slug> (135 pagine comandanti)",
+   "site": "app.rokstats.online (game version 1.1.12.20)",
+   "page_date": "2026-09-26",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "obtain"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/strategia_routine.json",
+   "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+   "page_date": "2026-09-28",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_chest",
+    "tavern_rules",
+    "events",
+    "bot_rules"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+   "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+   "page_date": "2026-09-28",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "expedition_store",
+    "lohar_trial",
+    "osiris_league_shop",
+    "race_against_time",
+    "protect_supplies",
+    "ceroli_shop"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+   "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+   "page_date": "2026-09-28",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "past_glory_donation",
+    "honor_sources",
+    "conquest_coins"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/commanders.json",
+   "site": "military_advisor (dati gia' raccolti da allclash, riseofkingdomsguides, heaven-guardian, hokbuild, touchscreengaming)",
+   "page_date": "2026-09-28",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "f2p_friendly",
+    "skill_upgrade_order"
+   ]
+  },
+  {
+   "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/halloween-guide.html",
+   "site": "ldshop.gg",
+   "page_date": "2026-09-22",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "conquest_tavern_new_commanders",
+    "esmeralda_race_against_time_present"
+   ]
+  }
+ ],
+ "gaps": [
+  "Tabella premi MGE (sculture per rank e per milestone) e soglie di punti tipiche: non pubblicate dalle fonti consultate",
+  "XP per livello e totale fino al 60; XP dei Tomes of Knowledge",
+  "Numero di Starlight Sculptures per stella",
+  "Drop rate sculture leggendarie nelle Golden Chest",
+  "Premi in sculture di Golden Kingdom, Champions of Olympia, KvK honor, City Hall milestones",
+  "Lucerne Scrolls: nessuna fonte trovata",
+  "Tempo F2P per VIP 10",
+  "Costo in sculture per ogni livello di skill leggendaria (per calcolare 5-1-1-1 e 5-5-1-1 esatti)"
+ ],
+ "conflicts": [
+  {
+   "topic": "Silver chest gratuite al giorno",
+   "values": {
+    "riseofkingdomshandbook": "5 al giorno",
+    "riseofkingdomsguides": "da 3 (Tavern 1-4) a 10 (Tavern 25)"
+   },
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_silver_3_to_10_by_level",
+      "free_golden_cooldown_3d_lv1_2d_lv25"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Bonus EXP Lohar / Aethelflaed",
+   "values": {
+    "riseofkingdomsguides": "Lohar e Aethelflaed +35%",
+    "heaven-guardian": "Lohar fino a +70%; Aethelflaed Synergy fino a 35% (e Quick Study +15%)",
+    "rokstats (testo di gioco)": "Lohar 10-70%, Aethelflaed 5-35%"
+   },
+   "resolution": "testo di gioco rokstats",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-leveling-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_aethelflaed_35",
+      "runes",
+      "vip_ap",
+      "cao_cao_5111"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_level_caps",
+      "guardians_no_ap",
+      "lohar_70",
+      "quick_study_15",
+      "order_star_before_30",
+      "exp_rune"
+     ]
+    },
+    {
+     "url": "https://app.rokstats.online/commanders/lohar ; https://app.rokstats.online/commanders/aethelflaed ; https://app.rokstats.online/commanders/boudica ; https://app.rokstats.online/commanders/moctezuma-i ; https://app.rokstats.online/commanders/diaochan",
+     "site": "app.rokstats.online (game version 1.1.12.20)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lohar_exp_10_20_30_50_70",
+      "aethelflaed_exp_5_10_17_25_35",
+      "boudica_exp_20",
+      "moctezuma_exp_5_25",
+      "diaochan_exp_5_25",
+      "quick_study_talent"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Starlight Sculptures",
+   "values": {
+    "handbook": "'sculture universali' dirigibili su un comandante a scelta",
+    "gamesguideinfo/heaven-guardian VIP shop": "materiale di promozione stelle"
+   },
+   "resolution": "trattate come materiale stelle (due fonti); handbook probabilmente impreciso",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "silver_free_5_day",
+      "golden_free_every_2_days",
+      "save_golden_keys_for_events",
+      "starlight",
+      "key_sources",
+      "displayed_odds"
+     ]
+    },
+    {
+     "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/guide/commanders",
+     "site": "gamesguideinfo.com",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_requires_level",
+      "starlight_grades",
+      "skill_upgrade_random",
+      "daily_objectives_keys"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "brand_new_starlight_60k_food_x20_vip4",
+      "dazzling_starlight_400k_wood_x5_vip5",
+      "universal_2000_gems_x20_vip13",
+      "epic_200_gems_x50_vip9"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Sculture nell'Alliance Shop",
+   "values": {
+    "handbook": "sculture prima priorita', stock a rotazione",
+    "kvk_alleanza.json": "la tabella prezzi raccolta non contiene sculture"
+   },
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-alliance-shop-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sculptures_first",
+      "credits_sources",
+      "check_daily"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/kvk_alleanza.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "past_glory_donation",
+      "honor_sources",
+      "conquest_coins"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Race Against Time",
+   "values": {
+    "riseofkingdomsguides (Esmeralda)": "ora materiali leggendari invece di sculture",
+    "eventi_pve.json": "top 10 sculture leggendarie"
+   },
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/spring-symphony-and-esmeraldas-prayer-event-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free_coin_sources",
+      "1200_gems_spin",
+      "race_against_time_now_materials"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/eventi_pve.json",
+     "site": "military_advisor (dati gia' raccolti; fonti originali citate nel file)",
+     "page_date": "2026-09-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "expedition_store",
+      "lohar_trial",
+      "osiris_league_shop",
+      "race_against_time",
+      "protect_supplies",
+      "ceroli_shop"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Fasi MGE",
+   "values": {
+    "riseofkingdomsguides": "6 fasi: 5x24h + Final Sprint 48h",
+    "heaven-guardian": "5 fasi core + Final Sprint",
+    "handbook": "alcune guide commerciali recenti descrivono una fase di sviluppo comandanti non verificata"
+   },
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "6_stages_24h_final_48h",
+      "prepare_3_months",
+      "skip_without_t5"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-win-mightiest-governor-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "training_points",
+      "gathering_points",
+      "power_2_points",
+      "save_speedups",
+      "fixed_mge",
+      "f2p_milestones"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "stages",
+      "training_points",
+      "fixed_mge_rules",
+      "dont_spend_sculptures_tomes",
+      "decide_rank"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Primario o secondario nella farm",
+   "values": {
+    "handbook": "comandante da livellare come primario (prende i talenti)",
+    "heaven-guardian": "Lohar primario, bersaglio secondario"
+   },
+   "note": "Entrambi prendono il bonus EXP di Lohar",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-how-to-level-up-commanders-fast",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "xp_sources_ranked",
+      "farming_loop",
+      "capped_ap",
+      "commander_reset_events",
+      "tomes_aim"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_level_caps",
+      "guardians_no_ap",
+      "lohar_70",
+      "quick_study_15",
+      "order_star_before_30",
+      "exp_rune"
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "More Than Gems cadenza",
+   "values": {
+    "riseofkingdomsguides": "ogni 2-3 mesi",
+    "heaven-guardian/handbook": "nessun calendario fisso"
+   },
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/more-than-gems-event-guide/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "2_days",
+      "every_2_3_months",
+      "26_for_50k"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-dominate-more-than-gems-event/",
+     "site": "heaven-guardian.com",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "tiers_300_1000_3000_7000_25000",
+      "7000_5",
+      "25000_13",
+      "interval_varies"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-more-than-gems-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "7000_5",
+      "25000_13",
+      "26_over_two_days",
+      "no_fixed_date"
+     ]
+    }
+   ]
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "https://www.allclash.com/ (index e ricerca)",
+   "reason": "HTTP 403 a WebFetch e curl"
+  },
+  {
+   "url": "https://heaven-guardian.com/post-sitemap.xml",
+   "reason": "curl: connection reset; via WebFetch solo sommario parziale"
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/* via curl",
+   "reason": "pagina challenge JS da 1976 byte; usato WebFetch"
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-experience-and-leveling-calculator/",
+   "reason": "tabelle XP generate via JavaScript, non leggibili"
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-sculptures-calculator/",
+   "reason": "dati generati via JavaScript"
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-mge-mightiest-governor-event-calculator/",
+   "reason": "dati generati via JavaScript"
+  }
+ ]
+}

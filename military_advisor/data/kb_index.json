@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T10:53:01",
+  "generated": "2026-09-28T11:24:51",
   "groups": {
     "elite_adv.verified.json": {
       "records": 9,
@@ -2158,6 +2158,20 @@
       "verified": false,
       "conflicts": 13,
       "gaps": 17
+    },
+    "sculture_stelle": {
+      "file": "sculture_stelle.json",
+      "from": "sculture_stelle.json",
+      "verified": false,
+      "conflicts": 8,
+      "gaps": 8
+    },
+    "segreti_pro": {
+      "file": "segreti_pro.json",
+      "from": "segreti_pro.json",
+      "verified": false,
+      "conflicts": 5,
+      "gaps": 10
     },
     "strategia_attacco": {
       "file": "strategia_attacco.json",

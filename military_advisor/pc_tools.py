@@ -124,9 +124,35 @@ def to_screen(w, x: int, y: int):
     return w.left + int(x), w.top + int(y)
 
 
+_DIMENSIONI_ATTESE: Optional[tuple] = None
+
+
+def fissa_dimensioni(w) -> tuple:
+    """Memorizza le dimensioni attuali della finestra come quelle attese.
+
+    Le coordinate dei clic sono misurate su una finestra di una certa
+    dimensione e NON sono proporzionali: se la finestra viene ridimensionata
+    restano valide in apparenza ma puntano al posto sbagliato. Succede da solo,
+    senza che nessuno tocchi niente: spegnendo un monitor in DisplayPort
+    Windows lo considera scollegato e riorganizza le finestre.
+
+    Il controllo sul primo piano non basta a intercettarlo, perche' una
+    finestra ridimensionata resta davanti.
+    """
+    global _DIMENSIONI_ATTESE
+    _DIMENSIONI_ATTESE = (w.width, w.height)
+    return _DIMENSIONI_ATTESE
+
+
 def _controlla(w, x: int, y: int) -> None:
     if not foreground(w):
         raise RuntimeError("la finestra del gioco non e' in primo piano: non clicco")
+    if _DIMENSIONI_ATTESE and (w.width, w.height) != _DIMENSIONI_ATTESE:
+        raise RuntimeError(
+            f"la finestra e' cambiata di dimensione: {_DIMENSIONI_ATTESE[0]}x{_DIMENSIONI_ATTESE[1]} "
+            f"-> {w.width}x{w.height}. Le coordinate non valgono piu': mi fermo invece di "
+            "cliccare a caso. Rimisura le coordinate su uno screenshot nuovo."
+        )
     if not (0 <= x < w.width and 0 <= y < w.height):
         raise RuntimeError(f"punto ({x}, {y}) fuori dalla finestra {w.width}x{w.height}: non clicco")
 

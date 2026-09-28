@@ -108,6 +108,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     if not P.bring_to_front(w):
         print("[ERR] non riesco a portare davanti la finestra del gioco")
         return 1
+    print(f"[OK ] finestra {P.fissa_dimensioni(w)[0]}x{P.fissa_dimensioni(w)[1]}: "
+          "se cambia dimensione i clic si fermano")
 
     def guarda(nome: str = "_ultimo.png") -> Image.Image:
         return Image.open(P.screenshot_window(w, DEST / nome))
@@ -145,14 +147,13 @@ def main(argv: Optional[List[str]] = None) -> int:
             for y in righe:
                 for x in COLONNE:
                     P.click(w, x, y, 0.7)
-                    n = guarda().crop(NOME)
-                    # scarta i nomi gia' incontrati: lo scorrimento si
-                    # sovrappone, quindi le stesse voci tornano piu' volte
-                    f = list(n.convert("L").resize((48, 12), Image.LANCZOS).tobytes())
-                    if any(sum(abs(a - b) for a, b in zip(f, g)) / len(f) < 6 for g in visti):
-                        continue
-                    visti.append(f)
-                    nomi.append(n)
+                    # Si tiene OGNI nome letto, anche se ripetuto. Provare a
+                    # scartare i doppioni qui confrontando miniature del
+                    # riquadro del nome non funziona: a bassa risoluzione nomi
+                    # diversi sullo stesso sfondo collassano nella stessa
+                    # immagine, e il 28/09/2026 questo ha ridotto 25 voci a 7.
+                    # Le ripetizioni si tolgono leggendo i fogli.
+                    nomi.append(guarda().crop(NOME))
             if nomi:
                 foglio(pannello, nomi, DEST / f"{rarita.lower()}_{pagina:02d}.png")
                 print(f"  pagina {pagina}: {len(righe)} righe, {len(nomi)} nomi nuovi")

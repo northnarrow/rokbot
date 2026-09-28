@@ -29,8 +29,9 @@ Pergamena, uno Strumento, una Bandiera e un Emblema**. Cambiano i nomi, non la s
 
 | Formazione | Pergamena | Strumento | Bandiera | Emblema |
 |---|---|---|---|---|
-| **Arco** | Pergamena del nord | Corno del nord | Stendardo di battaglia del Nord | Emblema del Nord |
-| **Cuneo** | Epopee di Olimpia | Direttore del coro di Olimpia | Stendardo del Pantheon | Onori del Pantheon |
+| **Arco** ✓ | Pergamena del nord | Corno del nord | Stendardo di battaglia del Nord | Emblema del Nord |
+| **Cuneo** ✓ | Epopee di Olimpia | Direttore del coro di Olimpia | Stendardo del Pantheon | Onori del Pantheon |
+| **Linea tripla** ✓ | Volumi di Costantino | — | — | — |
 | **Cuneo II** | Messaggio dell'araldo | Strumento dell'araldo | Insegna dell'araldo | Marchio dell'araldo |
 | **V** | Cronache del drago | Tamburo di guerra imperiale | Stendardo del drago | Decreto imperiale |
 | **Sfalsata** | Un record di vendetta | Ode al guerriero | Gloria di battaglia | Sigillo di guerra |
@@ -39,11 +40,19 @@ Pergamena, uno Strumento, una Bandiera e un Emblema**. Cambiano i nomi, non la s
 
 *(tabella in costruzione: mancano le altre formazioni e le rarità Epico ed Élite)*
 
-**Come è stata ricavata, e cosa resta da confermare.** I nomi vengono dal Codice del gioco,
-letti uno per uno. L'abbinamento nome → formazione viene invece dall'**ordine dei gruppi nel
-pannello**, quindi è un'inferenza: se un gruppo venisse saltato, le righe slitterebbero tutte
-di una posizione. La verifica definitiva è nell'inventario (Articoli → Armamenti), dove il
-pannello di destra scrive la formazione sotto il nome, per esempio *"Per Formazione ad arco"*.
+**Come è stata ricavata.** I nomi vengono dal Codice del gioco, letti uno per uno.
+L'abbinamento nome → formazione viene dall'**ordine dei gruppi nel pannello**, quindi è
+un'inferenza: se un gruppo venisse saltato, le righe slitterebbero tutte di una posizione.
+
+**Verifica fatta.** Nell'inventario (Articoli → Armamenti) il gioco *scrive* la formazione
+sotto il nome. Confrontando 192 etichette lette lì con la tabella dedotta:
+
+- *Pergamena del nord* → "Per Formazione ad arco" ✓
+- *Epopee di Olimpia* → "Per Formazione a cuneo" ✓
+- *Volumi di Costantino* → "Per Formazione a linea tripla" (formazione non ancora coperta
+  dal Codice letto finora)
+
+Le righe segnate ✓ sono confermate da entrambe le fonti. Le altre restano dedotte.
 
 Quindi sapere **quali 4 pezzi ti servono** è immediato, una volta scelta la formazione.
 Tutto il resto del lavoro è procurarsi la copia migliore di ognuno.

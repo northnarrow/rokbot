@@ -1,5 +1,8 @@
 # Officina armamenti: come funziona (Formazioni, Armamenti, Iscrizioni, State Forum)
 
+> **Cerchi la guida da leggere? È `GUIDA_ARMAMENTI.md`.**
+> Questo file è il dossier: fonti, date, conflitti fra guide e cose non confermate.
+
 > **Stato: ricostruito da 32 fonti online e ricontrollato il 28/09/2026 su note ufficiali Lilith.**
 > **Il giro sul telefono è stato fatto il 28/09/2026 (test T08): il percorso dei menu e i nomi italiani dei pulsanti sono ora confermati sul client reale.** Vedi la sezione "Percorso confermato sul telefono".
 > Dati completi, ognuno con fonte e data: `data/armamenti.json`.

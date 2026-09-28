@@ -1,9 +1,9 @@
 # Officina armamenti: come funziona (Formazioni, Armamenti, Iscrizioni, State Forum)
 
-> **Stato: ricostruito da 32 fonti online e ricontrollato il 28/09/2026 su note ufficiali Lilith. Il giro sul telefono è ancora da fare.**
-> Nessuna fonte scritta conferma il percorso esatto dei menu né la posizione dei pulsanti.
-> Lo verifichiamo insieme col telefono collegato, prima di automatizzare qualsiasi cosa.
+> **Stato: ricostruito da 32 fonti online e ricontrollato il 28/09/2026 su note ufficiali Lilith.**
+> **Il giro sul telefono è stato fatto il 28/09/2026 (test T08): il percorso dei menu e i nomi italiani dei pulsanti sono ora confermati sul client reale.** Vedi la sezione "Percorso confermato sul telefono".
 > Dati completi, ognuno con fonte e data: `data/armamenti.json`.
+> Coordinate dei pulsanti: `riferimenti_ui/layout_1560x720.json`.
 
 ## In breve
 
@@ -127,11 +127,44 @@ Materiali rari che il bot non tocca mai senza il tuo sì:
 - L'inventario armamenti ha: blocco dei pezzi, ordinamento, icone delle formazioni compatibili, riciclo con password secondaria.
 - Esistono Transmute, Convert, Recycle, Wishlist, loadout per comandante (fino a 30) e scelta di 3 formazioni preferite per Travel e Dispatch.
 
-**Da verificare sul telefono:**
-- Il percorso esatto dei menu. Per esempio: Comandante → Formazione → Armamenti, oppure State Forum → Armament.
-- Nome e posizione dei pulsanti.
-- Dove si trova l'Armament Shop.
+**Ancora da verificare sul telefono:**
 - I valori attuali di Wedge e Pincer.
+- Dove stanno Transmute e Convert: nella schermata Formazione non compaiono, potrebbero essere dentro il Negozio degli armamenti o legati alla password secondaria.
+- Il contenuto del Negozio degli armamenti e i suoi prezzi.
+
+## 7b. Percorso confermato sul telefono (test T08 del 28/09/2026)
+
+Client in **italiano**, schermo 1560x720. Non è servito passare dallo State Forum: l'officina
+si apre direttamente dal comandante.
+
+**Menu → Comandante → icona Formazione** (l'icona dorata a quattro nodi sul fianco destro del
+comandante, sotto l'albero dei talenti).
+
+Nomi italiani dei pulsanti, prima sconosciuti:
+
+| Inglese | Italiano | Dove |
+|---|---|---|
+| Travel | **Viaggiare** | pannello Fonte, pulsante "Vai" |
+| Dispatch | **Spedisci** | pannello Fonte, pulsante "Vai" |
+| Armament Shop | **Negozio degli armamenti** | pannello Fonte, pulsante "Vai" |
+| Recycle | **Ricicla** | schermata Formazione, in basso a destra |
+| Wishlist | **Lista dei desideri** | schermata Formazione, in basso a destra |
+| Codex | **Codice** | schermata Formazione, in basso a destra |
+
+**Schermata Formazione:** mostra il nome della formazione, il suo bonus, i 4 slot attorno al
+comandante e la lista "Info armamento" con i bonus sommati. Esempio letto su Scipione
+l'Africano: *Formazione a cuneo*, +12% danni da abilità.
+
+**Slot armamento → "Seleziona armamento":** nome, formazione compatibile, iscrizione
+("Nessuna inscrizione" se vuoto), i **3 attributi**, il comandante che lo equipaggia e il totale
+posseduto. Esempio: *Epopee di Olimpia*, raccolta oro +7,2%, difesa fanteria +3,3%, riduzione
+danni dai barbari +6,8%. Pulsanti **Potenzia** e **Rimuovi**: entrambi da non premere senza
+conferma.
+
+**Codice:** catalogo di sola lettura di tutti gli armamenti, diviso per rarità
+(Leggendario / Epico / Élite) e raggruppato per formazione (ad arco, a cuneo, a V), con
+l'elenco completo delle iscrizioni e un pulsante **Fonte** per ogni pezzo. È la fonte interna
+al gioco da usare per riempire `data/armamenti.json` al posto delle fonti online.
 
 ## 8. Cosa propongo di automatizzare, dopo il tuo ok sul giro manuale
 

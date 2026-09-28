@@ -84,7 +84,9 @@ def main(argv=None) -> int:
         for s in rep["steps"]:
             mark = "OK " if s["ok"] else "ERR"
             print(f"[{mark}] {s['step']}: {s.get('value') if s['ok'] else s.get('error')}")
-        print(f"Rise of Kingdoms in primo piano: {'SI' if rep.get('rok_in_foreground') else 'NO'}")
+        ok = rep.get("rok_in_foreground")
+        print(f"Rise of Kingdoms visibile e pronto ai tocchi: {'SI' if ok else 'NO'}"
+              + (f" ({rep['motivo']})" if not ok and rep.get("motivo") else ""))
         return 0 if all(s["ok"] for s in rep["steps"]) else 1
     if args.cmd in ("rules", "daily"):
         from .strategies import StrategyBook

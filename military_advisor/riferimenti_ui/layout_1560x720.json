@@ -1,0 +1,170 @@
+{
+  "_nota": "Coordinate misurate sul telefono reale durante i test T01-T16 del 28/09/2026. Il gioco forza l'orientamento orizzontale: 'wm size' riporta 720x1560 (verticale) ma lo screenshot e i tocchi lavorano a 1560x720. Ogni riquadro e' [x1, y1, x2, y2]; ogni punto e' [x, y]. Tutto nello spazio dello screenshot.",
+  "dispositivo_test": {
+    "modello": "SM-S938B",
+    "android": "16",
+    "wm_size": [720, 1560],
+    "densita": 300,
+    "rotazione": "ROTATION_90",
+    "schermo_logico_col_gioco": [1560, 720],
+    "screenshot_col_gioco": [1560, 720],
+    "screenshot_bloccato": [720, 1560]
+  },
+  "lingua_client": "it",
+
+  "rilevamento_stato": {
+    "_nota": "Il controllo del pacchetto in primo piano NON basta: con lo schermo bloccato 'dumpsys window' continua a riportare com.lilithgame.roc.gp come mCurrentFocus. Verificato in T16. L'indicatore affidabile e' la forma dello screenshot.",
+    "gioco_visibile": "screenshot 1560x720 (orizzontale)",
+    "schermo_bloccato_o_interfaccia_di_sistema": "screenshot 720x1560 (verticale)",
+    "citta_o_mappa": {
+      "riquadro_pulsante": [55, 600, 165, 710],
+      "icona_mappa": "siamo nella vista citta'",
+      "icona_castello": "siamo sulla mappa del regno"
+    }
+  },
+
+  "barra_risorse": {
+    "_nota": "In alto a destra. Lo sfondo e' semitrasparente sulla scena animata: fare OCR solo sul testo chiaro. ATTENZIONE: il gioco ha un ciclo giorno/notte e di sera il testo si scurisce. Con soglia min(R,G,B) > 200 i pixel di testo passano da ~805 di giorno a ~589 di sera: la soglia va adattata alla luminosita', non fissata.",
+    "striscia": [880, 0, 1560, 42],
+    "celle": {
+      "cibo":   [886, 2, 1006, 40],
+      "legno":  [1006, 2, 1130, 40],
+      "pietra": [1130, 2, 1250, 40],
+      "oro":    [1250, 2, 1370, 40],
+      "gemme":  [1370, 2, 1500, 40]
+    },
+    "formato_valori": "abbreviato con M/K per le quattro risorse; le gemme sono un numero esatto con il punto come separatore delle migliaia (29.756 = 29756)"
+  },
+
+  "hud_alto_sinistra": {
+    "avatar": [20, 5, 120, 100],
+    "avatar_tocco": [90, 50],
+    "potenza": [130, 5, 310, 40],
+    "eta": [315, 8, 420, 38],
+    "vip": [140, 48, 225, 80],
+    "orologio_utc": [140, 85, 285, 108]
+  },
+
+  "vista_citta": {
+    "pulsante_mappa": [105, 655],
+    "menu_principale": [1464, 668],
+    "voci_menu": {
+      "_nota": "Compaiono solo dopo aver toccato menu_principale.",
+      "campagna":   [960, 670],
+      "articoli":   [1061, 670],
+      "alleanza":   [1162, 670],
+      "comandante": [1263, 670],
+      "mail":       [1363, 670]
+    },
+    "menu_radiale_edificio": {
+      "_nota": "Compare toccando un edificio, centrato sotto di esso: i valori sono lo scostamento dal punto toccato, misurati su Scuderia liv. 25 toccata in (330, 425).",
+      "informazioni": [-31, 93],
+      "accelera":     [67, 108],
+      "addestra":     [168, 93]
+    }
+  },
+
+  "profilo_governatore": {
+    "apertura": [90, 50],
+    "chiusura": [1303, 71],
+    "schede": {
+      "piu_informazioni": [332, 600],
+      "classifica":       [511, 600],
+      "comandante":       [690, 600],
+      "truppe":           [868, 600],
+      "traguardi":        [1047, 600],
+      "impostazioni":     [1226, 600]
+    },
+    "finestra_truppe_chiusura": [1256, 43]
+  },
+
+  "impostazioni": {
+    "chiusura": [1253, 44],
+    "versione_testo": [500, 78, 1200, 100],
+    "punteggio_condotta": [871, 555],
+    "account": [678, 380]
+  },
+
+  "comandanti": {
+    "indietro": [89, 38],
+    "pannello_elenco": [50, 120, 330, 650],
+    "tile": [[118, 190], [240, 190], [118, 330], [240, 330], [118, 470], [240, 470]],
+    "scorri_giu": [180, 560, 180, 180, 700],
+    "scorri_su":  [180, 180, 180, 560, 700],
+    "pannello_info": [1020, 85, 1560, 550],
+    "icona_talenti": [1042, 235],
+    "icona_formazione": [1042, 353],
+    "icona_equipaggiamento": [1042, 487],
+    "_nota_nomi": "Il nome NON e' univoco: esistono due 'Scipione l'Africano', il leggendario 'Eroe di Zama' (liv. max 60) e l'epico 'Lame di Guerra' (liv. max 50). L'epiteto sopra il nome e' obbligatorio per distinguerli."
+  },
+
+  "officina_armamenti": {
+    "_nota": "Percorso confermato in T08: menu principale -> Comandante -> icona_formazione. Non serve passare dallo State Forum.",
+    "formazione": {
+      "indietro": [87, 38],
+      "nome_formazione": [1170, 55, 1500, 85],
+      "bonus_formazione": [1170, 105, 1500, 150],
+      "info_armamento": [1170, 250, 1500, 550],
+      "slot": [[490, 245], [900, 245], [490, 545], [900, 545]],
+      "lista_desideri": [1196, 650],
+      "codice": [1311, 650],
+      "ricicla": [1425, 650]
+    },
+    "seleziona_armamento": {
+      "indietro": [87, 38],
+      "filtro": [147, 102],
+      "ordina": [313, 102],
+      "confronta": [1336, 30],
+      "totale_posseduti": [150, 650, 310, 675],
+      "nome": [1170, 95, 1500, 125],
+      "iscrizione": [1170, 170, 1500, 230],
+      "attributi": [1170, 255, 1500, 350],
+      "equipaggiato_a": [1170, 395, 1500, 420],
+      "potenzia": [1239, 598],
+      "rimuovi": [1393, 598]
+    },
+    "codice": {
+      "indietro": [87, 38],
+      "schede_rarita": {"leggendario": [119, 102], "epico": [228, 102], "elite": [339, 102]},
+      "elenco": [60, 130, 400, 670],
+      "nome": [1140, 100, 1500, 140],
+      "iscrizioni": [1140, 215, 1500, 515],
+      "fonte": [1318, 617]
+    },
+    "fonte": {
+      "chiusura": [1231, 83],
+      "viaggiare": [1128, 240],
+      "spedisci": [1128, 355],
+      "negozio_armamenti": [1128, 470]
+    },
+    "nomi_italiani": {
+      "Travel": "Viaggiare",
+      "Dispatch": "Spedisci",
+      "Armament Shop": "Negozio degli armamenti",
+      "Recycle": "Ricicla",
+      "Wishlist": "Lista dei desideri",
+      "Codex": "Codice"
+    }
+  },
+
+  "mappa_del_regno": {
+    "pulsante_citta": [105, 655],
+    "lente_ricerca": [105, 540],
+    "barra_coordinate": [305, 8, 500, 32],
+    "ricerca": {
+      "categoria_barbari": [393, 635],
+      "meno_livello": [234, 388],
+      "piu_livello": [585, 388],
+      "cerca": [410, 475]
+    }
+  },
+
+  "mai_toccare": {
+    "_nota": "Zone che il blocco di sicurezza deve rifiutare sempre.",
+    "acquisto_gemme": [1478, 4, 1510, 38],
+    "attacco_su_bersaglio_mappa": [930, 450, 1120, 515],
+    "accelera_edificio": "pulsante centrale del menu radiale dell'edificio",
+    "addestra_edificio": "pulsante destro del menu radiale dell'edificio",
+    "account_nelle_impostazioni": [600, 340, 760, 450]
+  }
+}

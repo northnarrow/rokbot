@@ -2792,19 +2792,25 @@
     ]
   },
   "ui_flow": {
-    "verified_it": [
-      "State Forum (edificio in citta'): da qui si fanno Travel e Dispatch (1.0.62). Pulsanti ufficiali 'Travel x10' e 'Quick Dispatch' aggiunti allo State Forum con 1.0.91 (live 2025-02-10). Animazioni di viaggio saltabili dal 1.0.67.",
-      "Funzione di auto-riciclo nel Travel dello State Forum: gli armamenti ottenuti viaggiando che rispettano le condizioni scelte vengono riciclati automaticamente (1.0.87).",
-      "Prima di Travel/Dispatch si selezionano 3 formazioni preferite; ogni armamento ottenuto e' garantito per una di esse (1.0.79).",
-      "Interfaccia 'Formations': da qui si imposta la Wishlist (un armamento per formazione) e si vede la barra di progresso della garanzia iscrizione speciale (1.0.85).",
-      "La formazione si seleziona per un comandante quando e' in citta'; fino a 4 armamenti equipaggiabili; formazione/armamenti del secondario non hanno effetto.",
-      "Interfaccia di riciclo armamenti ('armament recycling interface'): ordinamento per data e contatore delle transmutation (1.0.93). Il riciclo richiede la password secondaria; lock dall'inventario (1.0.66).",
-      "Funzioni: Transmute (lock 0-2 attributi, scelta tenere/ripristinare), Conversion (Conversion Stone; acquistabili nello 'Shop' se hai costruito lo State Forum, 1.0.91), Recycle, Honing (1.1.03), Loadout armamenti (1.0.71; interazione ottimizzata in 1.1.04), condivisione in chat (1.0.84).",
-      "Dispatch: le chance si resettano ogni giorno alle 00:00 UTC; dopo 15 dispatch completati si riceve la Dispatch Commendation. Da 1.1.08 l'opzione di dispatch che premia Conversion Stone Fragments e' mostrata per prima."
-    ],
+    "verified_it": {
+      "verificato_il": "2026-09-28",
+      "come": "telefono reale, client italiano 1560x720, test T08",
+      "percorso": "Menu principale -> Comandante -> icona Formazione (l'icona dorata a quattro nodi sul fianco destro del comandante). Non serve aprire lo State Forum, che resta l'edificio che sblocca il sistema.",
+      "pulsanti": {
+        "Travel": "Viaggiare",
+        "Dispatch": "Spedisci",
+        "Armament Shop": "Negozio degli armamenti",
+        "Recycle": "Ricicla",
+        "Wishlist": "Lista dei desideri",
+        "Codex": "Codice",
+        "Upgrade": "Potenzia",
+        "Unequip": "Rimuovi"
+      },
+      "note": "Viaggiare, Spedisci e Negozio degli armamenti compaiono nel pannello 'Fonte', raggiungibile da Codice -> Fonte, ognuno con un pulsante 'Vai'. Coordinate in riferimenti_ui/layout_1560x720.json.",
+      "codice": "La schermata 'Codice' e' il catalogo interno al gioco di tutti gli armamenti, diviso per rarita' (Leggendario/Epico/Elite) e raggruppato per formazione, con l'elenco completo delle iscrizioni e la fonte di ogni pezzo."
+    },
     "unverified_it": [
-      "Percorso esatto dei menu (es. Comandante -> Formazione -> Armamenti) e nome esatto dei pulsanti Recycle/Transmute/Convert/Hone: NON confermati testualmente (le patch note citano solo 'Formations interface', 'armament recycling interface', 'State Forum', 'Shop').",
-      "Posizione dell'Armament Shop nella UI: non verificata."
+      "Nome esatto dei pulsanti Transmute/Convert/Hone: non ancora trovati sul client italiano. Nella schermata Formazione ci sono solo Lista dei desideri, Codice e Ricicla; Transmute e Convert vanno cercati nel Negozio degli armamenti."
     ],
     "sources": [
       {

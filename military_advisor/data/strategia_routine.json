@@ -917,7 +917,7 @@
     },
     {
       "order": 17,
-      "task": "Armamenti: State Forum -> Travel e Dispatch giornalieri",
+      "task": "Armamenti: Viaggiare e Spedisci giornalieri (Menu -> Comandante -> Formazione -> Codice -> Fonte; percorso verificato sul client italiano il 28/09/2026)",
       "reset": "giornaliero (Luck e chance si azzerano al reset del server)",
       "value": "Travel sbloccato a State Forum 1 (5 viaggi/giorno, fino a 20 al livello 24-25), 20 AP a viaggio ('Travel x10' = 200 AP). Dispatch sbloccato a State Forum 10 (3/giorno, fino a 8), 30-150 AP a seconda della rarita'; dopo 15 dispatch riusciti la Dispatch Commendation chest garantisce un armamento Epic/Legendary o 100 Sage's Testimony. Premi: armamenti e Sage's Testimony (serve per salire di State Forum). Dal 1.0.79 si scelgono 3 formazioni preferite. Oltre i viaggi gratuiti con AP esistono viaggi extra in gemme: vietati.",
       "bot_rule": "IF lo State Forum ha viaggi con AP rimasti oggi AND (AP disponibili - 20*viaggi) >= riserva AP per i barbari/eventi THEN usa 'Travel' (x10 se ne restano >=10) con i comandanti raccomandati del giorno. IF ci sono Dispatch disponibili THEN usa 'Quick Dispatch' soddisfacendo i requisiti. Imposta prima le 3 formazioni preferite scelte dall'utente. NEVER viaggi extra in gemme. Riciclo/Transmutation/Conversion degli armamenti e spesa di Sage's Testimony per l'upgrade -> conferma.",

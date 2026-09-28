@@ -22,13 +22,30 @@ Tre cose da tenere a mente fin da subito:
 3. Gli attributi sono **casuali**. Due copie dello stesso armamento possono valere molto
    diversamente. È qui che si gioca la partita.
 
+### I 4 slot sono sempre gli stessi quattro tipi
+
+Verificato nel Codice del gioco il 28/09/2026: ogni formazione ha esattamente **una
+Pergamena, uno Strumento, una Bandiera e un Emblema**. Cambiano i nomi, non la struttura.
+
+| Formazione | Pergamena | Strumento | Bandiera | Emblema |
+|---|---|---|---|---|
+| **Arco** | Pergamena del nord | Corno del nord | Stendardo di battaglia del Nord | Emblema del Nord |
+| **Cuneo** | Epopee di Olimpia | Direttore del coro di Olimpia | Stendardo del Pantheon | Onori del Pantheon |
+| **Cuneo II** | Messaggio dell'araldo | Strumento dell'araldo | Insegna dell'araldo | Marchio dell'araldo |
+| **V** | Cronache del drago | Tamburo di guerra imperiale | Stendardo del drago | Decreto imperiale |
+
+*(tabella in costruzione: mancano le altre formazioni e le rarità Epico ed Élite)*
+
+Quindi sapere **quali 4 pezzi ti servono** è immediato, una volta scelta la formazione.
+Tutto il resto del lavoro è procurarsi la copia migliore di ognuno.
+
 ---
 
 ## Le formazioni
 
 | Formazione | Bonus | A cosa serve |
 |---|---|---|
-| **Cuneo** (Wedge) | +5% danno da abilità | La più usata. Quasi tutti i nuke sono abilità |
+| **Cuneo** (Wedge) | +12% danno da abilità *(letto sul client)* | La più usata. Quasi tutti i nuke sono abilità |
 | **Cuneo II** | +12% danno da abilità | Versione potenziata, per chi ha già investito sul Cuneo |
 | **Arco** (Arch) | +5% danno da attacco normale | Comandanti che picchiano di attacco base, non di abilità |
 | **Linea** (Line) | +10% velocità di raccolta | Raccolta. È la formazione dei raccoglitori |

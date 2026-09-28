@@ -100,6 +100,72 @@ def screenshot_window(w, dest: Path, richiedi_primo_piano: bool = True) -> Path:
     return dest
 
 
+# ----------------------------------------------------------------- puntatore
+# I clic usano coordinate RELATIVE alla finestra, cioe' le stesse che si
+# leggono sullo screenshot salvato da screenshot_window(). Cosi' un punto
+# misurato su un'immagine si puo' cliccare senza conversioni a mano, e resta
+# valido anche se la finestra viene spostata.
+
+_MOUSE_SINISTRO_GIU = 0x0002
+_MOUSE_SINISTRO_SU = 0x0004
+_MOUSE_ROTELLA = 0x0800
+
+
+def _user32():
+    import ctypes
+
+    if sys.platform != "win32":
+        raise RuntimeError("i clic sul client PC funzionano solo su Windows")
+    return ctypes.windll.user32
+
+
+def to_screen(w, x: int, y: int):
+    """Da coordinate dello screenshot a coordinate dello schermo."""
+    return w.left + int(x), w.top + int(y)
+
+
+def _controlla(w, x: int, y: int) -> None:
+    if not foreground(w):
+        raise RuntimeError("la finestra del gioco non e' in primo piano: non clicco")
+    if not (0 <= x < w.width and 0 <= y < w.height):
+        raise RuntimeError(f"punto ({x}, {y}) fuori dalla finestra {w.width}x{w.height}: non clicco")
+
+
+def click(w, x: int, y: int, attesa: float = 0.9) -> None:
+    """Clic singolo dentro la finestra del gioco, in coordinate dello screenshot.
+
+    Si rifiuta di cliccare se la finestra non e' davanti o se il punto cade
+    fuori: un clic a vuoto fuori dalla finestra finirebbe su un'altra
+    applicazione, e un clic mentre il gioco e' dietro non arriva al gioco.
+    """
+    import time
+
+    _controlla(w, x, y)
+    u = _user32()
+    sx, sy = to_screen(w, x, y)
+    u.SetCursorPos(sx, sy)
+    time.sleep(0.05)
+    u.mouse_event(_MOUSE_SINISTRO_GIU, 0, 0, 0, 0)
+    time.sleep(0.05)
+    u.mouse_event(_MOUSE_SINISTRO_SU, 0, 0, 0, 0)
+    time.sleep(attesa)
+
+
+def scroll(w, x: int, y: int, tacche: int, attesa: float = 0.6) -> None:
+    """Rotella del mouse sul punto indicato. Tacche negative = verso il basso."""
+    import time
+
+    _controlla(w, x, y)
+    u = _user32()
+    sx, sy = to_screen(w, x, y)
+    u.SetCursorPos(sx, sy)
+    time.sleep(0.05)
+    for _ in range(abs(tacche)):
+        u.mouse_event(_MOUSE_ROTELLA, 0, 0, 120 if tacche > 0 else -120, 0)
+        time.sleep(0.05)
+    time.sleep(attesa)
+
+
 def pc_report(out_dir: Path) -> Dict[str, object]:
     rep: Dict[str, object] = {"steps": []}
 

@@ -1,0 +1,89 @@
+{
+  "_nota": "Coordinate del client PC ufficiale, misurate il 28/09/2026 su finestra 1796x1040. Sono RELATIVE alla finestra, cioe' le stesse che si leggono sullo screenshot salvato da pc_tools.screenshot_window(): il punto (0,0) e' l'angolo in alto a sinistra della finestra, barra del titolo inclusa. pc_tools.click() accetta direttamente questi valori. ATTENZIONE: non sono proporzionali; se la finestra cambia dimensione vanno rimisurate.",
+  "finestra_di_riferimento": {"larghezza": 1796, "altezza": 1040},
+
+  "_avvertenza_screenshot": "mss cattura l'area di schermo della finestra, non il suo contenuto. Se il gioco non e' in primo piano lo screenshot riprende cio' che gli sta davanti, e nessun controllo se ne accorge. Usare sempre pc_tools.bring_to_front() prima di catturare: screenshot_window() ora si rifiuta di scattare se la finestra e' dietro.",
+
+  "vista_citta": {
+    "_nota": "Il client PC mostra le scorciatoie da tastiera sui pulsanti in basso a destra.",
+    "campagna": {"punto": [1264, 987], "tasto": "U"},
+    "articoli": {"punto": [1350, 987], "tasto": "I"},
+    "alleanza": {"punto": [1436, 987], "tasto": "O"},
+    "comandante": {"punto": [1521, 987], "tasto": "P"},
+    "posta": {"punto": [1606, 987], "tasto": "M"},
+    "mappa": {"punto": [1716, 968], "tasto": "Spazio"},
+    "costruisci": {"punto": [1735, 866], "tasto": "B"},
+    "barra_risorse": [1190, 40, 1790, 70]
+  },
+
+  "articoli": {
+    "schede": {
+      "risorse": [354, 181], "acceleratori": [567, 181], "incrementi": [779, 181],
+      "equipaggiamento": [991, 181], "armamenti": [1205, 181], "altro": [1417, 181]
+    },
+    "chiusura": [1545, 181],
+    "conteggio_posseduti": [300, 235, 520, 262],
+    "ordinamento": [980, 247],
+    "griglia": {
+      "prima_casella": [321, 358],
+      "passo_x": 154,
+      "passo_y": 147,
+      "colonne": 6
+    },
+    "pannello_dettaglio": {
+      "nome": [1230, 440, 1570, 480],
+      "formazione": [1230, 485, 1570, 515],
+      "iscrizioni": [1240, 530, 1560, 600],
+      "attributi": [1240, 600, 1570, 730]
+    },
+    "_nota_icone": "I piccoli rombi sull'icona della casella indicano il numero di iscrizioni: un rombo = una, due rombi = due. Si contano dalla griglia senza selezionare nulla."
+  },
+
+  "formazione": {
+    "indietro": [47, 69],
+    "nome_formazione": [1450, 220, 1790, 260],
+    "bonus": [1450, 285, 1790, 335],
+    "info_armamento": [1450, 425, 1790, 715],
+    "slot": [[622, 421], [1020, 421], [622, 707], [1020, 707]],
+    "lista_desideri": [1481, 965],
+    "codice": [1592, 965],
+    "ricicla": [1702, 965]
+  },
+
+  "codice": {
+    "_nota": "Catalogo di sola lettura di tutti gli armamenti del gioco, diviso per rarita' e raggruppato per formazione.",
+    "schede_rarita": {"leggendario": [78, 282], "epico": [184, 282], "elite": [291, 282]},
+    "pannello": [20, 260, 350, 1035],
+    "colonne_voci": [64, 144, 223, 303],
+    "punto_rotella": [185, 700],
+    "nome_selezionato": [1420, 255, 1796, 358],
+    "elenco_iscrizioni": [1430, 385, 1790, 690],
+    "fonte": [1598, 780],
+    "sonda_fonte": {
+      "riquadro": [1520, 760, 1680, 800],
+      "atteso": "azzurro pieno, circa (7, 184, 241)",
+      "uso": "riconosce la schermata Codice prima di cliccare"
+    }
+  },
+
+  "fonte": {
+    "viaggiare": "pulsante Vai della prima riga",
+    "spedisci": "pulsante Vai della seconda riga",
+    "negozio_armamenti": "pulsante Vai della terza riga"
+  },
+
+  "mai_cliccare": {
+    "_nota": "Pulsanti che cambiano lo stato dell'account. Il bot non deve toccarli senza conferma esplicita del proprietario.",
+    "articoli_potenzia": [1304, 823],
+    "articoli_ricicla": [1473, 823],
+    "formazione_ricicla": [1702, 965],
+    "acquisto_gemme": [1770, 55]
+  },
+
+  "osservazioni_dal_gioco": {
+    "formazione_a_cuneo_bonus": "+12% danni da abilita' (letto sul client il 28/09/2026). Il dossier riportava 5% per il Cuneo base e 12% per il Cuneo II: il valore osservato e' quello alto.",
+    "slot_per_formazione": "Ogni formazione ha esattamente 4 slot, sempre degli stessi quattro tipi: Pergamena, Strumento, Bandiera, Emblema. Ogni slot accetta solo l'armamento di quel tipo per quella formazione.",
+    "inventario_armamenti": "Posseduto 594 su un tetto di 2.000 (28/09/2026, dopo il riciclo degli Elite).",
+    "pietre_di_trasmutazione": 76
+  }
+}

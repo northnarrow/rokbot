@@ -41,11 +41,56 @@ def window_info(w) -> Dict[str, object]:
             "minimized": bool(getattr(w, "isMinimized", False)), "active": bool(getattr(w, "isActive", False))}
 
 
-def screenshot_window(w, dest: Path) -> Path:
+def foreground(w) -> bool:
+    return bool(getattr(w, "isActive", False))
+
+
+def bring_to_front(w, attesa: float = 0.2, tentativi: int = 10) -> bool:
+    """Porta davanti la finestra del gioco.
+
+    È l'unico effetto di questo modulo sul sistema: cambia quale finestra ha il
+    fuoco. Non manda nessun clic né tasto al gioco.
+    """
+    import time
+
+    try:
+        if getattr(w, "isMinimized", False):
+            w.restore()
+        w.activate()
+    except Exception:  # noqa: BLE001
+        # Su Windows activate() a volte viene rifiutato: il giro
+        # riduci-e-ripristina di solito ottiene lo stesso risultato.
+        try:
+            w.minimize()
+            w.restore()
+        except Exception:  # noqa: BLE001
+            pass
+    for _ in range(tentativi):
+        if foreground(w):
+            return True
+        time.sleep(attesa)
+    return foreground(w)
+
+
+def screenshot_window(w, dest: Path, richiedi_primo_piano: bool = True) -> Path:
+    """Salva uno screenshot della finestra del gioco.
+
+    ``mss`` cattura l'AREA DI SCHERMO occupata dalla finestra, non il contenuto
+    della finestra: se davanti c'è dell'altro, nello screenshot finisce quello.
+    Senza il controllo sul primo piano questa funzione restituisce felicemente
+    l'immagine del terminale o del browser, e chi la chiama non se ne accorge.
+    Verificato il 28/09/2026: con il gioco dietro, lo screenshot conteneva
+    l'editor e il prompt dei comandi, mentre il controllo diceva OK.
+    """
     mss = _need("mss")
     import mss.tools  # noqa: F401
     if getattr(w, "isMinimized", False):
         raise RuntimeError("la finestra del gioco è ridotta a icona: riaprila (uno screenshot di una finestra ridotta è nero)")
+    if richiedi_primo_piano and not foreground(w):
+        raise RuntimeError(
+            "la finestra del gioco non è in primo piano: lo screenshot riprenderebbe "
+            "quello che le sta davanti. Usa bring_to_front() prima di catturare."
+        )
     dest = Path(dest)
     dest.parent.mkdir(parents=True, exist_ok=True)
     with mss.mss() as sct:
@@ -74,6 +119,11 @@ def pc_report(out_dir: Path) -> Dict[str, object]:
     if w is None:
         return rep
     step("posizione e dimensioni", lambda: window_info(w))
+    davanti = step("finestra in primo piano", lambda: bring_to_front(w) or (_ for _ in ()).throw(
+        RuntimeError("non sono riuscito a portarla davanti: clicca tu sulla finestra del gioco e rilancia")))
+    if not davanti:
+        rep["ok"] = False
+        return rep
     shot = step("screenshot della finestra", lambda: str(screenshot_window(w, Path(out_dir) / "pc_screenshot_test.png")))
     rep["ok"] = bool(shot)
     return rep

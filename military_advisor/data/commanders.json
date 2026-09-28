@@ -308,7 +308,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555 (sweetspot 5555); hokbuild 5-5-5-5; meta-rok 1>2>3>4",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash) / Delta (meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm + Windswept Breastplate + Vanguard Halberd; Advanced Expedition War Helm + Windswept Breastplate + Heart of the Saint; Progressed Expedition War Helm + Heavy Armor of the Hellish Wasteland + Heart of the Saint; Maximum Pride of the Khan + Heavy Armor of the Hellish Wasteland + Sacred Dominion. hokbuild: set Dragon's Breath completo. meta-rok accessori: Horn of Fury + Ring of Doom.",
       "roles": [
         "open_field"
@@ -1121,7 +1144,30 @@
       "skill_upgrade_order": "Arrow of Iron a 5 per prima: 5515 (allclash) o 5155 (touchscreengaming: saltare la 2a, puntare all'expertise); hokbuild 5-5-5-5. ldshop (2026-08-11): 5-1-1-1 → 5-5-1-1 → 5-5-5-5.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Staggered per i rally (+15% march speed, touchscreengaming); Wedge secondo allclash",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Witch's Lineage, Staff of the Lost, Commander's Heavy Armor, Windswept Bracers, Greaves of the Exile, Boots of Reverence. Allclash progression: Helm of Phoenix/Milanese Plate/Blessed Blade → Windswept War Helm/Windswept Breastplate/Blazing Axe → Abyssal Visage/Hope Cloak/Heart of the Saint → Diadem of the Glorious Goddess/Hope Cloak/Scepter of the Glorious Goddess.",
       "roles": [
         "barbarians",
@@ -1834,7 +1880,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, sweetspot '55x5' poi 5555; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Harvester's Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Knight's Steel Diadem, Knight's Valorous Cloak, Knight's Oathsworn Bow; Progressed: Knight's Steel Diadem, Knight's Valorous Cloak, Witch's Feathered Staff; Maximum: Fierce Wolf's Helmet, Vigilant Wolf's Leather Armor, Twilight Epiphany. hokbuild: Abyssal Visage, Quinn's Soul, Heart of the Saint, Iset's Sufferance, Karuak's Humility, Sturdy Boots of the Eternal Empire",
       "roles": [
         "open_field",
@@ -2480,7 +2549,30 @@
       "skill_upgrade_order": "5555 (allclash sweetspot; hokbuild 5-5-5-5 poi Expertise)",
       "sculpture_cost_to_max": 680,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm / Windswept Breastplate / Vanguard Halberd; Advanced Expedition War Helm / Windswept Breastplate / Heart of the Saint; Progressed Expedition War Helm / Heavy Armor of the Hellish Wasteland / Heart of the Saint; Maximum Pride of the Khan / Heavy Armor of the Hellish Wasteland / Sacred Dominion. hokbuild: Seth's Brutality, Gladiator, Abyssal Visage, Sturdy Boots of the Eternal Empire, Dark Lord's Blessing, Gatekeepers Shield.",
       "roles": [
         "open_field",
@@ -3377,7 +3469,30 @@
       "skill_upgrade_order": "Maxare Shield of the King per prima (5111), poi 5511 → 5551 o expertise (touchscreengaming); allclash indica come sweetspot 5515; hokbuild 5-5-1-1. Heaven-guardian (2026-08-06): 5-5 → 5-5-5-1 → expertise se serve.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Staff of the Lost, Expedition War Helm, Commander's Heavy Armor, Windswept Bracers, Greaves of the Exile, Windswept Boots. Touchscreengaming late game: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon (+ accessori Greatest Glory, Ring of Doom, Horn of Fury, Concealed Dagger). Allclash progression: Helm of Phoenix/Infantry Breastplate/Blessed Blade → Witch's Lineage/Hope Cloak/Gatekeeper's Shield → Gold Helm of Eternal Empire/Hope Cloak/Shield of Eternal Empire → Helm of the Conqueror/Hope Cloak/Hammer of Sun and Moon.",
       "roles": [
         "open_field",
@@ -4155,7 +4270,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555; hokbuild 5-5-5-1; meta-rok 1>2>3>4",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash, meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Milanese Plate + Blessed Blade; Advanced Revival Helm + Revival Plate + Golden Age; Progressed Dragon's Breath Helm/Plate/Bow; Maximum Ancestral Mask of Night + Dragon's Breath Plate + The Hydra's Blast. hokbuild: set Dragon's Breath completo. meta-rok accessori: Horn of Fury + Ring of Doom.",
       "roles": [
         "open_field",
@@ -4785,7 +4923,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5155; hokbuild 5-5-1-1",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Helm of Phoenix + Blessed Blade (tier successivi PRO). hokbuild: set Dragon's Breath completo (helm, plate, bow, vambraces, tassets, boots).",
       "roles": [
         "garrison"
@@ -5421,7 +5582,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "V-Formation",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Harvester's Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Knight's Steel Diadem, Knight's Valorous Cloak, Knight's Oathsworn Bow; Progressed: Knight's Steel Diadem, Knight's Valorous Cloak, Witch's Feathered Staff; Maximum: Fierce Wolf's Helmet, Vigilant Wolf's Leather Armor, Twilight Epiphany. hokbuild: Dragon's Breath Vambraces, Dragon's Breath Helm, Heart of the Saint, Iset's Sufferance, Revival Gauntlets, Witch's Mire-Waders",
       "roles": [
         "open_field"
@@ -6740,7 +6924,30 @@
       "skill_upgrade_order": "5111 -> 5555 (allclash sweetspot 5555, skill 1 prima; touchscreengaming 5555; meta-rok 1>2>3>4)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Delta (touchscreengaming, meta-rok: +10% combo damage) / Wedge (allclash, alternativa touchscreengaming)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm + Windswept Breastplate + Vanguard Halberd; Advanced Expedition War Helm + Windswept Breastplate + Heart of the Saint; Progressed Expedition War Helm + Heavy Armor of the Hellish Wasteland + Heart of the Saint; Maximum Pride of the Khan + Heavy Armor of the Hellish Wasteland + Sacred Dominion. touchscreengaming late-game: Pride of the Khan, Shadow Legion's Retribution, Sacred Dominion, Ash of the Dawn, Navar's Control, Mountain Crushers; accessori Hero's Hilt, Karuak's War Drums, Horn of Fury, Ring of Doom, Mora's Web, Concealed Dagger, Wind Scars, Call of the Loyal. meta-rok: Horn of Fury + Hero's Hilt.",
       "roles": [
         "open_field",
@@ -7376,7 +7583,30 @@
       "skill_upgrade_order": "allclash: 555x (skill 1 a 5 per prima); hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: set Dragon's Breath completo (Bow, Helm, Tassets, Vambraces, Plate, Boots). allclash: quattro livelli (Starter->Maximum), set Dragon's Breath nei livelli medio-avanzati.",
       "roles": [
         "rally",
@@ -8039,7 +8269,30 @@
       "skill_upgrade_order": "5115 (allclash: maxare la 1a poi expertise); heaven-guardian rally: 1a → 2a → 3a/4a; campo: 1a poi 3a/4a (2a poco utile).",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash); Arch secondo ldshop (2026-07-28) — vedi conflicts",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Heart of the Saint, Pride of the Khan, Heavy Armor of the Hellish Wasteland, Navar's Control, Ash of the Dawn, Boots of the Hellish Wasteland. Allclash progression: Windswept War Helm/Windswept Breastplate/Vanguard Halberd → Expedition War Helm/Windswept Breastplate/Heart of the Saint → Expedition War Helm/Heavy Armor of the Hellish Wasteland/Heart of the Saint → Pride of the Khan/Heavy Armor of the Hellish Wasteland/Sacred Dominion. Priorita' heaven-guardian: Cavalry Health, Defense, Attack, normal-attack, March Speed.",
       "roles": [
         "rally",
@@ -10379,7 +10632,30 @@
       "skill_upgrade_order": "touchscreengaming: prima la skill attiva a 5 (5111), poi 5511 se si hanno poche sculture, quindi expertise completa; allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-0-5 (valore anomalo)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Pincer (touchscreengaming: +10% smite damage) oppure Wedge (allclash) - vedi conflicts",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade (tier superiori PRO). touchscreengaming late game: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon, Shilo's Return; accessori Saddle of a Thousand Blessings, Horn of Fury, Ring of Doom. hokbuild: Gold Helm of the Eternal Empire, Golden Age, set Dragon's Breath",
       "roles": [
         "open_field",
@@ -11037,7 +11313,30 @@
       "skill_upgrade_order": "5511 (allclash sweetspot; hokbuild 5-5-1-1)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Witch's Lineage, Dark Lord's Blessing, Golden Age, Seth's Brutality, Gladiator, Boots of the Hellish Wasteland. allclash starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd (resto PRO).",
       "roles": [
         "open_field",
@@ -11771,7 +12070,30 @@
       "skill_upgrade_order": "5555 (allclash) / 5-5-1-1 (hokbuild) - vedi conflicts",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm / Windswept Breastplate / Vanguard Halberd; Advanced Expedition War Helm / Windswept Breastplate / Heart of the Saint; Progressed Expedition War Helm / Heavy Armor of the Hellish Wasteland / Heart of the Saint; Maximum Pride of the Khan / Heavy Armor of the Hellish Wasteland / Sacred Dominion. hokbuild: Mask of the Forest Guardian, Staff of the Lost, Harvester Robes, Windswept Bracers, Windswept Boots, Harvester Breeches.",
       "roles": [
         "rally",
@@ -12709,7 +13031,30 @@
       "skill_upgrade_order": "5551 (RKG: 'cost-effective'; AllClash target 5551)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": null,
       "roles": [
         "open_field",
@@ -15194,7 +15539,30 @@
       "skill_upgrade_order": "allclash: obiettivo 5555; hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Line",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: set Harvester; Advanced: set Forest Guardian; Progressed/Final: set Witch (Deadwood Crown, Hexed Cloak, Feathered Staff). hokbuild: Golden Age, Gold Helm of the Eternal Empire, Dragon's Breath Plate/Boots/Vambraces/Tassets",
       "roles": [
         "gathering"
@@ -16475,7 +16843,30 @@
       "skill_upgrade_order": "5515 (allclash sweetspot: 1a skill a 5, poi sbloccare le altre); hokbuild 5-5-1-5.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Staff of the Lost, Expedition War Helm, Commander's Heavy Armor, Windswept Bracers, Greaves of the Exile, Windswept Boots. Allclash progression: Helm of Phoenix/Milanese Plate/Blessed Blade → Windswept War Helm/Windswept Breastplate/Blazing Axe → Abyssal Visage/Hope Cloak/Heart of the Saint → Diadem of the Glorious Goddess/Hope Cloak/Scepter of the Glorious Goddess.",
       "roles": [
         "rally"
@@ -17992,7 +18383,30 @@
       "skill_upgrade_order": "5115 (allclash sweetspot; hokbuild 5-1-1-5)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Arch",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Sakura Fubuki, Quinn's Soul, Revival Helm, Ash of the Dawn, Boots of the Hellish Wasteland, Armband of the Hellish Wasteland. allclash starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade (livelli superiori PRO).",
       "roles": [
         "open_field",
@@ -18971,7 +19385,30 @@
       "skill_upgrade_order": "5511 (allclash) / 5-5-1-5 (hokbuild) - vedi conflicts",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Revival Helm / Revival Plate / Golden Age; Progressed Dragon's Breath Helm / Dragon's Breath Plate / Dragon's Breath Bow; Maximum Ancestral Mask of Night / Dragon's Breath Plate / The Hydra's Blast. hokbuild: Dragon's Breath Bow, set Revival (Helm, Plate, Gauntlets, Gloves), Dragon's Breath Boots.",
       "roles": [
         "garrison"
@@ -19701,7 +20138,30 @@
       "skill_upgrade_order": null,
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Line (allclash, letto 2026-09-28)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Harvester's Headscarf, Scepter of the Forest Guardian, Harvester Robes, Cloth Gloves, Harvester Boots, Harvester Breeches.",
       "roles": [
         "gathering"
@@ -20498,7 +20958,30 @@
       "skill_upgrade_order": "allclash: sweetspot 5515 (Edict of Milan a 5 per primo)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Arch (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix/Infantry Breastplate/Blessed Blade; Advanced Witch's Lineage/Hope Cloak/Gatekeeper's Shield; Progressed Gold Helm of the Eternal Empire/Hope Cloak/Shield of the Eternal Empire; Maximum Helm of the Conqueror/Hope Cloak/Hammer of the Sun and Moon. hokbuild: Blessed Blade, Windswept War Helm, Windswept Breastplate, Ranger Trousers, Windswept Bracers, Windswept Boots.",
       "roles": [
         "open_field",
@@ -21274,7 +21757,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5155; hokbuild 5-5-5-5; RKG: F2P efficace a 5/5/1/5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, Hydra's Blast. hokbuild: Revival Helm, Revival Plate, Golden Age, Revival Gauntlets x2, Flame Treads.",
       "roles": [
         "open_field",
@@ -22832,7 +23338,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555; hokbuild 5-5-1-5; meta-rok 1>2>4>3 con investimento minimo 5515",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash) / Delta (meta-rok; ricerca: +10% combo damage)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm + Windswept Breastplate + Vanguard Halberd; Advanced Expedition War Helm + Windswept Breastplate + Heart of the Saint; Progressed Expedition War Helm + Heavy Armor of the Hellish Wasteland + Heart of the Saint; Maximum Pride of the Khan + Heavy Armor of the Hellish Wasteland + Sacred Dominion. hokbuild: Abyssal Visage, Quinn's Soul, Witch's Feathered Staff, Iset's Sufferance, Karuak's Humility, Cloud Racers. meta-rok accessori: Horn of Fury + Greatest Glory.",
       "roles": [
         "garrison"
@@ -23545,7 +24074,30 @@
       "skill_upgrade_order": "allclash: 5555; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Revival Helm / Revival Plate / Golden Age; Progressed set Dragon's Breath. hokbuild: Windswept Bracers, Witch's Feathered Staff, Golden Age, Greaves of the Eternal Empire, Greaves of the Glorious Goddess, Plate of the Eternal Empire.",
       "roles": [
         "garrison"
@@ -24187,7 +24739,30 @@
       "skill_upgrade_order": "5555 (allclash sweetspot, sbloccare in sequenza); hokbuild 5-5-5-1. Heaven-guardian (2026-08-06): 5-5-5-5 per account legacy.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: set Dragon's Breath completo (Bow, Helm, Vambraces, Plate, Tassets, Boots). Allclash progression: Helm of Phoenix/Milanese Plate/Blessed Blade → Revival Helm/Revival Plate/Golden Age → Dragon's Breath set → Ancestral Mask of Night/Dragon's Breath Plate/The Hydra's Blast.",
       "roles": [
         "open_field",
@@ -24911,7 +25486,30 @@
       "skill_upgrade_order": "Maxare Famous Warrior, poi Poem of El Cid: 5-5-1-1 pratico, 5-5-5-1 per march full arcieri, evitare universali per expertise (heaven-guardian); allclash 5555; hokbuild 5-1-5-1.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Golden Age, Gold Helm/Plate/Vambraces/Sturdy Boots of the Eternal Empire, accessori Mora's Web, Ring of Doom, Revival Gauntlets. Allclash progression: Helm of Phoenix/Milanese Plate/Blessed Blade → Revival Helm/Revival Plate/Golden Age → Dragon's Breath set → Ancestral Mask of Night/Dragon's Breath Plate/The Hydra's Blast. Priorita' heaven-guardian: Archer Health → Defense → March Speed → Skill damage → Attack.",
       "roles": [
         "open_field"
@@ -25636,7 +26234,30 @@
       "skill_upgrade_order": "5555 (allclash) / 5-5-1-5 (hokbuild) - vedi conflicts",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm / Windswept Breastplate / Vanguard Halberd; Advanced Expedition War Helm / Heart of the Saint; Final Pride of the Khan / Heavy Armor of Hellish Wasteland / Sacred Dominion. hokbuild: War Helm, Heavy Armor, Armband e Tassets of the Hellish Wasteland, Staff of the Lost, Roaring Wolf's Claws.",
       "roles": [
         "garrison"
@@ -26129,7 +26750,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555 (sweetspot 5555); hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf + Harvester Robes + Scepter of the Forest Guardian; Advanced Knight's Steel Diadem + Knight's Valorous Cloak + Knight's Oathsworn Bow; Progressed Knight's Steel Diadem + Knight's Valorous Cloak + Witch's Feathered Staff; Maximum Fierce Wolf's Helmet + Vigilant Wolf's Leather Armor + Twilight Epiphany. hokbuild: set Witch's completo (Crown, Staff, Bracers, Hexed Cloak, Ornamented Pants, Mire-Waders).",
       "roles": [
         "rally",
@@ -26733,7 +27377,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima; target 5555 (AllClash)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Arch",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade. Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield. Progressed: Gold Helm of Eternal Empire, Hope Cloak, Shield of Eternal Empire. Maximum: Helm of the Conqueror, Hope Cloak, Hammer of Sun and Moon.",
       "roles": [
         "garrison",
@@ -28872,7 +29539,30 @@
       "skill_upgrade_order": "allclash: 5555 (skill 1 a 5 per prima); hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "V-Formation (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: set Witch's completo (Lineage, Feathered Staff, Ornamented Pants, Crimson Bracers, Hexed Cloak, Mire-Waders). allclash: Starter Harvester's Headscarf ... Knight's Steel Diadem ... endgame Fierce Wolf's Helmet (dettagli dietro PRO).",
       "roles": [
         "open_field"
@@ -29318,7 +30008,30 @@
       "skill_upgrade_order": "5111 -> 5555 (allclash: sweetspot 5555, skill 1 a 5 per prima); meta-rok 1>2>3>4; hokbuild 5-5-5-5",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash) / Delta (meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm + Windswept Breastplate + Vanguard Halberd; Advanced Expedition War Helm + Windswept Breastplate + Heart of the Saint; Progressed Expedition War Helm + Heavy Armor of the Hellish Wasteland + Heart of the Saint; Maximum Pride of the Khan + Heavy Armor of the Hellish Wasteland + Sacred Dominion. hokbuild: Dragon's Breath Helm, Dragon's Breath Plate, Golden Age, Vambraces of the Eternal Empire, Dragon's Breath Tassets, Sturdy Boots of the Eternal Empire. meta-rok accessori: Horn of Fury + Ring of Doom.",
       "roles": [
         "open_field"
@@ -29982,7 +30695,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-5; allclash: sweetspot 5551 (Chosen One a 5 per prima)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Final: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion. hokbuild: Lance of the Hellish Wasteland, Abyssal Visage, Dark Lord's Blessing, Armband of the Hellish Wasteland, Gladiator, Cloud Racers, Ring of Doom.",
       "roles": [
         "open_field",
@@ -30709,7 +31445,30 @@
       "skill_upgrade_order": "Roar of the Tiger a 5 per prima; AllClash target 5515; hokbuild 5-5-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo (Helm, Tassets, Vambraces, Plate, Bow, Boots).",
       "roles": [
         "rally",
@@ -32289,7 +33048,30 @@
       "skill_upgrade_order": "allclash: 5555; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "V-Formation (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Helm of the Conqueror, Trial of the Lost Kingdom, Hope Cloak, Sacred Grips, Eternal Night, Shio's Return. allclash starter: Harvester's Headscarf, Harvester Robes (resto dietro PRO).",
       "roles": [
         "open_field"
@@ -32808,7 +33590,30 @@
       "skill_upgrade_order": "allclash: 5515; touchscreengaming: 5515 (expertise opzionale); hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "allclash: Pincer; touchscreengaming: Arch (+5% danno normale)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate of the Eternal Empire, Vambraces of the Eternal Empire, Greaves of the Eternal Empire, Greaves of the Glorious Goddess. touchscreengaming late-game: Helm of the Conqueror/Gold Helm of the Eternal Empire, Hope Cloak/Plate of the Eternal Empire, Hammer of the Sun and Moon/Shield of the Eternal Empire, Eternal Night/Greaves of the Eternal Empire, Sacred Grips/Vambraces of the Eternal Empire, Shio's Return/Sturdy Boots of the Eternal Empire; accessori Greatest Glory, Ring of Doom, Horn of Fury. allclash starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade.",
       "roles": [
         "open_field",
@@ -34358,7 +35163,30 @@
       "skill_upgrade_order": "5-5-1-1 (rok.hokbuild); allclash: sweetspot 5515 (skill 1 a 5, poi expertise)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix/Milanese Plate/Blessed Blade; Advanced Windswept War Helm/Windswept Breastplate/Blazing Axe; Progressed Abyssal Visage/Hope Cloak/Heart of the Saint; Maximum Diadem of the Glorious Goddess/Hope Cloak/Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Staff of the Lost, Commander's Heavy Armor, Calvin's Hand, Greaves of the Exile, Windswept Boots.",
       "roles": [
         "rally",
@@ -35699,7 +36527,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555; hokbuild 5-5-5-1",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash, meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Milanese Plate + Blessed Blade; Advanced Revival Helm + Revival Plate + Golden Age; Progressed Dragon's Breath Helm/Plate/Bow; Maximum Ancestral Mask of Night + Dragon's Breath Plate + The Hydra's Blast. hokbuild: set Dragon's Breath completo. meta-rok accessori: Horn of Fury + Ring of Doom.",
       "roles": [
         "garrison"
@@ -36331,7 +37182,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555 (sweetspot 5555); hokbuild: 5-5-5-1; meta-rok: 1>2>4>3",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Milanese Plate + Blessed Blade; Advanced Windswept War Helm + Windswept Breastplate + Blazing Axe; Progressed Abyssal Visage + Hope Cloak + Heart of the Saint; Final Diadem of the Glorious Goddess + Hope Cloak + Scepter of the Glorious Goddess. hokbuild: Windswept War Helm, Windswept Bracers, Windswept Breastplate, Windswept Boots, Staff of the Lost, Greaves of the Exile.",
       "roles": [
         "open_field",
@@ -36938,7 +37812,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5555; hokbuild 5-5-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath + Ancestral Mask of Night.",
       "roles": [
         "open_field",
@@ -38541,7 +39438,30 @@
       "skill_upgrade_order": "allclash: 5511; hokbuild: 5-1-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Horn of Fury, Quinn's Soul, Ash of the Dawn, Eternal Night, Ring of Doom, Windswept Boots, Helm of the Conqueror, Seth's Brutality, Staff of the Lost. allclash: quattro build dietro PRO.",
       "roles": [
         "garrison"
@@ -39177,7 +40097,30 @@
       "skill_upgrade_order": "allclash: 5555 (skill 1 a 5 per prima); touchscreengaming: Forest of Fallen Eagles a 5 per prima, expertise consigliata ma 5551 valido",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash; touchscreengaming: +5% danno skill)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "touchscreengaming: tre livelli (Beginner, Mid-Late, Late-Game) + accessori Ring of Doom, Horn of Fury, Concealed Dagger, Mora's Web. allclash: Starter->Final dietro PRO.",
       "roles": [
         "open_field",
@@ -39754,7 +40697,30 @@
       "skill_upgrade_order": "5551 (allclash)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Windswept War Helm / Windswept Breastplate / Blazing Axe; Progressed Abyssal Visage / Hope Cloak / Heart of the Saint; Maximum Diadem of the Glorious Goddess / Hope Cloak / Scepter of the Glorious Goddess.",
       "roles": [
         "open_field",
@@ -40488,7 +41454,30 @@
       "skill_upgrade_order": "allclash: 5511 (skill 1 a 5 per prima); hokbuild: 5-1-1-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: set Hellish Wasteland completo. allclash starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd.",
       "roles": [
         "open_field",
@@ -41098,7 +42087,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-1-1; allclash: target 5551",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Line (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf/Harvester Robes/Scepter of the Forest Guardian; Advanced set Forest Guardian; Final Witch's Deadwood Crown/Hexed Cloak/Feathered Staff. hokbuild: set Dragon's Breath + Golden Age.",
       "roles": [
         "gathering"
@@ -41775,7 +42787,30 @@
       "skill_upgrade_order": "ldshop: 5111 (max Ivory Throne) -> valutare il pairing -> 5555; allclash sweetspot 5555; meta-rok 1>2>3>4",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash, thegioigameviet) / Delta (meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Windswept War Helm + Windswept Breastplate + Vanguard Halberd (tier successivi PRO). meta-rok accessori: Horn of Fury + Hero's Hilt.",
       "roles": [
         "open_field",
@@ -43062,7 +44097,30 @@
       "skill_upgrade_order": null,
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm / Windswept Breastplate / Vanguard Halberd; Advanced Expedition War Helm / Windswept Breastplate / Heart of the Saint; Progressed Expedition War Helm / Heavy Armor of Hellish Wasteland / Heart of the Saint; Maximum Pride of the Khan / Heavy Armor of Hellish Wasteland / Sacred Dominion. theriagames: Windswept (epico) early, set leggendari cavalleria, Ash of the Dawn, Helm of the Conqueror, Pride of the Khan; accessori Vengeance, Ring of Doom, Horn of Fury.",
       "roles": [
         "garrison",
@@ -43928,7 +44986,30 @@
       "skill_upgrade_order": "Target 5555 (AllClash e hokbuild); sequenza esatta dietro paywall PRO",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of the Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion. hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate/Vambraces/Greaves of the Eternal Empire, Greaves of the Glorious Goddess.",
       "roles": [
         "garrison"
@@ -45472,7 +46553,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima, poi le altre; target 5555 (AllClash)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of Hellish Wasteland, Sacred Dominion.",
       "roles": [
         "open_field",
@@ -47079,7 +48183,30 @@
       "skill_upgrade_order": "55xx come primo traguardo (allclash: skill 1 a 5 poi skill 2); hokbuild 5-5-1-5",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf / Harvester Robes / Scepter of the Forest Guardian; Advanced Knight's Steel Diadem / Knight's Valorous Cloak / Knight's Oathsworn Bow; Progressed Knight's Steel Diadem / Knight's Valorous Cloak / Witch's Feathered Staff; Maximum Fierce Wolf's Helmet / Vigilant Wolf's Leather Armor / Twilight Epiphany. hokbuild: Windswept War Helm, Breastplate, Boots, Bracers, Golden Age, Vanguard Greaves.",
       "roles": [
         "open_field"
@@ -48607,7 +49734,30 @@
       "skill_upgrade_order": "allclash: 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate of the Eternal Empire, Revival Gauntlets (x2), Greaves of the Glorious Goddess. allclash max: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion.",
       "roles": [
         "rally",
@@ -50403,7 +51553,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555; meta-rok 1>2>4>3",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash; touchscreengaming per pairing skill-damage) / Arch (touchscreengaming per pairing normal-damage) / Pincer (meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Infantry Breastplate + Blessed Blade; Advanced Witch's Lineage + Hope Cloak + Gatekeeper's Shield; Progressed Gold Helm of the Eternal Empire + Hope Cloak + Shield of the Eternal Empire; Maximum Helm of the Conqueror + Hope Cloak + Hammer of the Sun and Moon. touchscreengaming late-game: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon + accessori Horn of Fury, Ring of Doom. meta-rok: Horn of Fury + Ring of Doom.",
       "roles": [
         "open_field",
@@ -51132,7 +52305,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-1-5; allclash: sweetspot 5110",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix/Milanese Plate/Blessed Blade; Advanced Windswept War Helm/Windswept Breastplate/Blazing Axe; Progressed Abyssal Visage/Hope Cloak/Heart of the Saint; Maximum Diadem of the Glorious Goddess/Hope Cloak/Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Heart of the Saint, Dark Lord's Blessing, Seth's Brutality, Revival Gauntlets, Sturdy Boots of the Eternal Empire.",
       "roles": [
         "rally",
@@ -51763,7 +52959,30 @@
       "skill_upgrade_order": "allclash: 5555 (skill 1 a 5 per prima); hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "V-Formation (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf / Harvester Robes / Scepter of the Forest Guardian; Advanced Knight's Steel Diadem / Knight's Valorous Cloak / Knight's Oathsworn Bow; Progressed simile con Witch's Feathered Staff; Max Fierce Wolf's Helmet / Vigilant Wolf's Leather Armor / Twilight Epiphany. hokbuild: set Witch's (Deadwood Crown, Feathered Staff, Ornamented Pants, Crimson Bracers, Hexed Cloak, Mire-Waders).",
       "roles": [
         "open_field"
@@ -52263,7 +53482,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "V-Formation",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Harvester's Headscarf, Harvester Robes, Scepter of the Forest Guardian; Endgame: Fierce Wolf's Helmet, Vigilant Wolf's Leather Armor, Twilight Epiphany (tier intermedi PRO). hokbuild: set Dragon's Breath completo (Bow, Tassets, Helm, Vambraces, Plate, Boots)",
       "roles": [
         "open_field"
@@ -52859,7 +54101,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Windswept War Helm, Windswept Breastplate, Blazing Axe; Progressed: Abyssal Visage, Hope Cloak, Heart of the Saint; Maximum: Diadem of the Glorious Goddess, Hope Cloak, Scepter of the Glorious Goddess. hokbuild: Heavy Armor of the Hellish Wasteland, Golden Age, Gold Helm of the Eternal Empire, Seth's Brutality, Tassets of the Hellish Wasteland, Sturdy Boots of the Eternal Empire",
       "roles": [
         "garrison"
@@ -54350,7 +55615,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-1; allclash: sweetspot 5515; riseofkingdomsguides: Kyohachiryu a 5 per prima, poi Trial in Kurama-dera",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. hokbuild: Revival Helm, Sakura Fubuki, Revival Plate, Revival Gauntlets, Windswept Boots.",
       "roles": [
         "barbarians",
@@ -54861,7 +56149,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5511; hokbuild 5-5-1-5",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Milanese Plate + Blessed Blade; Advanced Windswept War Helm + Windswept Breastplate + Blazing Axe; Progressed Abyssal Visage + Hope Cloak + Heart of the Saint; Maximum Diadem of the Glorious Goddess + Hope Cloak + Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Dark Lord's Blessing, Heart of the Saint, Seth's Brutality, Karuak's Humility, Flame Treads.",
       "roles": [
         "barbarians"
@@ -55545,7 +56856,30 @@
       "skill_upgrade_order": "1a skill, poi 2a, saltare la 3a, sbloccare la 4a (riseofkingdomsguides); hokbuild 5-5-5-1.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash, letto 2026-09-28)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Abyssal Visage, Sacred Dominion, Dark Lord's Blessing, Armband of the Hellish Wasteland, Revival Gauntlets, Flame Treads.",
       "roles": [
         "open_field",
@@ -56245,7 +57579,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5555; hokbuild 5-5-5-1; RKG: F2P efficace a 5/5/1/5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: Revival Helm, Golden Age, Dark Lord's Blessing, Revival Gauntlets x2, Flame Treads.",
       "roles": [
         "open_field",
@@ -59363,7 +60720,30 @@
       "skill_upgrade_order": "allclash: obiettivo 5555 (sequenza PRO); hokbuild: 5-5-1-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Line",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Harvester's Headscarf, Harvester Robes (tier successivi PRO). hokbuild: Abyssal Visage, Quinn's Soul, Golden Age, Dragon's Breath Vambraces, Karuak's Humility, Sturdy Boots of the Eternal Empire",
       "roles": [
         "gathering"
@@ -60038,7 +61418,30 @@
       "skill_upgrade_order": "heaven-guardian: Macedonian Phalanx a 5, poi Sarissa, poi League of Corinth, poi Conqueror of Chaeronea (obiettivo 5555); allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Windswept War Helm, Windswept Breastplate, Blazing Axe; Progressed: Abyssal Visage, Hope Cloak, Heart of the Saint; Maximum: Diadem of the Glorious Goddess, Hope Cloak, Scepter of the Glorious Goddess. hokbuild: Helm of the Conqueror, Hammer of the Sun and Moon, Hope Cloak, Sacred Grips, Sturdy Boots of the Eternal Empire, Karuak's Humility. heaven-guardian: set specifico per tipo truppa del partner; con truppe miste usare attributi generici",
       "roles": [
         "open_field",
@@ -60699,7 +62102,30 @@
       "skill_upgrade_order": "allclash: 5511 (skill 1 a 5 per prima); hokbuild: 5-5-1-1",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Gold Helm of the Eternal Empire, Lance of the Hellish Wasteland, Heavy Armor of the Hellish Wasteland, Armband of the Hellish Wasteland, Tassets of the War God, Sturdy Boots of the Eternal Empire. allclash starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade.",
       "roles": [
         "open_field",
@@ -61990,7 +63416,30 @@
       "skill_upgrade_order": "5551 (hokbuild 5-5-5-1; allclash indica solo 'skill 1 a 5' come primo passo, resto PRO)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Windswept War Helm / Windswept Breastplate / Blazing Axe; Progressed Abyssal Visage / Hope Cloak / Heart of the Saint; Maximum Diadem of the Glorious Goddess / Hope Cloak / Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Golden Age, Dark Lord's Blessing, Revival Gauntlets (x2), Flame Treads.",
       "roles": [
         "rally",
@@ -62711,7 +64160,30 @@
       "skill_upgrade_order": "allclash: portare la skill 1 a 5 per prima, obiettivo finale 5555 (sequenza intermedia dietro paywall PRO); hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Maximum: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon. hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate/Vambraces/Greaves of the Eternal Empire, Greaves of the Glorious Goddess",
       "roles": [
         "open_field",
@@ -63267,7 +64739,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-1; allclash: sweetspot 5515",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix/Milanese Plate/Blessed Blade; Advanced Revival Helm/Revival Plate/Golden Age; Progressed Dragon's Breath Helm/Plate/Bow; Maximum Ancestral Mask of Night/Dragon's Breath Plate/The Hydra's Blast. hokbuild: set Dragon's Breath completo.",
       "roles": [
         "open_field",
@@ -64119,7 +65614,30 @@
       "skill_upgrade_order": "Tutto nella 1a skill, poi la 2a: 5111 (economico) → 5511 (miglior valore/F2P/canyon) → 5551 (account fanteria) → 5555 solo se gia' sviluppato (riseofkingdomsguides, heaven-guardian); hokbuild 5-5-5-1.",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Arch (allclash, letto 2026-09-28)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Gatekeepers Shield, Windswept War Helm, Windswept Breastplate, Seth's Brutality, Karuak's Humility, Frost Treads, Wind Scars. Priorita' heaven-guardian: Infantry Health → Defense → damage reduction → Infantry Attack → March Speed.",
       "roles": [
         "open_field",
@@ -64921,7 +66439,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-1; allclash: 5550 (skill 4 a 0, risparmia sculture universali)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm/Windswept Breastplate/Vanguard Halberd; Advanced Expedition War Helm/Windswept Breastplate/Heart of the Saint; Progressed Expedition War Helm/Heavy Armor of the Hellish Wasteland/Sacred Dominion; Maximum Pride of the Khan/Heavy Armor of the Hellish Wasteland/Sacred Dominion. hokbuild: Heart of the Saint, Abyssal Visage, Dark Lord's Blessing, Iset's Sufferance, Gladiator, Cloud Racers, Delane's Amulet.",
       "roles": [
         "open_field",
@@ -68111,7 +69652,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5551; touchscreengaming: minimo 5155 se mancano sculture per l'expertise; meta-rok 1>2>3>4",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Pincer (allclash) / Wedge (touchscreengaming +5% skill damage, meta-rok)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Infantry Breastplate + Blessed Blade; Advanced Witch's Lineage + Hope Cloak + Gatekeeper's Shield; Progressed Gold Helm of Eternal Empire + Hope Cloak + Shield of Eternal Empire; Maximum Helm of the Conqueror + Hope Cloak + Hammer of Sun and Moon. touchscreengaming late-game: Helm of the Conqueror / God Helm of the Eternal Empire, Hope Cloak / Plate of the Eternal Empire, Hammer of the Sun and Moon / Shield of the Eternal Empire, Eternal Night / Greaves of the Eternal Empire, Sacred Grips / Vambraces of the Eternal Empire, Shilo's Return / Sturdy Boots of the Eternal Empire; accessori Greatest Glory, Ring of Doom, Horn of Fury, Concealed Dagger, Mora's Web, Scholas' Lucky Coin, Vengeance, Call of the Loyal. meta-rok: Horn of Fury + Ring of Doom.",
       "roles": [
         "open_field",
@@ -68758,7 +70322,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-5; allclash: ordine riservato a PRO; heaven-guardian: livellare solo quanto serve per i talenti di raccolta",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Line (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf/Harvester Robes/Scepter of the Forest Guardian; poi Mask/Robe of Forest Guardian, Witch's Deadwood Crown/Hexed Cloak/Feathered Staff. hokbuild: Golden Age, Gold Helm of the Eternal Empire, Robe of the Forest Guardian, Claws of the Forest Guardian, Fanatic's Tassets, Roaring Wolf's Claws. heaven-guardian: equipaggiamento base sufficiente.",
       "roles": [
         "gathering"
@@ -69487,7 +71074,30 @@
       "skill_upgrade_order": "5511 (allclash) / 5-5-1-5 (hokbuild) - vedi conflicts",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Revival Helm / Revival Plate / Golden Age; Progressed Dragon's Breath Helm / Plate / Bow; Final Ancestral Mask of Night / Dragon's Breath Plate / The Hydra's Blast. hokbuild: set Dragon's Breath completo (Boots, Plate, Vambraces, Helm, Tassets, Bow).",
       "roles": [
         "canyon",
@@ -70274,7 +71884,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Revival Helm, Revival Plate, Golden Age; Progressed: Dragon's Breath Helm/Plate/Bow; Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo",
       "roles": [
         "rally"
@@ -70943,7 +72576,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Revival Helm, Revival Plate, Golden Age; Progressed: Dragon's Breath Helm/Plate/Bow; Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo",
       "roles": [
         "rally"
@@ -71519,7 +73175,30 @@
       "skill_upgrade_order": "55xx come primo traguardo (allclash) / 5-5-5-5 (hokbuild)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf / Harvester Robes / Scepter of the Forest Guardian; Maximum Fierce Wolf's Helmet / Vigilant Wolf's Leather Armor / Twilight Epiphany. hokbuild: Quinn's Soul, Abyssal Visage, Greaves of the Eternal Empire, Greaves of the Glorious Goddess, Sturdy Boots of the Eternal Empire, Shield of the Eternal Empire.",
       "roles": [
         "open_field"
@@ -72176,7 +73855,30 @@
       "skill_upgrade_order": "allclash: skill 1 a 5 per prima, obiettivo 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint; Maximum: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion. hokbuild (starter): Sharp Longsword, Milanese Plate, Coarse Breeches, Edged Boots, Helm of Fear, Bronze Bracers",
       "roles": [
         "rally",
@@ -72772,7 +74474,30 @@
       "skill_upgrade_order": "5111 (allclash) / 5-5-5-5 (hokbuild) - vedi conflicts",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Windswept War Helm / Windswept Breastplate / Blazing Axe; Progressed Abyssal Visage / Hope Cloak / Heart of the Saint; Maximum Diadem of the Glorious Goddess / Hope Cloak / Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Heart of the Saint, Dark Lord's Blessing, Seth's Brutality, Gladiator, Flame Treads.",
       "roles": [
         "rally",
@@ -73560,7 +75285,30 @@
       "skill_upgrade_order": "riseofkingdomsguides: richiede expertise completa (5511 poi 5555) per rendere; allclash: skill 1 a 5 per prima, obiettivo 5555",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Maximum: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon",
       "roles": [
         "open_field",
@@ -74140,7 +75888,30 @@
       "skill_upgrade_order": "hokbuild: 5-1-5-5; allclash: sweetspot 1111 (tutte a 1); heaven-guardian priorita': Fierce as the Fire > Swift as the Wind > Gentle as the Forest > Immovable as the Mountain > expertise",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. hokbuild: Expedition War Helm, Witch's Hexed Cloak, Greaves of the Exile, Gatekeepers Shield, Calvin's Hand, The Scarlet Hounds. heaven-guardian priorita' stat: Cavalry Health > Defense > Attack > March Speed > bonus attacco normale.",
       "roles": [
         "open_field",
@@ -76549,7 +78320,30 @@
       "skill_upgrade_order": "allclash: sweetspot 5-5-1 (skill 1 a 5 per prima)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix/Milanese Plate/Blessed Blade; Advanced Windswept War Helm/Windswept Breastplate/Blazing Axe; Progressed Abyssal Visage/Hope Cloak/Heart of the Saint; Maximum Diadem of the Glorious Goddess/Hope Cloak/Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Heart of the Saint, Flame Treads, Revival Gauntlets, Revival Plate.",
       "roles": [
         "garrison",
@@ -77267,7 +79061,30 @@
       "skill_upgrade_order": "AllClash target 5511; hokbuild 5-5-5-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo.",
       "roles": [
         "open_field"
@@ -79463,7 +81280,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-1; allclash: sweetspot 5115; heaven-guardian: Arrow of Vengeance 5 -> Massagetae's Counterattack 5 -> For the Sun 5 (configurazioni 5-1-1-5 economica o 5-1-5-5 open field)",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. hokbuild: Revival Helm, Golden Age, Revival Plate, Revival Gauntlets, Revival Pants, Flame Treads. heaven-guardian priorita' stat: Archer Health > Archer Defense > Archer Attack > March Speed.",
       "roles": [
         "open_field",
@@ -80217,7 +82057,30 @@
       "skill_upgrade_order": "5551 (allclash 'sweetspot'; hokbuild 5-5-5-1)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Windswept War Helm / Windswept Breastplate / Blazing Axe; Progressed Abyssal Visage / Hope Cloak / Heart of the Saint; Maximum Diadem of the Glorious Goddess / Hope Cloak / Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Heart of the Saint, Dark Lord's Blessing, Revival Gauntlets, Revival pants, Flame Treads. theriagames: Gatekeeper Shield, Hope Cloak, Eternal Night, Frost Treads; artefatti Karuak's War Drums, Horn of Fury, Concealed Dagger, Delane's Amulet.",
       "roles": [
         "open_field",
@@ -81074,7 +82937,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555; hokbuild 5-5-5-1; meta-rok 1>2>3>4",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix + Milanese Plate + Blessed Blade; Advanced Windswept War Helm + Windswept Breastplate + Blazing Axe; Progressed Abyssal Visage + Hope Cloak + Heart of the Saint; Maximum Diadem of the Glorious Goddess + Hope Cloak + Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Staff of the Lost, Commander's Heavy Armor, Calvin's Hand, Greaves of the Exile, Windswept Boots.",
       "roles": [
         "open_field",
@@ -81769,7 +83655,30 @@
       "skill_upgrade_order": "allclash: sweetspot 5510; heaven-guardian: 5-5-1-1 utilizzabile, 5-5-5-1 consigliato, expertise opzionale",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge (allclash, heaven-guardian)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd (tier superiori riservati a PRO). heaven-guardian priorita' stat: Cavalry Health > Cavalry Defense > All-damage reduction > Skill Damage > Cavalry Attack > March Speed.",
       "roles": [
         "open_field",
@@ -82418,7 +84327,30 @@
       "skill_upgrade_order": "allclash: sweetspot 5511 prima di maxare tutto; meta-rok 1>2>3>4 con investimento minimo 5511",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Wedge (allclash, ldshop: potenzia il danno da skill delle sequenze multi-hit)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Windswept War Helm + Windswept Breastplate + Vanguard Halberd; Advanced Expedition War Helm + Windswept Breastplate + Heart of the Saint; Progressed Expedition War Helm + Heavy Armor of the Hellish Wasteland + Heart of the Saint; Maximum Pride of the Khan + Heavy Armor of the Hellish Wasteland + Sacred Dominion.",
       "roles": [
         "rally",
@@ -83763,7 +85695,30 @@
       "skill_upgrade_order": "allclash: 5515 (skill 1 a 5 per prima); hokbuild: 5-1-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Milanese Plate / Blessed Blade; Advanced Windswept War Helm / Windswept Breastplate / Blazing Axe; Progressed Abyssal Visage / Hope Cloak / Heart of the Saint; Max Diadem of the Glorious Goddess / Hope Cloak / Scepter of the Glorious Goddess. hokbuild: Abyssal Visage, Heart of the Saint, Shadow Legion's Retribution, Sacred Grips, Shio's Return, Eternal Night.",
       "roles": [
         "garrison"
@@ -84273,7 +86228,30 @@
       "skill_upgrade_order": "AllClash target 5511; hokbuild 5-1-1-5",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of Hellish Wasteland, Sacred Dominion. hokbuild: Abyssal Visage, Heart of the Saint, Dark Lord's Blessing, Iset's Sufferance, Gladiator, Knight's Winter Sabatons.",
       "roles": [
         "open_field",
@@ -85797,7 +87775,30 @@
       "skill_upgrade_order": "allclash: 5111 -> 5555 (sweetspot 5555)",
       "sculpture_cost_to_max": null,
       "recommended_formation": "Line (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Harvester's Headscarf + Harvester Robes + Scepter of the Forest Guardian; Advanced Mask of the Forest Guardian + Robe of the Forest Guardian + Scepter of the Forest Guardian; Progressed/Maximum Witch's Deadwood Crown + Witch's Hexed Cloak + Witch's Feathered Staff.",
       "roles": [
         "gathering"
@@ -86429,7 +88430,30 @@
       "skill_upgrade_order": "hokbuild: 5-5-5-5; allclash: skill 1 a 5 per prima poi resto (sequenza dettagliata dietro paywall PRO)",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Revival Helm, Golden Age, Revival Plate, Revival Gauntlets, Revival pants, Flame Treads. allclash: Starter Helm of Phoenix; Advanced pezzi Revival; Progressed set Dragon's Breath; Maximum Ancestral Mask of Night.",
       "roles": [
         "open_field",
@@ -87107,7 +89131,30 @@
       "skill_upgrade_order": "allclash: 5515; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Wedge (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "hokbuild: Gold Helm of the Eternal Empire, Golden Age, Heavy Armor of the Hellish Wasteland, Vambraces of the Eternal Empire, Greaves of the Glorious Goddess, Greaves of the Eternal Empire. allclash starter: Helm of Phoenix, Milanese Plate, Blessed Blade (livelli superiori dietro PRO).",
       "roles": [
         "garrison"
@@ -87786,7 +89833,30 @@
       "skill_upgrade_order": "allclash: 5555; hokbuild: 5-1-5-5",
       "sculpture_cost_to_max": 700,
       "recommended_formation": "Arch (allclash)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash: Starter Helm of Phoenix / Infantry Breastplate / Blessed Blade; Advanced Witch's Lineage / Hope Cloak / Gatekeeper's Shield; Progressed Gold Helm of the Eternal Empire / Hope Cloak / Shield of the Eternal Empire; Max Helm of the Conqueror / Hope Cloak / Hammer of Sun and Moon. hokbuild: Revival Helm, Sakura Fubuki, Quinn's Soul, Revival Gauntlets, Revival Pants, Frost Treads.",
       "roles": [
         "garrison",
@@ -88428,7 +90498,30 @@
       "skill_upgrade_order": "5511 poi 5551 (RKG); AllClash target 5511; hokbuild 5-1-1-1",
       "sculpture_cost_to_max": 690,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo.",
       "roles": [
         "open_field",
@@ -90186,7 +92279,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5515; hokbuild: 5-5-5-1; riseofkingdomsguides: massimizzare le prime due skill, poi sbloccare le restanti fino all'expertise",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint; Progressed: Expedition War Helm, Heavy Armor of the Hellish Wasteland, Heart of the Saint; Final: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion | hokbuild: Pride of the Khan, Sacred Dominion, Heavy Armor of the Hellish Wasteland, Navar’s Control, Ash of the Dawn, Sturdy Boots of the Eternal Empire",
       "roles": [
         "open_field",
@@ -91014,7 +93130,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5155; hokbuild: 5-5-1-5; riseofkingdomsguides: massimizzare la prima skill; per i barbari portare le prime due skill prima della promozione a 4 stelle",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint; Progressed: Expedition War Helm, Heavy Armor of the Hellish Wasteland, Heart of the Saint; Final: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion | hokbuild: Golden Age, Vambraces of the Eternal Empire, Gold Helm of the Eternal Empire, Dragon’s Breath Tassets, Plate of the Eternal Empire, Sturdy Boots of the Eternal Empire",
       "roles": [
         "open_field",
@@ -91956,7 +94095,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5115; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Arch (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witchs Lineage, Hope Cloak, Gatekeepers Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Final: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon | hokbuild: Windswept War Helm, Windswept Bracers, Windswept Breastplate, Windswept Boots, Gatekeepers Shield, Sentry Breeches",
       "roles": [
         "open_field",
@@ -92817,7 +94979,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Helm of Phoenix, Quinns Soul, Blessed Blade; Progressed: Helm of Phoenix, Quinns Soul, Blessed Blade; Final: Helm of Phoenix, Quinns Soul, Blessed Blade | hokbuild: Windswept War Helm, Staff of the lost, Windswept Breastplate, Windswept Bracers, Windswept Boots, Sentry Breeches",
       "roles": [
         "barbarians",
@@ -93578,7 +95763,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5555",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: V Formation (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Knights Steel Diadem, Knights Valorous Cloak, Knights Oathsworn Bow; Progressed: Knights Steel Diadem, Knights Valorous Cloak, Witchs Feathered Staff; Final: Fierce Wolfs Helmet, Vigilant Wolfs Leather Armor, Twilight Epiphany",
       "roles": [
         "open_field"
@@ -95749,7 +97957,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Helm of Phoenix, Quinns Soul, Blessed Blade; Progressed: Helm of Phoenix, Quinns Soul, Blessed Blade; Final: Helm of Phoenix, Quinns Soul, Blessed Blade | hokbuild: Mask of the Forest Guardian, Staff of the lost, Harvester Robes, Roaring Wolf’s Claws, Claws of the Forest Guardian, Knight’s Triumphant Tassets",
       "roles": [
         "barbarians"
@@ -96857,7 +99088,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5*55; hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Arch (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witchs Lineage, Hope Cloak, Gatekeepers Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Final: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon | hokbuild: Witch’s Deadwood Crown, Sakura Fubuki, Shadow Legion’s Retribution, Seth’s Brutality, Fanatic’s Tassets, Flame Treads",
       "roles": [
         "garrison",
@@ -98325,7 +100579,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5515; hokbuild: 5-5-5-1; riseofkingdomsguides: massimizzare le skill legate alla rabbia (Ambush, Military Genius, National Hero), il meno possibile su Legend of Teutoburg",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Revival Helm, Revival Plate, Golden Age; Progressed: Dragons Breath Helm, Dragons Breath Plate, Dragons Breath Bow; Final: Ancestral Mask of Night, Dragons Breath Plate, The Hydras Blast | hokbuild: Revival Helm, Revival Plate, Revival Gauntlets, Revival Gauntlets, Staff of the lost, Edged Boots",
       "roles": [
         "open_field",
@@ -99190,7 +101467,30 @@
       "skill_upgrade_order": "Skill 1 a 5 per prima; target 5555 (AllClash e hokbuild)",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "Wedge",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, Hydra's Blast. hokbuild: Golden Age, Revival Helm/Plate/Gauntlets, The Scarlet Hounds.",
       "roles": [
         "open_field",
@@ -101004,7 +103304,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5511; hokbuild: 5-5-5-1; riseofkingdomsguides: prima skill 1 al massimo, poi skill 2 ('you really do need to max these two skills')",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Line (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Mask of the Forest Guardian, Robe of the Forest Guardian, Scepter of the Forest Guardian; Progressed: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff; Final: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff | hokbuild: Knight’s Steel Diadem, Windswept Breastplate, Staff of the lost, Windswept Bracers, Sentry Breeches, Windswept Boots",
       "roles": [
         "support",
@@ -101843,7 +104166,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5115; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Revival Helm, Revival Plate, Golden Age; Progressed: Dragons Breath Helm, Dragons Breath Plate, Dragons Breath Bow; Final: Ancestral Mask of Night, Dragons Breath Plate, The Hydras Blast | hokbuild: Expedition War Helm, Staff of the lost, Commander’s Heavy Armor, Saint’s Song, Greaves of the Exile, Edged Boots",
       "roles": [
         "open_field",
@@ -102444,7 +104790,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5155; hokbuild: 5-5-1-1; riseofkingdomsguides: massimizzare la prima skill, portare a 4 stelle, poi investire nelle altre",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Revival Helm, Revival Plate, Golden Age; Progressed: Dragons Breath Helm, Dragons Breath Plate, Dragons Breath Bow; Final: Ancestral Mask of Night, Dragons Breath Plate, The Hydras Blast | hokbuild: Revival Helm, Revival Plate, Revival Gauntlets, Revival Gauntlets, Sakura Fubuki, Flame Treads",
       "roles": [
         "canyon",
@@ -103831,7 +106200,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5515; hokbuild: 5-5-5-1; riseofkingdomsguides: prima Lohar's Trial, poi Overwhelming Force e Sanction fino a 4 stelle, poi sbloccare la quarta skill",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Helm of Phoenix, Quinns Soul, Blessed Blade; Progressed: Helm of Phoenix, Quinns Soul, Blessed Blade; Final: Helm of Phoenix, Quinns Soul, Blessed Blade | hokbuild: Revival Helm, Revival Gauntlets, Revival Plate, Revival Gauntlets, Heart of the Saint, Knight’s Winter Sabatons",
       "roles": [
         "barbarians"
@@ -104969,7 +107361,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 1500; hokbuild: 5-5-1-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Line (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Mask of the Forest Guardian, Robe of the Forest Guardian, Scepter of the Forest Guardian; Progressed: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff; Final: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff | hokbuild: Mask of the Forest Guardian, Scepter of the Forest Guardian, Robe of the Forest Guardian, Claws of the Forest Guardian, Roaring Wolf’s Claws, Fanatic’s Tassets",
       "roles": [
         "gathering"
@@ -105670,7 +108085,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5555; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: V Formation (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "V-Formation",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Cronache del drago"
+          },
+          {
+            "type": "Strumento",
+            "name": "Tamburo di guerra imperiale"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del drago"
+          },
+          {
+            "type": "Emblema",
+            "name": "Decreto imperiale"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Knights Steel Diadem, Knights Valorous Cloak, Knights Oathsworn Bow; Progressed: Knights Steel Diadem, Knights Valorous Cloak, Witchs Feathered Staff; Final: Fierce Wolfs Helmet, Vigilant Wolfs Leather Armor, Twilight Epiphany | hokbuild: Revival Helm, Revival Gauntlets, Revival Gauntlets, Revival Plate, Staff of the lost, Windswept Boots",
       "roles": [
         "open_field"
@@ -106347,7 +108785,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5155; hokbuild: 5-5-5-1; riseofkingdomsguides: prima The Empire Awakens",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Windswept War Helm, Windswept Breastplate, Blazing Axe; Progressed: Abyssal Visage, Hope Cloak, Heart of the Saint; Final: Diadem of the Glorious Goddess, Hope Cloak, Scepter of the Glorious Goddess | hokbuild: Revival Helm, Revival Gauntlets, Revival Gauntlets, Revival Plate, Sacred Dominion, Witch’s Mire-Waders",
       "roles": [
         "open_field",
@@ -107156,7 +109617,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5515; hokbuild: 5-5-5-5; riseofkingdomsguides: massimizzare la prima skill poi la seconda, portarle a 4 stelle per sbloccare le altre due",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Windswept War Helm, Windswept Breastplate, Vanguard Halberd; Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint; Progressed: Expedition War Helm, Heavy Armor of the Hellish Wasteland, Heart of the Saint; Final: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion | hokbuild: Abyssal Visage, Sacred Dominion, Sacred Grips, Knight’s Winter Sabatons, Saint’s Song, Karuak’s Humility",
       "roles": [
         "open_field",
@@ -107947,7 +110431,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 555/15; hokbuild: 5-5-5-1",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Arch (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witchs Lineage, Hope Cloak, Gatekeepers Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Final: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon | hokbuild: Gold Helm of the Eternal Empire, Plate of the Eternal Empire, Seth’s Brutality, Staff of the lost, Shio’s Return, Greaves of the Eternal Empire",
       "roles": [
         "garrison",
@@ -108665,7 +111172,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 1500; hokbuild: 5-1-1-1",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Line (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Mask of the Forest Guardian, Robe of the Forest Guardian, Scepter of the Forest Guardian; Progressed: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff; Final: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff | hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate of the Eternal Empire, Dragon’s Breath Vambraces, Gladiator, Cloud Racers",
       "roles": [
         "gathering",
@@ -109415,7 +111945,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5515; hokbuild: 5-5-1-1",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Wedge (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Wedge",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Epopee di Olimpia"
+          },
+          {
+            "type": "Strumento",
+            "name": "Direttore del coro di Olimpia"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo del Pantheon"
+          },
+          {
+            "type": "Emblema",
+            "name": "Onori del Pantheon"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Milanese Plate, Blessed Blade; Advanced: Windswept War Helm, Windswept Breastplate, Blazing Axe; Progressed: Abyssal Visage, Hope Cloak, Heart of the Saint; Final: Diadem of the Glorious Goddess, Hope Cloak, Scepter of the Glorious Goddess | hokbuild: Helm of the Conqueror, Golden Age, Hope Cloak, Sacred Grips, Eternal Night, Sturdy Boots of the Eternal Empire",
       "roles": [
         "canyon",
@@ -110338,7 +112891,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 5155; hokbuild: 5-5-1-1; riseofkingdomsguides: massimizzare prima la skill attiva Art of War, poi la terza o la quarta",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Arch (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Arch",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Pergamena del nord"
+          },
+          {
+            "type": "Strumento",
+            "name": "Corno del nord"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Stendardo di battaglia del Nord"
+          },
+          {
+            "type": "Emblema",
+            "name": "Emblema del Nord"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": true,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Helm of Phoenix, Infantry Breastplate, Blessed Blade; Advanced: Witchs Lineage, Hope Cloak, Gatekeepers Shield; Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire; Final: Helm of the Conqueror, Hope Cloak, Hammer of the Sun and Moon | hokbuild: Gatekeepers Shield, Windswept Breastplate, Windswept War Helm, Seth’s Brutality, The Scarlet Hounds, Eternal Night",
       "roles": [
         "open_field",
@@ -111753,7 +114329,30 @@
       "skill_upgrade_order": "allclash 'sweetspot': 1500; hokbuild: 5-5-5-5",
       "sculpture_cost_to_max": 440,
       "recommended_formation": "allclash: Line (le formazioni alternative e gli armamenti sono riservati PRO)",
-      "recommended_armaments": null,
+      "recommended_armaments": {
+        "formation": "Line",
+        "slots": [
+          {
+            "type": "Pergamena",
+            "name": "Libro di Horus"
+          },
+          {
+            "type": "Strumento",
+            "name": "Arpa di Horus"
+          },
+          {
+            "type": "Bandiera",
+            "name": "Taglia di Horus"
+          },
+          {
+            "type": "Emblema",
+            "name": "Occhio di Horus"
+          }
+        ],
+        "source": "schermata Codice del client, letta 2026-09-28",
+        "verified_in_inventory": false,
+        "note": "Gli slot sono fissi: ogni formazione ha una Pergamena, uno Strumento, una Bandiera e un Emblema, e ogni slot accetta solo quel pezzo. La scelta sta nella copia: attributi casuali e iscrizioni."
+      },
       "recommended_equipment": "allclash (solo elmo/armatura/arma visibili, resto PRO): Start: Harvesters Headscarf, Harvester Robes, Scepter of the Forest Guardian; Advanced: Mask of the Forest Guardian, Robe of the Forest Guardian, Scepter of the Forest Guardian; Progressed: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff; Final: Witchs Deadwood Crown, Witchs Hexed Cloak, Witchs Feathered Staff | hokbuild: Dark Lord’s Blessing, Windswept Bracers, Windswept War Helm, Windswept Boots, Scepter of the Forest Guardian, Harvester Breeches",
       "roles": [
         "gathering"

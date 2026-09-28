@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# dati personali e screenshot dei test: restano sul PC
+account_profile.json
+raccomandazioni.json
+test_pc/
+test_telefono/
+*.log

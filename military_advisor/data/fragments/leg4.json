@@ -1,0 +1,901 @@
+{
+  "group": "leg4",
+  "retrieved": "2026-09-27",
+  "shared_sources": [
+    {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings (AllClash tier list: overall, open_field, rally, canyon, garrison=Defense)"]},
+    {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings (RKG tier list, pagina datata 'September 2026' senza giorno: overall, open_field, rally, garrison=Defend)"]},
+    {"url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max (Legendary 690 dopo evocazione, Epic 440; evocazione 10 statue)"]},
+    {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max (Legendary 690 / 700 incl. evocazione; Epic 440 / 450; expertise senza statue extra)"]},
+    {"url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "site": "riseofkingdomsguides.com", "page_date": "2026-07-01", "retrieved": "2026-09-27", "fields": ["rarity (conferma per tutti i 16; Imhotep listato come Epic)"]}
+  ],
+  "sculpture_cost_reference": {
+    "legendary_skills_only": 690,
+    "legendary_including_summon": 700,
+    "epic_skills_only": 440,
+    "epic_including_summon": 450,
+    "note": "Valore generale per rarita', non specifico del comandante. Il campo sculpture_cost_to_max nei comandanti riporta il costo delle sole skill (690 Legendary / 440 Epic); l'evocazione costa 10 statue in piu'."
+  },
+  "commanders": [
+    {
+      "name": "Zhuge Liang",
+      "aliases": ["Zhuge", "Kongming"],
+      "rarity": "Legendary",
+      "civilization": "China",
+      "specialties": ["Archer", "Skill", "Versatility"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2023,
+      "skills": [
+        {"slot": 1, "name": "Burning of Xinye", "type": "active", "rage": null, "effect": "Deals direct damage to up to 5 nearby enemies (Damage Factor 1200 -> 2000); damage reduced by 15% per additional target. All targets hit suffer reduced damage dealt (5% -> 15%) for 3 seconds.", "max_values": {"damage_factor": 2000, "damage_reduction_on_targets_pct": 15, "max_targets": 5}, "levels": {"damage_factor": [1200, null, null, null, 2000], "damage_reduction_pct": [5, null, null, null, 15]}},
+        {"slot": 2, "name": "Borrowing Arrows", "type": "passive", "rage": null, "effect": "Archer units gain Health (10% -> 30%) and deal more damage (1% -> 5%). 50% chance to negate control effects and counter-attack (counter Damage Factor 200 -> 500); triggers once per 5 seconds.", "max_values": {"archer_health_pct": 30, "archer_damage_pct": 5, "counter_damage_factor": 500, "negate_control_chance_pct": 50}, "levels": {"archer_health_pct": [10, null, null, null, 30], "archer_damage_pct": [1, null, null, null, 5], "counter_damage_factor": [200, null, null, null, 500]}},
+        {"slot": 3, "name": "Longzhong Plan", "type": "passive", "rage": null, "effect": "When the troop is archer-only: skill damage increased (5% -> 20%). Normal attacks have a 10% chance to grant an Attack buff (25% -> 50%) for 3 seconds; triggers once per 5 seconds.", "max_values": {"skill_damage_pct": 20, "attack_buff_pct": 50}, "levels": {"skill_damage_pct": [5, null, null, null, 20], "attack_buff_pct": [25, null, null, null, 50]}},
+        {"slot": 4, "name": "Marquis Zhongwu", "type": "passive", "rage": null, "effect": "Skills grant the Marquis effect (+2% -> +10% damage, 10 seconds). Archer-only troops consume the effect to deal damage to up to 3 enemies (Damage Factor 700 -> 1500).", "max_values": {"damage_bonus_pct": 10, "damage_factor": 1500, "max_targets": 3}, "levels": {"damage_bonus_pct": [2, null, null, null, 10], "damage_factor": [700, null, null, null, 1500]}},
+        {"slot": 5, "name": "Chu Shi Biao", "type": "expertise", "rage": null, "effect": "Troops enter battle with a 10% damage boost for 15 seconds. Dealing skill damage grants 30 Rage.", "max_values": {"damage_bonus_pct": 10, "duration_s": 15, "rage_gain": 30}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Archer"], "key_talents": ["Rejuvenate", "Feral Nature", "Venomous Sting", "Full Quiver", "Razor Sharp"], "stat_summary": "Massima generazione di rabbia per ciclare Burning of Xinye; poi buff arcieri e danno.", "notes": "AllClash: sbloccare Rejuvenate per primo, poi Feral Nature, poi Venomous Sting nell'albero Archer; punti restanti in Full Quiver e Razor Sharp. RKG: albero Archer primario, Skill secondario."},
+        {"purpose": "rally", "trees": ["Skill", "Archer"], "key_talents": ["Rejuvenate", "Razor Sharp", "Venomous Sting"], "stat_summary": "Piu' danno per colpo.", "notes": "AllClash: nel build rally dare priorita' a Razor Sharp invece di Feral Nature."}
+      ],
+      "pairings": [
+        {"partner": "Boudica Prime", "this_as": "primary", "purpose": "open_field", "note": "RKG: coppia migliore. AllClash: Boudica Prime secondaria; 'batte senza sforzo' le coppie cavalleria Nevsky+Joan Prime."},
+        {"partner": "Henry V", "this_as": "either", "purpose": "open_field", "note": "AllClash: funziona adeguatamente (Zhuge primario nella pagina di Henry)."},
+        {"partner": "Yi Seong-Gye", "this_as": "either", "purpose": "open_field", "note": "AllClash: funzionale ma manca velocita' di marcia."},
+        {"partner": "Nebuchadnezzar II", "this_as": "primary", "purpose": "open_field", "note": "AllClash: da' difesa ma resta un glass cannon."},
+        {"partner": "Cyrus the Great", "this_as": "primary", "purpose": "open_field", "note": "AllClash: setup open field con tutte le skill rilevanti; la velocita' di marcia aiuta a sganciarsi."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "A+", "open_field": "A+", "rally": "B+", "garrison": "B+", "canyon": "A+", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "S+", "open_field": "S+", "rally": "A", "garrison": "A", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5511 poi 5551 (RKG); AllClash target 5511; hokbuild 5-1-1-1",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo.",
+      "roles": ["open_field", "canyon", "rally"],
+      "f2p_friendly": null,
+      "notes": "Comandante arciere legendary basato sul danno da skill AOE (fino a 5 bersagli) e sul ciclo di rabbia. Richiede marcia solo arcieri per attivare skill 3 e 4. Punto debole: lentezza (hokbuild).",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/zhuge-liang/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "pairings", "skill_upgrade_order"]},
+        {"url": "https://www.allclash.com/best-zhuge-liang-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/zhuge-liang/", "site": "rok.hokbuild.com", "page_date": "2025-12-27", "retrieved": "2026-09-27", "fields": ["skill_upgrade_order (5-1-1-1)", "recommended_equipment", "pairings", "notes"]},
+        {"url": "https://app.rokstats.online/commanders/zhuge-liang", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2023-05-15)", "skills (conferma)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost non riportato da nessuna fonte", "valori intermedi per livello (solo min e max)", "armamenti non pubblicati (AllClash PRO)", "release_year da una sola fonte (rokstats) non verificata"],
+      "conflicts": [
+        {"field": "skill_upgrade_order", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/zhuge-liang/", "value": "5511 poi 5551"}, {"url": "https://www.allclash.com/best-zhuge-liang-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "value": "5511"}, {"url": "https://rok.hokbuild.com/commanders/zhuge-liang/", "value": "5-1-1-1"}]},
+        {"field": "ratings.overall", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "A+"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "S+"}]}
+      ]
+    },
+    {
+      "name": "Babur",
+      "aliases": ["Zahir-ud-din Muhammad Babur"],
+      "rarity": "Legendary",
+      "civilization": "Other",
+      "specialties": ["Engineering", "Versatility", "Attack"],
+      "troop_type": "engineering",
+      "is_prime": false,
+      "release_year": 2023,
+      "skills": [
+        {"slot": 1, "name": "Victor of Panipat", "type": "active", "rage": null, "effect": "Deals skill damage to the target troop (Damage Factor 1200 -> 2000 per RKG; 1400 -> 2400 per rokstats); damage reduced by 50% if the target is not within melee range.", "max_values": {"damage_factor": 2000, "damage_factor_alt_rokstats": 2400, "ranged_penalty_pct": 50}, "levels": null},
+        {"slot": 2, "name": "The Baburnama", "type": "passive", "rage": null, "effect": "Siege units gain Attack (3% -> 15%) and Defense (3% -> 15%). Ranged normal attack damage increased (2% -> 10%).", "max_values": {"siege_attack_pct": 15, "siege_defense_pct": 15, "ranged_damage_pct": 10}, "levels": {"siege_attack_pct": [3, null, null, null, 15], "siege_defense_pct": [3, null, null, null, 15], "ranged_damage_pct": [2, null, null, null, 10]}},
+        {"slot": 3, "name": "The Tiger's Roar", "type": "passive", "rage": null, "effect": "In ranged mode: normal attack damage taken reduced (2% -> 10%) and counterattack bonus. 10% chance on ranged attacks to deal additional skill damage (Damage Factor 200 -> 500); triggers once every 5 seconds.", "max_values": {"normal_damage_reduction_pct": 10, "extra_damage_factor": 500, "trigger_chance_pct": 10}, "levels": {"normal_damage_reduction_pct": [2, null, null, null, 10], "extra_damage_factor": [200, null, null, null, 500]}},
+        {"slot": 4, "name": "Stoneshaker", "type": "passive", "rage": null, "effect": "Siege units gain Health (5% -> 20% per RKG; 10% -> 30% per rokstats). 10% chance when damaged to gain Defense (20% -> 40%) and a damage bonus (1% -> 5%).", "max_values": {"siege_health_pct": 20, "siege_health_pct_alt_rokstats": 30, "defense_pct": 40, "damage_bonus_pct": 5}, "levels": null},
+        {"slot": 5, "name": "Amir of Fergana", "type": "expertise", "rage": null, "effect": "Siege units gain 10% Attack. After using the active skill the troop gains 50 extra Rage per second for 3 seconds.", "max_values": {"siege_attack_pct": 10, "rage_per_second": 50, "duration_s": 3}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Engineering", "Attack"], "key_talents": ["Forbearance", "Effortless", "Fight to Death"], "stat_summary": "Danno a distanza massimo con marcia interamente d'assedio.", "notes": "AllClash: Forbearance (Engineering) 'ri-attiva un boost di danno enorme'; Effortless fino a +10% danno; Fight to Death scambia danno subito per danno inflitto. RKG mostra solo immagine del talent tree."}
+      ],
+      "pairings": [
+        {"partner": "Margaret I", "this_as": "either", "purpose": "open_field", "note": "AllClash: 'funziona estremamente bene'; per Margaret preferito l'albero Support."},
+        {"partner": "Ishida Mitsunari", "this_as": "primary", "purpose": "open_field", "note": "AllClash: opzione teorica per avere piu' unita' d'assedio."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "B", "rally": "D", "garrison": "D", "canyon": "D", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "B", "open_field": "B", "rally": "C", "garrison": "C", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima, target 5555 (AllClash; sequenza esatta dietro paywall PRO)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash Maximum: Fierce Wolf's Helmet, Vigilant Wolf's Leather Armor, Twilight Epiphany (resto PRO). hokbuild: Abyssal Visage, Sakura Fubuki, Plate of the Eternal Empire, Dragon's Breath Vambraces/Boots/Tassets.",
+      "roles": ["open_field"],
+      "f2p_friendly": false,
+      "notes": "Unico comandante legendary per unita' d'assedio (siege) con danno a distanza. RKG: non consigliato ai F2P, richiede forte investimento in equipaggiamento e coppie. Pairings su RKG ancora 'Coming Soon'.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/babur/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "f2p_friendly", "notes"]},
+        {"url": "https://www.allclash.com/best-babur-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/babur/", "site": "rok.hokbuild.com", "page_date": "2026-01-24", "retrieved": "2026-09-27", "fields": ["recommended_equipment", "civilization (Other)"]},
+        {"url": "https://app.rokstats.online/commanders/babur", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2023-02-23)", "skills (valori alternativi)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "formazione consigliata", "armamenti", "pairings RKG (Coming Soon)", "valori per livello intermedi"],
+      "conflicts": [
+        {"field": "skills[1].max_values.damage_factor", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/babur/", "value": "1200 -> 2000"}, {"url": "https://app.rokstats.online/commanders/babur", "value": "1400 -> 2400"}]},
+        {"field": "skills[4].siege_health_pct", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/babur/", "value": "5% -> 20%"}, {"url": "https://app.rokstats.online/commanders/babur", "value": "10% -> 30%"}]}
+      ]
+    },
+    {
+      "name": "Joan of Arc Prime",
+      "aliases": ["Legendary Joan of Arc", "Joan Prime", "Joan of Arc (Prime)"],
+      "rarity": "Legendary",
+      "civilization": "France",
+      "specialties": ["Cavalry", "Versatility", "Support"],
+      "troop_type": "cavalry",
+      "is_prime": true,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Sacred Banner", "type": "active", "rage": null, "effect": "Deals skill damage to up to 3 enemies in a fan-shaped area (Damage Factor 1000 -> 2000). Troops also deal more damage (1% -> 5%) and gain extra Rage per second (3 -> 20) for 3 seconds.", "max_values": {"damage_factor": 2000, "damage_bonus_pct": 5, "rage_per_second": 20, "max_targets": 3}, "levels": {"damage_factor": [1000, null, null, null, 2000], "damage_bonus_pct": [1, null, null, null, 5], "rage_per_second": [3, null, null, null, 20]}},
+        {"slot": 2, "name": "Hundred-Year Dawn", "type": "passive", "rage": null, "effect": "Cavalry units gain Attack (5% -> 20%) and March Speed (2% -> 10%). Outside alliance territory: additional March Speed (2% -> 10%) and normal attack damage (1% -> 5%).", "max_values": {"cavalry_attack_pct": 20, "cavalry_march_speed_pct": 10, "outside_territory_speed_pct": 10, "normal_damage_pct": 5}, "levels": null},
+        {"slot": 3, "name": "Return of the Saint", "type": "passive", "rage": null, "effect": "Cavalry units deal more damage when attacking (1% -> 5%). Active skills grant a normal attack damage bonus (10% -> 30%) for 1 second; 5-second cooldown.", "max_values": {"cavalry_damage_pct": 5, "normal_attack_buff_pct": 30}, "levels": null},
+        {"slot": 4, "name": "The Blessed", "type": "passive", "rage": null, "effect": "Cavalry units gain Health (2% -> 10%). The secondary commander's skills have a chance (50% -> 100%) to trigger Sacred Banner; 10-second cooldown.", "max_values": {"cavalry_health_pct": 10, "trigger_chance_pct": 100}, "levels": null},
+        {"slot": 5, "name": "Unyielding Martyr", "type": "expertise", "rage": null, "effect": "Troop deals 5% more counterattack damage and 5% more damage to targets with more than 30% units remaining.", "max_values": {"counterattack_damage_pct": 5, "conditional_damage_pct": 5}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Cavalry", "Support"], "key_talents": ["Rejuvenate", "Emergency Protection"], "stat_summary": "Bilanciamento tra statistiche cavalleria e generazione di rabbia.", "notes": "AllClash: Rejuvenate nel Support (max 2 punti per non eccedere la rabbia), poi Emergency Protection, resto tutto nell'albero Cavalry. RKG: usarla quasi sempre come secondaria, quindi il talent tree conta poco."}
+      ],
+      "pairings": [
+        {"partner": "Alexander Nevsky", "this_as": "secondary", "purpose": "open_field", "note": "RKG: Nevsky primario. AllClash elenca invece Joan come primaria (conflitto registrato)."},
+        {"partner": "Xiang Yu", "this_as": "secondary", "purpose": "open_field", "note": "RKG: Xiang Yu primario. AllClash: serve equipaggiamento difensivo, zero sostegno alla durabilita'."},
+        {"partner": "Honda Tadakatsu", "this_as": "either", "purpose": "open_field", "note": "AllClash: aggiunge durabilita' al playstyle glass cannon."},
+        {"partner": "Mehmed II", "this_as": "either", "purpose": "open_field", "note": "AllClash: aggiunge danno da skill e difesa."},
+        {"partner": "Julius Caesar", "this_as": "either", "purpose": "open_field", "note": "AllClash: opzione secondaria; sinergia con la finestra buff di 5 secondi."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B", "open_field": "B+", "rally": "A", "garrison": "C", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "S", "open_field": "S", "rally": "A", "garrison": "C", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/", "page_date": "2026-01-02", "overall": "4.4/5", "open_field": "5/5", "rally": "5/5", "garrison": "2/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima, poi le altre; target 5555 (AllClash)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of Hellish Wasteland, Sacred Dominion.",
+      "roles": ["open_field", "canyon", "rally"],
+      "f2p_friendly": null,
+      "notes": "Versione legendary di Giovanna d'Arco, orientata alla cavalleria e all'open field (KVK, Ark of Osiris). RKG: 'adatta solo all'open field'; usata come secondaria per risparmiare stelle d'oro e XP, con la skill 4 che fa triggerare Sacred Banner dalle skill del partner.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "pairings", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-joan-of-arc-prime-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://app.rokstats.online/commanders/joan-of-arc-prime", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-09-19)", "skills (valori per livello)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "URL /talent-tree/joan-of-arc-prime/ da' 404 (usata la pagina legendary-joan-of-arc-prime-...)", "release_year da una sola fonte non verificata", "rok.hokbuild.com/commanders/joan-of-arc-prime/ 404"],
+      "conflicts": [
+        {"field": "pairings.this_as (Nevsky / Xiang Yu)", "values": [{"url": "https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/", "value": "Joan secondaria (partner primario)"}, {"url": "https://www.allclash.com/best-joan-of-arc-prime-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "value": "Joan primaria"}]},
+        {"field": "ratings.overall", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "B"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "S"}]}
+      ]
+    },
+    {
+      "name": "Jan Zizka",
+      "aliases": ["Jan Žižka", "Zizka"],
+      "rarity": "Legendary",
+      "civilization": "Other",
+      "specialties": ["Cavalry", "Garrison", "Skill"],
+      "troop_type": "cavalry",
+      "is_prime": false,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "One-Eyed Knight", "type": "active", "rage": null, "effect": "Deals skill damage to the target troop (Damage Factor 1400 -> 2200). When this commander's troop has fewer than 50% units remaining, the skill deals additional skill damage (Damage Factor 100 -> 250).", "max_values": {"damage_factor": 2200, "additional_damage_factor": 250}, "levels": {"damage_factor": [1400, null, null, null, 2200], "additional_damage_factor": [100, null, null, null, 250]}},
+        {"slot": 2, "name": "Sword Held High", "type": "passive", "rage": null, "effect": "Cavalry units gain Attack (3% -> 15%). When troops are garrisoned, cavalry Defense is increased (3% -> 15%) and skill damage increased (2% -> 10%).", "max_values": {"cavalry_attack_pct": 15, "garrison_cavalry_defense_pct": 15, "garrison_skill_damage_pct": 10}, "levels": null},
+        {"slot": 3, "name": "Unbowed", "type": "passive", "rage": null, "effect": "Troops take less normal attack damage (2% -> 10%). When garrisoned and taking skill damage, chance (10% -> 50%) to remove all normal buffs from the attacker; 8-second cooldown.", "max_values": {"normal_damage_reduction_pct": 10, "buff_removal_chance_pct": 50, "cooldown_s": 8}, "levels": null},
+        {"slot": 4, "name": "Battle of Grunwald", "type": "passive", "rage": null, "effect": "Cavalry units gain Health (5% -> 20%). Normal attacks have a 10% chance to grant a normal attack damage buff (5% -> 20%) for 3 seconds; 8-second cooldown.", "max_values": {"cavalry_health_pct": 20, "normal_damage_buff_pct": 20, "duration_s": 3, "cooldown_s": 8}, "levels": null},
+        {"slot": 5, "name": "Cry of Bohemia", "type": "enhanced", "rage": null, "effect": "Enhanced One-Eyed Knight: deals skill damage to the target (Damage Factor 2400). When this commander's troop has fewer than 50% units remaining, deals additional skill damage to up to 3 surrounding troops (Damage Factor 300 each).", "max_values": {"damage_factor": 2400, "aoe_damage_factor": 300, "aoe_targets": 3}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "garrison", "trees": ["Cavalry", "Garrison", "Skill"], "key_talents": ["Undying Fury", "Dragon Saber", "Charge", "Halberd", "Galea", "Disarm", "Emblazoned Shield", "Rallying Cry", "Last Stand"], "stat_summary": "Rabbia, danno da contrattacco, difesa e riduzione danni per difendere obiettivi.", "notes": "RKG: unico build sensato, per difendere strutture in KVK/AOO. AllClash: 'esiste un solo talent build sensato'; niente talenti anti-arcieri perche' e' gia' forte contro i ranged. Lista talenti da hokbuild."}
+      ],
+      "pairings": [
+        {"partner": "Jadwiga", "this_as": "primary", "purpose": "garrison", "note": "RKG: Zizka primario, Jadwiga secondaria; sinergia su danno normale, nuke e rabbia. AllClash: richiede marcia 100% cavalleria."},
+        {"partner": "Alexander Nevsky", "this_as": "secondary", "purpose": "garrison", "note": "AllClash: Nevsky primario; le rispettive skill 4 aumentano il danno da skill subito dal bersaglio del 60%."},
+        {"partner": "Yi Sun-Sin", "this_as": "either", "purpose": "garrison", "note": "AllClash: coppia funzionale con buona sinergia."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "A", "rally": "C", "garrison": "S", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "C", "open_field": "C", "rally": "F", "garrison": "A", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/", "page_date": "2026-01-02", "overall": "4.3/5", "open_field": "4/5", "rally": "2/5", "garrison": "5/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Target 5555 (AllClash e hokbuild); sequenza esatta dietro paywall PRO",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of the Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of the Hellish Wasteland, Sacred Dominion. hokbuild: Gold Helm of the Eternal Empire, Golden Age, Plate/Vambraces/Greaves of the Eternal Empire, Greaves of the Glorious Goddess.",
+      "roles": ["garrison"],
+      "f2p_friendly": false,
+      "notes": "Cavalleria da guarnigione: la maggior parte delle skill si attiva solo quando e' in guarnigione. RKG: 'investi solo se difendi obiettivi in KVK e AOO'; sottoperforma in rally e open field.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "pairings", "ratings", "f2p_friendly"]},
+        {"url": "https://www.allclash.com/best-jan-zizka-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/jan-zizka/", "site": "rok.hokbuild.com", "page_date": "2026-01-25", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment"]},
+        {"url": "https://app.rokstats.online/commanders/jan-zizka", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-09-19)", "skills (conferma valori)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "URL /talent-tree/jan-zizka/ 404 (usata legendary-jan-zizka-...)", "release_year da una sola fonte"],
+      "conflicts": [
+        {"field": "pairings Jadwiga this_as", "values": [{"url": "https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/", "value": "Zizka primario"}, {"url": "https://www.allclash.com/best-jan-zizka-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "value": "Jadwiga indicata come 'secondary' option, Nevsky come primary"}]},
+        {"field": "ratings.open_field", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "A"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "C"}]}
+      ]
+    },
+    {
+      "name": "Sargon the Great",
+      "aliases": ["Sargon", "Sargon of Akkad"],
+      "rarity": "Legendary",
+      "civilization": "Other",
+      "specialties": ["Infantry", "Skill", "Versatility"],
+      "troop_type": "infantry",
+      "is_prime": false,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Sar Kissatim", "type": "active", "rage": null, "effect": "For the next 5 seconds, normal attacks have a chance (50% -> 100%) to deal additional direct damage to the target (Damage Factor 250 -> 500).", "max_values": {"trigger_chance_pct": 100, "damage_factor": 500, "duration_s": 5}, "levels": {"trigger_chance_pct": [50, null, null, null, 100], "damage_factor": [250, null, null, null, 500]}},
+        {"slot": 2, "name": "Standing Army", "type": "passive", "rage": null, "effect": "Infantry units gain Attack (5% -> 10%) and Health (10% -> 20%). Inflicts the 'Awed' debuff (stacks up to 10), each stack increasing skill damage taken by 3%.", "max_values": {"infantry_attack_pct": 10, "infantry_health_pct": 20, "awed_max_stacks": 10, "skill_damage_taken_per_stack_pct": 3}, "levels": null},
+        {"slot": 3, "name": "Conqueror of Sumer", "type": "passive", "rage": null, "effect": "Infantry units gain March Speed (3% -> 15%) and deal more damage (2% -> 10%). 10% chance to trigger an all-damage boost (10% -> 30%); 8-second cooldown.", "max_values": {"infantry_march_speed_pct": 15, "infantry_damage_pct": 10, "damage_boost_pct": 30, "cooldown_s": 8}, "levels": null},
+        {"slot": 4, "name": "Anu's Fury", "type": "passive", "rage": null, "effect": "Infantry units gain Defense (2% -> 10%). When 'Awed' reaches 10 stacks: dispel and deal direct damage (Damage Factor 500 -> 1000) and grant a shield (Shield Factor 150 -> 300).", "max_values": {"infantry_defense_pct": 10, "damage_factor": 1000, "shield_factor": 300}, "levels": null},
+        {"slot": 5, "name": "Enlil's Blessings", "type": "expertise", "rage": null, "effect": "Troop takes 15% less skill damage. When hit by normal attacks, 50% chance to inflict 2 'Awed' stacks on the attacker; 8-second cooldown (rokstats).", "max_values": {"skill_damage_reduction_pct": 15, "awed_stacks_applied": 2, "trigger_chance_pct": 50}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Infantry"], "key_talents": ["Rejuvenate", "Clarity", "Iron Spear", "Undying Fury", "Snare of Thorns", "Testudo Formation"], "stat_summary": "Ciclo di rabbia per Sar Kissatim, poi statistiche fanteria.", "notes": "AllClash (build raccomandato): Rejuvenate e Clarity subito, poi massimizzare l'albero Skill prima di investire nell'Infantry. Lista talenti fanteria da hokbuild (Iron Spear 3/3, Undying Fury 3/3, Snare of Thorns 3/3, ... Testudo Formation 1/1)."},
+        {"purpose": "mobility", "trees": ["Infantry", "Skill"], "key_talents": [], "stat_summary": "Velocita' di marcia e crowd control.", "notes": "AllClash build alternativo open field: 'assicurarsi che il nemico non riesca a scappare facilmente'."}
+      ],
+      "pairings": [
+        {"partner": "Guan Yu", "this_as": "secondary", "purpose": "open_field", "note": "RKG e AllClash: Guan Yu primario; sinergia AOE e trigger di skill."},
+        {"partner": "Alexander the Great", "this_as": "either", "purpose": "open_field", "note": "RKG: Alexander primario per sopravvivenza. AllClash: marcia veloce single-target; Sargon puo' fare da secondario."},
+        {"partner": "Tariq ibn Ziyad", "this_as": "either", "purpose": "open_field", "note": "AllClash: rilasciati insieme, meccaniche complementari; coppia 'molto infantry-heavy'."},
+        {"partner": "Scipio Africanus Prime", "this_as": "primary", "purpose": "open_field", "note": "AllClash: Sargon primario in open field."},
+        {"partner": "Honda Tadakatsu", "this_as": "either", "purpose": "open_field", "note": "AllClash: coppia open field poco testata ma promettente per velocita' di marcia."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B+", "open_field": "S", "rally": "S", "garrison": "A", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "A", "open_field": "A", "rally": "A", "garrison": "B", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/sargon-the-great/", "page_date": "2026-01-02", "overall": "4.2/5", "open_field": "5/5", "rally": "5/5", "garrison": "3/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target '5550' (cosi' riportato, probabile refuso), hokbuild 5-5-1-5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Pincer",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade. Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield. Progressed: Gold Helm of the Eternal Empire, Hope Cloak, Shield of the Eternal Empire. Maximum: Helm of the Conqueror, Hope Cloak, Hammer of Sun and Moon. hokbuild: Gold Helm of the Eternal Empire, Hammer of the Sun and Moon, Plate of the Glorious Goddess, Vambraces/Greaves of the Eternal Empire, Greaves of the Glorious Goddess.",
+      "roles": ["open_field", "rally", "canyon", "garrison"],
+      "f2p_friendly": null,
+      "notes": "Fanteria skill-based con debuff 'Awed' a stack. RKG: 'non consigliato se non serve un altro comandante fanteria; esistono alternative superiori'. hokbuild: nessuna skill attiva di danno diretto ne' AOE.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/sargon-the-great/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "pairings", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-sargon-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/sargon-the-great/", "site": "rok.hokbuild.com", "page_date": "2026-01-24", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment", "notes"]},
+        {"url": "https://app.rokstats.online/commanders/sargon-the-great", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-12-12)", "skills (valori min per livello)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "allclash slug 'best-sargon-the-great-...' 404, usato 'best-sargon-...'"],
+      "conflicts": [
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-sargon-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "value": "5550"}, {"url": "https://rok.hokbuild.com/commanders/sargon-the-great/", "value": "5-5-1-5"}]},
+        {"field": "ratings.open_field", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "S"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "A"}]}
+      ]
+    },
+    {
+      "name": "Tariq ibn Ziyad",
+      "aliases": ["Tariq", "Tariq Ibn Ziyad"],
+      "rarity": "Legendary",
+      "civilization": "Arabia",
+      "specialties": ["Infantry", "Conquering", "Defense"],
+      "troop_type": "infantry",
+      "is_prime": false,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Victory or Death", "type": "active", "rage": null, "effect": "Deals direct damage to the target (Damage Factor 1400 -> 2200); extra damage per surrounding enemy troop (Damage Factor 150 -> 300 each, capped at 900).", "max_values": {"damage_factor": 2200, "extra_damage_per_enemy": 300, "extra_damage_cap": 900}, "levels": {"damage_factor": [1400, null, null, null, 2200], "extra_damage_per_enemy": [150, null, null, null, 300]}},
+        {"slot": 2, "name": "Bane of the Visigoths", "type": "passive", "rage": null, "effect": "Infantry units gain Attack (20% -> 40%), deal more damage to cavalry (2% -> 10%) and gain March Speed outside alliance territory (2% -> 10%).", "max_values": {"infantry_attack_pct": 40, "damage_vs_cavalry_pct": 10, "march_speed_outside_pct": 10}, "levels": null},
+        {"slot": 3, "name": "Gate Crasher", "type": "passive", "rage": null, "effect": "When attacking cities/strongholds: infantry gain Defense (10% -> 30%); 30% chance to reduce the target's Attack (10% -> 30%) for 3 seconds; 8-second cooldown.", "max_values": {"infantry_defense_pct": 30, "attack_reduction_pct": 30, "cooldown_s": 8}, "levels": null},
+        {"slot": 4, "name": "Battle of Guadalete", "type": "passive", "rage": null, "effect": "Troops deal more damage (5% -> 15%); 10% chance to reduce the target's Rage (40 -> 80) per second for 3 seconds.", "max_values": {"damage_bonus_pct": 15, "rage_reduction": 80}, "levels": null},
+        {"slot": 5, "name": "Keen Berber Blade", "type": "enhanced", "rage": null, "effect": "Enhanced Victory or Death: direct damage to the target (Damage Factor 2500) plus bonus damage per surrounding enemy.", "max_values": {"damage_factor": 2500}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "rally", "trees": ["Defense", "Infantry", "Conquering"], "key_talents": [], "stat_summary": "Difesa per compensare la scarsa durabilita', piu' danno.", "notes": "AllClash: 'Tariq ha problemi di durabilita'; senza investire nell'albero Defense diventa un glass cannon critico'. RKG: build rally per attaccare obiettivi."},
+        {"purpose": "open_field", "trees": ["Infantry", "Defense"], "key_talents": [], "stat_summary": "Velocita' di marcia e riduzione velocita' nemica.", "notes": "AllClash: priorita' all'albero Infantry prima di altri punti Defense. RKG: build field PVP."}
+      ],
+      "pairings": [
+        {"partner": "Scipio Africanus Prime", "this_as": "secondary", "purpose": "rally", "note": "RKG: Scipio primario per sfruttarne il talent tree. AllClash: da' durabilita'."},
+        {"partner": "Sargon the Great", "this_as": "either", "purpose": "open_field", "note": "AllClash: coppia molto infantry-heavy con forte sinergia; RKG lo indica come alternativa a Scipio."},
+        {"partner": "Alexander the Great", "this_as": "secondary", "purpose": "open_field", "note": "RKG: alternativa se manca Scipio."},
+        {"partner": "Leonidas I", "this_as": "secondary", "purpose": "open_field", "note": "RKG: alternativa se manca Scipio."},
+        {"partner": "Guan Yu", "this_as": "either", "purpose": "open_field", "note": "AllClash: sinergia fanteria teorica, manca durabilita'."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "A+", "rally": "S+", "garrison": "B+", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "A", "open_field": "A", "rally": "A", "garrison": "B", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/tariq-ibn-ziyad/", "page_date": "2026-01-02", "overall": "4.5/5", "open_field": "5/5", "rally": "4/5", "garrison": "4/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash indica '5/1/5/x' (resto PRO)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Pincer",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade. Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield. Progressed: Gold Helm of Eternal Empire, Hope Cloak, Shield of Eternal Empire. Maximum: Helm of Conqueror, Hope Cloak, Hammer of Sun and Moon.",
+      "roles": ["rally", "open_field", "canyon"],
+      "f2p_friendly": false,
+      "notes": "Fanteria da rally/conquista con nuke single-target che scala con i nemici circostanti. RKG: 'i P2W e chi guida rally dovrebbero investire; i F2P dovrebbero evitare'.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/tariq-ibn-ziyad/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "pairings", "ratings", "f2p_friendly"]},
+        {"url": "https://www.allclash.com/best-tariq-ibn-ziyad-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://app.rokstats.online/commanders/tariq-ibn-ziyad", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-12-12)", "skills (conferma)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "talenti chiave specifici (solo indicazioni generali)", "rok.hokbuild.com/commanders/tariq-ibn-ziyad/ 404"],
+      "conflicts": [
+        {"field": "ratings.rally", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "S+"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "A"}]}
+      ]
+    },
+    {
+      "name": "Boudica Prime",
+      "aliases": ["Legendary Boudica", "Boudica (Prime)", "Boudicca Prime"],
+      "rarity": "Legendary",
+      "civilization": "Britain",
+      "specialties": ["Archer", "Versatility", "Skill"],
+      "troop_type": "archer",
+      "is_prime": true,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Revenge of the Iceni", "type": "active", "rage": null, "effect": "Deals direct damage to the current target (Damage Factor 1500 -> 2300), increases their skill damage taken (15% -> 35%) and reduces their March Speed by 30% for 3 seconds.", "max_values": {"damage_factor": 2300, "skill_damage_taken_pct": 35, "march_speed_reduction_pct": 30, "duration_s": 3}, "levels": {"damage_factor": [1500, null, null, null, 2300], "skill_damage_taken_pct": [15, null, null, null, 35]}},
+        {"slot": 2, "name": "Unending Struggle", "type": "passive", "rage": null, "effect": "Archer units gain Attack (15% -> 30%) and March Speed (2% -> 10%). When the troop is below 80% units, Defense increased (15% -> 30%).", "max_values": {"archer_attack_pct": 30, "archer_march_speed_pct": 10, "conditional_defense_pct": 30}, "levels": null},
+        {"slot": 3, "name": "Blessing of the Forest", "type": "passive", "rage": null, "effect": "Skill damage taken reduced (15% -> 35% per RKG; 10% -> 25% per rokstats). After taking skill damage: 50% chance of a normal attack damage increase (5% -> 25%) or 25% chance of a larger increase (20% -> 50%); 7-second cooldown.", "max_values": {"skill_damage_reduction_pct": 35, "skill_damage_reduction_pct_alt_rokstats": 25, "normal_damage_bonus_50pct_chance": 25, "normal_damage_bonus_25pct_chance": 50, "cooldown_s": 7}, "levels": null},
+        {"slot": 4, "name": "Shield of the Ancestors", "type": "passive", "rage": null, "effect": "After using the active skill, heals some slightly wounded units (Healing Factor 400 -> 800); 7-second cooldown. Archers deal more damage to infantry (1% -> 5%).", "max_values": {"healing_factor": 800, "damage_vs_infantry_pct": 5, "cooldown_s": 7}, "levels": null},
+        {"slot": 5, "name": "Rage of the Iceni", "type": "expertise", "rage": null, "effect": "Archer units deal 10% more damage. Whenever the troop is inflicted with a control effect, 80% chance to negate the effect.", "max_values": {"archer_damage_pct": 10, "control_negate_chance_pct": 80}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Archer", "Skill"], "key_talents": ["Rejuvenate", "Clarity", "Venomous Sting"], "stat_summary": "Rabbia + buff arcieri + velocita' di marcia.", "notes": "AllClash build principale: partire da Rejuvenate per la rabbia, poi albero Archer per buff e velocita'; Clarity nel ramo Skill per +6% danno da skill. RKG: build Archer (primario) e build Skill (secondario), nodi non dettagliati."},
+        {"purpose": "canyon", "trees": ["Skill"], "key_talents": ["Rejuvenate", "Feral Nature"], "stat_summary": "Massimo ciclo di skill in murderball.", "notes": "AllClash 'Murderball build': tutto nello Skill tree, Feral Nature per piu' rabbia; il debuff arriva a +36% danno da skill subito dal bersaglio."}
+      ],
+      "pairings": [
+        {"partner": "Zhuge Liang", "this_as": "secondary", "purpose": "open_field", "note": "RKG (pagina Zhuge): coppia migliore. AllClash (pagina Zhuge): Boudica Prime secondaria."},
+        {"partner": "Honda Tadakatsu", "this_as": "primary", "purpose": "open_field", "note": "AllClash: raccomandazione principale, sinergia di durabilita'."},
+        {"partner": "Artemisia I", "this_as": "either", "purpose": "open_field", "note": "AllClash: buff danno 50% a 80% di rabbia."},
+        {"partner": "Cyrus the Great", "this_as": "either", "purpose": "open_field", "note": "AllClash: protezione per glass cannon."},
+        {"partner": "Nebuchadnezzar II", "this_as": "either", "purpose": "open_field", "note": "AllClash: velocita' di marcia arcieri e buff difesa."},
+        {"partner": "Yi Seong-Gye", "this_as": "either", "purpose": "open_field", "note": "AllClash: opzione valida ma la meno favorevole."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B+", "open_field": "S", "rally": "S", "garrison": "D", "canyon": "S", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "S", "open_field": "S", "rally": "A", "garrison": "C", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/", "page_date": "2026-01-02", "overall": "4.5/5", "open_field": "5/5", "rally": "5/5", "garrison": "2/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5551 (RKG: 'cost-effective'; AllClash target 5551)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": null,
+      "roles": ["open_field", "rally", "canyon"],
+      "f2p_friendly": null,
+      "notes": "Versione legendary di Boudica: arciere versatile con debuff +35% danno da skill subito e forte riduzione danno da skill. RKG: 'una delle migliori arciere, priorita' anche per chi non e' main archer'. Punti deboli (RKG): danno inferiore ai comandanti piu' recenti, vulnerabile allo Smite.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "skill_upgrade_order", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-boudica-prime-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_formation", "ratings"]},
+        {"url": "https://riseofkingdomsguides.com/talent-tree/zhuge-liang/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings (Zhuge Liang)"]},
+        {"url": "https://app.rokstats.online/commanders/boudica-prime", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-06-13)", "skills (valori alternativi skill 3)", "civilization (Britain)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "equipaggiamento (AllClash PRO)", "armamenti", "pairings RKG 'Coming Soon'", "URL /talent-tree/boudica-prime/ 404 (usata legendary-boudica-...)", "rok.hokbuild.com/commanders/boudica-prime/ 404", "release_year da una sola fonte non verificata"],
+      "conflicts": [
+        {"field": "skills[3].skill_damage_reduction_pct", "values": [{"url": "https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/", "value": "15% -> 35%"}, {"url": "https://app.rokstats.online/commanders/boudica-prime", "value": "10% -> 25%"}]},
+        {"field": "ratings.overall", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "B+"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "S"}]}
+      ]
+    },
+    {
+      "name": "Henry V",
+      "aliases": ["Henry", "Henry V of England"],
+      "rarity": "Legendary",
+      "civilization": "Britain",
+      "specialties": ["Archer", "Conquering", "Support"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Divine Right", "type": "active", "rage": null, "effect": "Deals direct damage to the current target (Damage Factor 1500 -> 2300) and reduces the troop's skill damage taken (10% -> 30%) for 5 seconds.", "max_values": {"damage_factor": 2300, "skill_damage_reduction_pct": 30, "duration_s": 5}, "levels": {"damage_factor": [1500, null, null, null, 2300], "skill_damage_reduction_pct": [10, null, null, null, 30]}},
+        {"slot": 2, "name": "Welsh Longbows", "type": "passive", "rage": null, "effect": "Archer units gain Attack (10% -> 20%) and Defense (10% -> 20%) and March Speed outside alliance territory (5% -> 20%).", "max_values": {"archer_attack_pct": 20, "archer_defense_pct": 20, "march_speed_outside_pct": 20}, "levels": null},
+        {"slot": 3, "name": "Road to Empire", "type": "passive", "rage": null, "effect": "When attacking strongholds/cities or governors: counterattack damage increased (10% -> 30%). Normal attacks have a 10% chance to increase the target's skill damage taken (10% -> 30%) for 3 seconds; once per 5 seconds.", "max_values": {"counterattack_damage_pct": 30, "skill_damage_taken_debuff_pct": 30}, "levels": null},
+        {"slot": 4, "name": "Battle of Agincourt", "type": "passive", "rage": null, "effect": "Archer units deal more damage (2% -> 10%). When attacked, 10% chance to deal direct damage (Damage Factor 400 -> 800); once per 5 seconds.", "max_values": {"archer_damage_pct": 10, "direct_damage_factor": 800}, "levels": null},
+        {"slot": 5, "name": "Hundred Years' War", "type": "expertise", "rage": null, "effect": "When the troop's Rage is at or above 70%, they deal 30% more normal attack damage; otherwise they take 20% less normal attack damage.", "max_values": {"normal_damage_bonus_pct": 30, "normal_damage_reduction_pct": 20, "rage_threshold_pct": 70}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Archer", "Support"], "key_talents": ["Rejuvenate", "Loose Formation", "Archer Attack", "Archer Defense", "Rapid Fire", "Archer Health", "Arrows Nocked"], "stat_summary": "Rabbia + riduzione danno da skill, poi buff arcieri.", "notes": "AllClash: 'Rejuvenate e Loose Formation per piu' rabbia e meno danno da skill subito, poi riempire l'albero Archer'. Marcia di soli arcieri. Talenti Archer da hokbuild."}
+      ],
+      "pairings": [
+        {"partner": "Gilgamesh", "this_as": "either", "purpose": "open_field", "note": "AllClash: coppia naturale; entrambi riducono il danno da attacco normale subito, altissima sostenibilita'."},
+        {"partner": "Nebuchadnezzar II", "this_as": "primary", "purpose": "open_field", "note": "AllClash: Henry primario; meccaniche anti-swarm con contrattacco."},
+        {"partner": "Zhuge Liang", "this_as": "secondary", "purpose": "open_field", "note": "AllClash: Zhuge primario; solida ma altre coppie rendono di piu'."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B", "open_field": "S", "rally": "S", "garrison": "D", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "A", "open_field": "A", "rally": "A", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/henry-v/", "page_date": "2026-01-02", "overall": "4.5/5", "open_field": "5/5", "rally": "5/5", "garrison": "2/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5555; hokbuild 5-5-1-5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath + Ancestral Mask of Night.",
+      "roles": ["open_field", "rally", "canyon"],
+      "f2p_friendly": null,
+      "notes": "Arciere da conquista con forte riduzione del danno subito (skill 1 e expertise). Pairings RKG 'Coming Soon'. hokbuild: casi d'uso limitati e costo elevato.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/henry-v/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "ratings"]},
+        {"url": "https://www.allclash.com/best-henry-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/henry-v/", "site": "rok.hokbuild.com", "page_date": "2026-01-28", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment", "notes"]},
+        {"url": "https://app.rokstats.online/commanders/henry-v", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-06-13)", "skills (conferma slot e valori)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "allclash slug 'best-henry-v-...' 404, usato 'best-henry-...'", "release_year da una sola fonte non verificata"],
+      "conflicts": [
+        {"field": "skills slot 2/3 order", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/henry-v/", "value": "slot 2 Welsh Longbows, slot 3 Road to Empire (anche rokstats)"}, {"url": "https://rok.hokbuild.com/commanders/henry-v/", "value": "slot 2 Road to Empire, slot 3 Welsh Longbows"}]},
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-henry-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "value": "5555"}, {"url": "https://rok.hokbuild.com/commanders/henry-v/", "value": "5-5-1-5"}]}
+      ]
+    },
+    {
+      "name": "Thutmose III",
+      "aliases": ["Thutmose", "Thutmosis III"],
+      "rarity": "Legendary",
+      "civilization": "Egypt",
+      "specialties": ["Archer", "Versatility", "Support"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": null,
+      "skills": [
+        {"slot": 1, "name": "Brave Ruler", "type": "active", "rage": null, "effect": "Deals direct damage to up to 3 targets in a forward-facing fan-shaped area (Damage Factor 500 -> 1000); damage reduced by 15% per additional target. Reduces targets' healing received (10% -> 30%) for 5 seconds.", "max_values": {"damage_factor": 1000, "healing_reduction_pct": 30, "max_targets": 3, "duration_s": 5}, "levels": {"damage_factor": [500, null, null, null, 1000], "healing_reduction_pct": [10, null, null, null, 30]}},
+        {"slot": 2, "name": "Empire Builder", "type": "passive", "rage": null, "effect": "Archer units gain Attack (5% -> 15%) and March Speed (4% -> 10%). Outside alliance territory the troop deals more damage (5% -> 15%).", "max_values": {"archer_attack_pct": 15, "march_speed_pct": 10, "damage_outside_territory_pct": 15}, "levels": null},
+        {"slot": 3, "name": "Conquest of Mitanni", "type": "passive", "rage": null, "effect": "Archer units gain Defense (4% -> 10%). Normal attacks have a 10% chance to increase the target's skill damage taken (5% -> 15%) for 3 seconds; once per 8 seconds.", "max_values": {"archer_defense_pct": 10, "skill_damage_taken_debuff_pct": 15, "cooldown_s": 8}, "levels": null},
+        {"slot": 4, "name": "Vast Territory", "type": "passive", "rage": null, "effect": "Troop takes less counterattack damage (4% -> 10%). When attacked, 10% chance to deal skill damage (Damage Factor 300 -> 700); once per 8 seconds.", "max_values": {"counterattack_damage_reduction_pct": 10, "damage_factor": 700, "cooldown_s": 8}, "levels": null},
+        {"slot": 5, "name": "Might of Thebes", "type": "expertise", "rage": null, "effect": "Archer units take 5% less damage from infantry (rokstats). After using the active skill, normal attack damage increased by 30% for 3 seconds; once per 8 seconds.", "max_values": {"normal_damage_bonus_pct": 30, "duration_s": 3, "damage_reduction_vs_infantry_pct": 5}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Archer", "Skill"], "key_talents": ["Rejuvenate", "Whistling Arrows", "Arrow Storm", "Arrows Nocked", "Venomous Sting", "Razor Sharp", "Full Quiver"], "stat_summary": "Rabbia, poi buff arcieri e velocita' di marcia.", "notes": "AllClash: Rejuvenate per primo; usare 'quanti piu' arcieri possibile' finche' non si sblocca Whistling Arrows, poi marcia solo arcieri e talenti di velocita'. Lista talenti da hokbuild."}
+      ],
+      "pairings": [
+        {"partner": "Yi Seong-Gye", "this_as": "primary", "purpose": "open_field", "note": "AllClash: coppia naturale, danno ad area e buff arcieri (YSG secondario)."},
+        {"partner": "Ramesses II", "this_as": "primary", "purpose": "open_field", "note": "AllClash: sinergia arcieri, valida nei regni nuovi."},
+        {"partner": "Mehmed II", "this_as": "primary", "purpose": "open_field", "note": "AllClash: valido early game, danno ad area."},
+        {"partner": "Sun Tzu", "this_as": "primary", "purpose": "open_field", "note": "AllClash: coppia early game."},
+        {"partner": "Boudica Prime", "this_as": "primary", "purpose": "open_field", "note": "AllClash: 'coppia teorica'; Boudica Prime ha alternative migliori."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C", "open_field": "A", "rally": "D", "garrison": "D", "canyon": "B", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "B", "open_field": "B", "rally": "D", "garrison": "D", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/thutmose-iii/", "page_date": "2026-01-02", "overall": "4.3/5", "open_field": "4/5", "rally": "2/5", "garrison": "2/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "AllClash target 5511; hokbuild 5-5-5-1",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo.",
+      "roles": ["open_field"],
+      "f2p_friendly": null,
+      "notes": "Arciere egizio con riduzione cure (anti-Richard). RKG: 'molto utile nei server nuovi', consiglia di attendere test prima di investire nei server vecchi. Pairings RKG 'Coming Soon'. hokbuild: nessuna cura, debole in mischia.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/thutmose-iii/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-thutmose-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/thutmose-iii/", "site": "rok.hokbuild.com", "page_date": "2026-01-27", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment", "notes"]},
+        {"url": "https://app.rokstats.online/commanders/thutmose-iii", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills (valori min per livello, expertise)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["release_year non trovato", "rage cost", "armamenti", "allclash slug 'best-thutmose-iii-...' 404, usato 'best-thutmose-...'"],
+      "conflicts": [
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-thutmose-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5511"}, {"url": "https://rok.hokbuild.com/commanders/thutmose-iii/", "value": "5-5-5-1"}]}
+      ]
+    },
+    {
+      "name": "Imhotep",
+      "aliases": ["Imhotep (Legendary) [richiesto, non trovato]", "Imhotep (Epic)"],
+      "rarity": "Epic",
+      "civilization": "Egypt",
+      "specialties": ["Archer", "Garrison", "Support"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": null,
+      "skills": [
+        {"slot": 1, "name": "The High Priest", "type": "active", "rage": null, "effect": "Inflicts a debuff on up to 5 nearby enemy troops for 3 seconds, increasing their damage taken (10% / 12% / 14% / 16% / 20%).", "max_values": {"damage_taken_increase_pct": 20, "max_targets": 5, "duration_s": 3}, "levels": {"damage_taken_increase_pct": [10, 12, 14, 16, 20]}},
+        {"slot": 2, "name": "Talented Vizier", "type": "passive", "rage": null, "effect": "Archer units gain Attack and Defense (5% / 7% / 9% / 12% / 15% each).", "max_values": {"archer_attack_pct": 15, "archer_defense_pct": 15}, "levels": {"archer_attack_pct": [5, 7, 9, 12, 15], "archer_defense_pct": [5, 7, 9, 12, 15]}},
+        {"slot": 3, "name": "God of Medicine", "type": "passive", "rage": null, "effect": "When serving as garrison commander, garrison units gain Health (1% / 2% / 3% / 5% / 7%).", "max_values": {"garrison_health_pct": 7}, "levels": {"garrison_health_pct": [1, 2, 3, 5, 7]}},
+        {"slot": 4, "name": "Sage of Peace", "type": "passive", "rage": null, "effect": "When attacked, 10% chance to reduce the attacker's skill damage dealt (5% / 7% / 9% / 12% / 15%) for 3 seconds; 5-second cooldown.", "max_values": {"skill_damage_reduction_pct": 15, "trigger_chance_pct": 10, "cooldown_s": 5}, "levels": {"skill_damage_reduction_pct": [5, 7, 9, 12, 15]}},
+        {"slot": 5, "name": "Stairway to Heaven", "type": "enhanced", "rage": null, "effect": "Enhanced The High Priest: debuffs up to 5 nearby enemy troops for 3 seconds increasing their damage taken by 30%. When Imhotep is the secondary commander, targets also lose 50 Rage per second for 3 seconds.", "max_values": {"damage_taken_increase_pct": 30, "rage_drain_per_second": 50, "max_targets": 5}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "garrison", "trees": ["Garrison", "Support"], "key_talents": ["Impenetrable Fortifications", "City Guardian", "Nowhere to Turn", "Rejuvenate", "Counterattack", "Loose Formation"], "stat_summary": "Difesa citta' e supporto.", "notes": "Da hokbuild. RKG e AllClash: usato come secondario nel 99% dei casi (l'expertise richiede che sia secondario per la riduzione di rabbia), quindi il talent tree conta poco."}
+      ],
+      "pairings": [
+        {"partner": "Hermann", "this_as": "secondary", "purpose": "open_field", "note": "AllClash raccomandazione principale: Hermann riduce la rabbia e ha silence; con Imhotep spegne il nemico."},
+        {"partner": "Kusunoki Masashige", "this_as": "secondary", "purpose": "open_field", "note": "AllClash: pulisce gli effetti negativi sulla marcia."},
+        {"partner": "Aethelflaed", "this_as": "secondary", "purpose": "open_field", "note": "RKG (via ricerca): entrambi con debuff AoE, ottimo supporto nelle grandi battaglie."},
+        {"partner": "Joan of Arc", "this_as": "secondary", "purpose": "support", "note": "AllClash: versione Epic."},
+        {"partner": "Boudica", "this_as": "secondary", "purpose": "open_field", "note": "AllClash: versione Epic, coppia early game."},
+        {"partner": "Keira", "this_as": "secondary", "purpose": "open_field", "note": "AllClash: coppia teorica."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "S", "open_field": "S", "rally": null, "garrison": null, "canyon": "S", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "F", "open_field": "F", "rally": "F", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/imhotep-talent-tree-build-and-guide/", "page_date": "2026-01-02", "overall": "4.3/5", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; target 5555 (AllClash e hokbuild)",
+      "sculpture_cost_to_max": 440,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, Hydra's Blast. hokbuild: Golden Age, Revival Helm/Plate/Gauntlets, The Scarlet Hounds.",
+      "roles": ["open_field", "canyon", "garrison", "support"],
+      "f2p_friendly": true,
+      "notes": "ATTENZIONE: e' stato richiesto 'Imhotep (Legendary)' ma tutte le fonti consultate (riseofkingdomsguides, allclash, hokbuild, rokstats, lista comandanti RKG del 2026-07-01) riportano Imhotep SOLO come comandante Epic della civilta' Egitto; nessuna versione Legendary/Prime risulta esistere alla data di raccolta. I dati qui riportati sono della versione Epic. Debuffer AoE (+30% danno subito su 5 bersagli, -50 rabbia/s da secondario). AllClash: nessuna skill richiede solo arcieri.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/imhotep-talent-tree-build-and-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-imhotep-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/imhotep/", "site": "rok.hokbuild.com", "page_date": "2025-12-28", "retrieved": "2026-09-27", "fields": ["talent_builds", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://app.rokstats.online/commanders/imhotep", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills (valori per livello)", "rarity (Epic)"]},
+        {"url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "site": "riseofkingdomsguides.com", "page_date": "2026-07-01", "retrieved": "2026-09-27", "fields": ["rarity (Epic, nessuna versione Legendary elencata)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["Versione Legendary di Imhotep NON trovata in nessuna fonte", "release_year", "rage cost", "armamenti", "URL /talent-tree/imhotep/ restituisce la pagina indice, usata imhotep-talent-tree-build-and-guide/"],
+      "conflicts": [
+        {"field": "rarity (richiesta vs fonti)", "values": [{"url": "richiesta utente", "value": "Legendary"}, {"url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Epic"}]},
+        {"field": "ratings.overall", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "S (Epic)"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "F"}]}
+      ]
+    },
+    {
+      "name": "Flavius Aetius",
+      "aliases": ["Flavius", "Aetius"],
+      "rarity": "Legendary",
+      "civilization": "Rome",
+      "specialties": ["Infantry", "Garrison", "Skill"],
+      "troop_type": "infantry",
+      "is_prime": false,
+      "release_year": 2022,
+      "skills": [
+        {"slot": 1, "name": "Spear of the Empire", "type": "active", "rage": null, "effect": "Deals direct damage to the target (Damage Factor 1500/1700/1900/2100/2300). If the target has 50% or fewer units remaining, applies continuous damage for 3 seconds (Damage Factor 50/70/90/120/150 per second).", "max_values": {"damage_factor": 2300, "dot_damage_factor": 150, "dot_duration_s": 3}, "levels": {"damage_factor": [1500, 1700, 1900, 2100, 2300], "dot_damage_factor": [50, 70, 90, 120, 150]}},
+        {"slot": 2, "name": "Shield of Eagles", "type": "passive", "rage": null, "effect": "Infantry units gain Attack (3/6/9/12/15%). When garrisoned, infantry also gain Defense and Health (3/6/9/12/15%).", "max_values": {"infantry_attack_pct": 15, "garrison_infantry_defense_pct": 15, "garrison_infantry_health_pct": 15}, "levels": {"infantry_attack_pct": [3, 6, 9, 12, 15]}},
+        {"slot": 3, "name": "Defense of Gaul", "type": "passive", "rage": null, "effect": "Counterattack damage increased (5/8/11/15/20%). When garrisoned, normal attacks inflict a debuff increasing infantry damage taken by 1% per stack for 15 seconds (max stacks 5/6/7/8/10); once per 10 seconds.", "max_values": {"counterattack_damage_pct": 20, "debuff_max_stacks": 10, "debuff_per_stack_pct": 1}, "levels": {"counterattack_damage_pct": [5, 8, 11, 15, 20], "debuff_max_stacks": [5, 6, 7, 8, 10]}},
+        {"slot": 4, "name": "Victory at Chalons", "type": "passive", "rage": null, "effect": "All damage dealt increased (2/4/6/8/10%). Chance (20/40/60/80/100%) to inflict a 2-second Silence on targets affected by continuous damage; once per 7 seconds.", "max_values": {"damage_bonus_pct": 10, "silence_chance_pct": 100, "silence_duration_s": 2}, "levels": {"damage_bonus_pct": [2, 4, 6, 8, 10], "silence_chance_pct": [20, 40, 60, 80, 100]}},
+        {"slot": 5, "name": "Song of the Nibelungs", "type": "expertise", "rage": null, "effect": "All damage taken reduced by 10%. On active skill use, 30% chance to inflict 2 stacks of the debuff increasing infantry damage taken by 1% per stack for 15 seconds (max 10 stacks); once per 10 seconds.", "max_values": {"damage_reduction_pct": 10, "debuff_stacks_applied": 2, "trigger_chance_pct": 30}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "garrison", "trees": ["Skill", "Garrison", "Infantry"], "key_talents": ["Rejuvenate", "Feral Nature"], "stat_summary": "Massima rabbia per ciclare la skill attiva; punti restanti in salute.", "notes": "AllClash: 'Rejuvenate e Feral Nature nello Skill tree per usare la skill piu' spesso, punti rimanenti nell'altro albero per statistiche utili come salute'. Portare quanta piu' fanteria possibile da garrison captain. RKG: build Garrison per KVK/AOO."},
+        {"purpose": "open_field", "trees": ["Skill", "Infantry"], "key_talents": ["Rejuvenate", "Feral Nature"], "stat_summary": "Danno in campo.", "notes": "RKG: 'Damage build' per il campo aperto."}
+      ],
+      "pairings": [
+        {"partner": "Zenobia", "this_as": "secondary", "purpose": "garrison", "note": "RKG e AllClash: 'una delle migliori difese di strutture in KVK e AOO' (non per la propria citta'); Zenobia primaria."},
+        {"partner": "Scipio Africanus Prime", "this_as": "secondary", "purpose": "open_field", "note": "AllClash/RKG: enorme danno in campo ma glass cannon senza difese."},
+        {"partner": "Harald Sigurdsson", "this_as": "secondary", "purpose": "open_field", "note": "RKG/AllClash: buona opzione open field, genera rabbia e contrattacco."},
+        {"partner": "Guan Yu", "this_as": "secondary", "purpose": "open_field", "note": "RKG/AllClash: Guan Yu primario, ottimo danno."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C", "open_field": "B+", "rally": "D", "garrison": "S", "canyon": "D", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "C", "open_field": "C", "rally": "C", "garrison": "A", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/flavius-aetius/", "page_date": "2026-01-02", "overall": "4.1/5", "open_field": "4/5", "rally": "2/5", "garrison": "5/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; target 5555 (AllClash)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Arch",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade. Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield. Progressed: Gold Helm of Eternal Empire, Hope Cloak, Shield of Eternal Empire. Maximum: Helm of the Conqueror, Hope Cloak, Hammer of Sun and Moon.",
+      "roles": ["garrison", "open_field"],
+      "f2p_friendly": null,
+      "notes": "Fanteria da guarnigione con nuke single-target, DoT e silence. RKG: meglio in difesa di strutture in KVK/AOO; in campo esistono alternative.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/flavius-aetius/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills (valori per livello)", "talent_builds", "pairings", "ratings"]},
+        {"url": "https://www.allclash.com/best-flavius-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://app.rokstats.online/commanders/flavius-aetius", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2022-04-18)", "skills (conferma, skill 4 passiva)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti", "data pagina AllClash non estratta", "allclash slug 'best-flavius-aetius-...' 404, usato 'best-flavius-...'", "rok.hokbuild.com/commanders/flavius-aetius/ 404"],
+      "conflicts": [
+        {"field": "skills[4].type", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/flavius-aetius/", "value": "Active (probabile refuso)"}, {"url": "https://app.rokstats.online/commanders/flavius-aetius", "value": "Passive"}]},
+        {"field": "ratings.garrison", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "S"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "A"}]}
+      ]
+    },
+    {
+      "name": "Xiang Yu",
+      "aliases": ["Xiang Yu of Chu", "XY"],
+      "rarity": "Legendary",
+      "civilization": "China",
+      "specialties": ["Cavalry", "Conquering", "Skill"],
+      "troop_type": "cavalry",
+      "is_prime": false,
+      "release_year": 2021,
+      "skills": [
+        {"slot": 1, "name": "Warlord's Courage", "type": "active", "rage": 1000, "effect": "Deals direct damage to up to 3 targets in a forward-facing fan-shaped area (Damage Factor 900/1000/1300/1500/1700); damage reduced by 25% per additional target. Targets hit suffer reduced Defense (10/15/20/25/30%) for 3 seconds.", "max_values": {"damage_factor": 1700, "defense_reduction_pct": 30, "max_targets": 3, "duration_s": 3}, "levels": {"damage_factor": [900, 1000, 1300, 1500, 1700], "defense_reduction_pct": [10, 15, 20, 25, 30]}},
+        {"slot": 2, "name": "Snow-hooved Stallion", "type": "passive", "rage": null, "effect": "Cavalry units gain Attack (20/25/30/35/40%) and March Speed (3/6/9/12/15%). When attacked, 20% chance to gain additional March Speed (5/10/15/20/25%) for 3 seconds.", "max_values": {"cavalry_attack_pct": 40, "march_speed_pct": 15, "triggered_speed_pct": 25}, "levels": {"cavalry_attack_pct": [20, 25, 30, 35, 40], "march_speed_pct": [3, 6, 9, 12, 15], "triggered_speed_pct": [5, 10, 15, 20, 25]}},
+        {"slot": 3, "name": "Conqueror of All", "type": "passive", "rage": null, "effect": "When attacking strongholds/cities: damage increased (1/2/3/4/5%) and chance to deal additional direct damage (Damage Factor 200/250/300/350/400).", "max_values": {"damage_vs_structures_pct": 5, "extra_damage_factor": 400}, "levels": {"damage_vs_structures_pct": [1, 2, 3, 4, 5], "extra_damage_factor": [200, 250, 300, 350, 400]}},
+        {"slot": 4, "name": "Forceful Spearhead", "type": "passive", "rage": null, "effect": "Reduces the Rage required for the active skill (10/20/30/40/50). After using the active skill, cavalry gain a stacking damage bonus (1/2/3/4/5% per stack, up to 6 stacks).", "max_values": {"rage_requirement_reduction": 50, "cavalry_damage_per_stack_pct": 5, "max_stacks": 6}, "levels": {"rage_requirement_reduction": [10, 20, 30, 40, 50], "cavalry_damage_per_stack_pct": [1, 2, 3, 4, 5]}},
+        {"slot": 5, "name": "Unbeatable Warlord", "type": "expertise", "rage": null, "effect": "Troop deals 10% more skill damage; an additional 10% skill damage after at least one turn with the rage buff active (RKG).", "max_values": {"skill_damage_pct": 10, "conditional_skill_damage_pct": 10}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Cavalry"], "key_talents": ["Rejuvenate", "Feral Nature", "Undying Fury", "Emblazoned Shield"], "stat_summary": "Rage engine per spammare Warlord's Courage.", "notes": "AllClash build 1 'Rage-Engine': Rejuvenate, poi Feral Nature, poi Undying Fury nell'albero Cavalry; Emblazoned Shield per riduzione danno e marcia."},
+        {"purpose": "mobility", "trees": ["Skill", "Cavalry"], "key_talents": ["Rejuvenate", "Rallying Cry", "Tactical Mastery", "Heraldic Shield", "Undying Fury"], "stat_summary": "Hit-and-run.", "notes": "AllClash build 2 open field alternativo."},
+        {"purpose": "rally", "trees": ["Conquering", "Cavalry"], "key_talents": ["Moment of Triumph", "Buckler Shield", "Entrenched", "Dragon Saber", "Halberd", "Galea", "Undying Fury"], "stat_summary": "Attacco a citta'/obiettivi.", "notes": "RKG: build rally per KVK e Ark of Osiris. Lista talenti da hokbuild."}
+      ],
+      "pairings": [
+        {"partner": "Joan of Arc Prime", "this_as": "primary", "purpose": "open_field", "note": "RKG (pagina Joan Prime): Xiang Yu primario."},
+        {"partner": "Chandragupta Maurya", "this_as": "primary", "purpose": "open_field", "note": "AllClash: tankiness e buff/debuff si integrano molto bene."},
+        {"partner": "William I", "this_as": "primary", "purpose": "open_field", "note": "AllClash: marcia extra e AoE, meno tank."},
+        {"partner": "Saladin", "this_as": "primary", "purpose": "open_field", "note": "AllClash: riduzione danno e tankiness essenziale."},
+        {"partner": "Takeda Shingen", "this_as": "primary", "purpose": "open_field", "note": "AllClash: sinergia di rabbia e debuff."},
+        {"partner": "Genghis Khan", "this_as": "either", "purpose": "open_field", "note": "AllClash: forte ma rischio di penalita' alla velocita' di marcia."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B", "open_field": "S", "rally": "S", "garrison": "D", "canyon": "S", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "S", "open_field": "S", "rally": "S", "garrison": "C", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/", "page_date": "2026-01-02", "overall": "4.7/5", "open_field": "5/5", "rally": "5/5", "garrison": "5/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "AllClash target 5511; hokbuild 5-1-1-5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Windswept War Helm, Windswept Breastplate, Vanguard Halberd. Advanced: Expedition War Helm, Windswept Breastplate, Heart of the Saint. Progressed: Expedition War Helm, Heavy Armor of Hellish Wasteland, Heart of the Saint. Maximum: Pride of the Khan, Heavy Armor of Hellish Wasteland, Sacred Dominion. hokbuild: Abyssal Visage, Heart of the Saint, Dark Lord's Blessing, Iset's Sufferance, Gladiator, Knight's Winter Sabatons.",
+      "roles": ["open_field", "rally", "canyon"],
+      "f2p_friendly": null,
+      "notes": "Cavalleria nuker AoE con altissima generazione di rabbia e riduzione del costo della skill. Solo cavalleria (skill 2). Nessuna cura (hokbuild).",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills (valori per livello, rage 1000)", "talent_builds", "ratings"]},
+        {"url": "https://www.allclash.com/best-xiang-yu-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/xiang-yu/", "site": "rok.hokbuild.com", "page_date": "2026-01-30", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://app.rokstats.online/commanders/xiang-yu", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2021-04-19)", "skills (conferma)"]},
+        {"url": "https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings (Joan Prime)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["armamenti", "URL /talent-tree/xiang-yu/ 404 (usata best-xiang-yu-talent-tree-builds-and-pairs/)", "allclash slug con 'talents-skill-order-pairing-equipment' 404, usato 'talent-tree-skill-order-best-pairing'"],
+      "conflicts": [
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-xiang-yu-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5511"}, {"url": "https://rok.hokbuild.com/commanders/xiang-yu/", "value": "5-1-1-5"}]},
+        {"field": "ratings.garrison", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "D"}, {"url": "https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/", "value": "5/5"}]}
+      ]
+    },
+    {
+      "name": "Nebuchadnezzar II",
+      "aliases": ["Nebuchadnezzar", "Nebu"],
+      "rarity": "Legendary",
+      "civilization": "Other",
+      "specialties": ["Archer", "Conquering", "Skill"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2020,
+      "skills": [
+        {"slot": 1, "name": "Babylonian", "type": "active", "rage": 1000, "effect": "Deals direct damage to up to 5 targets in a forward-facing fan-shaped area (Damage Factor 700 -> 1500); damage dealt to each target reduced by 15% for each additional target.", "max_values": {"damage_factor": 1500, "max_targets": 5}, "levels": {"damage_factor": [700, null, null, null, 1500]}},
+        {"slot": 2, "name": "Blessing of Marduk", "type": "passive", "rage": null, "effect": "When leading rally attacks: counterattack damage increased (10% -> 30%). Normal attacks have a 10% chance to deal direct damage (Damage Factor up to 800) and reduce the target's March Speed by 30% for 3 seconds; 5-second cooldown.", "max_values": {"counterattack_damage_pct": 30, "direct_damage_factor": 800, "march_speed_reduction_pct": 30}, "levels": null},
+        {"slot": 3, "name": "Chaldean Archers", "type": "passive", "rage": null, "effect": "Archer units gain Defense (10% -> 30%) and March Speed (3% -> 15%).", "max_values": {"archer_defense_pct": 30, "archer_march_speed_pct": 15}, "levels": {"archer_defense_pct": [10, null, null, null, 30], "archer_march_speed_pct": [3, null, null, null, 15]}},
+        {"slot": 4, "name": "Destroyer of Carchemish", "type": "passive", "rage": null, "effect": "Troops deal more damage (3% -> 15%); each normal attack has a 10% chance to reduce the target's Rage (20 -> 100); once every 5 seconds.", "max_values": {"damage_bonus_pct": 15, "rage_reduction": 100}, "levels": null},
+        {"slot": 5, "name": "King of Babylon", "type": "enhanced", "rage": null, "effect": "Enhanced Babylonian: deals direct damage to up to 5 targets in a forward-facing fan-shaped area (Damage Factor 1500), reduced by 15% per additional target, and deals additional damage to the current target (Damage Factor 500).", "max_values": {"damage_factor": 1500, "additional_damage_factor": 500, "max_targets": 5}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Archer"], "key_talents": ["Rejuvenate", "Venomous Sting", "Clarity", "Buckler Shield", "Latent Power", "Full Quiver"], "stat_summary": "Rabbia + statistiche arcieri + velocita' di marcia.", "notes": "AllClash build generale: Rejuvenate per primo, poi Venomous Sting (Archer, con velocita' lungo il percorso), poi Clarity e resto in Buckler Shield, Latent Power, Full Quiver. RKG 'PVP build': danno da skill e statistiche arcieri."},
+        {"purpose": "rally", "trees": ["Skill", "Defense", "Conquering"], "key_talents": ["Rejuvenate", "Moment of Triumph", "Marionette", "Signal Flare", "Tear of Blessing", "Meteor Shower"], "stat_summary": "Rabbia e riduzione danno per rally.", "notes": "AllClash rally build: Rejuvenate prioritario, Skill + Defense; consigliato a comandante maxato. RKG: rally build per obiettivi/citta', non ideale in campo. Talenti Conquering da hokbuild."}
+      ],
+      "pairings": [
+        {"partner": "Cyrus the Great", "this_as": "either", "purpose": "open_field", "note": "RKG raccomandazione principale: 'una delle marce arcieri piu' veloci del gioco'; AoO, rally obiettivi KVK, campo."},
+        {"partner": "Yi Seong-Gye", "this_as": "either", "purpose": "open_field", "note": "RKG/AllClash: nuke e rabbia enormi, poca sopravvivenza; meglio in battaglie grandi."},
+        {"partner": "Gilgamesh", "this_as": "either", "purpose": "rally", "note": "AllClash: 'coppia rally perfetta, sinergia semplicemente incredibile'."},
+        {"partner": "Henry V", "this_as": "secondary", "purpose": "open_field", "note": "AllClash (pagina Henry): Henry primario, meccaniche anti-swarm."},
+        {"partner": "Ramesses II", "this_as": "either", "purpose": "open_field", "note": "AllClash: danno aggiuntivo e buff sinergici."},
+        {"partner": "Artemisia I", "this_as": "secondary", "purpose": "open_field", "note": "AllClash: Artemisia primaria, sinergia con silence dalla skill 4."},
+        {"partner": "Ashurbanipal", "this_as": "either", "purpose": "open_field", "note": "AllClash: kit quasi identico, ottima sinergia."},
+        {"partner": "Tomyris", "this_as": "either", "purpose": "open_field", "note": "RKG: da evitare. AllClash: superata dai comandanti nuovi."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "B+", "open_field": "S", "rally": "S", "garrison": "D", "canyon": "A+", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "A", "open_field": "A", "rally": "A", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/nebuchadnezzar-ii/", "page_date": "2026-01-02", "overall": "4.7/5", "open_field": "5/5", "rally": "5/5", "garrison": "4/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5555; hokbuild 5-5-5-1; RKG: F2P efficace a 5/5/1/5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: Revival Helm, Golden Age, Dark Lord's Blessing, Revival Gauntlets x2, Flame Treads.",
+      "roles": ["open_field", "rally", "canyon"],
+      "f2p_friendly": true,
+      "notes": "Arciere AoE (5 bersagli) con riduzione rabbia e velocita' di marcia; disponibile in regni aperti da 310+ giorni (RKG). RKG: 'superato dai comandanti piu' nuovi come Henry', sopravvivenza media, expertise completa costosa.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/nebuchadnezzar-ii/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills (rage 1000)", "talent_builds", "pairings", "ratings", "f2p_friendly", "notes"]},
+        {"url": "https://www.allclash.com/best-nebuchadnezzar-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://rok.hokbuild.com/commanders/nebuchadnezzar-ii/", "site": "rok.hokbuild.com", "page_date": "2026-01-31", "retrieved": "2026-09-27", "fields": ["talent_builds.key_talents (Conquering)", "skill_upgrade_order", "recommended_equipment"]},
+        {"url": "https://app.rokstats.online/commanders/nebuchadnezzar-ii", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2020-11-30)", "skills (valori min per livello)"]},
+        {"url": "https://www.allclash.com/best-henry-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["pairings (Henry V)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["armamenti", "valori intermedi per livello", "allclash slug 'best-nebuchadnezzar-ii-...' 404, usato 'best-nebuchadnezzar-...'"],
+      "conflicts": [
+        {"field": "skills slot 2/3 order", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/nebuchadnezzar-ii/", "value": "slot 2 Blessing of Marduk, slot 3 Chaldean Archers (anche hokbuild)"}, {"url": "https://app.rokstats.online/commanders/nebuchadnezzar-ii", "value": "slot 2 Chaldean Archers, slot 3 Blessing of Marduk"}]},
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-nebuchadnezzar-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5555"}, {"url": "https://rok.hokbuild.com/commanders/nebuchadnezzar-ii/", "value": "5-5-5-1"}, {"url": "https://riseofkingdomsguides.com/talent-tree/nebuchadnezzar-ii/", "value": "5/5/1/5 per F2P"}]}
+      ]
+    },
+    {
+      "name": "Gilgamesh",
+      "aliases": ["Gilgamesh of Uruk"],
+      "rarity": "Legendary",
+      "civilization": null,
+      "specialties": ["Archer", "Conquering", "Skill"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2021,
+      "skills": [
+        {"slot": 1, "name": "Roar of the Tiger", "type": "active", "rage": null, "effect": "Deals direct damage to the current target (Damage Factor 900/1000/1100/1300/1500) and reduces its healing received (10/15/20/25/30%) for 3 seconds.", "max_values": {"damage_factor": 1500, "healing_reduction_pct": 30, "duration_s": 3}, "levels": {"damage_factor": [900, 1000, 1100, 1300, 1500], "healing_reduction_pct": [10, 15, 20, 25, 30]}},
+        {"slot": 2, "name": "Bowman of Uruk", "type": "passive", "rage": null, "effect": "Archer units gain Health (10% -> 30%) and deal increased damage (10% -> 20%) against weakened troops (rokstats; skill assente nella pagina RKG).", "max_values": {"archer_health_pct": 30, "damage_vs_weakened_pct": 20}, "levels": null},
+        {"slot": 3, "name": "A King's Right", "type": "passive", "rage": null, "effect": "When attacking cities/strongholds, archers gain Attack (10/12/14/17/20%). Every 6 seconds gain a stacking Attack bonus (1/2/3/4/5% per stack, up to 6 stacks, 10 seconds).", "max_values": {"archer_attack_vs_structures_pct": 20, "stack_attack_pct": 5, "max_stacks": 6}, "levels": {"archer_attack_vs_structures_pct": [10, 12, 14, 17, 20], "stack_attack_pct": [1, 2, 3, 4, 5]}},
+        {"slot": 4, "name": "Enkidu's Path", "type": "passive", "rage": null, "effect": "Normal attacks deal less damage to this troop (2/4/6/8/10%). 30% chance to inflict 'Blood Craving' on the target for 3 seconds: when the target heals, it takes damage (Damage Factor 300/350/400/450/500); once per 5 seconds.", "max_values": {"normal_damage_reduction_pct": 10, "blood_craving_damage_factor": 500, "duration_s": 3}, "levels": {"normal_damage_reduction_pct": [2, 4, 6, 8, 10], "blood_craving_damage_factor": [300, 350, 400, 450, 500]}},
+        {"slot": 5, "name": "Demigod", "type": "enhanced", "rage": null, "effect": "Enhanced Enkidu's Path: normal attacks deal 15% less damage to this troop; 'Blood Craving' deals damage (Damage Factor 700) when the target heals and targets take 15% more skill damage, for 4 seconds; once per 5 seconds.", "max_values": {"normal_damage_reduction_pct": 15, "blood_craving_damage_factor": 700, "skill_damage_taken_pct": 15, "duration_s": 4}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Archer", "Conquering"], "key_talents": ["Rejuvenate", "Venomous Sting", "Buckler Shield", "Heraldic Shield"], "stat_summary": "Rabbia, +18% velocita' di marcia lungo Venomous Sting, strato difensivo.", "notes": "AllClash open field build."},
+        {"purpose": "rally", "trees": ["Skill", "Archer", "Conquering"], "key_talents": ["Rejuvenate", "Venomous Sting", "Feral Nature", "Moment of Triumph", "Marionette", "Signal Flare", "Tear of Blessing", "Meteor Shower"], "stat_summary": "Rage engine per mantenere il debuff cure costante.", "notes": "AllClash 'Rage Engine build': Rejuvenate -> Venomous Sting -> Feral Nature. Talenti Conquering da hokbuild. RKG: talent tree 'coming soon'."}
+      ],
+      "pairings": [
+        {"partner": "Nebuchadnezzar II", "this_as": "either", "purpose": "rally", "note": "AllClash e rokstats: coppia rally perfetta, soprattutto contro guarnigioni basate sulle cure."},
+        {"partner": "Henry V", "this_as": "either", "purpose": "open_field", "note": "AllClash (pagina Henry): coppia naturale, entrambi riducono il danno normale subito."},
+        {"partner": "Cyrus the Great", "this_as": "either", "purpose": "open_field", "note": "AllClash: rage engine e sinergia AoE."},
+        {"partner": "Yi Seong-Gye", "this_as": "either", "purpose": "open_field", "note": "AllClash: comandante arciere complementare."},
+        {"partner": "Ramesses II", "this_as": "either", "purpose": "open_field", "note": "AllClash: valido ma con alcune contro-sinergie."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "A+", "rally": "S", "garrison": "D", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "B", "open_field": "A", "rally": "B", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/gilgamesh/", "page_date": "2026-01-02", "overall": "S (in attesa di test)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Roar of the Tiger a 5 per prima; AllClash target 5515; hokbuild 5-5-1-5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, The Hydra's Blast. hokbuild: set Dragon's Breath completo (Helm, Tassets, Vambraces, Plate, Bow, Boots).",
+      "roles": ["rally", "open_field", "canyon"],
+      "f2p_friendly": null,
+      "notes": "Arciere anti-cure (riduzione cure + Blood Craving) e da rally; RKG: 'eccellente counter a Zenobia e YSS'. Nessuna cura propria (hokbuild). La civilta' non e' riportata da nessuna fonte raggiunta.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/gilgamesh/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "skills 1,3,4,5 (valori per livello)", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-gilgamesh-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings", "skills (nomi, incl. Bowman of Uruk)"]},
+        {"url": "https://rok.hokbuild.com/commanders/gilgamesh/", "site": "rok.hokbuild.com", "page_date": "2026-01-31", "retrieved": "2026-09-27", "fields": ["specialties", "skills (nomi/ordine)", "talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment"]},
+        {"url": "https://app.rokstats.online/commanders/gilgamesh", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2021-08-23)", "skills[2] Bowman of Uruk", "pairings"]},
+        {"url": "https://www.allclash.com/best-henry-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["pairings (Henry V)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["civilization non trovata (RKG, hokbuild, allclash, rokstats non la riportano; rok.guide 503, fandom 402, touchscreengaming 429/404)", "rage cost", "armamenti", "valori per livello di Bowman of Uruk", "release_year da una sola fonte non verificata"],
+      "conflicts": [
+        {"field": "skills[1].name", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/gilgamesh/", "value": "Roar of the Tiger (anche hokbuild, allclash)"}, {"url": "https://app.rokstats.online/commanders/gilgamesh", "value": "Roar of the Lion"}]},
+        {"field": "skills list", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/gilgamesh/", "value": "4 skill elencate, Bowman of Uruk assente"}, {"url": "https://rok.hokbuild.com/commanders/gilgamesh/", "value": "5 skill: Roar of the Tiger, Bowman of Uruk, A King's Right, Enkidu's Path, Demigod"}]},
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-gilgamesh-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5515"}, {"url": "https://rok.hokbuild.com/commanders/gilgamesh/", "value": "5-5-1-5"}]},
+        {"field": "ratings.overall", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "C+"}, {"url": "https://riseofkingdomsguides.com/talent-tree/gilgamesh/", "value": "S (pending testing)"}]}
+      ]
+    },
+    {
+      "name": "Pakal II",
+      "aliases": ["Pakal", "K'inich Janaab' Pakal"],
+      "rarity": "Legendary",
+      "civilization": "Maya",
+      "specialties": ["Infantry", "Conquering", "Defense"],
+      "troop_type": "infantry",
+      "is_prime": false,
+      "release_year": null,
+      "skills": [
+        {"slot": 1, "name": "Balanced Strategy", "type": "active", "rage": null, "effect": "Deals direct damage to the target (Damage Factor 1300) and grants the troop a shield (Shield Factor 500) for 3 seconds.", "max_values": {"damage_factor": 1300, "shield_factor": 500, "shield_duration_s": 3}, "levels": null},
+        {"slot": 2, "name": "Ruler of Palenque", "type": "passive", "rage": null, "effect": "Infantry units gain Health (up to 30%) and March Speed (up to 15%). Rally damage increased (up to 5%).", "max_values": {"infantry_health_pct": 30, "march_speed_pct": 15, "rally_damage_pct": 5}, "levels": null},
+        {"slot": 3, "name": "Divine Sovereignty", "type": "passive", "rage": null, "effect": "When attacking strongholds/cities, troops gain a bonus (up to 40%). 20% chance to dispel weakening effects (Slow, Poison, Exhaust, etc.); 10-second cooldown.", "max_values": {"structure_attack_bonus_pct": 40, "dispel_chance_pct": 20, "cooldown_s": 10}, "levels": null},
+        {"slot": 4, "name": "Holy Tree's Blessing", "type": "passive", "rage": null, "effect": "Damage taken reduced by 10%; when surrounded, additional 5% reduction per enemy troop (up to 6 enemies, max +30%).", "max_values": {"base_damage_reduction_pct": 10, "per_enemy_reduction_pct": 5, "max_additional_reduction_pct": 30}, "levels": null},
+        {"slot": 5, "name": "Mayan Strength", "type": "expertise", "rage": null, "effect": "Rally damage increased by 5%; counterattack damage increased by 3%; after using a skill, damage taken reduced by 20% for 5 seconds.", "max_values": {"rally_damage_pct": 5, "counterattack_damage_pct": 3, "post_skill_damage_reduction_pct": 20, "duration_s": 5}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "rally", "trees": ["Defense", "Infantry"], "key_talents": ["Desperate Elegy", "Buckler Shield"], "stat_summary": "Rabbia extra sotto il 30% di truppe, poi statistiche fanteria.", "notes": "AllClash: albero Defense per primo, arrivare a Desperate Elegy il prima possibile (nei rally e' normale avere l'esercito ridotto); poi Infantry per statistiche e rabbia. RKG: 'ottimo per AOO e KVK dove si rallano molti obiettivi', flessibile anche in campo."},
+        {"purpose": "open_field", "trees": ["Defense", "Infantry"], "key_talents": ["Buckler Shield"], "stat_summary": "Salute, difesa, generazione rabbia.", "notes": "AllClash: Defense senza Desperate Elegy, piu' punti Infantry, Buckler Shield per ridurre il danno da contrattacco. RKG: 'Field build' su salute, difesa e rabbia."}
+      ],
+      "pairings": [
+        {"partner": "Harald Sigurdsson", "this_as": "either", "purpose": "open_field", "note": "AllClash: 'sostegno incredibile e ottimo danno'; si puo' scambiare in positivo anche quando si viene swarmati."},
+        {"partner": "Alexander the Great", "this_as": "either", "purpose": "open_field", "note": "AllClash: entrambi usabili da primario; manca AoE. RKG: 'coppia discreta in campo ma non buona per rally'."},
+        {"partner": "Guan Yu", "this_as": "secondary", "purpose": "open_field", "note": "RKG: Guan Yu primario (danno), Pakal sopravvivenza e anti-swarm. AllClash: valida ma piu' debole."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "S", "rally": "S", "garrison": "D", "canyon": "A+", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "B", "open_field": "B", "rally": "B", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/pakal-ii/", "page_date": "2026-01-02", "overall": "4.9/5", "open_field": "4/5", "rally": "5/5", "garrison": "2/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Target 5555 (AllClash)",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Pincer",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Infantry Breastplate, Blessed Blade. Advanced: Witch's Lineage, Hope Cloak, Gatekeeper's Shield. Progressed: Gold Helm of Eternal Empire, Hope Cloak, Shield of Eternal Empire. Maximum: Helm of Conqueror, Hope Cloak, Hammer of Sun and Moon.",
+      "roles": ["rally", "open_field", "canyon"],
+      "f2p_friendly": null,
+      "notes": "Fanteria da rally/conquista introdotta con l'update 'March of the Ages' (RKG). Danno single-target ma ottimo contro lo swarm grazie alla riduzione danni per nemico circostante (AllClash). Civilta' 'Mayan' secondo AllClash.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/pakal-ii/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "specialties", "skills", "talent_builds", "pairings", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-pakal-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["civilization (Mayan)", "talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["release_year", "rage cost", "valori per livello (solo massimi)", "armamenti", "data pagina AllClash non estratta", "rok.hokbuild.com/commanders/pakal-ii/ 404", "app.rokstats.online/commanders/pakal-ii e /pakal 404", "touchscreengaming pakal-ii-build e pakal-build 404"],
+      "conflicts": [
+        {"field": "ratings.open_field", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "S"}, {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "value": "B"}]},
+        {"field": "pairings Alexander the Great (rally)", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/pakal-ii/", "value": "non buona per rally"}, {"url": "https://www.allclash.com/best-pakal-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "coppia valida, ruoli flessibili"}]}
+      ]
+    },
+    {
+      "name": "Cyrus the Great",
+      "aliases": ["Cyrus", "Cyrus II of Persia"],
+      "rarity": "Legendary",
+      "civilization": "Persia",
+      "specialties": ["Archer", "Versatility", "Skill"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2020,
+      "skills": [
+        {"slot": 1, "name": "The Immortals", "type": "active", "rage": null, "effect": "Deals direct damage to the target (Damage Factor 600/800/1000/1200/1400) and increases the damage it takes (10/12/14/16/20%) for 3 seconds.", "max_values": {"damage_factor": 1400, "damage_taken_increase_pct": 20, "duration_s": 3}, "levels": {"damage_factor": [600, 800, 1000, 1200, 1400], "damage_taken_increase_pct": [10, 12, 14, 16, 20]}},
+        {"slot": 2, "name": "Battle of Thymbra", "type": "passive", "rage": null, "effect": "Archer units gain March Speed (3/6/9/12/15%) and Attack (10/15/20/25/30%).", "max_values": {"archer_march_speed_pct": 15, "archer_attack_pct": 30}, "levels": {"archer_march_speed_pct": [3, 6, 9, 12, 15], "archer_attack_pct": [10, 15, 20, 25, 30]}},
+        {"slot": 3, "name": "Persian Bow", "type": "passive", "rage": null, "effect": "When the troop is archer-only, normal attacks have a 10% chance to deal continuous damage (Damage Factor 100/130/160/200/250) for 3 seconds and reduce the target's skill damage dealt (20/25/30/35/40%); 5-second cooldown.", "max_values": {"dot_damage_factor": 250, "skill_damage_reduction_pct": 40, "cooldown_s": 5}, "levels": {"dot_damage_factor": [100, 130, 160, 200, 250], "skill_damage_reduction_pct": [20, 25, 30, 35, 40]}},
+        {"slot": 4, "name": "The Cyrus Cylinder", "type": "passive", "rage": null, "effect": "When attacked on the map, 10% chance to deal continuous damage to up to 3 nearby enemy troops (Damage Factor 150/180/210/250/300) for 2 seconds; 5-second cooldown.", "max_values": {"aoe_damage_factor": 300, "max_targets": 3, "duration_s": 2, "cooldown_s": 5}, "levels": {"aoe_damage_factor": [150, 180, 210, 250, 300]}},
+        {"slot": 5, "name": "King of the World", "type": "expertise", "rage": null, "effect": "After using the active skill, archer units gain 20% Attack and 20% Defense and the troop gains 50 extra Rage per second for 3 seconds; 5-second cooldown.", "max_values": {"archer_attack_pct": 20, "archer_defense_pct": 20, "rage_per_second": 50, "duration_s": 3}, "levels": null}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Skill", "Archer"], "key_talents": ["Rejuvenate", "Latent Power", "Feral Nature", "Venomous Sting", "Full Quiver", "Razor Sharp", "Heraldic Shield", "Tactical Mastery"], "stat_summary": "Massimo danno da skill e rabbia.", "notes": "AllClash build 1 (raccomandato, 'Skill build'): Rejuvenate per primo, poi Full Quiver e Razor Sharp nell'Archer, ultimi punti in Heraldic Shield e Tactical Mastery. L'albero Versatility non si usa. RKG 'PVP Archer build': nuke, rabbia, statistiche."},
+        {"purpose": "open_field", "trees": ["Skill", "Archer"], "key_talents": ["Latent Power", "Venomous Sting", "Whistling Arrows", "Full Quiver", "Razor Sharp", "Arrows Nocked", "Thumb Ring"], "stat_summary": "Meno rabbia, piu' sopravvivenza e velocita' di marcia.", "notes": "AllClash build 2 'Archery build' alternativo. Talenti Archer aggiuntivi da hokbuild (Arrows Nocked, Thumb Ring, Venomous Sting)."}
+      ],
+      "pairings": [
+        {"partner": "Nebuchadnezzar II", "this_as": "either", "purpose": "open_field", "note": "RKG raccomandazione principale: difesa + danno; AoO, rally obiettivi KVK, campo. AllClash: AoE + velocita' di marcia."},
+        {"partner": "Ramesses II", "this_as": "either", "purpose": "open_field", "note": "AllClash: sinergia sulle skill attive, danno single-target."},
+        {"partner": "Yi Seong-Gye", "this_as": "either", "purpose": "open_field", "note": "RKG/AllClash: danno enorme ma glass cannon; consigliato solo in Ark of Osiris."},
+        {"partner": "Edward of Woodstock", "this_as": "either", "purpose": "open_field", "note": "RKG: forte sinergia di nuke."},
+        {"partner": "El Cid", "this_as": "either", "purpose": "open_field", "note": "AllClash: sinergia disarm ma poca tankiness."},
+        {"partner": "Zhuge Liang", "this_as": "secondary", "purpose": "open_field", "note": "AllClash (pagina Zhuge): Cyrus secondario, tutte le skill rilevanti."}
+      ],
+      "ratings": [
+        {"source_url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "page_date": "2026-09-10", "overall": "C+", "open_field": "S", "rally": "B+", "garrison": "D", "canyon": "A", "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "page_date": null, "overall": "A", "open_field": "A", "rally": "C", "garrison": "F", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/cyrus-the-great/", "page_date": "2026-01-02", "overall": "4.9/5", "open_field": "5/5", "rally": "5/5", "garrison": "1/5", "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "Skill 1 a 5 per prima; AllClash target 5155; hokbuild 5-5-5-5; RKG: F2P efficace a 5/5/1/5",
+      "sculpture_cost_to_max": 690,
+      "recommended_formation": "Wedge",
+      "recommended_armaments": null,
+      "recommended_equipment": "AllClash - Starter: Helm of Phoenix, Milanese Plate, Blessed Blade. Advanced: Revival Helm, Revival Plate, Golden Age. Progressed: Dragon's Breath Helm/Plate/Bow. Maximum: Ancestral Mask of Night, Dragon's Breath Plate, Hydra's Blast. hokbuild: Revival Helm, Revival Plate, Golden Age, Revival Gauntlets x2, Flame Treads.",
+      "roles": ["open_field", "canyon"],
+      "f2p_friendly": true,
+      "notes": "Arciere veloce con nuke single-target e riduzione del danno da skill nemico (solo marcia arcieri). Disponibile in regni piu' vecchi di 310 giorni (RKG). Difesa debole (hokbuild). NB: la pagina RKG riporta nei punti di forza '1.500 damage factor su 5 bersagli', che e' la skill di Nebuchadnezzar (errore di copia nella fonte).",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/cyrus-the-great/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "skills (valori per livello)", "talent_builds", "pairings", "ratings", "f2p_friendly"]},
+        {"url": "https://www.allclash.com/best-cyrus-the-great-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2026-03-03", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "recommended_formation", "ratings", "specialties (Versatility tree non usato)"]},
+        {"url": "https://rok.hokbuild.com/commanders/cyrus-the-great/", "site": "rok.hokbuild.com", "page_date": "2025-10-08", "retrieved": "2026-09-27", "fields": ["specialties", "talent_builds.key_talents", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://app.rokstats.online/commanders/cyrus-the-great", "site": "app.rokstats.online", "page_date": null, "retrieved": "2026-09-27", "fields": ["release_year (2020-11-30)", "specialties", "skills (conferma)"]},
+        {"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "site": "allclash.com", "page_date": "2026-09-10", "retrieved": "2026-09-27", "fields": ["ratings"]},
+        {"url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/", "site": "riseofkingdomsguides.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["ratings"]}
+      ],
+      "gaps": ["rage cost", "armamenti"],
+      "conflicts": [
+        {"field": "specialties", "values": [{"url": "https://riseofkingdomsguides.com/talent-tree/cyrus-the-great/", "value": "Archer, Versatility, Attack"}, {"url": "https://rok.hokbuild.com/commanders/cyrus-the-great/", "value": "Archer, Versatility, Skill (anche rokstats e AllClash)"}]},
+        {"field": "skill_upgrade_order", "values": [{"url": "https://www.allclash.com/best-cyrus-the-great-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5155"}, {"url": "https://rok.hokbuild.com/commanders/cyrus-the-great/", "value": "5-5-5-5"}, {"url": "https://riseofkingdomsguides.com/talent-tree/cyrus-the-great/", "value": "5/5/1/5 per F2P"}]},
+        {"field": "ratings.rally", "values": [{"url": "https://www.allclash.com/best-commanders-tier-list-in-rise-of-kingdoms-with-talents/", "value": "B+"}, {"url": "https://riseofkingdomsguides.com/talent-tree/cyrus-the-great/", "value": "5/5"}]}
+      ]
+    }
+  ],
+  "unreachable": [
+    {"url": "https://riseofkingdomsguides.com/talent-tree/joan-of-arc-prime/", "status": "404", "note": "sostituita da https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/"},
+    {"url": "https://riseofkingdomsguides.com/talent-tree/jan-zizka/", "status": "404", "note": "sostituita da https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/"},
+    {"url": "https://riseofkingdomsguides.com/talent-tree/boudica-prime/", "status": "404", "note": "sostituita da https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/"},
+    {"url": "https://riseofkingdomsguides.com/talent-tree/xiang-yu/", "status": "404", "note": "sostituita da https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/"},
+    {"url": "https://riseofkingdomsguides.com/talent-tree/imhotep/", "status": "200 ma pagina indice", "note": "sostituita da https://riseofkingdomsguides.com/imhotep-talent-tree-build-and-guide/"},
+    {"url": "https://www.allclash.com/best-sargon-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-sargon-builds-..."},
+    {"url": "https://www.allclash.com/best-henry-v-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-henry-builds-..."},
+    {"url": "https://www.allclash.com/best-thutmose-iii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-thutmose-builds-talent-tree-skill-order-best-pairing-..."},
+    {"url": "https://www.allclash.com/best-flavius-aetius-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-flavius-builds-talent-tree-..."},
+    {"url": "https://www.allclash.com/best-xiang-yu-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-xiang-yu-builds-talent-tree-skill-order-best-pairing-..."},
+    {"url": "https://www.allclash.com/best-nebuchadnezzar-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-nebuchadnezzar-builds-talent-tree-..."},
+    {"url": "https://www.allclash.com/best-gilgamesh-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-gilgamesh-builds-talent-tree-..."},
+    {"url": "https://www.allclash.com/best-pakal-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-pakal-builds-talent-tree-..."},
+    {"url": "https://www.allclash.com/best-cyrus-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/", "status": "404", "note": "sostituita da best-cyrus-the-great-builds-talent-tree-..."},
+    {"url": "https://rok.hokbuild.com/commanders/pakal-ii/", "status": "404", "note": null},
+    {"url": "https://rok.hokbuild.com/commanders/boudica-prime/", "status": "404", "note": null},
+    {"url": "https://rok.hokbuild.com/commanders/flavius-aetius/", "status": "404", "note": null},
+    {"url": "https://rok.hokbuild.com/commanders/tariq-ibn-ziyad/", "status": "404", "note": null},
+    {"url": "https://rok.hokbuild.com/commanders/joan-of-arc-prime/", "status": "404", "note": null},
+    {"url": "https://touchscreengaming.com/<slug>-build/ (tutti i 16 slug)", "status": "429 Too Many Requests, poi 404 su gilgamesh-build, pakal-ii-build, pakal-build", "note": "nessuna pagina touchscreengaming letta"},
+    {"url": "https://app.rokstats.online/commanders/pakal-ii", "status": "404", "note": "anche /commanders/pakal 404"},
+    {"url": "https://www.rok.guide/gilgamesh/", "status": "503", "note": "come previsto"},
+    {"url": "https://riseofkingdoms.fandom.com/wiki/Gilgamesh", "status": "402", "note": "come previsto (irraggiungibile)"},
+    {"url": "https://riseofkingdoms.org/commanders/gilgamesh/", "status": "503", "note": null},
+    {"url": "WebSearch", "status": "budget esaurito (200/200) durante la raccolta", "note": "le ricerche per la civilta' di Gilgamesh e per le date di rilascio non sono state eseguite"}
+  ]
+}

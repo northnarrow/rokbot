@@ -1,0 +1,568 @@
+{
+  "group": "elite_adv",
+  "retrieved": "2026-09-27",
+  "roster_notes": "Roster Elite (blu): Šárka, Lancelot, Tomoe Gozen, Gaius Marius, Constance. Roster Advanced (verde): Markswoman, Dragon Lancer, City Keeper, Centurion. La lista completa degli Advanced (4 comandanti) è confermata da tristgaming.weebly.com/elite.html, zoe-rok.com, gamesguideinfo.com e dalle pagine singole di riseofkingdomsguides.com. Nessuna fonte raggiunta elenca altri comandanti Advanced. Vedi 'roster_conflicts' per le fonti discordanti.",
+  "roster_conflicts": [
+    {"field": "rarity roster", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "Elite: Gaius Marius, Constance, Sarka, Lancelot, Dragon Lancer; Advanced: City Keeper, Centurion, Markswoman (Dragon Lancer classificato Elite, Tomoe Gozen omessa)"},
+    {"field": "rarity roster", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Tutti e 9 (inclusi Markswoman, Dragon Lancer, City Keeper, Centurion) elencati sotto 'Elite Commanders'; nessuna tabella Advanced"},
+    {"field": "rarity roster", "url": "https://riseofkingdomsguides.com/talent-tree/", "value": "Indice talent-tree: raggruppa sotto 'Elite' anche Theodora, Yi Sun-Sin, ecc., e sotto 'Advanced' Moctezuma, Trajan, Flavius Aetius (probabile artefatto di impaginazione: quei comandanti sono Legendary in ogni altra fonte)"},
+    {"field": "rarity roster", "url": "https://tristgaming.weebly.com/elite.html", "value": "Elite: Constance, Gaius Marius, Lancelot, Sarka, Tomoe Gozen; Advanced: Centurion, City Keeper, Dragon Lancer, Markswoman"}
+  ],
+  "sculpture_cost_tables": {
+    "elite_total_after_summon": 340,
+    "elite_total_including_summon": 350,
+    "advanced_total_after_summon": 240,
+    "advanced_total_including_summon": 250,
+    "elite_per_upgrade_heaven_guardian": [10, 10, 10, 10, 10, 20, 20, 20, 20, 20, 30, 30, 30, 30, 30, 40],
+    "advanced_per_upgrade_heaven_guardian": [10, 10, 10, 10, 10, 10, 10, 10, 10, 20, 20, 20, 20, 20, 20, 30],
+    "sources": [
+      {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["elite_total_after_summon", "elite_total_including_summon", "advanced_total_after_summon", "advanced_total_including_summon", "elite_per_upgrade_heaven_guardian", "advanced_per_upgrade_heaven_guardian"]},
+      {"url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["elite_total_after_summon", "advanced_total_after_summon"]},
+      {"url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-commanders-guide-hub", "site": "riseofkingdomshandbook.com", "page_date": "2026-09-09", "retrieved": "2026-09-27", "fields": ["elite_total_after_summon", "advanced_total_after_summon"]},
+      {"url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-commander-tier-list-en.html", "site": "bluestacks.com", "page_date": "2022-07-04", "retrieved": "2026-09-27", "fields": ["elite_total_after_summon", "advanced_total_after_summon"]}
+    ],
+    "conflicts": [
+      {"field": "advanced_total", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "230 (tutte le altre fonti: 240)"},
+      {"field": "elite_per_upgrade", "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/", "value": "Skill points 1-5: 10; 6-8: 20; 9-12: 30; 13-16: 40 (somma 390, incoerente con il totale 340 dichiarato dalla stessa pagina)"},
+      {"field": "advanced_per_upgrade", "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/", "value": "Skill points 1-10: 10; 11-12: 20; 13-16: 30 (somma 260, incoerente con il totale 240 dichiarato dalla stessa pagina)"}
+    ]
+  },
+  "commanders": [
+    {
+      "name": "Šárka",
+      "aliases": ["Sarka", "Mead of Death", "Short-lived Heroine"],
+      "rarity": "Elite",
+      "civilization": "Other",
+      "specialties": ["Integration", "Gathering", "Skill"],
+      "troop_type": "integration",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Enchantment", "type": "active", "rage": 1000, "effect": "Deals direct damage once to a single target and reduces its march speed for the next 3 seconds.", "max_values": {"damage_factor": 200, "march_speed_reduction_pct": 30}, "levels": [{"damage_factor": 75, "march_speed_reduction_pct": 10}, {"damage_factor": 100, "march_speed_reduction_pct": 15}, {"damage_factor": 125, "march_speed_reduction_pct": 20}, {"damage_factor": 150, "march_speed_reduction_pct": 25}, {"damage_factor": 200, "march_speed_reduction_pct": 30}]},
+        {"slot": 2, "name": "The Maidens' War", "type": "passive", "rage": null, "effect": "Increases the gathering speed of all kinds of resources.", "max_values": {"gathering_speed_all_pct": 18}, "levels": [3, 6, 10, 14, 18]},
+        {"slot": 3, "name": "Lost Treasure", "type": "passive", "rage": null, "effect": "Increases troop load.", "max_values": {"troop_load_pct": 30}, "levels": [5, 10, 15, 20, 30]},
+        {"slot": 4, "name": "Short-lived Heroine", "type": "passive", "rage": null, "effect": "Increases troop capacity, but reduces troop attack.", "max_values": {"troop_capacity_pct": 10, "troop_attack_reduction_pct": 10}, "levels": [{"troop_capacity_pct": 2, "attack_reduction_pct": 2}, {"troop_capacity_pct": 4, "attack_reduction_pct": 4}, {"troop_capacity_pct": 6, "attack_reduction_pct": 6}, {"troop_capacity_pct": 8, "attack_reduction_pct": 8}, {"troop_capacity_pct": 10, "attack_reduction_pct": 10}]}
+      ],
+      "talent_builds": [
+        {"purpose": "gathering", "trees": ["Gathering"], "key_talents": ["Gathering Mastery (Food/Wood/Stone/Gold, fino a 30% per risorsa)", "The More the Better (+6% risorse a fine raccolta)", "Superior Tools (+25% velocità di raccolta)", "Modified Axle (+30% velocità di marcia assedio)", "Armed Convoy (+15% difesa)"], "stat_summary": "Velocità di raccolta di tutte le risorse, risorse extra a completamento, marcia assedio", "notes": "Tutte le fonti concordano: solo albero Gathering; non spendere punti in combattimento (heaven-guardian, riseofkingdomshandbook). riseofkingdomsguides mostra solo l'immagine dell'albero gathering; consiglia di non portarla al livello massimo perché inutile in PvP/PvE."}
+      ],
+      "pairings": [
+        {"partner": "Constance", "this_as": "either", "purpose": "gathering", "note": "Coppia Sarka + Constance indicata da riseofkingdomsguides (best gathering commanders) come ottimale per i depositi alleanza; anche heaven-guardian."},
+        {"partner": "Gaius Marius", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian"},
+        {"partner": "Centurion", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian"},
+        {"partner": "Matilda of Flanders", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian"},
+        {"partner": "Seondeok", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian"},
+        {"partner": "Cleopatra VII", "this_as": "secondary", "purpose": "gathering", "note": "heaven-guardian; riseofkingdomshandbook la vede come raccoglitrice secondaria su marce separate rispetto a Cleopatra"},
+        {"partner": "Ishida Mitsunari", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian"},
+        {"partner": "Babur / Margaret / Dido / Gorgo", "this_as": "either", "purpose": "support", "note": "Elencati da rok.hokbuild.com senza spiegazione; poco plausibili per una raccoglitrice, riportati solo per tracciabilità."}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/sarka/", "page_date": "2026-01-02", "overall": "3.8/5 (12 voti utenti)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "consigliata"},
+        {"source_url": "https://rok.hokbuild.com/commanders/sarka/", "page_date": "2025-12-18", "overall": "4/5 stelle", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Sarka", "page_date": "2025-12-10", "overall": "D Tier (popolarità #10)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://heaven-guardian.com/rise-of-kingdoms-sarka-guide/", "page_date": null, "overall": "raccoglitrice economica utile early-mid game; non valida per PvP", "open_field": "non valida", "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "utile"},
+        {"source_url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-sarka-guide", "page_date": "2026-08-18", "overall": "uno dei migliori ritorni per scultura del gioco", "open_field": "non valida (danno attivo molto basso)", "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "alto valore early-mid game"}
+      ],
+      "skill_upgrade_order": "5-5-5-1 (rok.hokbuild.com) oppure 5-5-5-5 a lungo termine (heaven-guardian); riseofkingdomsguides best-gathering: livello 10 con 2 stelle e maxare la seconda skill (The Maidens' War) prima di avanzare",
+      "sculpture_cost_to_max": 340,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: Helm of the Conqueror, Scepter of the Forest Guardian, Harvester Breeches, Robe of the Forest Guardian, Claws of the Forest Guardian, Roaring Wolf's Claws (set gathering). Truppe: assedio per carico alto in zone sicure, unità veloci in zone pericolose (heaven-guardian).",
+      "roles": ["gathering"],
+      "f2p_friendly": true,
+      "notes": "Raccoglitrice universale (tutte le risorse). Usata anche per saccheggiare città morte (riseofkingdomsguides). Non salire di livello oltre il necessario; equipaggiabile con gear gathering. La skill 4 riduce l'attacco: irrilevante per la raccolta. Non esiste skill 5/expertise per i comandanti Elite.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/sarka/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["skills", "talent_builds", "ratings", "notes", "skill_upgrade_order"]},
+        {"url": "https://rok.hokbuild.com/commanders/sarka/", "site": "rok.hokbuild.com", "page_date": "2025-12-18", "retrieved": "2026-09-27", "fields": ["rarity", "aliases", "specialties", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings"]},
+        {"url": "https://zoe-rok.com/commanders/Sarka", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000145-Sarka", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "aliases"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-sarka-guide/", "site": "heaven-guardian.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills", "talent_builds", "pairings", "skill_upgrade_order", "recommended_equipment", "ratings"]},
+        {"url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-sarka-guide", "site": "riseofkingdomshandbook.com", "page_date": "2026-08-18", "retrieved": "2026-09-27", "fields": ["talent_builds", "pairings", "ratings", "f2p_friendly"]},
+        {"url": "https://riseofkingdomsguides.com/best-gathering-commanders/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings", "skill_upgrade_order", "roles"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]},
+        {"url": "https://zathong.com/sarka-talent-tree-build/", "site": "zathong.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "nomi esatti dei talenti nell'immagine di riseofkingdomsguides (solo immagine)", "data di rilascio esatta confermata solo da zoe-rok.com (2018-04-24)"],
+      "conflicts": [
+        {"field": "civilization", "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000145-Sarka", "value": "Other"},
+        {"field": "civilization", "url": "https://riseofkingdomsguides.com/talent-tree/sarka/", "value": "non indicata"},
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Queen's Grace' (boosts gathering speed + minor healing) — nome/effetto non confermati da nessun'altra fonte; tutte le altre: 'Enchantment'"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/sarka/", "value": "5-5-5-1"},
+        {"field": "skill_upgrade_order", "url": "https://heaven-guardian.com/rise-of-kingdoms-sarka-guide/", "value": "5-5-5-5 (obiettivo a lungo termine, 'invece del vecchio 5-5-5-1')"}
+      ]
+    },
+    {
+      "name": "Lancelot",
+      "aliases": ["Knight of the Lake", "Lancelot du Lac"],
+      "rarity": "Elite",
+      "civilization": "Britain",
+      "specialties": ["Cavalry", "Versatility", "Mobility"],
+      "troop_type": "cavalry",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Quarrel", "type": "active", "rage": 1000, "effect": "Lancelot brandishes his sharp sword, dealing massive damage to a single target (direct damage).", "max_values": {"damage_factor": 600}, "levels": [200, 300, 400, 500, 600]},
+        {"slot": 2, "name": "Knight of the Round Table", "type": "passive", "rage": null, "effect": "Increases march speed of cavalry units; increases attack of cavalry units.", "max_values": {"cavalry_march_speed_pct": 5, "cavalry_attack_pct": 5}, "levels": [{"cavalry_march_speed_pct": 1, "cavalry_attack_pct": 1}, {"cavalry_march_speed_pct": 2, "cavalry_attack_pct": 2}, {"cavalry_march_speed_pct": 3, "cavalry_attack_pct": 3}, {"cavalry_march_speed_pct": 4, "cavalry_attack_pct": 4}, {"cavalry_march_speed_pct": 5, "cavalry_attack_pct": 5}]},
+        {"slot": 3, "name": "Forbidden Love", "type": "passive", "rage": null, "effect": "When attacked, troops led by Lancelot have a 10% chance to reduce all damage taken on the next turn.", "max_values": {"damage_reduction_pct": 40, "trigger_chance_pct": 10}, "levels": [10, 15, 20, 30, 40]},
+        {"slot": 4, "name": "Battle of Sorrow", "type": "passive", "rage": null, "effect": "When Lancelot has 50% or less of his units remaining, increases all damage dealt and march speed.", "max_values": {"all_damage_pct": 15, "march_speed_pct": 15}, "levels": [{"all_damage_pct": 2, "march_speed_pct": 2}, {"all_damage_pct": 4, "march_speed_pct": 4}, {"all_damage_pct": 7, "march_speed_pct": 7}, {"all_damage_pct": 10, "march_speed_pct": 10}, {"all_damage_pct": 15, "march_speed_pct": 15}]}
+      ],
+      "talent_builds": [
+        {"purpose": "mobility", "trees": ["Mobility", "Cavalry"], "key_talents": ["(struttura identica a Cao Cao secondo riseofkingdomsguides) riferimento build mobilità Cao Cao su rok.hokbuild.com: Dragon Saber 3/3, Galea 3/3, Halberd 3/3, Charge 3/3, Undying Fury 3/3, Equestrian Excellence 3/3, Disarm 3/3, Emblazoned Shield 3/3, Rallying Cry 3/3, Saving Cross 3/3, Vortex 3/3, Lightning Charge 3/3, Spiked Armor 3/3"], "stat_summary": "Velocità di marcia cavalleria e danno per raggiungere velocemente rune/obiettivi", "notes": "riseofkingdomsguides: 'il talent tree di Lancelot non differisce da quello di Cao Cao' e mostra solo l'immagine. I nomi dei talenti elencati sono presi dalla pagina Cao Cao di rok.hokbuild.com come riferimento, NON da una pagina Lancelot. tristgaming consiglia una build 'versatile' early game per open field e raccolta."}
+      ],
+      "pairings": [
+        {"partner": "Dragon Lancer", "this_as": "secondary", "purpose": "mobility", "note": "riseofkingdomsguides (fastest cavalry march speed): Dragon Lancer primario + Lancelot secondario = 15% velocità di marcia dalle skill (max per non-legendary), 58% totale con talenti"},
+        {"partner": "Belisarius", "this_as": "primary", "purpose": "mobility", "note": "riseofkingdomsguides: Lancelot + Belisarius secondario = 62% velocità di marcia"},
+        {"partner": "Cao Cao", "this_as": "either", "purpose": "mobility", "note": "riseofkingdomsguides: 'works well with Cao Cao', talent tree identico"},
+        {"partner": "Gang Gamchan / Pepin / Achilles / Mary / Afonso", "this_as": "either", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione delle sinergie"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/lancelot/", "page_date": "2026-01-02", "overall": "4.4/5 (18 voti utenti)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://rok.hokbuild.com/commanders/lancelot/", "page_date": "2025-12-14", "overall": "4/5 stelle", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Lancelot", "page_date": "2025-12-10", "overall": "D Tier (popolarità #31)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5-5-1-1 (rok.hokbuild.com); tristgaming: maxare tutto 5-5-5-5 perché le sculture Elite sono facili",
+      "sculpture_cost_to_max": 340,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: Abyssal Visage, Staff of the Lost, Infantry Breastplate, Iset's Sufferance, Vanguard Greaves, Edged Boots (set eterogeneo, nessuna nota sulle statistiche)",
+      "roles": ["mobility"],
+      "f2p_friendly": true,
+      "notes": "Comandante cavalleria da mobilità: raccolta rune, caccia ai raccoglitori nemici, obiettivi in Arc of Osiris (riseofkingdomsguides, rok.hokbuild). Base power 300 (rok.hokbuild). Non competitivo in PvP serio. Ottenibile da Silver/Gold Chest (zoe-rok). Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/lancelot/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "pairings", "ratings", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/lancelot/", "site": "rok.hokbuild.com", "page_date": "2025-12-14", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/cao-cao/", "site": "rok.hokbuild.com", "page_date": "2025-10-02", "retrieved": "2026-09-27", "fields": ["talent_builds (riferimento Cao Cao)"]},
+        {"url": "https://zoe-rok.com/commanders/Lancelot", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000144-Lancelot", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://riseofkingdomsguides.com/fastest-cavalry-march-speed/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings"]},
+        {"url": "https://tristgaming.weebly.com/lancelot.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skill_upgrade_order", "talent_builds", "notes"]},
+        {"url": "https://zathong.com/lancelot-talent-tree-build/", "site": "zathong.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "talenti specifici di una build Lancelot (solo immagini nelle fonti; usato Cao Cao come riferimento)"],
+      "conflicts": [
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Knight's Charge' (danno + march speed) — non confermato da nessun'altra fonte; tutte le altre: 'Quarrel'"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/lancelot/", "value": "5-5-1-1"},
+        {"field": "skill_upgrade_order", "url": "https://tristgaming.weebly.com/lancelot.html", "value": "5-5-5-5"}
+      ]
+    },
+    {
+      "name": "Tomoe Gozen",
+      "aliases": ["Beauty of the Falling Sun"],
+      "rarity": "Elite",
+      "civilization": "Japan",
+      "specialties": ["Archer", "Versatility", "Attack"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Blood Sakura", "type": "active", "rage": 1000, "effect": "Increases attack of all units for the next 3 seconds.", "max_values": {"troop_attack_pct": 30}, "levels": [10, 15, 20, 25, 30]},
+        {"slot": 2, "name": "Divine Bow", "type": "passive", "rage": null, "effect": "Increases attack of archer units; increases march speed of archer units.", "max_values": {"archer_attack_pct": 5, "archer_march_speed_pct": 5}, "levels": [{"archer_attack_pct": 1, "archer_march_speed_pct": 1}, {"archer_attack_pct": 2, "archer_march_speed_pct": 2}, {"archer_attack_pct": 3, "archer_march_speed_pct": 3}, {"archer_attack_pct": 4, "archer_march_speed_pct": 4}, {"archer_attack_pct": 5, "archer_march_speed_pct": 5}]},
+        {"slot": 3, "name": "Beauty in Chaos", "type": "passive", "rage": null, "effect": "Gains additional rage when attacking the enemy (normal attacks). Increases skill damage when Tomoe Gozen is serving as secondary commander.", "max_values": {"rage_restored": 20, "skill_damage_pct": 15}, "levels": [{"rage_restored": 3, "skill_damage_pct": 2}, {"rage_restored": 6, "skill_damage_pct": 4}, {"rage_restored": 10, "skill_damage_pct": 7}, {"rage_restored": 15, "skill_damage_pct": 10}, {"rage_restored": 20, "skill_damage_pct": 15}]},
+        {"slot": 4, "name": "Eternal Love", "type": "passive", "rage": null, "effect": "When using an active skill, Tomoe Gozen reduces her current target's damage for 2 seconds.", "max_values": {"target_damage_reduction_pct": 15}, "levels": [2, 4, 7, 10, 15]}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Archer", "Attack"], "key_talents": ["Archer: Arrows Rain, Razor Sharp, Full Quiver, Venomous Sting, Phoenix-Tail Arrows", "Attack: Burning Blood, Armored Joints, Fight to the Death"], "stat_summary": "Attacco truppe, attacco arcieri, velocità di marcia", "notes": "rok.hokbuild.com"},
+        {"purpose": "support", "trees": ["Versatility"], "key_talents": ["build mista con talenti gathering, garrison e rally (nomi non specificati)"], "stat_summary": "Flessibilità come secondaria early game, poi supporto raccolta", "notes": "allclash 'Versatility Build' (2021): unica build consigliata, per usarla come secondaria all'inizio e come supporto raccolta in seguito"}
+      ],
+      "pairings": [
+        {"partner": "qualsiasi nuker / comandante primario a danno skill", "this_as": "secondary", "purpose": "open_field", "note": "allclash: Beauty in Chaos aumenta il danno skill del primario; riseofkingdomsguides: si abbina a qualsiasi comandante arciere"},
+        {"partner": "Margaret / Dido / Babur / Shapur", "this_as": "secondary", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/tomoe-gozen/", "page_date": "2026-01-02", "overall": "3.6/5 (49 voti utenti)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Tomoe%20Gozen", "page_date": "2025-12-10", "overall": "D Tier (popolarità #45)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://www.allclash.com/best-tomoe-gozen-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "page_date": "2021-02-16", "overall": "secondaria decente early game, diventa obsoleta", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5-5-1-1 (rok.hokbuild.com); allclash: portare ogni skill a 5 prima di aggiungere una stella, in ordine Blood Sakura -> Divine Bow -> Beauty in Chaos -> Eternal Love",
+      "sculpture_cost_to_max": 340,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: set Dragon's Breath (Bow, Tassets, Helm, Vambraces, Plate, Boots)",
+      "roles": ["open_field"],
+      "f2p_friendly": true,
+      "notes": "Secondaria di supporto early game (buff danno skill al primario); come primaria usare arcieri. allclash: non serve salire oltre il livello 30. riseofkingdomsguides: smettere di usarla appena si ottiene un arciere migliore. Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/tomoe-gozen/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "ratings", "pairings", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/tomoe-gozen/", "site": "rok.hokbuild.com", "page_date": "2025-12-15", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "talent_builds", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://www.allclash.com/best-tomoe-gozen-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2021-02-16", "retrieved": "2026-09-27", "fields": ["talent_builds", "skill_upgrade_order", "pairings", "ratings", "notes"]},
+        {"url": "https://zoe-rok.com/commanders/Tomoe%20Gozen", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000143-Tomoe-Gozen", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://zathong.com/tomoe-gozen-talent-tree-build/", "site": "zathong.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skills"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "talenti specifici della 'Versatility build' di allclash"],
+      "conflicts": [
+        {"field": "skills.2.name", "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000143-Tomoe-Gozen", "value": "'Divine Blow' (tutte le altre fonti: 'Divine Bow')"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/tomoe-gozen/", "value": "5-5-1-1"},
+        {"field": "skill_upgrade_order", "url": "https://www.allclash.com/best-tomoe-gozen-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5-5-5-5 progressivo (una skill a 5 per ogni stella)"}
+      ]
+    },
+    {
+      "name": "Gaius Marius",
+      "aliases": ["Reformer of the Legions", "The Reformer of the Legions"],
+      "rarity": "Elite",
+      "civilization": "Rome",
+      "specialties": ["Leadership", "Gathering", "Skill"],
+      "troop_type": "leadership",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Savior of Italy", "type": "active", "rage": 1000, "effect": "Heals some of the slightly wounded units in your army, deals direct damage once to a single target, and reduces target's march speed for the next 2 seconds.", "max_values": {"healing_factor": 150, "damage_factor": 150, "march_speed_reduction_pct": 30}, "levels": [{"healing_factor": 50, "damage_factor": 50, "march_speed_reduction_pct": 10}, {"healing_factor": 70, "damage_factor": 70, "march_speed_reduction_pct": 15}, {"healing_factor": 90, "damage_factor": 90, "march_speed_reduction_pct": 20}, {"healing_factor": 120, "damage_factor": 120, "march_speed_reduction_pct": 25}, {"healing_factor": 150, "damage_factor": 150, "march_speed_reduction_pct": 30}]},
+        {"slot": 2, "name": "Founder of Empire", "type": "passive", "rage": null, "effect": "Increases food gathering speed; also increases wood and stone gathering speed by a smaller amount.", "max_values": {"food_gathering_pct": 20, "wood_stone_gathering_pct": 15}, "levels": [{"food_pct": 3, "wood_stone_pct": 2}, {"food_pct": 6, "wood_stone_pct": 4}, {"food_pct": 10, "wood_stone_pct": 7}, {"food_pct": 15, "wood_stone_pct": 10}, {"food_pct": 20, "wood_stone_pct": 15}]},
+        {"slot": 3, "name": "Marius's Reform", "type": "passive", "rage": null, "effect": "Increases troop load.", "max_values": {"troop_load_pct": 30}, "levels": [5, 10, 15, 20, 30]},
+        {"slot": 4, "name": "Conqueror of Numidia", "type": "passive", "rage": null, "effect": "Increases siege unit march speed; increases the ratio of slightly wounded units in overall casualties.", "max_values": {"siege_march_speed_pct": 15, "slightly_wounded_ratio_pct": 5}, "levels": [{"siege_march_speed_pct": 2, "slightly_wounded_ratio_pct": 1}, {"siege_march_speed_pct": 4, "slightly_wounded_ratio_pct": 2}, {"siege_march_speed_pct": 7, "slightly_wounded_ratio_pct": 3}, {"siege_march_speed_pct": 10, "slightly_wounded_ratio_pct": 4}, {"siege_march_speed_pct": 15, "slightly_wounded_ratio_pct": 5}]}
+      ],
+      "talent_builds": [
+        {"purpose": "gathering", "trees": ["Gathering"], "key_talents": ["Gathering Mastery (Food) — +30% velocità raccolta cibo", "The More The Better — +6% risorse a completamento tile", "ramo centrale per velocità di marcia", "Superior Tools — +25% velocità raccolta (investimento pesante)"], "stat_summary": "Velocità raccolta cibo, risorse bonus, carico", "notes": "allclash (2021) e heaven-guardian concordano: tutto nel Gathering tree. riseofkingdomsguides: maxare le skill gathering, inutile portarlo a 60."}
+      ],
+      "pairings": [
+        {"partner": "qualsiasi", "this_as": "either", "purpose": "gathering", "note": "allclash: 'pair Gaius Marius with whatever commander you want', nessuna sinergia rilevante per un raccoglitore"},
+        {"partner": "Šárka / Constance", "this_as": "either", "purpose": "gathering", "note": "bluestacks e heaven-guardian (guida Sarka)"},
+        {"partner": "Centurion", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (guida Centurion): Gaius Marius come specialista cibo"},
+        {"partner": "David / Gang Gamchan / Hector / Achilles / Afonso", "this_as": "either", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione; non plausibili per un raccoglitore"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/gaius-marius/", "page_date": "2026-01-02", "overall": "4/5 (10 voti utenti)", "open_field": "pessimo", "rally": null, "garrison": null, "canyon": null, "barbarians": "pessimo", "gathering": "ottimo (cibo)"},
+        {"source_url": "https://rok.hokbuild.com/commanders/gaius-marius/", "page_date": "2025-12-11", "overall": "4/5 stelle", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Gaius%20Marius", "page_date": "2025-12-10", "overall": "D Tier (popolarità #58)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "allclash: Savior of Italy 5 -> Founder of Empire 5 -> Marius's Reform lasciata a 1 -> Conqueror of Numidia 5 (5-5-1-5); rok.hokbuild.com: 5-5-5-5",
+      "sculpture_cost_to_max": 340,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: Revival Helm, Revival Gauntlets, Revival Plate, Revival (legs), Gatekeepers Shield, Knight's Winter Sabatons. Truppe: assedio per la capacità di carico (allclash).",
+      "roles": ["gathering"],
+      "f2p_friendly": true,
+      "notes": "Raccoglitore specializzato in cibo (+20% max). allclash: raggiungere 2 stelle prima di maxare le skill; non usare sculture universali, si maxa naturalmente. riseofkingdomsguides: portare le stelle a 30-40 e usare equip gathering. Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/gaius-marius/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "ratings", "notes"]},
+        {"url": "https://www.allclash.com/best-gaius-marius-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "site": "allclash.com", "page_date": "2021-03-08", "retrieved": "2026-09-27", "fields": ["talent_builds", "skill_upgrade_order", "pairings", "recommended_equipment", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/gaius-marius/", "site": "rok.hokbuild.com", "page_date": "2025-12-11", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings"]},
+        {"url": "https://zoe-rok.com/commanders/Gaius%20Marius", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000142-Gaius-Marius", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://heaven-guardian.com/gaius-marius-rok-best-gathering-build-skills/", "site": "heaven-guardian.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["talent_builds"]},
+        {"url": "https://heaven-guardian.com/centurion-rise-of-kingdoms-gathering-guide-talents/", "site": "heaven-guardian.com", "page_date": "2026-09-01", "retrieved": "2026-09-27", "fields": ["pairings"]},
+        {"url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "site": "bluestacks.com", "page_date": "2024-12-11", "retrieved": "2026-09-27", "fields": ["pairings"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "la pagina heaven-guardian Gaius Marius ha restituito 404"],
+      "conflicts": [
+        {"field": "rarity", "url": "https://www.allclash.com/best-gaius-marius-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "estratto come 'Legendary' (probabile errore di estrazione; tutte le altre fonti: Elite)"},
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Earthquake' — non confermato da nessun'altra fonte; tutte le altre: 'Savior of Italy'"},
+        {"field": "skill_upgrade_order", "url": "https://www.allclash.com/best-gaius-marius-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "value": "5-5-1-5"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/gaius-marius/", "value": "5-5-5-5"},
+        {"field": "release_date", "url": "https://zoe-rok.com/commanders/Gaius%20Marius", "value": "2018-09-01 (mentre Lancelot/Sarka/Tomoe: 2018-04-24)"}
+      ]
+    },
+    {
+      "name": "Constance",
+      "aliases": ["Queen of Sicily"],
+      "rarity": "Elite",
+      "civilization": "Germany",
+      "specialties": ["Integration", "Gathering", "Skill"],
+      "troop_type": "integration",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Struggling Poison", "type": "active", "rage": 1000, "effect": "Deals direct damage once to a single target, then deals additional damage to the target each second for the next 3 seconds.", "max_values": {"damage_factor": 150, "additional_damage_factor": 150}, "levels": [{"damage_factor": 50, "additional_damage_factor": 50}, {"damage_factor": 70, "additional_damage_factor": 70}, {"damage_factor": 90, "additional_damage_factor": 90}, {"damage_factor": 120, "additional_damage_factor": 120}, {"damage_factor": 150, "additional_damage_factor": 150}]},
+        {"slot": 2, "name": "The Regent", "type": "passive", "rage": null, "effect": "Increases wood gathering speed; also increases food and stone gathering speed by a smaller amount.", "max_values": {"wood_gathering_pct": 20, "food_stone_gathering_pct": 15}, "levels": [{"wood_pct": 3, "food_stone_pct": 2}, {"wood_pct": 6, "food_stone_pct": 4}, {"wood_pct": 10, "food_stone_pct": 7}, {"wood_pct": 15, "food_stone_pct": 10}, {"wood_pct": 20, "food_stone_pct": 15}]},
+        {"slot": 3, "name": "Loving Mother", "type": "passive", "rage": null, "effect": "Increases troop load.", "max_values": {"troop_load_pct": 30}, "levels": [5, 10, 15, 20, 30]},
+        {"slot": 4, "name": "Queen of Sicily", "type": "passive", "rage": null, "effect": "Constance receives additional resources upon completion of gathering.", "max_values": {"bonus_resources_pct": 10}, "levels": [2, 4, 6, 8, 10]}
+      ],
+      "talent_builds": [
+        {"purpose": "gathering", "trees": ["Gathering"], "key_talents": ["(immagine su riseofkingdomsguides e rok.hokbuild; nomi non riportati in testo)"], "stat_summary": "Velocità raccolta legno/cibo/pietra e carico", "notes": "riseofkingdomsguides: 'Constance è un comandante che userai solo per raccogliere'. riseofkingdomsguides best-gathering: portarla a livello 30 e maxare la 4ª skill (Queen of Sicily) perché 'molto potente nei depositi alleanza'."}
+      ],
+      "pairings": [
+        {"partner": "Šárka", "this_as": "either", "purpose": "gathering", "note": "riseofkingdomsguides best-gathering: coppia ottimale per massimizzare i depositi alleanza; heaven-guardian"},
+        {"partner": "Joan of Arc", "this_as": "either", "purpose": "gathering", "note": "riseofkingdomsguides best-gathering: 'funziona eccezionalmente bene con Constance'; anche rok.hokbuild"},
+        {"partner": "Gaius Marius", "this_as": "either", "purpose": "gathering", "note": "bluestacks, heaven-guardian"},
+        {"partner": "Centurion", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (guida Centurion), bluestacks"},
+        {"partner": "Yi Seong-Gye / Richard I / Charles Martel / Alexander the Great", "this_as": "either", "purpose": "support", "note": "Elencati da rok.hokbuild.com senza spiegazione; non plausibili per una raccoglitrice"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/constance/", "page_date": "2026-01-02", "overall": "4.2/5 (23 voti utenti)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "ottima"},
+        {"source_url": "https://zoe-rok.com/commanders/Constance", "page_date": "2025-12-10", "overall": "D Tier (popolarità #47)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "page_date": "2024-12-11", "overall": "critica per cibo/oro dal mid al late game", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "consigliata"}
+      ],
+      "skill_upgrade_order": "5-5-5-1 (rok.hokbuild.com); tristgaming: 5-5-5-5; riseofkingdomsguides best-gathering: maxare la 4ª skill (Queen of Sicily)",
+      "sculpture_cost_to_max": 340,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: set Witch's (Witch's Deadwood Crown, Witch's Hexed Cloak, Witch's Feathered Staff, Witch's Crimson Bracers, Witch's Ornamented Pants, Witch's Mire-Waders). tristgaming: portare le stelle a 30-40 e usare equipaggiamento gathering.",
+      "roles": ["gathering"],
+      "f2p_friendly": true,
+      "notes": "Raccoglitrice specializzata in legno (+20%), con risorse bonus a fine raccolta (skill 4). Ottenibile nel negozio spedizione (riseofkingdomsguides). Base power 300. Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/constance/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "ratings", "notes"]},
+        {"url": "https://riseofkingdomsguides.com/best-gathering-commanders/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings", "skill_upgrade_order", "talent_builds"]},
+        {"url": "https://rok.hokbuild.com/commanders/constance/", "site": "rok.hokbuild.com", "page_date": "2025-12-09", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://zoe-rok.com/commanders/Constance", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000141-Constance", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://tristgaming.weebly.com/constance.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["skill_upgrade_order", "recommended_equipment", "notes"]},
+        {"url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "site": "bluestacks.com", "page_date": "2024-12-11", "retrieved": "2026-09-27", "fields": ["ratings", "pairings"]},
+        {"url": "https://heaven-guardian.com/centurion-rise-of-kingdoms-gathering-guide-talents/", "site": "heaven-guardian.com", "page_date": "2026-09-01", "retrieved": "2026-09-27", "fields": ["pairings"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "nomi dei talenti della build gathering (solo immagini)"],
+      "conflicts": [
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Meadow Harvest' (boost raccolta cibo) — non confermato da nessun'altra fonte; tutte le altre: 'Struggling Poison'"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/constance/", "value": "5-5-5-1"},
+        {"field": "skill_upgrade_order", "url": "https://tristgaming.weebly.com/constance.html", "value": "5-5-5-5"},
+        {"field": "skill_upgrade_order", "url": "https://riseofkingdomsguides.com/best-gathering-commanders/", "value": "priorità alla 4ª skill (Queen of Sicily) per i depositi alleanza"}
+      ]
+    },
+    {
+      "name": "Markswoman",
+      "aliases": ["Shadow Snake"],
+      "rarity": "Advanced",
+      "civilization": "Other",
+      "specialties": ["Archer", "Peacekeeping", "Skill"],
+      "troop_type": "archer",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Raid", "type": "active", "rage": 1000, "effect": "Instantly deals massive damage to the target (direct damage).", "max_values": {"damage_factor": 100}, "levels": [50, 60, 70, 80, 100]},
+        {"slot": 2, "name": "Poison Arrow", "type": "passive", "rage": null, "effect": "Increases damage dealt to barbarians by troops led by this commander.", "max_values": {"damage_to_barbarians_pct": 10}, "levels": [2, 4, 6, 8, 10]},
+        {"slot": 3, "name": "Accuracy", "type": "passive", "rage": null, "effect": "Increases attack of archer units.", "max_values": {"archer_attack_pct": 5}, "levels": [1, 2, 3, 4, 5]},
+        {"slot": 4, "name": "Agility", "type": "passive", "rage": null, "effect": "Increases defense of archer units.", "max_values": {"archer_defense_pct": 5}, "levels": [1, 2, 3, 4, 5]}
+      ],
+      "talent_builds": [
+        {"purpose": "barbarians", "trees": ["Peacekeeping", "Archer"], "key_talents": ["Peacekeeping: Quick Study, Insight, Trophy Hunter", "Archer: Archer Mastery, Archer Defense, Archer Health"], "stat_summary": "Costo AP ridotto (fino a 30 AP per barbaro con Insight), EXP e drop dai barbari, statistiche arcieri", "notes": "rok.hokbuild.com e ldshop ('Peacekeeping first, Archer second'); riseofkingdomsguides: la build peacekeeping riduce il costo in action point fino a 30 per barbaro"},
+        {"purpose": "open_field", "trees": ["Archer", "Skill"], "key_talents": ["(immagine su riseofkingdomsguides, nomi non in testo)"], "stat_summary": null, "notes": "riseofkingdomsguides mostra una build 'Field PVP' ma consiglia di evitare Markswoman in PvP"}
+      ],
+      "pairings": [
+        {"partner": "Boudica", "this_as": "either", "purpose": "barbarians", "note": "ldshop: Markswoman primaria + Boudica per i barbari early; Boudica primaria + Markswoman per barbari normali"},
+        {"partner": "Lohar", "this_as": "secondary", "purpose": "barbarians", "note": "ldshop: Lohar primario + Markswoman per livellare comandanti"},
+        {"partner": "qualsiasi comandante arciere", "this_as": "secondary", "purpose": "open_field", "note": "riseofkingdomsguides: 'puoi abbinarla a qualsiasi arciere, ma hai molti comandanti migliori; evitala in PvP'"},
+        {"partner": "Alexander the Great / Artemisia I / Attila / Cao Cao / Charlemagne", "this_as": "secondary", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/markswoman/", "page_date": "2026-01-02", "overall": "4.3/5 (13 voti utenti)", "open_field": "da evitare", "rally": null, "garrison": null, "canyon": null, "barbarians": "utile (peacekeeping)", "gathering": null},
+        {"source_url": "https://www.ldshop.gg/blog/rise-of-kingdoms/markswoman-build-guide.html", "page_date": "2026-08-06", "overall": "ponte economico tra tutorial e comandanti peacekeeping migliori", "open_field": "debole", "rally": null, "garrison": "da evitare (nessuna skill garrison)", "canyon": null, "barbarians": "utile early per barbari normali; scarsa contro i forti", "gathering": null},
+        {"source_url": "https://rok.hokbuild.com/commanders/markswoman/", "page_date": "2025-12-22", "overall": "4/5 stelle", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Markswoman", "page_date": "2024-10-15", "overall": "D Tier (popolarità #60)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5-5-1-1 come checkpoint early (Raid e Poison Arrow), poi 5-5-5-5 naturalmente (ldshop, rok.hokbuild.com); tristgaming: 5-5-5-5",
+      "sculpture_cost_to_max": 240,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "ldshop: solo equipaggiamento di scarto, non craftare pezzi rari per lei. rok.hokbuild.com: Revival Helm/Gauntlets/Plate, Dragon's Breath Bow, Dragon's Breath Boots. Truppe: solo arcieri (Accuracy e Agility valgono solo per arcieri).",
+      "roles": ["barbarians"],
+      "f2p_friendly": true,
+      "notes": "Comandante ricevuto alla creazione dell'account (ldshop, tristgaming). Base power 100 (rok.hokbuild). ldshop: livello 20-30 standard, 35-40 solo per il percorso Peacekeeping completo, livello 60 'inefficiente'. Nessuna skill 5. Ottenibile da Silver Chest (zoe-rok).",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/markswoman/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "specialties", "skills", "talent_builds", "pairings", "ratings"]},
+        {"url": "https://www.ldshop.gg/blog/rise-of-kingdoms/markswoman-build-guide.html", "site": "ldshop.gg", "page_date": "2026-08-06", "retrieved": "2026-09-27", "fields": ["rarity", "skills", "talent_builds", "pairings", "ratings", "skill_upgrade_order", "recommended_equipment", "notes"]},
+        {"url": "https://rok.hokbuild.com/commanders/markswoman/", "site": "rok.hokbuild.com", "page_date": "2025-12-22", "retrieved": "2026-09-27", "fields": ["rarity", "aliases", "talent_builds", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings"]},
+        {"url": "https://zoe-rok.com/commanders/Markswoman", "site": "zoe-rok.com", "page_date": "2024-10-15", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000140-Markswoman", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://tristgaming.weebly.com/markswoman.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "skill_upgrade_order", "notes"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "nomi dei talenti della build 'Field PVP' di riseofkingdomsguides"],
+      "conflicts": [
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Suppressive Volley' (danno + riduzione difesa) — non confermato da nessun'altra fonte; tutte le altre: 'Raid'"},
+        {"field": "rarity", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Elite (la pagina singola dello stesso sito e tutte le altre fonti: Advanced)"},
+        {"field": "release_date", "url": "https://zoe-rok.com/commanders/Markswoman", "value": "2018-09-01 (ma è il comandante iniziale dell'account, altre fonti non datano)"}
+      ]
+    },
+    {
+      "name": "Dragon Lancer",
+      "aliases": ["Lance in the Fire"],
+      "rarity": "Advanced",
+      "civilization": "Other",
+      "specialties": ["Cavalry", "Versatility", "Mobility"],
+      "troop_type": "cavalry",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Deterrent", "type": "active", "rage": 1000, "effect": "Deals direct damage to a single target, then deals additional damage to the target each second for the next 2 seconds.", "max_values": {"damage_factor": 75, "additional_damage_factor": 75}, "levels": [{"damage_factor": 30, "additional_damage_factor": 30}, {"damage_factor": 40, "additional_damage_factor": 40}, {"damage_factor": 50, "additional_damage_factor": 50}, {"damage_factor": 60, "additional_damage_factor": 60}, {"damage_factor": 75, "additional_damage_factor": 75}]},
+        {"slot": 2, "name": "Fine Horse", "type": "passive", "rage": null, "effect": "Increases march speed of cavalry units.", "max_values": {"cavalry_march_speed_pct": 10}, "levels": [2, 4, 6, 8, 10]},
+        {"slot": 3, "name": "Lance of Freedom", "type": "passive", "rage": null, "effect": "Increases attack of cavalry units.", "max_values": {"cavalry_attack_pct": 5}, "levels": [1, 2, 3, 4, 5]},
+        {"slot": 4, "name": "Metal Armor", "type": "passive", "rage": null, "effect": "Increases defense of cavalry units.", "max_values": {"cavalry_defense_pct": 5}, "levels": [1, 2, 3, 4, 5]}
+      ],
+      "talent_builds": [
+        {"purpose": "mobility", "trees": ["Mobility", "Peacekeeping"], "key_talents": ["Mobility: Fleet of Foot, Efficient March, Charge, Vortex", "Peacekeeping: Quick Study, Insight, Trophy Hunter, Double-Edged Sword"], "stat_summary": "Velocità di marcia cavalleria (43% solo dai talenti come primario secondo riseofkingdomsguides)", "notes": "rok.hokbuild.com elenca i talenti; riseofkingdomsguides consiglia l'albero Mobility ma nota che 'poiché difficilmente lo livellerai, l'albero avrà poco uso pratico'"}
+      ],
+      "pairings": [
+        {"partner": "Lancelot", "this_as": "primary", "purpose": "mobility", "note": "riseofkingdomsguides: Dragon Lancer primario + Lancelot secondario = 15% march speed dalle skill (max per non-legendary), 58% totale"},
+        {"partner": "Genghis Khan / Attila", "this_as": "primary", "purpose": "mobility", "note": "riseofkingdomsguides: 68% velocità di marcia totale con questi secondari"},
+        {"partner": "Minamoto no Yoshitsune / Cao Cao", "this_as": "primary", "purpose": "mobility", "note": "riseofkingdomsguides: 63% velocità di marcia totale; Dragon Lancer primario è l'opzione F2P per chi non ha Cao Cao"},
+        {"partner": "comandanti cavalleria con bonus march speed", "this_as": "secondary", "purpose": "mobility", "note": "riseofkingdomsguides: usarlo come secondario per cacciare farmer e raccogliere rune"},
+        {"partner": "Guan Yu / Genghis Khan / Hannibal Barca / Gaius Marius / Edward of Woodstock", "this_as": "secondary", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/dragon-lancer/", "page_date": "2026-01-02", "overall": "3.9/5 (17 voti utenti); 'non efficace in PvP o PvE'", "open_field": "no", "rally": null, "garrison": null, "canyon": null, "barbarians": "no", "gathering": null},
+        {"source_url": "https://rok.hokbuild.com/commanders/dragon-lancer/", "page_date": "2025-12-21", "overall": "4/5 stelle", "open_field": "debole in PvP", "rally": null, "garrison": null, "canyon": null, "barbarians": "'Strong PvE' (in contrasto con riseofkingdomsguides)", "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/Dragon%20Lancer", "page_date": "2025-12-10", "overall": "D Tier (popolarità #57)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5-5-5-1 (rok.hokbuild.com); tristgaming: 5-5-0-0 poi maxare col tempo",
+      "sculpture_cost_to_max": 240,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: Windswept War Helm, Vanguard Halberd, Windswept Bracers, Windswept Breastplate, Windswept Boots, Greaves of the Exile",
+      "roles": ["mobility"],
+      "f2p_friendly": true,
+      "notes": "Il suo punto di forza è il +10% march speed cavalleria (skill 2). riseofkingdomsguides: portarlo a 4 stelle ma non a livello 60; usi: caccia ai farmer e raccolta rune early game. tristgaming: adatto a una marcia singola per rune/raccolta. Base power 100. Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/dragon-lancer/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "specialties", "skills", "talent_builds", "pairings", "ratings", "notes"]},
+        {"url": "https://riseofkingdomsguides.com/fastest-cavalry-march-speed/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["pairings", "talent_builds"]},
+        {"url": "https://rok.hokbuild.com/commanders/dragon-lancer/", "site": "rok.hokbuild.com", "page_date": "2025-12-21", "retrieved": "2026-09-27", "fields": ["rarity", "talent_builds", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings"]},
+        {"url": "https://zoe-rok.com/commanders/Dragon%20Lancer", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000139-Dragon-Lancer", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://tristgaming.weebly.com/dragon-lancer.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "skill_upgrade_order", "notes"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments"],
+      "conflicts": [
+        {"field": "rarity", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "Elite (tutte le altre fonti: Advanced)"},
+        {"field": "rarity", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Elite (pagina singola dello stesso sito: Advanced)"},
+        {"field": "specialties", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Cavalry, Peacekeeping, Skill (pagina singola e tutte le altre fonti: Cavalry, Versatility, Mobility)"},
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Spearhead' — non confermato da nessun'altra fonte; tutte le altre: 'Deterrent'"},
+        {"field": "ratings.barbarians", "url": "https://rok.hokbuild.com/commanders/dragon-lancer/", "value": "'Strong PvE' vs riseofkingdomsguides 'not effective for PVP or PVE'"}
+      ]
+    },
+    {
+      "name": "City Keeper",
+      "aliases": ["Shield of the People", "Mustache God (soprannome scherzoso di riseofkingdomsguides)"],
+      "rarity": "Advanced",
+      "civilization": "Other",
+      "specialties": ["Infantry", "Versatility", "Attack"],
+      "troop_type": "infantry",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Hard Shield", "type": "active", "rage": 1000, "effect": "Increases troop defense for the next 5 seconds.", "max_values": {"troop_defense_pct": 15}, "levels": [3, 6, 9, 12, 15]},
+        {"slot": 2, "name": "Vitality", "type": "passive", "rage": null, "effect": "Increases health of infantry units.", "max_values": {"infantry_health_pct": 5}, "levels": [1, 2, 3, 4, 5]},
+        {"slot": 3, "name": "Sharp Blade", "type": "passive", "rage": null, "effect": "Increases attack of infantry units.", "max_values": {"infantry_attack_pct": 5}, "levels": [1, 2, 3, 4, 5]},
+        {"slot": 4, "name": "Rapidity", "type": "passive", "rage": null, "effect": "Increases defense of infantry units.", "max_values": {"infantry_defense_pct": 5}, "levels": [1, 2, 3, 4, 5]}
+      ],
+      "talent_builds": [
+        {"purpose": "open_field", "trees": ["Infantry", "Attack"], "key_talents": ["Infantry: Iron Spear, Call of the Pack, Hold the Line", "Attack: Effortless, Armed to the Teeth, Fight to the Death"], "stat_summary": "Difesa, cura e attacco fanteria", "notes": "rok.hokbuild.com; riseofkingdomsguides non fornisce alcuna build (pagina umoristica); tristgaming: costruirlo all'inizio per la fanteria contro i barbari"}
+      ],
+      "pairings": [
+        {"partner": "Sun Tzu / Constantine I / Yi Seong-Gye / Charles Martel", "this_as": "secondary", "purpose": "open_field", "note": "Elencati da rok.hokbuild.com senza spiegazione"},
+        {"partner": "comandanti fanteria early game", "this_as": "secondary", "purpose": "open_field", "note": "bluestacks: secondario early per i buff fanteria, 'limitata utilità a lungo termine'"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/city-keeper/", "page_date": "2026-01-02", "overall": "3.9/5 (87 voti utenti); '10/10' e 5 stelle in tutte le categorie in tono scherzoso ('il peggiore e il migliore comandante')", "open_field": "5 stelle (ironico)", "rally": "5 stelle (ironico)", "garrison": "5 stelle (ironico)", "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://rok.hokbuild.com/commanders/city-keeper/", "page_date": "2025-12-20", "overall": "4/5 stelle", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null},
+        {"source_url": "https://zoe-rok.com/commanders/City%20Keeper", "page_date": "2025-12-10", "overall": "D Tier (popolarità #40)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "5-5-1-1 (rok.hokbuild.com); tristgaming: 5-5-5-5 'maxare tutto, le sculture sono facilissime'",
+      "sculpture_cost_to_max": 240,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: Expedition War Helm, Greaves of the Exile, Witch's Hexed Cloak, Blazing Axe, Windswept Bracers, Windswept Boots",
+      "roles": ["open_field"],
+      "f2p_friendly": true,
+      "notes": "Comandante fanteria base per le prime battaglie; nessuna fonte lo consiglia oltre l'early game. tristgaming: non sprecare XP, non superare il livello 20 per anni. Base power 100. Nessuna skill 5. Il ruolo 'open_field' è solo come secondario early per buff fanteria.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/city-keeper/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "ratings", "aliases"]},
+        {"url": "https://rok.hokbuild.com/commanders/city-keeper/", "site": "rok.hokbuild.com", "page_date": "2025-12-20", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "talent_builds", "skill_upgrade_order", "recommended_equipment", "pairings", "ratings"]},
+        {"url": "https://zoe-rok.com/commanders/City%20Keeper", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000138-City-Keeper", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://tristgaming.weebly.com/city-keeper.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "skill_upgrade_order", "talent_builds", "notes"]},
+        {"url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "site": "bluestacks.com", "page_date": "2024-12-11", "retrieved": "2026-09-27", "fields": ["rarity", "pairings"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments", "nessuna guida seria con build o pairing motivati"],
+      "conflicts": [
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Heroic Strike' (danno + difesa) — non confermato da nessun'altra fonte; tutte le altre: 'Hard Shield'"},
+        {"field": "rarity", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Elite (pagina singola dello stesso sito e tutte le altre fonti: Advanced)"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/city-keeper/", "value": "5-5-1-1"},
+        {"field": "skill_upgrade_order", "url": "https://tristgaming.weebly.com/city-keeper.html", "value": "5-5-5-5"}
+      ]
+    },
+    {
+      "name": "Centurion",
+      "aliases": ["Wings of the Eagle"],
+      "rarity": "Advanced",
+      "civilization": "Other",
+      "specialties": ["Integration", "Gathering", "Attack"],
+      "troop_type": "integration",
+      "is_prime": false,
+      "release_year": 2018,
+      "skills": [
+        {"slot": 1, "name": "Bloody Battle", "type": "active", "rage": 1000, "effect": "Instantly deals massive damage to the target (direct damage).", "max_values": {"damage_factor": 100}, "levels": [50, 60, 70, 80, 100]},
+        {"slot": 2, "name": "Excitement", "type": "passive", "rage": null, "effect": "Increases troop defense.", "max_values": {"troop_defense_pct": 3}, "levels": [1, 1.5, 2, 2.5, 3]},
+        {"slot": 3, "name": "Army Management", "type": "passive", "rage": null, "effect": "Increases troops' gathering speed and load.", "max_values": {"gathering_speed_pct": 10, "troop_load_pct": 10}, "levels": [{"gathering_speed_pct": 2, "troop_load_pct": 2}, {"gathering_speed_pct": 4, "troop_load_pct": 4}, {"gathering_speed_pct": 6, "troop_load_pct": 6}, {"gathering_speed_pct": 8, "troop_load_pct": 8}, {"gathering_speed_pct": 10, "troop_load_pct": 10}]},
+        {"slot": 4, "name": "Courageous Fighter", "type": "passive", "rage": null, "effect": "Increases maximum troop capacity.", "max_values": {"troop_capacity_pct": 5}, "levels": [1, 2, 3, 4, 5]}
+      ],
+      "talent_builds": [
+        {"purpose": "gathering", "trees": ["Gathering"], "key_talents": ["Gathering Mastery (fino a 30% per risorsa)", "The More the Better (+6% risorse a completamento)", "Superior Tools (+25% velocità raccolta universale)"], "stat_summary": "Velocità di raccolta e carico", "notes": "heaven-guardian: puntare a Superior Tools; livello 37 è il punto di arresto pratico (abbastanza punti per i talenti economici). riseofkingdomsguides best-gathering: 'livello raggiungibile 37'. riseofkingdomsguides: 'non usarlo per combattere, solo per raccogliere'."}
+      ],
+      "pairings": [
+        {"partner": "Constance", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (legno/cibo/pietra), bluestacks"},
+        {"partner": "Gaius Marius", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (specialista cibo), bluestacks"},
+        {"partner": "Seondeok", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (specialista oro)"},
+        {"partner": "Šárka / Joan of Arc", "this_as": "either", "purpose": "gathering", "note": "heaven-guardian (raccoglitori multi-risorsa)"},
+        {"partner": "Gorgo / Justinian I / Shapur / Margaret", "this_as": "either", "purpose": "support", "note": "Elencati da rok.hokbuild.com senza spiegazione; non plausibili per un raccoglitore"}
+      ],
+      "ratings": [
+        {"source_url": "https://riseofkingdomsguides.com/talent-tree/centurion/", "page_date": "2026-01-02", "overall": "4.2/5 (4 voti utenti)", "open_field": "no", "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "consigliato"},
+        {"source_url": "https://heaven-guardian.com/centurion-rise-of-kingdoms-gathering-guide-talents/", "page_date": "2026-09-01", "overall": "forte candidato per account nuovi e F2P; bassa priorità per account sviluppati", "open_field": "tenere lontano dal combattimento", "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": "utile, economico"},
+        {"source_url": "https://zoe-rok.com/commanders/Centurion", "page_date": "2025-12-10", "overall": "D Tier (popolarità #67)", "open_field": null, "rally": null, "garrison": null, "canyon": null, "barbarians": null, "gathering": null}
+      ],
+      "skill_upgrade_order": "heaven-guardian priorità: Army Management (3ª) -> Courageous Fighter (4ª) -> Excitement (2ª) -> Bloody Battle (1ª, irrilevante); rok.hokbuild.com: 5-5-5-1; tristgaming: 5-5-5-5",
+      "sculpture_cost_to_max": 240,
+      "recommended_formation": null,
+      "recommended_armaments": null,
+      "recommended_equipment": "rok.hokbuild.com: set Dragon's Breath (Bow, Tassets, Helm, Vambraces, Plate, Boots) — scelta discutibile per un raccoglitore. heaven-guardian: truppe d'assedio per il carico; raccogliere in territorio alleanza (+25% velocità).",
+      "roles": ["gathering"],
+      "f2p_friendly": true,
+      "notes": "Raccoglitore generalista Advanced, economico da sviluppare (240 sculture). heaven-guardian: civiltà consigliate per la raccolta Japan (+5% risorse) o France (+10% legno). Livello 37 sufficiente; livello 60 è spreco. Base power 100. Nessuna skill 5.",
+      "sources": [
+        {"url": "https://riseofkingdomsguides.com/talent-tree/centurion/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills", "talent_builds", "ratings", "notes"]},
+        {"url": "https://heaven-guardian.com/centurion-rise-of-kingdoms-gathering-guide-talents/", "site": "heaven-guardian.com", "page_date": "2026-09-01", "retrieved": "2026-09-27", "fields": ["rarity", "specialties", "talent_builds", "pairings", "ratings", "skill_upgrade_order", "recommended_equipment", "notes", "f2p_friendly"]},
+        {"url": "https://rok.hokbuild.com/commanders/centurion/", "site": "rok.hokbuild.com", "page_date": "2025-12-19", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "skill_upgrade_order", "recommended_equipment", "pairings"]},
+        {"url": "https://zoe-rok.com/commanders/Centurion", "site": "zoe-rok.com", "page_date": "2025-12-10", "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "aliases", "release_year", "ratings", "skills"]},
+        {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commander/1550000137-Centurion", "site": "gamesguideinfo.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "civilization", "specialties", "skills"]},
+        {"url": "https://riseofkingdomsguides.com/best-gathering-commanders/", "site": "riseofkingdomsguides.com", "page_date": "2026-01-02", "retrieved": "2026-09-27", "fields": ["talent_builds", "ratings"]},
+        {"url": "https://tristgaming.weebly.com/centurion.html", "site": "tristgaming.weebly.com", "page_date": null, "retrieved": "2026-09-27", "fields": ["rarity", "skill_upgrade_order", "notes"]},
+        {"url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "site": "bluestacks.com", "page_date": "2024-12-11", "retrieved": "2026-09-27", "fields": ["rarity", "pairings"]},
+        {"url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/", "site": "heaven-guardian.com", "page_date": "2026-09-19", "retrieved": "2026-09-27", "fields": ["sculpture_cost_to_max"]}
+      ],
+      "gaps": ["recommended_formation", "recommended_armaments"],
+      "conflicts": [
+        {"field": "rarity", "url": "https://riseofkingdomsguides.com/all-rise-of-kingdoms-commanders/", "value": "Elite"},
+        {"field": "rarity", "url": "https://riseofkingdomsguides.com/best-gathering-commanders/", "value": "Elite (pagina singola dello stesso sito e tutte le altre fonti: Advanced)"},
+        {"field": "skills.1.name", "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-elite-advanced-commanders-guide-en.html", "value": "'Military Discipline' (aumenta carico) — non confermato da nessun'altra fonte; tutte le altre: 'Bloody Battle'"},
+        {"field": "skill_upgrade_order", "url": "https://rok.hokbuild.com/commanders/centurion/", "value": "5-5-5-1"},
+        {"field": "skill_upgrade_order", "url": "https://heaven-guardian.com/centurion-rise-of-kingdoms-gathering-guide-talents/", "value": "priorità Army Management > Courageous Fighter > Excitement > Bloody Battle"}
+      ]
+    }
+  ],
+  "unreachable": [
+    {"url": "https://rok.guide/commanders/", "status": "503"},
+    {"url": "https://www.rok.guide/talent-guide/", "status": "503"},
+    {"url": "https://rok.guide/commanders/markswoman/?rok", "status": "503 (redirect da riseofkingdoms.com/commanders/markswoman/)"},
+    {"url": "https://riseofkingdoms.fandom.com/wiki/Category:Commander_Advanced", "status": "402"},
+    {"url": "https://riseofkingdoms.fandom.com/wiki/Lancelot", "status": "402"},
+    {"url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Lancelot", "status": "402"},
+    {"url": "https://www.allclash.com/rise-of-kingdoms-commanders-guide/", "status": "404"},
+    {"url": "https://www.allclash.com/best-lancelot-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-sarka-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-constance-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-markswoman-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-centurion-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-dragon-lancer-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://www.allclash.com/best-city-keeper-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/", "status": "404"},
+    {"url": "https://touchscreengaming.com/lancelot-build/ (e sarka, tomoe-gozen, gaius-marius, constance, markswoman, dragon-lancer, city-keeper, centurion)", "status": "404 per tutti e 9"},
+    {"url": "https://heaven-guardian.com/rise-of-kingdoms-lancelot-guide/", "status": "404"},
+    {"url": "https://heaven-guardian.com/rise-of-kingdoms-constance-guide/", "status": "404"},
+    {"url": "https://heaven-guardian.com/rise-of-kingdoms-tomoe-gozen-guide/", "status": "404"},
+    {"url": "https://www.ldshop.gg/blog/rise-of-kingdoms/lancelot-build-guide.html (e centurion, city-keeper, dragon-lancer, sarka, constance, gaius-marius, tomoe-gozen)", "status": "redirect alla home del blog: guide inesistenti"},
+    {"url": "https://riseofkingdomsguides.com/tier-list/", "status": "404"},
+    {"url": "https://riseofkingdomsguides.com/rise-of-kingdoms-tier-list/", "status": "404"},
+    {"url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commanders-tier-list/", "status": "404"},
+    {"url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commanders", "status": "404"},
+    {"url": "https://tristgaming.weebly.com/sarka.html", "status": "429"},
+    {"url": "https://tristgaming.weebly.com/tomoe-gozen.html", "status": "429"},
+    {"url": "https://tristgaming.weebly.com/gaius-marius.html", "status": "429"},
+    {"url": "https://tristgaming.weebly.com/cheok-jun-gyeong.html", "status": "429"},
+    {"url": "https://rokhub.xyz/rok-calculator/commander", "status": "402"},
+    {"url": "https://empyreanrule.com/rise-of-kingdoms/commander-sculptures/", "status": "500"}
+  ]
+}

@@ -1,0 +1,2204 @@
+{
+  "generated": "2026-09-28T10:53:01",
+  "groups": {
+    "elite_adv.verified.json": {
+      "records": 9,
+      "new": 9,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://rok.guide/commanders/",
+          "status": "503"
+        },
+        {
+          "url": "https://www.rok.guide/talent-guide/",
+          "status": "503"
+        },
+        {
+          "url": "https://rok.guide/commanders/markswoman/?rok",
+          "status": "503 (redirect da riseofkingdoms.com/commanders/markswoman/)"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Category:Commander_Advanced",
+          "status": "402"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Lancelot",
+          "status": "402"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Lancelot",
+          "status": "402"
+        },
+        {
+          "url": "https://www.allclash.com/rise-of-kingdoms-commanders-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-lancelot-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-sarka-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-constance-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-markswoman-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-centurion-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-dragon-lancer-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-city-keeper-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://touchscreengaming.com/lancelot-build/ (e sarka, tomoe-gozen, gaius-marius, constance, markswoman, dragon-lancer, city-keeper, centurion)",
+          "status": "404 per tutti e 9"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-lancelot-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-constance-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-tomoe-gozen-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/lancelot-build-guide.html (e centurion, city-keeper, dragon-lancer, sarka, constance, gaius-marius, tomoe-gozen)",
+          "status": "redirect alla home del blog: guide inesistenti"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commanders-tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commanders",
+          "status": "404"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/sarka.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/tomoe-gozen.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/gaius-marius.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/cheok-jun-gyeong.html",
+          "status": "429"
+        },
+        {
+          "url": "https://rokhub.xyz/rok-calculator/commander",
+          "status": "402"
+        },
+        {
+          "url": "https://empyreanrule.com/rise-of-kingdoms/commander-sculptures/",
+          "status": "500"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/{sarka,markswoman,dragon-lancer,city-keeper,centurion}",
+          "status": "404 (comandanti non presenti nel database rokstats)"
+        }
+      ]
+    },
+    "epic.verified.json": {
+      "records": 22,
+      "new": 22,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/<slug>/ (via curl)",
+          "status": "pagina 'Bot Verification' (Altcha/LiteSpeed): letta invece con WebFetch"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/imhotep/",
+          "status": "pagina indice senza guida: usata /imhotep-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/bjorn-ironside/",
+          "status": "pagina indice senza guida: usata /bjorn-ironside-talent-tree-builds-and-pairs/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/tamar/",
+          "status": "404: usata /talent-tree/queen-tamar-of-georgia/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/",
+          "status": "leggibile solo via WebFetch (riassunto automatico): due estrazioni riassunte erano incoerenti, usata una terza estrazione riga-per-riga; nessuna data giorno (solo 'September 2026')"
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Wak%20Chanil%20Ajaw",
+          "status": "200 ma restituisce la scheda di Charlemagne (dato scartato)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/catherine-de-medici/",
+          "status": "nessuna pagina: assente dall'elenco WP /wp-json/wp/v2/posts (127 articoli)"
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/",
+          "status": "404 (esiste solo /rise-of-kingdoms/overview/commanders con 34 comandanti del 2018-2019; non usato)"
+        },
+        {
+          "url": "https://meta-rok.com/commanders",
+          "status": "raggiungibile ma copre solo 41 comandanti meta (versioni Prime/leggendarie): nessun Epic"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "status": "primo tentativo 'Connection reset by peer', riuscito al secondo"
+        },
+        {
+          "url": "https://heaven-guardian.com/post-sitemap.xml (via curl)",
+          "status": "'Connection reset by peer' x4; letta via WebFetch (riassunto): guide epiche solo per Joan of Arc, Boudica, Lohar"
+        },
+        {
+          "url": "https://heaven-guardian.com/?s=hermann | ?s=sun+tzu | ?s=narses",
+          "status": "nessuna guida dedicata agli altri Epic"
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/",
+          "status": "solo 4 articoli (eventi, KvK defense, codici): nessuna scheda Epic"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/{Pericles,Imhotep,Bjorn Ironside,Catherine de' Medici,Narses,Wak Chanil Ajaw,Queen Tamar of Georgia}",
+          "status": "pagina inesistente (missingtitle)"
+        },
+        {
+          "url": "https://meta-rok.com/commanders/",
+          "status": "'Sun Tzu' presente ma con rarity 'legendary' (Prime): non applicabile agli Epic"
+        }
+      ]
+    },
+    "leg1.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/alexander-the-great/ (404; usata /talent-tree/alexander/)",
+        "https://riseofkingdomsguides.com/alexander-the-great-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/richard-i/ (404; usata /talent-tree/richard/)",
+        "https://riseofkingdoms.fandom.com/wiki/Alexander_the_Great (402 Payment Required)",
+        "https://rok.guide/alexander-the-great/ (503)",
+        "https://www.riseofkingdoms.guide/alexander-the-great/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/charlemagne/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/el-cid/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/edward-of-woodstock/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/attila/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/guan-yu/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/leonidas-i/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/mulan/ (DNS EAI_AGAIN)",
+        "https://touchscreengaming.com/charlemagne-build/ (404)",
+        "https://touchscreengaming.com/el-cid-build/ (404)",
+        "https://touchscreengaming.com/edward-of-woodstock-build/ (429 poi 403)",
+        "https://touchscreengaming.com/attila-build/ (429 poi 404)",
+        "https://touchscreengaming.com/leonidas-i-build/ (429 poi 404)",
+        "https://touchscreengaming.com/richard-i-build/ (429)",
+        "https://touchscreengaming.com/cleopatra-vii-build/ (429)",
+        "https://touchscreengaming.com/frederick-i-build/ (429)",
+        "https://touchscreengaming.com/artemisia-i-build/ (429)",
+        "https://touchscreengaming.com/mulan-build/ (429)",
+        "https://touchscreengaming.com/charles-martel-build/ (429)",
+        "https://touchscreengaming.com/chandragupta-maurya-build/ (429)",
+        "https://www.allclash.com/best-leonidas-i-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usata best-leonidas-builds-...)",
+        "https://empyreanrule.com/rise-of-kingdoms/charlemagne/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/el-cid/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/edward-of-woodstock/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/attila/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/guan-yu/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/leonidas-i/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/aethelflaed/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/cao-cao/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/alexander-the-great/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/mulan/ (500)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-attila-commander-guide/ (302 a dominio parcheggiato ww80.houseofkingdoms.com)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-guan-yu-commander-guide/ (solo 'Loading...', JS)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-alexander-the-great-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-charlemagne-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-el-cid-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-edward-of-woodstock-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-aethelflaed-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-cao-cao-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-mulan-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-leonidas-i-commander-guide/ (solo 'Loading...')",
+        "https://levelskip.com/mobile/Ultimate-Alexander-the-Great-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms (301 → discover.hubpages.com, 403)",
+        "https://theriagames.com/guide/rise-of-kingdoms-leonidas-i-commander-guide/ (404)",
+        "https://theriagames.com/guide/rise-of-kingdoms-leonidas-commander-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-alexander-the-great-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-aethelflaed-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-edward-of-woodstock-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-charlemagne-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-cao-cao-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-mulan-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-artemisia-i-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-chandragupta-maurya-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-charles-martel-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-frederick-i-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-cleopatra-vii-guide/ (404)",
+        "https://riseofkingdoms.org/commander-guides/cao-cao/ (503)",
+        "https://riseofkingdoms.org/commander-guides/attila/ (503)",
+        "https://riseofkingdoms.org/commander-guides/alexander-the-great/ (503)",
+        "https://riseofkingdoms.org/commander-guides/leonidas-i/ (503)",
+        "https://riseofkingdoms.org/commander-guides/edward-of-woodstock/ (503)",
+        "https://riseofkingdoms.org/commander-guides/aethelflaed/ (503)",
+        "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/alexander-the-great (403)",
+        "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/edward-of-woodstock (403)",
+        "https://wikigaming.org/rise-of-kingdoms/alexander-the-great-in-rise-of-kingdoms-comprehensive-guide-to-skills-talent-builds-and-strategies/ (DNS ENOTFOUND)",
+        "https://riseofkingdomsguide.com/commanders/best-charlemagne-commander-guide-skills-talent-builds-pairs-roles-rise-of-kingdoms-guide/ (DNS ENOTFOUND)",
+        "https://techgamesnews.com/rise-of-kingdoms/rok-cao-cao/ (403)",
+        "https://techgamesnews.com/rise-of-kingdoms/rok-mulan/ (403)",
+        "https://techgamesnews.com/rise-of-kingdoms/rok-alexander-the-great/ (403)",
+        "https://techgamesnews.com/rise-of-kingdoms/rok-charlemagne/ (403)",
+        "https://www.gamesguideinfo.com/rise-of-kingdoms/overview/commander-skills (solo indice, nessun dato)",
+        "https://zoe-rok.com/commanders/Chandragupta%20Maurya (raggiungibile ma 'No skills information available yet')"
+      ]
+    },
+    "leg2.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/constantine-i/",
+          "error": "404 (la pagina corretta e' /talent-tree/constantine/, letta)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/william-i/",
+          "error": "404"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/harald-sigurdsson/",
+          "error": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-minamoto-no-yoshitsune-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "error": "404 (URL corretto trovato via WebSearch e letto)"
+        },
+        {
+          "url": "https://www.allclash.com/best-ramesses-ii-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "error": "404 (URL corretto /best-ramesses-builds-.../ trovato e letto)"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/constantine-i/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/takeda-shingen/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/harald-sigurdsson/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/ishida-mitsunari/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/mehmed-ii/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/ramesses-ii/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/seondeok/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/tomyris/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://zathong.com/william-i-talent-tree-build/",
+          "error": "404"
+        },
+        {
+          "url": "https://zathong.com/theodora-talent-tree-build/",
+          "error": "404"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/ishida-mitsunari/",
+          "error": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/seondeok/",
+          "error": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/harald/",
+          "error": "503"
+        },
+        {
+          "url": "https://discover.hubpages.com/games-hobbies/Ultimate-Constantine-I-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "error": "403"
+        },
+        {
+          "url": "https://wikigaming.org/rise-of-kingdoms/constantine-i-in-rise-of-kingdoms-comprehensive-guide-to-skills-talent-builds-and-strategies/",
+          "error": "DNS ENOTFOUND"
+        },
+        {
+          "url": "https://kangfumaster.com/rok-commanders-constantine-i/",
+          "error": "503"
+        },
+        {
+          "url": "https://empyreanrule.com/rise-of-kingdoms/commanders/constantine-i/",
+          "error": "500"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-best-commander-tier-list-guide/",
+          "error": "raggiunta ma non contiene rating per i 16 comandanti richiesti"
+        }
+      ]
+    },
+    "leg3.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/lapu-lapu/",
+          "status": "404 (usato invece /lapulapu-talent-tree-build-and-guide/)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/margaret-i/",
+          "status": "404 (usato invece /margaret-talent-tree-build-and-guide/)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wu-zetian-talent-tree-build-and-guide-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wu-zetian-talent-tree-build-and-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/margaret-i/",
+          "status": "404 (usato invece /commanders/margaret/)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/hermann-prime/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/wu-zetian/",
+          "status": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Wu_Zetian",
+          "status": "402"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/wu-zetian/",
+          "status": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://riseofkingdoms.net/wu-zetian-talent-tree-and-guide/",
+          "status": "503"
+        },
+        {
+          "url": "https://discover.hubpages.com/games-hobbies/Ultimate-Wu-Zetian-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "status": "403"
+        },
+        {
+          "url": "https://www.gamerstones.com/2023/07/rise-of-kingdoms-lost-crusade-justinian-guide.html",
+          "status": "522"
+        },
+        {
+          "url": "https://levelskip.com/mobile/Ultimate-Zenobia-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "status": "301 verso hubpages (non seguito)"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/huo-qubing-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/justinian-i-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/ashurbanipal-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/dido-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/heraclius-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/zenobia-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/pyrrhus-build/",
+          "status": "429 poi 404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/yi-sun-sin-build/",
+          "status": "429 poi 404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/wu-zetian-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/yi-seong-gye-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/lapulapu-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-dido-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-hermann-prime-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-huo-qubing-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-ashurbanipal-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-lapulapu-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-pyrrhus-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-heraclius-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-margaret-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gorgo-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gajah-mada-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gonzalo-de-cordoba-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-justinian-i-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/wu-zetian",
+          "status": "404 - comandante assente dall'indice rokstats (versione dati 1.1.12.20)"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/lapu-lapu",
+          "status": "404 - comandante assente dall'indice rokstats (versione dati 1.1.12.20)"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/lapulapu",
+          "status": "404 - comandante assente dall'indice rokstats (versione dati 1.1.12.20)"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/gonzalo-de-cordoba",
+          "status": "404 - comandante assente dall'indice rokstats (versione dati 1.1.12.20)"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/gajah-mada",
+          "status": "404 - comandante assente dall'indice rokstats (versione dati 1.1.12.20)"
+        }
+      ]
+    },
+    "leg4.verified.json": {
+      "records": 16,
+      "new": 15,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/joan-of-arc-prime/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/jan-zizka/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/boudica-prime/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/xiang-yu/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/imhotep/",
+          "status": "200 ma pagina indice",
+          "note": "sostituita da https://riseofkingdomsguides.com/imhotep-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://www.allclash.com/best-sargon-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-sargon-builds-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-henry-v-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-henry-builds-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-thutmose-iii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-thutmose-builds-talent-tree-skill-order-best-pairing-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-flavius-aetius-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-flavius-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-xiang-yu-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-xiang-yu-builds-talent-tree-skill-order-best-pairing-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-nebuchadnezzar-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-nebuchadnezzar-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-gilgamesh-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-gilgamesh-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-pakal-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-pakal-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-cyrus-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-cyrus-the-great-builds-talent-tree-..."
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/pakal-ii/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/boudica-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/flavius-aetius/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/tariq-ibn-ziyad/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/joan-of-arc-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/<slug>-build/ (tutti i 16 slug)",
+          "status": "429 Too Many Requests, poi 404 su gilgamesh-build, pakal-ii-build, pakal-build",
+          "note": "nessuna pagina touchscreengaming letta"
+        },
+        {
+          "url": "https://www.rok.guide/gilgamesh/",
+          "status": "503",
+          "note": "come previsto"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Gilgamesh",
+          "status": "402",
+          "note": "come previsto (irraggiungibile)"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commanders/gilgamesh/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "WebSearch",
+          "status": "budget esaurito (200/200) durante la raccolta",
+          "note": "le ricerche per la civilta' di Gilgamesh e per le date di rilascio non sono state eseguite"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/pakal-ii",
+          "status": "404",
+          "note": "anche /pakal, /kinich-janaab-pakal, /sargon, /nebuchadnezzar 404; slug valido: k-inich-janaab-pakal"
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Pakal%20II",
+          "status": "200 ma reindirizza a Philip II",
+          "note": "usato https://zoe-rok.com/commanders/Pakal (K'inich Janaab' Pakal)"
+        }
+      ]
+    },
+    "leg5.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/trajan/ (redirect all'indice, nessuna pagina Trajan)",
+        "https://riseofkingdomsguides.com/trajan-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/trajan-talent-tree-build-guide/ (404)",
+        "https://riseofkingdomsguides.com/best-trajan-talent-tree-build-and-pairs/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/suleiman-the-magnificent/ (404; usata /talent-tree/suleiman/)",
+        "https://riseofkingdomsguides.com/suleiman-the-magnificent-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/jadwiga/ (redirect all'indice; usata /best-jadwiga-talent-tree-build-and-pairs/)",
+        "https://rok.hokbuild.com/commanders/honda-tadakatsu/ (404)",
+        "https://rok.hokbuild.com/commanders/suleiman-the-magnificent/ (404; usata /suleiman-i/)",
+        "https://rok.hokbuild.com/commanders/jadwiga/ (404)",
+        "https://rok.hokbuild.com/commanders/scipio-aemilianus/ (404)",
+        "https://www.rok.guide/trajan/ (503)",
+        "https://www.riseofkingdoms.guide/trajan/ (DNS non risolto)",
+        "https://riseofkingdoms.org/commander-guides/trajan/ (503, due tentativi)",
+        "https://riseofkingdoms.org/commander-guides/{alexander-nevsky,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,cheok-jun-gyeong,choe-yeong,shajar-al-durr,eleanor-of-aquitaine,jadwiga}/ (503)",
+        "https://riseofkingdoms.fandom.com/wiki/Alexander_Nevsky (402)",
+        "https://touchscreengaming.com/trajan-build/ (404)",
+        "https://touchscreengaming.com/{cheok-jun-gyeong,alexander-nevsky}-build/ (404)",
+        "https://touchscreengaming.com/{jadwiga,choe-yeong,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,bertrand-du-guesclin,eleanor-of-aquitaine,belisarius-prime,shajar-al-durr,honda-tadakatsu,suleiman-i,ragnar-lodbrok}-build/ (429 Too Many Requests)",
+        "https://theriagames.com/guide/rise-of-kingdoms-{cheok-jun-gyeong,alexander-nevsky,choe-yeong,shajar-al-durr,eleanor-of-aquitaine,bertrand-du-guesclin,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,honda-tadakatsu,belisarius-prime,suleiman-i,ragnar-lodbrok}-guide/ (404)",
+        "https://zathong.com/{choe-yeong,william-wallace,shajar-al-durr,eleanor-of-aquitaine,scipio-aemilianus,john-hunyadi,stephen-iii,belisarius-prime}-talent-tree-build/ (404)",
+        "https://www.allclash.com/best-bertrand-du-guesclin-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usata best-bertrand-builds-...)",
+        "https://www.allclash.com/best-{choe-yeong,shajar-al-durr,belisarius-prime,eleanor-of-aquitaine,william-wallace}-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usate le varianti ...-builds-talents-skill-order-pairing-equipment-...)",
+        "heaven-guardian.com, ldshop.gg, riseofkingdomshandbook.com, rok.lilith.com: non consultati (budget WebSearch esaurito, URL non noti)",
+        "https://app.rokstats.online/commanders/{eleanor-of-aquitaine,eleanor,eleanor-aquitaine,alienor,alienor-of-aquitaine,eleanor-of-aquitaine-prime} (404)"
+      ]
+    },
+    "leg6.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/shapur-ii/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/afonso-de-albuquerque/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/matthias-corvinus/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/casimir-iii/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/pepin-the-short/ (404)",
+        "https://riseofkingdomsguides.com/afonso-de-albuquerque-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/matthias-corvinus-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/casimir-iii-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/pepin-the-short-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://rok.hokbuild.com/commanders/sun-tzu-prime/ (404)",
+        "https://www.allclash.com/best-archimedes-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/ (404; usata la URL alternativa best-archimedes-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/)",
+        "https://www.allclash.com/best-commander-pairings-defense-rally-open-field-crystal-tech-canyon-barbarians/ (404; usata la URL senza 'crystal-tech')",
+        "https://touchscreengaming.com/ragnar-lodbrok-prime-build/ (429 Too Many Requests, 2 tentativi)",
+        "https://touchscreengaming.com/tokugawa-ieyasu-build/ (429 Too Many Requests, 2 tentativi)",
+        "https://touchscreengaming.com/subutai-build/ (429 Too Many Requests)",
+        "https://touchscreengaming.com/sun-tzu-prime-build/ (404)",
+        "https://touchscreengaming.com/ivar-the-boneless-build/ (404)",
+        "https://touchscreengaming.com/philip-ii-build/ (404)",
+        "https://heaven-guardian.com/ivar-the-boneless-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://heaven-guardian.com/sun-tzu-prime-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://heaven-guardian.com/ragnar-lodbrok-prime-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://zoe-rok.com/commanders/Ivar%20the%20Boneless (reindirizza a Charlemagne, pagina non esistente)",
+        "https://zoe-rok.com/commanders/Ragnar%20Lodbrok%20Prime (reindirizza all'epico Ragnar Lodbrok)",
+        "https://rok.lilith.com/en/news (404)",
+        "https://riseofkingdoms.fandom.com/wiki/Ivar_the_Boneless (402)",
+        "https://riseofkingdoms.fandom.com/wiki/Sun_Tzu_Prime (402)",
+        "https://www.rok.guide/talent-guide/ (503)",
+        "https://x.com/riseofkingdoms/status/1958121844021571783 (non fetchato: visto solo come risultato di ricerca)",
+        "WebSearch: budget di sessione esaurito (200/200) dopo le ricerche iniziali; le ricerche su rilascio, sculture e Archimedes/allclash sono state sostituite da fetch diretti",
+        "https://app.rokstats.online/commanders/shapur (404; slug corretto shapur-i)",
+        "https://app.rokstats.online/commanders/siyaj-kak (404; slug corretto siyaj-k-ak)",
+        "https://app.rokstats.online/commanders/ivar-the-boneless (404; slug corretto ivar)",
+        "https://app.rokstats.online/commanders/matthias-corvinus (404; slug corretto matthias-i)",
+        "https://app.rokstats.online/commanders/pepin-the-short (404; slug corretto pepin-iii)",
+        "https://meta-rok.com/commander/afonso-de-albuquerque/ (404)",
+        "https://meta-rok.com/commander/tokugawa-ieyasu/ (404)",
+        "https://meta-rok.com/commander/shapur-i/ (404)",
+        "https://zoe-rok.com/commanders/Ivar%20the%20Boneless (2026-09-28: reindirizza ancora a Charlemagne; usata /commanders/Ivar)"
+      ]
+    },
+    "leg7.verified.json": {
+      "records": 16,
+      "new": 16,
+      "verified": true,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/elizabeth-i/",
+          "status": "404",
+          "note": "usata invece /elizabeth-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/william-marshal/",
+          "status": "404",
+          "note": "nessuna pagina William Marshal sul sito (solo William I)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/william-marshal-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/ivan-iv/",
+          "status": "404",
+          "note": "nessuna pagina Ivan IV sul sito"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/ivan-iv-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/scipio-africanus-prime/",
+          "status": "404",
+          "note": "usata invece /legendary-scipio-africanus-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/yahya-ibn-khalid/",
+          "status": "404",
+          "note": "nessuna pagina Yahya sul sito"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/yahya-ibn-khalid-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/david-iv/",
+          "status": "404",
+          "note": "usata invece /david-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/moctezuma-i/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/moctezuma-i-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/moctezuma/",
+          "status": "200 senza contenuto",
+          "note": "solo placeholder, nessuna guida pubblicata"
+        },
+        {
+          "url": "https://www.allclash.com/best-gang-gamchan-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-gang-gamchan-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/"
+        },
+        {
+          "url": "https://www.allclash.com/best-hector-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-hector-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-achilles-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-achilles-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-liu-che-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-liu-che-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-king-arthur-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-arthur-paragon-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/moctezuma-i/",
+          "status": "DNS failure (EAI_AGAIN)",
+          "note": null
+        },
+        {
+          "url": "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-moctezuma-i-commander-guide-skills-talent-builds-pairs-roles/",
+          "status": "302 verso dominio parcheggiato",
+          "note": "sito non piu' attivo"
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/moctezuma-i-build.html",
+          "status": "redirect all'indice blog",
+          "note": "pagina inesistente"
+        },
+        {
+          "url": "https://gamingonphone.com/guides/rise-of-kingdoms-moctezuma-i-guide/",
+          "status": "redirect alla home",
+          "note": "URL indovinato, inesistente"
+        },
+        {
+          "url": "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/moctezuma-i-skills-talent-tree-and-pairings",
+          "status": "403",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Moctezuma_I",
+          "status": "402",
+          "note": "fandom bloccato dal proxy (402 su tutte le pagine)"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Yahya_ibn_Khalid",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/William_Marshal",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Ivan_IV",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Elizabeth_I",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Amanitore",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Gang_Gamchan",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Hector",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Achilles",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Arthur_Pendragon",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Vercingetorix",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Hayam_Wuruk",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/David_IV",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Alp_Arslan",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/moctezuma-i/",
+          "status": "503",
+          "note": "rok.guide irraggiungibile (503 su tutte le pagine)"
+        },
+        {
+          "url": "https://www.rok.guide/commanders/yahya-ibn-khalid/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/william-marshal/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/ivan-iv/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/amanitore/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://techgamesnews.com/rise-of-kingdoms/rok-david-iv/",
+          "status": "403",
+          "note": "techgamesnews bloccato (403 su tutte le pagine, incluse rok-gang-gamchan, rok-hector, rok-achilles, rok-arthur-pendragon, rok-hayam-wuruk, rok-ivan-iv, rok-william-marshal, rok-elizabeth-i, rok-yahya-ibn-khalid, rok-moctezuma-i, rok-amanitore)"
+        },
+        {
+          "url": "https://touchscreengaming.com/moctezuma-i-build/",
+          "status": "429 poi 404",
+          "note": "rate limit; anche /moctezuma-build/ 404"
+        },
+        {
+          "url": "https://touchscreengaming.com/elizabeth-i-build/",
+          "status": "429 poi 404",
+          "note": "anche /elizabeth-build/ 404"
+        },
+        {
+          "url": "https://touchscreengaming.com/amanitore-build/",
+          "status": "429 poi 404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/gang-gamchan-build/",
+          "status": "429",
+          "note": "rate limit (Too Many Requests), non riprovato"
+        },
+        {
+          "url": "https://touchscreengaming.com/hector-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/achilles-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/alp-arslan-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/hayam-wuruk-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/vercingetorix-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/david-iv-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/yahya-ibn-khalid-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/ivan-iv-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/william-marshal-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/ivan-iv/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/william-marshal/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/yahya-ibn-khalid/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/scipio-africanus-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://meta-rok.com/commander/yahya/",
+          "status": "404",
+          "note": "meta-rok non ha pagine per Yahya, Elizabeth I, Scipio Prime (solo 'scipio'), Amanitore, Moctezuma I (slug provati: yahya, yahya-ibn-khalid, elizabeth, elizabeth-i, scipio-prime, liu-che, amanitore, moctezuma, moctezuma-i, vercingetorix, verc)"
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Elizabeth%20I",
+          "status": "200 ma pagina di Diaochan",
+          "note": "zoe-rok risolve il nome su altro comandante"
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Vercingetorix",
+          "status": "200 ma pagina di Hector",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Hayam%20Wuruk",
+          "status": "200 ma pagina di Ragnar Lodbrok",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Alp%20Arslan",
+          "status": "200 ma pagina di Attila",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/William%20Marshal",
+          "status": "200 ma pagina di William Wallace",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Ivan%20IV",
+          "status": "200 ma pagina di Ivar",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Scipio%20Africanus%20Prime",
+          "status": "200 ma pagina di Scipio Africanus (epico)",
+          "note": null
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Yahya%20ibn%20Khalid",
+          "status": "200 ma pagina di Tariq ibn Ziyad",
+          "note": null
+        },
+        {
+          "url": "https://meta-rok.com/commander/verci/",
+          "status": "200 ma pagina senza dati (tier/formation vuoti)",
+          "note": "ricontrollata 2026-09-28"
+        }
+      ]
+    },
+    "elite_adv.json": {
+      "records": 9,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://rok.guide/commanders/",
+          "status": "503"
+        },
+        {
+          "url": "https://www.rok.guide/talent-guide/",
+          "status": "503"
+        },
+        {
+          "url": "https://rok.guide/commanders/markswoman/?rok",
+          "status": "503 (redirect da riseofkingdoms.com/commanders/markswoman/)"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Category:Commander_Advanced",
+          "status": "402"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Lancelot",
+          "status": "402"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Lancelot",
+          "status": "402"
+        },
+        {
+          "url": "https://www.allclash.com/rise-of-kingdoms-commanders-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-lancelot-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-sarka-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-constance-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-markswoman-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-centurion-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-dragon-lancer-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-city-keeper-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://touchscreengaming.com/lancelot-build/ (e sarka, tomoe-gozen, gaius-marius, constance, markswoman, dragon-lancer, city-keeper, centurion)",
+          "status": "404 per tutti e 9"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-lancelot-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-constance-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-tomoe-gozen-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/lancelot-build-guide.html (e centurion, city-keeper, dragon-lancer, sarka, constance, gaius-marius, tomoe-gozen)",
+          "status": "redirect alla home del blog: guide inesistenti"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-commanders-tier-list/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/commanders",
+          "status": "404"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/sarka.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/tomoe-gozen.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/gaius-marius.html",
+          "status": "429"
+        },
+        {
+          "url": "https://tristgaming.weebly.com/cheok-jun-gyeong.html",
+          "status": "429"
+        },
+        {
+          "url": "https://rokhub.xyz/rok-calculator/commander",
+          "status": "402"
+        },
+        {
+          "url": "https://empyreanrule.com/rise-of-kingdoms/commander-sculptures/",
+          "status": "500"
+        }
+      ]
+    },
+    "epic.json": {
+      "records": 22,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/<slug>/ (via curl)",
+          "status": "pagina 'Bot Verification' (Altcha/LiteSpeed): letta invece con WebFetch"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/imhotep/",
+          "status": "pagina indice senza guida: usata /imhotep-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/bjorn-ironside/",
+          "status": "pagina indice senza guida: usata /bjorn-ironside-talent-tree-builds-and-pairs/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/tamar/",
+          "status": "404: usata /talent-tree/queen-tamar-of-georgia/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/guides/commander-tier-lists/",
+          "status": "leggibile solo via WebFetch (riassunto automatico): due estrazioni riassunte erano incoerenti, usata una terza estrazione riga-per-riga; nessuna data giorno (solo 'September 2026')"
+        },
+        {
+          "url": "https://zoe-rok.com/commanders/Wak%20Chanil%20Ajaw",
+          "status": "200 ma restituisce la scheda di Charlemagne (dato scartato)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/catherine-de-medici/",
+          "status": "nessuna pagina: assente dall'elenco WP /wp-json/wp/v2/posts (127 articoli)"
+        },
+        {
+          "url": "https://www.gamesguideinfo.com/rise-of-kingdoms/",
+          "status": "404 (esiste solo /rise-of-kingdoms/overview/commanders con 34 comandanti del 2018-2019; non usato)"
+        },
+        {
+          "url": "https://meta-rok.com/commanders",
+          "status": "raggiungibile ma copre solo 41 comandanti meta (versioni Prime/leggendarie): nessun Epic"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+          "status": "primo tentativo 'Connection reset by peer', riuscito al secondo"
+        }
+      ]
+    },
+    "leg1.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/alexander-the-great/ (404; usata /talent-tree/alexander/)",
+        "https://riseofkingdomsguides.com/alexander-the-great-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/richard-i/ (404; usata /talent-tree/richard/)",
+        "https://riseofkingdoms.fandom.com/wiki/Alexander_the_Great (402 Payment Required)",
+        "https://rok.guide/alexander-the-great/ (503)",
+        "https://www.riseofkingdoms.guide/alexander-the-great/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/charlemagne/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/el-cid/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/edward-of-woodstock/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/attila/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/guan-yu/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/leonidas-i/ (DNS EAI_AGAIN)",
+        "https://www.riseofkingdoms.guide/mulan/ (DNS EAI_AGAIN)",
+        "https://touchscreengaming.com/charlemagne-build/ (404)",
+        "https://touchscreengaming.com/el-cid-build/ (404)",
+        "https://touchscreengaming.com/edward-of-woodstock-build/ (429 poi 403)",
+        "https://touchscreengaming.com/attila-build/ (429 poi 404)",
+        "https://touchscreengaming.com/leonidas-i-build/ (429 poi 404)",
+        "https://touchscreengaming.com/richard-i-build/ (429)",
+        "https://touchscreengaming.com/cleopatra-vii-build/ (429)",
+        "https://touchscreengaming.com/frederick-i-build/ (429)",
+        "https://touchscreengaming.com/artemisia-i-build/ (429)",
+        "https://touchscreengaming.com/mulan-build/ (429)",
+        "https://touchscreengaming.com/charles-martel-build/ (429)",
+        "https://touchscreengaming.com/chandragupta-maurya-build/ (429)",
+        "https://www.allclash.com/best-leonidas-i-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usata best-leonidas-builds-...)",
+        "https://empyreanrule.com/rise-of-kingdoms/charlemagne/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/el-cid/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/edward-of-woodstock/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/attila/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/guan-yu/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/leonidas-i/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/aethelflaed/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/cao-cao/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/alexander-the-great/ (500)",
+        "https://empyreanrule.com/rise-of-kingdoms/mulan/ (500)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-attila-commander-guide/ (302 a dominio parcheggiato ww80.houseofkingdoms.com)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-guan-yu-commander-guide/ (solo 'Loading...', JS)",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-alexander-the-great-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-charlemagne-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-el-cid-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-edward-of-woodstock-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-aethelflaed-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-cao-cao-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-mulan-commander-guide/ (solo 'Loading...')",
+        "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-leonidas-i-commander-guide/ (solo 'Loading...')",
+        "https://levelskip.com/mobile/Ultimate-Alexander-the-Great-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms (301 → discover.hubpages.com, 403)",
+        "https://theriagames.com/guide/rise-of-kingdoms-leonidas-i-commander-guide/ (404)",
+        "https://theriagames.com/guide/rise-of-kingdoms-leonidas-commander-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-alexander-the-great-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-aethelflaed-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-edward-of-woodstock-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-charlemagne-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-cao-cao-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-mulan-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-artemisia-i-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-chandragupta-maurya-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-charles-martel-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-frederick-i-guide/ (404)",
+        "https://heaven-guardian.com/rise-of-kingdoms-cleopatra-vii-guide/ (404)",
+        "https://riseofkingdoms.org/commander-guides/cao-cao/ (503)",
+        "https://riseofkingdoms.org/commander-guides/attila/ (503)",
+        "https://riseofkingdoms.org/commander-guides/alexander-the-great/ (503)",
+        "https://riseofkingdoms.org/commander-guides/leonidas-i/ (503)",
+        "https://riseofkingdoms.org/commander-guides/edward-of-woodstock/ (503)",
+        "https://riseofkingdoms.org/commander-guides/aethelflaed/ (503)",
+        "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/alexander-the-great (403)",
+        "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/edward-of-woodstock (403)"
+      ]
+    },
+    "leg2.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/constantine-i/",
+          "error": "404 (la pagina corretta e' /talent-tree/constantine/, letta)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/william-i/",
+          "error": "404"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/harald-sigurdsson/",
+          "error": "404"
+        },
+        {
+          "url": "https://www.allclash.com/best-minamoto-no-yoshitsune-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "error": "404 (URL corretto trovato via WebSearch e letto)"
+        },
+        {
+          "url": "https://www.allclash.com/best-ramesses-ii-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "error": "404 (URL corretto /best-ramesses-builds-.../ trovato e letto)"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/constantine-i/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/takeda-shingen/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/harald-sigurdsson/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/ishida-mitsunari/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/mehmed-ii/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/ramesses-ii/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/seondeok/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/tomyris/",
+          "error": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://zathong.com/william-i-talent-tree-build/",
+          "error": "404"
+        },
+        {
+          "url": "https://zathong.com/theodora-talent-tree-build/",
+          "error": "404"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/ishida-mitsunari/",
+          "error": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/seondeok/",
+          "error": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/harald/",
+          "error": "503"
+        },
+        {
+          "url": "https://discover.hubpages.com/games-hobbies/Ultimate-Constantine-I-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "error": "403"
+        },
+        {
+          "url": "https://wikigaming.org/rise-of-kingdoms/constantine-i-in-rise-of-kingdoms-comprehensive-guide-to-skills-talent-builds-and-strategies/",
+          "error": "DNS ENOTFOUND"
+        },
+        {
+          "url": "https://kangfumaster.com/rok-commanders-constantine-i/",
+          "error": "503"
+        },
+        {
+          "url": "https://empyreanrule.com/rise-of-kingdoms/commanders/constantine-i/",
+          "error": "500"
+        },
+        {
+          "url": "https://heaven-guardian.com/rise-of-kingdoms-best-commander-tier-list-guide/",
+          "error": "raggiunta ma non contiene rating per i 16 comandanti richiesti"
+        }
+      ]
+    },
+    "leg3.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/lapu-lapu/",
+          "status": "404 (usato invece /lapulapu-talent-tree-build-and-guide/)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/margaret-i/",
+          "status": "404 (usato invece /margaret-talent-tree-build-and-guide/)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wu-zetian-talent-tree-build-and-guide-rise-of-kingdoms/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wu-zetian-talent-tree-build-and-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/margaret-i/",
+          "status": "404 (usato invece /commanders/margaret/)"
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/hermann-prime/",
+          "status": "404"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commander-guides/wu-zetian/",
+          "status": "503"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Wu_Zetian",
+          "status": "402"
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/wu-zetian/",
+          "status": "DNS EAI_AGAIN"
+        },
+        {
+          "url": "https://riseofkingdoms.net/wu-zetian-talent-tree-and-guide/",
+          "status": "503"
+        },
+        {
+          "url": "https://discover.hubpages.com/games-hobbies/Ultimate-Wu-Zetian-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "status": "403"
+        },
+        {
+          "url": "https://www.gamerstones.com/2023/07/rise-of-kingdoms-lost-crusade-justinian-guide.html",
+          "status": "522"
+        },
+        {
+          "url": "https://levelskip.com/mobile/Ultimate-Zenobia-Talent-Tree-Build-Guide-in-Rise-of-Kingdoms",
+          "status": "301 verso hubpages (non seguito)"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/huo-qubing-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/justinian-i-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/ashurbanipal-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/dido-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/heraclius-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/zenobia-build/",
+          "status": "404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/pyrrhus-build/",
+          "status": "429 poi 404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/yi-sun-sin-build/",
+          "status": "429 poi 404"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/wu-zetian-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/yi-seong-gye-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://www.touchscreengaming.com/lapulapu-build/",
+          "status": "429"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-dido-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-hermann-prime-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-huo-qubing-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-ashurbanipal-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-lapulapu-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-pyrrhus-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-heraclius-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-margaret-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gorgo-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gajah-mada-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gonzalo-de-cordoba-commander-guide/",
+          "status": "404"
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-justinian-i-commander-guide/",
+          "status": "404"
+        }
+      ]
+    },
+    "leg4.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/joan-of-arc-prime/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-joan-of-arc-prime-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/jan-zizka/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-jan-zizka-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/boudica-prime/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/legendary-boudica-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/xiang-yu/",
+          "status": "404",
+          "note": "sostituita da https://riseofkingdomsguides.com/best-xiang-yu-talent-tree-builds-and-pairs/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/imhotep/",
+          "status": "200 ma pagina indice",
+          "note": "sostituita da https://riseofkingdomsguides.com/imhotep-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://www.allclash.com/best-sargon-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-sargon-builds-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-henry-v-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-henry-builds-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-thutmose-iii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-thutmose-builds-talent-tree-skill-order-best-pairing-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-flavius-aetius-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-flavius-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-xiang-yu-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-xiang-yu-builds-talent-tree-skill-order-best-pairing-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-nebuchadnezzar-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-nebuchadnezzar-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-gilgamesh-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-gilgamesh-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-pakal-ii-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-pakal-builds-talent-tree-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-cyrus-the-great-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "sostituita da best-cyrus-the-great-builds-talent-tree-..."
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/pakal-ii/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/boudica-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/flavius-aetius/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/tariq-ibn-ziyad/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/joan-of-arc-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/<slug>-build/ (tutti i 16 slug)",
+          "status": "429 Too Many Requests, poi 404 su gilgamesh-build, pakal-ii-build, pakal-build",
+          "note": "nessuna pagina touchscreengaming letta"
+        },
+        {
+          "url": "https://app.rokstats.online/commanders/pakal-ii",
+          "status": "404",
+          "note": "anche /commanders/pakal 404"
+        },
+        {
+          "url": "https://www.rok.guide/gilgamesh/",
+          "status": "503",
+          "note": "come previsto"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Gilgamesh",
+          "status": "402",
+          "note": "come previsto (irraggiungibile)"
+        },
+        {
+          "url": "https://riseofkingdoms.org/commanders/gilgamesh/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "WebSearch",
+          "status": "budget esaurito (200/200) durante la raccolta",
+          "note": "le ricerche per la civilta' di Gilgamesh e per le date di rilascio non sono state eseguite"
+        }
+      ]
+    },
+    "leg5.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/trajan/ (redirect all'indice, nessuna pagina Trajan)",
+        "https://riseofkingdomsguides.com/trajan-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/trajan-talent-tree-build-guide/ (404)",
+        "https://riseofkingdomsguides.com/best-trajan-talent-tree-build-and-pairs/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/suleiman-the-magnificent/ (404; usata /talent-tree/suleiman/)",
+        "https://riseofkingdomsguides.com/suleiman-the-magnificent-talent-tree-build-and-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/jadwiga/ (redirect all'indice; usata /best-jadwiga-talent-tree-build-and-pairs/)",
+        "https://rok.hokbuild.com/commanders/honda-tadakatsu/ (404)",
+        "https://rok.hokbuild.com/commanders/suleiman-the-magnificent/ (404; usata /suleiman-i/)",
+        "https://rok.hokbuild.com/commanders/jadwiga/ (404)",
+        "https://rok.hokbuild.com/commanders/scipio-aemilianus/ (404)",
+        "https://www.rok.guide/trajan/ (503)",
+        "https://www.riseofkingdoms.guide/trajan/ (DNS non risolto)",
+        "https://riseofkingdoms.org/commander-guides/trajan/ (503, due tentativi)",
+        "https://riseofkingdoms.org/commander-guides/{alexander-nevsky,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,cheok-jun-gyeong,choe-yeong,shajar-al-durr,eleanor-of-aquitaine,jadwiga}/ (503)",
+        "https://riseofkingdoms.fandom.com/wiki/Alexander_Nevsky (402)",
+        "https://touchscreengaming.com/trajan-build/ (404)",
+        "https://touchscreengaming.com/{cheok-jun-gyeong,alexander-nevsky}-build/ (404)",
+        "https://touchscreengaming.com/{jadwiga,choe-yeong,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,bertrand-du-guesclin,eleanor-of-aquitaine,belisarius-prime,shajar-al-durr,honda-tadakatsu,suleiman-i,ragnar-lodbrok}-build/ (429 Too Many Requests)",
+        "https://theriagames.com/guide/rise-of-kingdoms-{cheok-jun-gyeong,alexander-nevsky,choe-yeong,shajar-al-durr,eleanor-of-aquitaine,bertrand-du-guesclin,william-wallace,scipio-aemilianus,john-hunyadi,stephen-iii,honda-tadakatsu,belisarius-prime,suleiman-i,ragnar-lodbrok}-guide/ (404)",
+        "https://zathong.com/{choe-yeong,william-wallace,shajar-al-durr,eleanor-of-aquitaine,scipio-aemilianus,john-hunyadi,stephen-iii,belisarius-prime}-talent-tree-build/ (404)",
+        "https://www.allclash.com/best-bertrand-du-guesclin-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usata best-bertrand-builds-...)",
+        "https://www.allclash.com/best-{choe-yeong,shajar-al-durr,belisarius-prime,eleanor-of-aquitaine,william-wallace}-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/ (404; usate le varianti ...-builds-talents-skill-order-pairing-equipment-...)",
+        "heaven-guardian.com, ldshop.gg, riseofkingdomshandbook.com, rok.lilith.com: non consultati (budget WebSearch esaurito, URL non noti)"
+      ]
+    },
+    "leg6.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        "https://riseofkingdomsguides.com/talent-tree/shapur-ii/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/afonso-de-albuquerque/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/matthias-corvinus/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/casimir-iii/ (404)",
+        "https://riseofkingdomsguides.com/talent-tree/pepin-the-short/ (404)",
+        "https://riseofkingdomsguides.com/afonso-de-albuquerque-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/matthias-corvinus-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/casimir-iii-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://riseofkingdomsguides.com/pepin-the-short-talent-tree-build-guide-rise-of-kingdoms/ (404)",
+        "https://rok.hokbuild.com/commanders/sun-tzu-prime/ (404)",
+        "https://www.allclash.com/best-archimedes-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/ (404; usata la URL alternativa best-archimedes-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/)",
+        "https://www.allclash.com/best-commander-pairings-defense-rally-open-field-crystal-tech-canyon-barbarians/ (404; usata la URL senza 'crystal-tech')",
+        "https://touchscreengaming.com/ragnar-lodbrok-prime-build/ (429 Too Many Requests, 2 tentativi)",
+        "https://touchscreengaming.com/tokugawa-ieyasu-build/ (429 Too Many Requests, 2 tentativi)",
+        "https://touchscreengaming.com/subutai-build/ (429 Too Many Requests)",
+        "https://touchscreengaming.com/sun-tzu-prime-build/ (404)",
+        "https://touchscreengaming.com/ivar-the-boneless-build/ (404)",
+        "https://touchscreengaming.com/philip-ii-build/ (404)",
+        "https://heaven-guardian.com/ivar-the-boneless-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://heaven-guardian.com/sun-tzu-prime-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://heaven-guardian.com/ragnar-lodbrok-prime-best-builds-pairings-in-rise-of-kingdoms/ (404)",
+        "https://zoe-rok.com/commanders/Ivar%20the%20Boneless (reindirizza a Charlemagne, pagina non esistente)",
+        "https://zoe-rok.com/commanders/Ragnar%20Lodbrok%20Prime (reindirizza all'epico Ragnar Lodbrok)",
+        "https://rok.lilith.com/en/news (404)",
+        "https://riseofkingdoms.fandom.com/wiki/Ivar_the_Boneless (402)",
+        "https://riseofkingdoms.fandom.com/wiki/Sun_Tzu_Prime (402)",
+        "https://www.rok.guide/talent-guide/ (503)",
+        "https://x.com/riseofkingdoms/status/1958121844021571783 (non fetchato: visto solo come risultato di ricerca)",
+        "WebSearch: budget di sessione esaurito (200/200) dopo le ricerche iniziali; le ricerche su rilascio, sculture e Archimedes/allclash sono state sostituite da fetch diretti"
+      ]
+    },
+    "leg7.json": {
+      "records": 16,
+      "new": 0,
+      "verified": false,
+      "unreachable": [
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/elizabeth-i/",
+          "status": "404",
+          "note": "usata invece /elizabeth-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/william-marshal/",
+          "status": "404",
+          "note": "nessuna pagina William Marshal sul sito (solo William I)"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/william-marshal-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/ivan-iv/",
+          "status": "404",
+          "note": "nessuna pagina Ivan IV sul sito"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/ivan-iv-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/scipio-africanus-prime/",
+          "status": "404",
+          "note": "usata invece /legendary-scipio-africanus-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/yahya-ibn-khalid/",
+          "status": "404",
+          "note": "nessuna pagina Yahya sul sito"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/yahya-ibn-khalid-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/david-iv/",
+          "status": "404",
+          "note": "usata invece /david-talent-tree-build-and-guide/"
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/moctezuma-i/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/moctezuma-i-talent-tree-build-and-guide/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/talent-tree/moctezuma/",
+          "status": "200 senza contenuto",
+          "note": "solo placeholder, nessuna guida pubblicata"
+        },
+        {
+          "url": "https://www.allclash.com/best-gang-gamchan-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-gang-gamchan-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/"
+        },
+        {
+          "url": "https://www.allclash.com/best-hector-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-hector-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-achilles-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-achilles-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-liu-che-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-liu-che-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.allclash.com/best-king-arthur-builds-talent-tree-skill-order-best-pairing-in-rise-of-kingdoms/",
+          "status": "404",
+          "note": "slug corretto: best-arthur-paragon-builds-talents-skill-order-pairing-equipment-..."
+        },
+        {
+          "url": "https://www.riseofkingdoms.guide/moctezuma-i/",
+          "status": "DNS failure (EAI_AGAIN)",
+          "note": null
+        },
+        {
+          "url": "https://www.houseofkingdoms.com/rise-of-kingdoms/commanders/best-moctezuma-i-commander-guide-skills-talent-builds-pairs-roles/",
+          "status": "302 verso dominio parcheggiato",
+          "note": "sito non piu' attivo"
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/moctezuma-i-build.html",
+          "status": "redirect all'indice blog",
+          "note": "pagina inesistente"
+        },
+        {
+          "url": "https://gamingonphone.com/guides/rise-of-kingdoms-moctezuma-i-guide/",
+          "status": "redirect alla home",
+          "note": "URL indovinato, inesistente"
+        },
+        {
+          "url": "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/moctezuma-i-skills-talent-tree-and-pairings",
+          "status": "403",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Moctezuma_I",
+          "status": "402",
+          "note": "fandom bloccato dal proxy (402 su tutte le pagine)"
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Yahya_ibn_Khalid",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/William_Marshal",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Ivan_IV",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Elizabeth_I",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Amanitore",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Gang_Gamchan",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Hector",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Achilles",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Arthur_Pendragon",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Vercingetorix",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Hayam_Wuruk",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/David_IV",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Alp_Arslan",
+          "status": "402",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/moctezuma-i/",
+          "status": "503",
+          "note": "rok.guide irraggiungibile (503 su tutte le pagine)"
+        },
+        {
+          "url": "https://www.rok.guide/commanders/yahya-ibn-khalid/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/william-marshal/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/ivan-iv/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://www.rok.guide/commanders/amanitore/",
+          "status": "503",
+          "note": null
+        },
+        {
+          "url": "https://techgamesnews.com/rise-of-kingdoms/rok-david-iv/",
+          "status": "403",
+          "note": "techgamesnews bloccato (403 su tutte le pagine, incluse rok-gang-gamchan, rok-hector, rok-achilles, rok-arthur-pendragon, rok-hayam-wuruk, rok-ivan-iv, rok-william-marshal, rok-elizabeth-i, rok-yahya-ibn-khalid, rok-moctezuma-i, rok-amanitore)"
+        },
+        {
+          "url": "https://touchscreengaming.com/moctezuma-i-build/",
+          "status": "429 poi 404",
+          "note": "rate limit; anche /moctezuma-build/ 404"
+        },
+        {
+          "url": "https://touchscreengaming.com/elizabeth-i-build/",
+          "status": "429 poi 404",
+          "note": "anche /elizabeth-build/ 404"
+        },
+        {
+          "url": "https://touchscreengaming.com/amanitore-build/",
+          "status": "429 poi 404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/gang-gamchan-build/",
+          "status": "429",
+          "note": "rate limit (Too Many Requests), non riprovato"
+        },
+        {
+          "url": "https://touchscreengaming.com/hector-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/achilles-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/alp-arslan-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/hayam-wuruk-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/vercingetorix-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/david-iv-build/",
+          "status": "429",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/yahya-ibn-khalid-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/ivan-iv-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://touchscreengaming.com/william-marshal-build/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/ivan-iv/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/william-marshal/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/yahya-ibn-khalid/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://rok.hokbuild.com/commanders/scipio-africanus-prime/",
+          "status": "404",
+          "note": null
+        },
+        {
+          "url": "https://meta-rok.com/commander/yahya/",
+          "status": "404",
+          "note": "meta-rok non ha pagine per Yahya, Elizabeth I, Scipio Prime (solo 'scipio'), Amanitore, Moctezuma I (slug provati: yahya, yahya-ibn-khalid, elizabeth, elizabeth-i, scipio-prime, liu-che, amanitore, moctezuma, moctezuma-i, vercingetorix, verc)"
+        }
+      ]
+    }
+  },
+  "topics": {
+    "armamenti": {
+      "file": "armamenti.json",
+      "from": "armamenti.verified.json",
+      "verified": true,
+      "conflicts": 9,
+      "gaps": 19
+    },
+    "automazione": {
+      "file": "automazione.json",
+      "from": "automazione.json",
+      "verified": false,
+      "conflicts": 0,
+      "gaps": 16
+    },
+    "equipaggiamento": {
+      "file": "equipaggiamento.json",
+      "from": "equipaggiamento.json",
+      "verified": false,
+      "conflicts": 13,
+      "gaps": 12
+    },
+    "eventi_pve": {
+      "file": "eventi_pve.json",
+      "from": "eventi_pve.json",
+      "verified": false,
+      "conflicts": 12,
+      "gaps": 44
+    },
+    "kvk_alleanza": {
+      "file": "kvk_alleanza.json",
+      "from": "kvk_alleanza.json",
+      "verified": false,
+      "conflicts": 12,
+      "gaps": 14
+    },
+    "meccaniche": {
+      "file": "meccaniche.json",
+      "from": "meccaniche.json",
+      "verified": false,
+      "conflicts": 13,
+      "gaps": 17
+    },
+    "strategia_attacco": {
+      "file": "strategia_attacco.json",
+      "from": "strategia_attacco.json",
+      "verified": false,
+      "conflicts": 14,
+      "gaps": 15
+    },
+    "strategia_difesa": {
+      "file": "strategia_difesa.json",
+      "from": "strategia_difesa.json",
+      "verified": false,
+      "conflicts": 22,
+      "gaps": 19
+    },
+    "strategia_routine": {
+      "file": "strategia_routine.json",
+      "from": "strategia_routine.json",
+      "verified": false,
+      "conflicts": 13,
+      "gaps": 13
+    },
+    "talenti": {
+      "file": "talenti.json",
+      "from": "talenti.json",
+      "verified": false,
+      "conflicts": 18,
+      "gaps": 10
+    },
+    "truppe_pve": {
+      "file": "truppe_pve.json",
+      "from": "truppe_pve.json",
+      "verified": false,
+      "conflicts": 14,
+      "gaps": 19
+    }
+  },
+  "gaps_report": null,
+  "commanders": 142,
+  "with_skills": 142,
+  "with_pairings": 142,
+  "with_ratings": 142,
+  "conflicts_total": 404
+}

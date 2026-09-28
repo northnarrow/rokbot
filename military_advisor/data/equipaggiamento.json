@@ -1,0 +1,5812 @@
+{
+  "retrieved": "2026-09-27",
+  "game": "Rise of Kingdoms (Lilith)",
+  "topic": "Equipaggiamento / Blacksmith",
+  "note": "Nomi tecnici in inglese, note in italiano. Le statistiche dei pezzi provengono principalmente da riseofkingdomsguides.com (tabella gen 2026) e app.rokstats.online (database letto dal client); fandom è pre-rework e usato solo per meccaniche e storico. Le build con derived=true sono ricavate dalle statistiche, non da una guida.",
+  "blacksmith": {
+    "unlock": {
+      "value": "Blacksmith sbloccato a City Hall 16 (costo lv1 1000/1000/1000, 11s); il sistema equipaggiamento si sblocca ricevendo il primo pezzo (side quest, Shadow Legion Invasion, Osiris League...)",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (via api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "unlock"
+          ]
+        }
+      ]
+    },
+    "slots": {
+      "value": [
+        "Weapon",
+        "Helmet",
+        "Chest",
+        "Gloves",
+        "Legs",
+        "Boots",
+        "Accessory x2"
+      ],
+      "note": "6 slot principali + 2 slot accessori (codexhelper mostra 'two accessory slots'; rokstats conta 152 pezzi: 21 armi, 20 elmi, 20 corazze, 20 guanti, 20 gambali, 19 stivali, 32 accessori)",
+      "sources": [
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "slots"
+          ]
+        },
+        {
+          "url": "https://codexhelper.com/tools/equipment/",
+          "site": "codexhelper.com",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "accessory slots"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "item counts"
+          ]
+        }
+      ]
+    },
+    "rarities": {
+      "value": [
+        "Normal (lvl 10, +100 power)",
+        "Advanced (lvl 20)",
+        "Elite (lvl 30)",
+        "Epic (lvl 40)",
+        "Legendary (lvl 40-45, +1600 power; pezzi KvK/Lost Kingdom +2000)"
+      ],
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarities",
+            "equipment level"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "power per rarity"
+          ]
+        }
+      ]
+    },
+    "materials": {
+      "types": [
+        "Iron Ore",
+        "Leather",
+        "Animal Bone",
+        "Ebony"
+      ],
+      "rarity_variants": [
+        "Normal",
+        "Advanced",
+        "Elite",
+        "Epic",
+        "Legendary"
+      ],
+      "combine_rule": "4 materiali identici (stesso tipo, stessa rarità) -> 1 materiale della rarità superiore; Epic -> Legendary è l'ultimo gradino. Derivato (aritmetica, non citato da una fonte): 1 Legendary = 4 Epic = 16 Elite = 64 Advanced = 256 Normal.",
+      "dismantle_rule": "1 materiale -> 4 materiali della rarità inferiore dello stesso tipo; costa oro; i materiali Normal non si smontano.",
+      "production": "Il Fabbro produce gratis 10 materiali ogni 3 ore, coda di 5 materiali, da ritirare manualmente; speedup applicabili.",
+      "animal_bone_note": "L'Animal Bone (Epic/Elite) è usato solo per set di raccolta (Forest Guardian, Harvester) e alcuni accessori (Crimson Ring, Peter's Sickle, Bard's Pendant, Savage Totem, Lohar's Bone Necklace).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "combine_rule",
+            "dismantle_rule",
+            "production"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-11",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "types",
+            "production",
+            "dismantle_rule"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "types",
+            "combine_rule",
+            "animal_bone_note (materiali in tabella)"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "combine_rule 4:1"
+          ]
+        }
+      ]
+    },
+    "blueprints": {
+      "value": "30 frammenti identici -> 1 blueprint completo; ogni blueprint corrisponde a un pezzo specifico; solo blueprint completi servono a forgiare; il blueprint NON viene restituito smontando il pezzo.",
+      "sources_of_blueprints": [
+        "Forging side quests",
+        "Sunset Canyon / Lost Canyon (KvK)",
+        "Stalkers/Dark Stalkers",
+        "Shadow Legion Invasion",
+        "Ancient Ruins",
+        "Altar of Darkness",
+        "Osiris League + Osiris shop",
+        "VIP chests",
+        "Ceroli Crisis",
+        "Tavern Equipment Chest (Crystal Key)",
+        "Lucerne Scrolls (accessori leggendari)",
+        "Lost Kingdom / KvK rewards"
+      ],
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "value"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-11",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "sources_of_blueprints",
+            "blueprint non recuperato"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "Lucerne Scrolls",
+            "Tavern equipment chest"
+          ]
+        }
+      ]
+    },
+    "forging": {
+      "requirements": "blueprint completo + materiali tutti della rarità richiesta + oro; con tutti i requisiti la forgiatura riesce sempre.",
+      "gold_cost_by_rarity": {
+        "Normal": "200,000",
+        "Advanced": "1,000,000 (Vanguard: 1,500,000)",
+        "Elite": "2,000,000 (Windswept Bracers/Harvester: 3,000,000; accessori elite 4,000,000)",
+        "Epic": "5,000,000 (Forest Guardian/Revival: 6,000,000; accessori epic 8,000,000)",
+        "Legendary": "10,000,000 (Trial of the Lost Kingdom), 15,000,000 (pezzi singoli non-set), 20,000,000 (pezzi dei set Dragon's Breath/Eternal Empire/Hellish Wasteland), 50,000,000 (accessori leggendari)"
+      },
+      "materials_per_legendary_piece": "10-60 materiali Legendary per pezzo armatura (es. arma di set: 15+30+60=105), accessori leggendari 40+40+40=120",
+      "forging_time": null,
+      "dismantle_equipment": "Smontare un pezzo restituisce i materiali (ldshop: rimborso 100%); costa oro; il blueprint non torna; l'equip Iconic smontato non restituisce nulla.",
+      "sources": [
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-11",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "requirements",
+            "dismantle_equipment"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "gold_cost_by_rarity",
+            "materials_per_legendary_piece"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "dismantle_equipment 100% refund"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "iconic dismantle"
+          ]
+        }
+      ]
+    },
+    "special_talent": {
+      "value": "Ogni pezzo ha una probabilità (visibile in gioco) di uscire con 'Special Talent' alla forgiatura. Se il pezzo è equipaggiato da un comandante con la specializzazione (talento rosso) corrispondente (Infantry/Cavalry/Archer/Integration/Leadership), gli attributi del pezzo aumentano del 30%.",
+      "refinement": "Risposta sviluppatori 7/10/2021: la vecchia meccanica 'un pezzo deve produrre special talent entro 5 forgiature' viene sostituita dal sistema 'Refinement', che aggiunge direttamente lo special talent a un pezzo già forgiato con costi e probabilità identici; forgiando più volte la probabilità NON aumenta più. Le guide 2026 (ldshop, lootbar) parlano di 'refine' / 'Special Talent (crit)'.",
+      "probability": null,
+      "packsify_note": "packsify scrive 'fino al 25% attacco in più sulle armi': in realtà il 25% è la statistica base delle armi KvK (es. Hammer of the Sun and Moon 25% Infantry Attack, rokstats); trattare con cautela.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "value (+30%)"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-11",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "value (30%, specializzazioni)"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/responses-from-rok-developers-10-7-2021/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2021-10-07",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "refinement"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "packsify_note"
+          ]
+        }
+      ]
+    },
+    "iconic_equipment": {
+      "value": "Con Iconic Crystals + oro si rende 'Iconic' un pezzo Legendary (tutti tranne Trial of the Lost Kingdom): successo 100%, irreversibile, aggiunge statistiche PIATTE base delle truppe (attacco/difesa/salute), non percentuali. Numero di attributi: Season 1-2: 1, Season 3: 2, Season of Conquest: 3 (cambiano automaticamente con la stagione). Se il pezzo ha Special Talent gli attributi Iconic sono +30%. Max 6 cristalli: 4 da Artisan's Forge, 1 da Crystal Quest, 1 da Lost Canyon Shop. Priorità consigliata: accessori, poi arma e guanti.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "value"
+          ]
+        }
+      ]
+    },
+    "set_bonuses": [
+      {
+        "set": "Hellish Wasteland (Legendary, cavalleria, 6 pezzi)",
+        "bonus": "2: Troop Health +3%; 4: Counterattack Damage +3%; 6: Cavalry Defense +5% (rokstats: +3%)"
+      },
+      {
+        "set": "Eternal Empire (Legendary, fanteria, 6 pezzi)",
+        "bonus": "2: Troop Defense +3%; 4: March Speed +10%; 6: Infantry Attack +5%"
+      },
+      {
+        "set": "Dragon's Breath (Legendary, arcieri, 6 pezzi)",
+        "bonus": "2: Troop Attack +3%; 4: Skill Damage +3%; 6: Archer Health +5%"
+      },
+      {
+        "set": "Garb of the Glorious Goddess (Legendary, stat di truppa generiche/leadership, 6 pezzi)",
+        "bonus": "2: Troop Defense +3%; 4: Skill Damage Reduction +3%; 6: Troop Health +5%"
+      },
+      {
+        "set": "Witch's Wardrobe (Legendary, raccolta, 6 pezzi)",
+        "bonus": "2: Troop Load +25%; 4: Extra resources from gathering +5%; 6: March Speed +10%"
+      },
+      {
+        "set": "Lupine Vestments (Legendary, siege, pezzi 'Wolf's')",
+        "bonus": "2: Siege Unit Defense +5%; 4: Ranged Skill Damage +5%"
+      },
+      {
+        "set": "Revival (Epic, 4 pezzi)",
+        "bonus": "2: Troop Attack +3%; 4: Troop Defense +3%"
+      },
+      {
+        "set": "Forest Guardian (Epic, raccolta, 4 pezzi)",
+        "bonus": "2: Troop Load +20%; 4: Extra resources from gathering +5%"
+      },
+      {
+        "set": "Harvester (Elite, raccolta, 4 pezzi)",
+        "bonus": "2: Gathering Speed +10%; 4: Troop Load +20%"
+      },
+      {
+        "set": "Windswept (Elite, 4 pezzi)",
+        "bonus": "2: Troop Attack +2%; 4: March Speed +4%"
+      },
+      {
+        "set": "Vanguard (Advanced, 2 pezzi)",
+        "bonus": "2: Cavalry Attack +2%"
+      }
+    ],
+    "set_bonuses_sources": [
+      {
+        "url": "https://app.rokstats.online/equipment",
+        "site": "app.rokstats.online",
+        "page_date": null,
+        "retrieved": "2026-09-27",
+        "fields": [
+          "tutti gli 11 set"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02",
+        "retrieved": "2026-09-27",
+        "fields": [
+          "Windswept",
+          "Revival",
+          "Dragon's Breath",
+          "Eternal Empire",
+          "Hellish Wasteland",
+          "Forest Guardian",
+          "Harvester"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+        "site": "riseofkingdoms.fandom.com",
+        "page_date": null,
+        "retrieved": "2026-09-27",
+        "fields": [
+          "Windswept",
+          "Forest Guardian"
+        ]
+      }
+    ],
+    "material_sources_free": [
+      "Produzione Fabbro (tenere sempre la coda piena)",
+      "Daily objectives 40/80 punti (material chest, Crystal Key)",
+      "Sunset Canyon e Lost Canyon ogni giorno",
+      "Eventi (Ceroli Crisis, Shadow Legion, Ian's Ballad, stagionali, Osiris shop)",
+      "Barbarian camps/keeps",
+      "VIP shop: material choice chest gratuito settimanale",
+      "Courier Station (-50%)",
+      "Tavern Equipment Chest (Crystal Key): 40.6% materiali, blueprint legendary 0.052%, epic 0.676%"
+    ],
+    "material_sources_paid": [
+      "Geared Up bundle (ex Hammer and Anvil): crystal keys + equipment chests",
+      "VIP Shop material choice chests e unit-type equipment chests Epic/Legendary",
+      "Eventi Archaeological Dig, Holy Knight's Treasure, Esmeralda's House",
+      "Pacchetti materiali 7/30 giorni",
+      "Lucerne Scrolls bundle per blueprint accessori leggendari"
+    ],
+    "material_sources_refs": [
+      {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02",
+        "retrieved": "2026-09-27",
+        "fields": [
+          "material_sources_free",
+          "material_sources_paid"
+        ]
+      },
+      {
+        "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+        "site": "packsify.com",
+        "page_date": "2026-03-20",
+        "retrieved": "2026-09-27",
+        "fields": [
+          "material_sources_paid",
+          "Tavern chest"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Equipment_Chests",
+        "site": "riseofkingdoms.fandom.com",
+        "page_date": null,
+        "retrieved": "2026-09-27",
+        "fields": [
+          "probabilità Equipment Chest"
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Hammer of the Sun and Moon",
+      "slot": "Weapon",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Infantry Attack +25%, Archer Health +5%",
+      "set": null,
+      "materials": null,
+      "for": "Infantry (arma BiS fanteria, high spender)",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sacred Dominion",
+      "slot": "Weapon",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Cavalry Attack +25%, Archer Defense +5%",
+      "set": null,
+      "materials": null,
+      "for": "Cavalry (arma BiS cavalleria)",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Hydra's Blast",
+      "slot": "Weapon",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Archer Defense +25%, Cavalry Defense +5%",
+      "set": null,
+      "materials": null,
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twilight Epiphany",
+      "slot": "Weapon",
+      "rarity": "Legendary (+2000 power)",
+      "stats": "Siege Unit Attack +25%, March Speed (Siege Units) +6%",
+      "set": null,
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Bow",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Archer Defense +20%, Infantry Defense +5% (rokstats: Infantry Health +5%), Cavalry Health +5%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x15, Legendary Leather x30, Legendary Ebony x60, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-weapon-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-12",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity",
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shield of the Eternal Empire",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Infantry Attack +20%, Archer Attack +5%, Cavalry Attack +5%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x60, Legendary Leather x15, Legendary Ebony x15, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rifle of the Hellish Wasteland (rokstats: Lance of the Hellish Wasteland)",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Cavalry Attack +20%, Infantry Attack +5% (rokstats: Infantry Health +5%), Archer Attack +5%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Iron Ore x15, Legendary Leather x60, Legendary Ebony x15, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "name"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-weapon-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-12",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trial of the Lost Kingdom",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Cavalry Defense +15%, Infantry Health +5%, Archer Attack +5% (fandom, dati pre-rework: Cavalry Defense +10%)",
+      "set": null,
+      "materials": "Legendary Iron Ore x15, Legendary Leather x30, Gold 10,000,000",
+      "for": "Cavalry; unico leggendario NON rendibile Iconic",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats vecchie"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "non iconic"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scepter of the Glorious Goddess",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Troop Attack +15%, March Speed (Infantry) +3%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Feathered Staff",
+      "slot": "Weapon",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +15%, Siege Unit Defense +6%, March Speed +3%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helm of the Conqueror (Conqueror's Helm)",
+      "slot": "Helmet",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Infantry Defense +15%, Cavalry Health +8%",
+      "set": null,
+      "materials": null,
+      "for": "Infantry (elmo BiS fanteria); packsify e ldshop lo citano anche come 'KvK helm' in build cavalleria/arcieri (vedi conflicts)",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-helmet-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-14",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pride of the Khan",
+      "slot": "Helmet",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Cavalry Defense +15%, Archer Health +8%",
+      "set": null,
+      "materials": null,
+      "for": "Cavalry (packsify lo chiama erroneamente 'arma', vedi conflicts)",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "slot",
+            "rarity"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancestral Mask of Night",
+      "slot": "Helmet",
+      "rarity": "Legendary (KvK, +2000 power)",
+      "stats": "Archer Attack +15%, Infantry Attack +8%",
+      "set": null,
+      "materials": null,
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fierce Wolf's Helmet",
+      "slot": "Helmet",
+      "rarity": "Legendary (+2000 power)",
+      "stats": "Siege Unit Attack +14.5%, March Speed (Siege Units) +4%",
+      "set": "Lupine Vestments (inferito dal nome)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Helm",
+      "slot": "Helmet",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +11%, Cavalry Attack +3%, Infantry Defense +4%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x10, Legendary Leather x10, Legendary Ebony x40, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gold Helm of the Eternal Empire",
+      "slot": "Helmet",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +11%, Archer Health +4%, Cavalry Health +3%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x40, Legendary Leather x10, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Helm of the Hellish Wasteland",
+      "slot": "Helmet",
+      "rarity": "Legendary",
+      "stats": "Cavalry Defense +11%, Infantry Attack +4%, Archer Defense +3%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Iron Ore x10, Legendary Leather x40, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diadem of the Glorious Goddess",
+      "slot": "Helmet",
+      "rarity": "Legendary",
+      "stats": "Troop Attack +8%, March Speed (Cavalry) +2%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Deadwood Crown",
+      "slot": "Helmet",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +12%, Siege Unit Attack +4%, March Speed +2%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hope Cloak",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +12%, Cavalry Defense +5%, Archer Defense +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x10, Legendary Ebony x10, Gold 15,000,000",
+      "for": "Infantry (primo leggendario fanteria consigliato); usato anche in build cavalleria",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Plate",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Archer Health +11%, Cavalry Defense +5%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x10, Legendary Leather x10, Legendary Ebony x40, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plate of the Eternal Empire",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Infantry Attack +11%, Archer Defense +5%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x40, Legendary Leather x10, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Armor of the Hellish Wasteland",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Cavalry Health +11%, Infantry Attack +5%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Iron Ore x10, Legendary Leather x40, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shadow Legion's Retribution",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Cavalry Attack +12%, Infantry Attack +5%, Archer Attack +5% (fandom pre-rework: 5/5/5)",
+      "set": null,
+      "materials": "Legendary Iron Ore x10, Legendary Ebony x10, Legendary Leather x40, Gold 15,000,000",
+      "for": "Cavalry / misto (attacco a tutte le truppe)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats vecchie"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Milky Way",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Archer Health +12%, Cavalry Health +6%, Commander EXP Gain +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x10, Legendary Leather x10, Legendary Ebony x40, Gold 15,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plate of the Glorious Goddess",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Troop Defense +8%, March Speed (Infantry) +2%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vigilant Wolf's Leather Armor",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Siege Unit Attack +14.5%, March Speed (Siege Units) +4%",
+      "set": "Lupine Vestments (inferito)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Hexed Cloak",
+      "slot": "Chest",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +12%, Siege Unit Defense +4%, March Speed +2%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Navar's Control",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Cavalry Health +8%, Infantry Defense +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x10, Legendary Leather x10, Gold 15,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gloves-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-16",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sacred Grips",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +8%, Archer Attack +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x30, Legendary Ebony x10, Gold 15,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ian's Choice",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +8%, Commander EXP Gain +5%",
+      "set": null,
+      "materials": "Legendary Leather x10, Legendary Ebony x30, Gold 15,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Vambraces",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +7.5%, Infantry Attack +3%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x10, Legendary Ebony x30, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vambraces of the Eternal Empire",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +7.5%, Cavalry Attack +3%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x30, Legendary Leather x10, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Armband of the Hellish Wasteland",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Cavalry Defense +7.5%, Archer Health +3%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Leather x30, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gauntlets of the Glorious Goddess",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Troop Defense +6%, March Speed (Siege Units) +2%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Crimson Bracers",
+      "slot": "Gloves",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +8%, Siege Unit Health +3%, March Speed +2%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering (ldshop lo cita erroneamente come elmo fanteria epico, vedi conflicts)",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set",
+            "slot"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wailing Wolf's Gauntlets",
+      "slot": "Gloves",
+      "rarity": "Legendary (+2000 power)",
+      "stats": "Siege Unit Defense +10%, March Speed (Siege Units) +3%",
+      "set": "Lupine Vestments (inferito)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ash of the Dawn",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Cavalry Health +12%, Infantry Health +5%, Commander EXP Gain +5%",
+      "set": null,
+      "materials": "Legendary Leather x40, Legendary Ebony x10, Legendary Iron Ore x10, Gold 15,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-legs-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-16",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eternal Night",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +12%, Archer Defense +5%, Cavalry Defense +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x40 (+ 'Iron Ore x10' duplicato nella fonte, probabile Leather x10), Legendary Ebony x10, Gold 15,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cape of the War God (rokstats: Tassets of the War God)",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +12%, Cavalry Attack +5%, Infantry Attack +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x10, Legendary Leather x10, Legendary Ebony x40, Gold 15,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Tassets",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +11%, Cavalry Attack +5%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x10, Legendary Ebony x40, Legendary Leather x10, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greaves of the Eternal Empire",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Infantry Attack +11%, Archer Defense +5%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x40, Legendary Leather x10, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tassets of the Hellish Wasteland",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Cavalry Attack +11%, Infantry Defense +5%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Leather x40, Legendary Ebony x10, Legendary Iron Ore x10, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chausses of the Glorious Goddess",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Troop Health +8%, March Speed (Archers) +2%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Ornamented Pants",
+      "slot": "Legs",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +12%, Siege Unit Health +4%, March Speed +2%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lone Wolf's Leather Tassets",
+      "slot": "Legs",
+      "rarity": "Legendary (+2000 power)",
+      "stats": "Siege Unit Health +14.5%, March Speed (Siege Units) +4%",
+      "set": "Lupine Vestments (inferito)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shio's Return",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +8%, Archer Health +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x30, Legendary Ebony x10, Gold 15,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mountain Crushers",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Cavalry Attack +8%, Archer Attack +5%",
+      "set": null,
+      "materials": "Legendary Leather x30, Legendary Ebony x10, Gold 15,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commander's Boots",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Archer Attack +8%, Commander EXP Gain +5%",
+      "set": null,
+      "materials": "Legendary Leather x10, Legendary Ebony x40, Gold 15,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Breath Boots",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Archer Defense +7.5%, Infantry Defense +3%",
+      "set": "Dragon's Breath",
+      "materials": "Legendary Iron Ore x10, Legendary Ebony x40, Gold 20,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sturdy Boots of the Eternal Empire",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Infantry Defense +7.5%, Cavalry Defense +3%",
+      "set": "Eternal Empire",
+      "materials": "Legendary Iron Ore x30, Legendary Leather x10, Gold 20,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boots of the Hellish Wasteland",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Cavalry Health +7.5%, Archer Attack +3%",
+      "set": "Hellish Wasteland",
+      "materials": "Legendary Leather x30, Legendary Ebony x10, Gold 20,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greaves of the Glorious Goddess",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Troop Health +6%, March Speed (Siege Units) +2%",
+      "set": "Garb of the Glorious Goddess",
+      "materials": null,
+      "for": "Leadership/misto",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Mire-Waders",
+      "slot": "Boots",
+      "rarity": "Legendary",
+      "stats": "Gathering Speed +8%, Siege Unit Attack +3%, March Speed +2%",
+      "set": "Witch's Wardrobe",
+      "materials": null,
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Roaring Wolf's Claws",
+      "slot": "Boots",
+      "rarity": "Legendary (+2000 power)",
+      "stats": "Siege Unit Defense +10%, March Speed (Siege Units) +3%",
+      "set": "Lupine Vestments (inferito)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Horn of Fury",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Normal attacks: 30% chance to restore 50 Rage",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Tutti; S-tier, primo accessorio per marce a skill attive",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for",
+            "tier"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-accessories-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-16",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ring of Doom",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Normal attacks: 10% chance to increase damage by 50% for 2s; once every 5s",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Tutti; S-tier open field/rally",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for",
+            "tier"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pendant of Eternal Night",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Skill Damage +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Comandanti skill-damage (YSG, Zhuge Liang, Hermann Prime); A-tier",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greatest Glory",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Normal attack damage +5%",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Marce smite/normal-attack; A-tier",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier",
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vengeance",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Counterattack Damage +8%",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Guarnigione / tank; B-tier",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scolas' Lucky Coin",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "When attacked: 10% chance to gain a Damage Factor 500 shield for 2s; once every 5s",
+      "set": null,
+      "materials": "Legendary Iron Ore x40, Legendary Leather x40, Legendary Ebony x40, Gold 50,000,000",
+      "for": "Guarnigione / tank; B-tier",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karuak's War Drums",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Attacks: 10% chance to grant 50 Rage to up to two nearby allies; once every 3s",
+      "set": null,
+      "materials": null,
+      "for": "Multi-march / murderball; A-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hero's Hilt",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Combo attacks: 50% chance to grant 3% Combo damage, up to 5 stacks, 5s",
+      "set": null,
+      "materials": null,
+      "for": "Marce combo; A-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concealed Dagger",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Attacks: 30% chance to reduce target health by 5%, up to 3 stacks, 3s",
+      "set": null,
+      "materials": null,
+      "for": "Rally support / debuff; B-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mora's Web",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Attacks: 30% chance to reduce target defense by 4% and cavalry march speed by 8%, up to 3 stacks, 3s",
+      "set": null,
+      "materials": null,
+      "for": "Rally support; B-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seth's Call",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Attacks: 10% chance to increase own attack and up to two nearby allies' attack by 10% for 3s; once every 3s",
+      "set": null,
+      "materials": null,
+      "for": "Multi-march support; B-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saddle of a Thousand Blessings",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Effetto smite-oriented condizionale (testo esatto non riportato)",
+      "set": null,
+      "materials": null,
+      "for": "Smite specialist; C-tier",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Immolating Plume",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "Effetto ranged/siege specializzato (testo esatto non riportato)",
+      "set": null,
+      "materials": null,
+      "for": "Ranged/siege specialist",
+      "sources": [
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tier",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artifact/Curio accessories (Emblem of Nike, Berserker's Brooch, Lancer's Banner, Sniper's Fletch, Megingjörð, Footman's Pledge, Riding Crop, Bowman's Pin, Besieger's Brooch)",
+      "slot": "Accessory",
+      "rarity": "Legendary",
+      "stats": "+3.5% attacco della truppa corrispondente (Emblem of Nike: Troop Attack +3.5%)",
+      "set": null,
+      "materials": null,
+      "for": "Vari; nessuna guida consultata li tratta",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "rarity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sakura Fubuki",
+      "slot": "Weapon",
+      "rarity": "Epic",
+      "stats": "Infantry Attack +13%, Cavalry Health +6%, Archer Attack +4%",
+      "set": null,
+      "materials": "Epic Iron Ore x70, Epic Leather x15, Epic Ebony x15, Gold 5,000,000",
+      "for": "Infantry (low spender, richiede special talent per rendere)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heart of the Saint",
+      "slot": "Weapon",
+      "rarity": "Epic",
+      "stats": "Cavalry Defense +13%, Archer Health +6%, Infantry Health +4% (fandom pre-rework: 8/6/4)",
+      "set": null,
+      "materials": "Epic Iron Ore x15, Epic Leather x70, Epic Ebony x15, Gold 5,000,000",
+      "for": "Cavalry (tenere finché non si ha l'arma leggendaria con special talent)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats vecchie"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golden Age",
+      "slot": "Weapon",
+      "rarity": "Epic",
+      "stats": "Archer Defense +13%, Infantry Defense +6%, Cavalry Attack +4%",
+      "set": null,
+      "materials": "Epic Iron Ore x15, Epic Leather x15, Epic Ebony x70, Gold 5,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scepter of the Forest Guardian",
+      "slot": "Weapon",
+      "rarity": "Epic",
+      "stats": "Gathering Speed +10% (13% con special talent), Cavalry Attack +6%, Siege Unit Defense +6%",
+      "set": "Forest Guardian",
+      "materials": "Epic Animal Bone x35, Gold 6,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats con special talent"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Oathsworn Bow",
+      "slot": "Weapon",
+      "rarity": "Epic",
+      "stats": "Siege Unit Attack +13%, March Speed (Siege Units) +2%",
+      "set": "Knight's (set siege epico; bonus non trovato)",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witch's Lineage",
+      "slot": "Helmet",
+      "rarity": "Epic",
+      "stats": "Infantry Attack +8%, Cavalry Attack +3%, Archer Defense +3%",
+      "set": null,
+      "materials": "Epic Iron Ore x30, Epic Leather x10, Epic Ebony x10, Gold 5,000,000",
+      "for": "Infantry (low/mid spender)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abyssal Visage",
+      "slot": "Helmet",
+      "rarity": "Epic",
+      "stats": "Cavalry Attack +8%, Infantry Attack +3%, Archer Attack +3%",
+      "set": null,
+      "materials": "Epic Iron Ore x10, Epic Leather x30, Epic Ebony x10, Gold 5,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revival Helm",
+      "slot": "Helmet",
+      "rarity": "Epic",
+      "stats": "Archer Defense +7.5%, Infantry Defense +5%",
+      "set": "Revival",
+      "materials": "Epic Iron Ore x10, Epic Ebony x30, Gold 6,000,000",
+      "for": "Archer / Infantry (budget)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask of the Forest Guardian",
+      "slot": "Helmet",
+      "rarity": "Epic",
+      "stats": "Gathering Speed +8% (10.5% con ST), Siege Unit Attack +4%, Infantry Attack +4%",
+      "set": "Forest Guardian",
+      "materials": "Epic Animal Bone x25, Gold 6,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats con ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Steel Diadem",
+      "slot": "Helmet",
+      "rarity": "Epic",
+      "stats": "Siege Unit Health +8%, March Speed (Siege Units) +2%",
+      "set": "Knight's",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quinn's Soul",
+      "slot": "Chest",
+      "rarity": "Epic",
+      "stats": "Infantry Attack +8%, Archer Health +4%, Damage to Barbarians +5%",
+      "set": null,
+      "materials": "Epic Iron Ore x40, Epic Ebony x20, Gold 5,000,000",
+      "for": "Infantry / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Lord's Blessing",
+      "slot": "Chest",
+      "rarity": "Epic",
+      "stats": "Cavalry Defense +8%, Archer Attack +5%",
+      "set": null,
+      "materials": "Epic Leather x40, Epic Ebony x20, Gold 5,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revival Plate",
+      "slot": "Chest",
+      "rarity": "Epic",
+      "stats": "Archer Attack +7.5%, Cavalry Defense +5%",
+      "set": "Revival",
+      "materials": "Epic Leather x20, Epic Ebony x40, Gold 6,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Robe of the Forest Guardian",
+      "slot": "Chest",
+      "rarity": "Epic",
+      "stats": "Gathering Speed +8% (10.5% con ST), Siege Unit Attack +4%, Archer Attack +4%",
+      "set": "Forest Guardian",
+      "materials": "Epic Animal Bone x25, Gold 6,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats con ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Valorous Cloak",
+      "slot": "Chest",
+      "rarity": "Epic",
+      "stats": "Siege Unit Attack +8%, March Speed (Siege Units) +2%",
+      "set": "Knight's",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seth's Brutality",
+      "slot": "Gloves",
+      "rarity": "Epic",
+      "stats": "Infantry Defense +5.5%, Archer Defense +2%, Damage to Barbarians +5%",
+      "set": null,
+      "materials": "Epic Iron Ore x30, Epic Ebony x10, Gold 5,000,000",
+      "for": "Infantry / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iset's Sufferance",
+      "slot": "Gloves",
+      "rarity": "Epic",
+      "stats": "Cavalry Attack +3%, Cavalry Health +3%",
+      "set": null,
+      "materials": "Epic Leather x40, Gold 5,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revival Gauntlets",
+      "slot": "Gloves",
+      "rarity": "Epic",
+      "stats": "Archer Attack +4.5%, Cavalry Attack +3%, Infantry Attack +3%",
+      "set": "Revival",
+      "materials": "Epic Iron Ore x10, Epic Ebony x30, Gold 6,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claws of the Forest Guardian",
+      "slot": "Gloves",
+      "rarity": "Epic",
+      "stats": "Gathering Speed +6% (8% con ST), Siege Unit Defense +2%, Siege Unit Attack +2%",
+      "set": "Forest Guardian",
+      "materials": "Epic Animal Bone x15, Gold 6,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats con ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Battleworn Gauntlets",
+      "slot": "Gloves",
+      "rarity": "Epic",
+      "stats": "Siege Unit Defense +5.5%, March Speed (Siege Units) +2%",
+      "set": "Knight's",
+      "materials": null,
+      "for": "Siege",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karuak's Humility",
+      "slot": "Legs",
+      "rarity": "Epic",
+      "stats": "Infantry Health +8%, Cavalry Attack +5%",
+      "set": null,
+      "materials": "Epic Iron Ore x40, Epic Leather x20, Gold 5,000,000",
+      "for": "Infantry (usato anche nelle build high spender)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gladiator",
+      "slot": "Legs",
+      "rarity": "Epic",
+      "stats": "Cavalry Health +8%, Archer Defense +4%, Damage to Barbarians +5%",
+      "set": null,
+      "materials": "Epic Leather x40, Epic Ebony x20, Gold 5,000,000",
+      "for": "Cavalry / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fanatic's Tassets",
+      "slot": "Legs",
+      "rarity": "Epic",
+      "stats": "Archer Defense +8%, Cavalry Defense +5%",
+      "set": null,
+      "materials": "Epic Leather x20, Epic Ebony x40, Gold 5,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revival Greaves",
+      "slot": "Legs",
+      "rarity": "Epic",
+      "stats": "Archer Defense +7.5%, Cavalry Attack +5%",
+      "set": "Revival",
+      "materials": "Epic Leather x20, Epic Ebony x40, Gold 6,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Triumphant Tassets",
+      "slot": "Legs",
+      "rarity": "Epic",
+      "stats": "Siege Unit Defense +8%, Damage to Barbarians +5%",
+      "set": "Knight's",
+      "materials": null,
+      "for": "Siege / barbari",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flame Treads",
+      "slot": "Boots",
+      "rarity": "Epic",
+      "stats": "Archer Health +5.5%, Cavalry Attack +3%",
+      "set": null,
+      "materials": "Epic Leather x10, Epic Ebony x30, Gold 5,000,000",
+      "for": "Archer (F2P: unico pezzo epico consigliato)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frost Treads",
+      "slot": "Boots",
+      "rarity": "Epic",
+      "stats": "Infantry Defense +5.5%, Damage to Barbarians +5%",
+      "set": null,
+      "materials": "Epic Leather x10, Epic Iron Ore x30, Gold 5,000,000",
+      "for": "Infantry / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloud Racers",
+      "slot": "Boots",
+      "rarity": "Epic",
+      "stats": "Cavalry Attack +5.5%, Archer Health +2%, Gathering Speed +6%",
+      "set": null,
+      "materials": "Epic Leather x30, Epic Ebony x10, Gold 5,000,000",
+      "for": "Cavalry / gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight's Winter Sabatons",
+      "slot": "Boots",
+      "rarity": "Epic",
+      "stats": "Siege Unit Health +5.5%, Damage to Barbarians +5%",
+      "set": "Knight's",
+      "materials": null,
+      "for": "Siege / barbari",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crimson Ring",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Commander EXP Gain +15%",
+      "set": null,
+      "materials": "Epic Animal Bone x80, Gold 8,000,000",
+      "for": "Leveling comandanti",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peter's Sickle",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Gathering Speed +10%",
+      "set": null,
+      "materials": "Epic Animal Bone x80, Gold 8,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://onechilledgamer.com/best-gathering-commanders-in-rise-of-kingdoms/",
+          "site": "onechilledgamer.com",
+          "page_date": "2024-04-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Bard's Pendant",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Get extra resources from gathering +5%",
+      "set": null,
+      "materials": "Epic Animal Bone x80, Gold 8,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://onechilledgamer.com/best-gathering-commanders-in-rise-of-kingdoms/",
+          "site": "onechilledgamer.com",
+          "page_date": "2024-04-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Delane's Amulet",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Incoming counterattack damage -5%",
+      "set": null,
+      "materials": "Epic Iron Ore x20, Epic Leather x30, Epic Ebony x20, Gold 8,000,000",
+      "for": "Early/mid game, combo con Silent Trial (KvK 1-3)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silent Trial",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Normal attacks decrease target's rage by 10 points",
+      "set": null,
+      "materials": "Epic Iron Ore x20, Epic Leather x20, Epic Ebony x30, Gold 8,000,000",
+      "for": "Early/mid game",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wind Scars",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "March Speed (Infantry) +8%",
+      "set": null,
+      "materials": null,
+      "for": "Mobilità fanteria",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancient Stratagems",
+      "slot": "Accessory",
+      "rarity": "Epic",
+      "stats": "Unit Capacity +3%",
+      "set": null,
+      "materials": null,
+      "for": "Rally/garrison capacity",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gatekeeper's Shield",
+      "slot": "Weapon",
+      "rarity": "Elite",
+      "stats": "Infantry Health +8%, Cavalry Health +5%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Iron Ore x50, Elite Leather x20, Elite Ebony x20, Gold 2,000,000",
+      "for": "Infantry F2P/budget",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blazing Axe",
+      "slot": "Weapon",
+      "rarity": "Elite",
+      "stats": "Cavalry Attack +8%, Archer Attack +5%, Infantry Attack +3%",
+      "set": null,
+      "materials": "Elite Leather x50, Elite Ebony x20, Elite Iron Ore x20, Gold 2,000,000",
+      "for": "Cavalry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Staff of the Lost",
+      "slot": "Weapon",
+      "rarity": "Elite",
+      "stats": "Archer Defense +8%, Infantry Defense +5%, Cavalry Defense +3%",
+      "set": null,
+      "materials": "Elite Ebony x60, Elite Feather(?) x30, Elite Iron Ore x20, Gold 2,000,000 (materiali riportati con nome pre-rework)",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windswept War Helm",
+      "slot": "Helmet",
+      "rarity": "Elite",
+      "stats": "Infantry Attack +4.5%, Cavalry Attack +4.5%, March Speed +3%",
+      "set": "Windswept",
+      "materials": "Elite Leather x30, Elite Iron Ore x30, Gold 2,000,000",
+      "for": "Misto / F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expedition War Helm",
+      "slot": "Helmet",
+      "rarity": "Elite",
+      "stats": "Cavalry Defense +6%, Infantry Defense +2%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Leather x40, Elite Iron Ore x20",
+      "for": "Cavalry F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harvester's Headscarf",
+      "slot": "Helmet",
+      "rarity": "Elite",
+      "stats": "Gathering Speed +5% (6.5% con ST), Siege Unit Attack +3%, Siege Unit Defense +3%",
+      "set": "Harvester",
+      "materials": "Elite Animal Bone x30, Gold 3,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windswept Breastplate",
+      "slot": "Chest",
+      "rarity": "Elite",
+      "stats": "Infantry Defense +4.5%, Cavalry Defense +4.5%, March Speed +3%",
+      "set": "Windswept",
+      "materials": "Elite Leather x30, Elite Iron Ore x30, Gold 2,000,000",
+      "for": "Misto / F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commander's Heavy Armor",
+      "slot": "Chest",
+      "rarity": "Elite",
+      "stats": "Archer Health +6%, Infantry Attack +3%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Ebony x40, Elite Iron Ore x20, Gold 2,000,000",
+      "for": "Archer / misto",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-chest-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-14",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for misto"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harvester's Robes",
+      "slot": "Chest",
+      "rarity": "Elite",
+      "stats": "Gathering Speed +5% (6.5% con ST), Siege Unit Health +3%, Siege Unit Defense +3%",
+      "set": "Harvester",
+      "materials": "Elite Animal Bone x30, Gold 3,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windswept Bracers",
+      "slot": "Gloves",
+      "rarity": "Elite",
+      "stats": "Cavalry Health +2.5%, Infantry Health +2.5%, March Speed +3%",
+      "set": "Windswept",
+      "materials": "Elite Leather x20, Elite Iron Ore x20, Gold 3,000,000",
+      "for": "Misto / F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calvin's Hand",
+      "slot": "Gloves",
+      "rarity": "Elite",
+      "stats": "Cavalry Attack +4% (rokstats: Infantry Attack +4%), Infantry Health +1%, Archer Attack +1%",
+      "set": null,
+      "materials": "Elite Iron Ore x30, Elite Ebony x5, Elite Leather x5, Gold 2,000,000",
+      "for": "Cavalry (vedi conflicts)",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-gloves-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-16",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saint's Song",
+      "slot": "Gloves",
+      "rarity": "Elite",
+      "stats": "Archer Attack +4%, Cavalry Attack +2%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Ebony x30, Elite Leather x10, Gold 2,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sentry Breeches",
+      "slot": "Legs",
+      "rarity": "Elite",
+      "stats": "Infantry Attack +6%, Archer Attack +3%, Cavalry Defense +1%",
+      "set": null,
+      "materials": "Elite Iron Ore x40, Elite Ebony x10, Elite Leather x10, Gold 2,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greaves of the Exile",
+      "slot": "Legs",
+      "rarity": "Elite",
+      "stats": "Archer Defense +6%, Infantry Defense +3%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Ebony x40, Elite Iron Ore x20, Gold 2,000,000",
+      "for": "Archer",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harvester's Breeches",
+      "slot": "Legs",
+      "rarity": "Elite",
+      "stats": "Gathering Speed +5% (6.5% con ST), Siege Unit Attack +3%, Siege Unit Defense +3%",
+      "set": "Harvester",
+      "materials": "Elite Animal Bone x30, Gold 3,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Windswept Boots",
+      "slot": "Boots",
+      "rarity": "Elite",
+      "stats": "Cavalry Health +2.5%, Infantry Defense +2.5%, March Speed +3%",
+      "set": "Windswept",
+      "materials": "Elite Leather x20, Elite Iron Ore x20, Gold 2,000,000",
+      "for": "Misto / F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Scarlet Hounds",
+      "slot": "Boots",
+      "rarity": "Elite",
+      "stats": "Infantry Health +4%, Commander EXP Gain +3%",
+      "set": null,
+      "materials": "Elite Iron Ore x40, Gold 2,000,000",
+      "for": "Infantry",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harvester's Boots",
+      "slot": "Boots",
+      "rarity": "Elite",
+      "stats": "Gathering Speed +5% (6.5% con ST), Siege Unit Health +2%, Siege Unit Defense +2%",
+      "set": "Harvester",
+      "materials": "Elite Animal Bone x20, Gold 3,000,000",
+      "for": "Gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "ST"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Call of the Loyal",
+      "slot": "Accessory",
+      "rarity": "Elite",
+      "stats": "March Speed +5%",
+      "set": null,
+      "materials": "Elite Iron Ore x35, Elite Ebony x35, Gold 4,000,000",
+      "for": "Mobilità",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savage Totem",
+      "slot": "Accessory",
+      "rarity": "Elite",
+      "stats": "Damage to Barbarians +10%",
+      "set": null,
+      "materials": "Elite Animal Bone x70, Gold 4,000,000",
+      "for": "Barbari / PvE",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lohar's Bone Necklace",
+      "slot": "Accessory",
+      "rarity": "Elite",
+      "stats": "Commander EXP Gain +10%",
+      "set": null,
+      "materials": "Elite Animal Bone x70, Gold 4,000,000",
+      "for": "Leveling",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Halberd",
+      "slot": "Weapon",
+      "rarity": "Advanced",
+      "stats": "Cavalry Defense +5%, Cavalry Health +4%",
+      "set": "Vanguard",
+      "materials": "Advanced x40+x40+x40 (nomi materiali pre-rework nella fonte), Gold 1,500,000",
+      "for": "Cavalry F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "set"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Greaves",
+      "slot": "Legs",
+      "rarity": "Advanced",
+      "stats": "Cavalry Attack +4%, Cavalry Health +1%",
+      "set": "Vanguard",
+      "materials": "Advanced Iron Ore x20 + 2 altri materiali x20/x30 (fandom, nomi pre-rework), Gold 1,500,000",
+      "for": "Cavalry F2P",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "set"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blessed Blade",
+      "slot": "Weapon",
+      "rarity": "Advanced",
+      "stats": "Infantry Health +6%, Archer Attack +4%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Iron Ore x60, Advanced Ebony x20, Gold 1,000,000",
+      "for": "Infantry early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials",
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helm of Phoenix",
+      "slot": "Helmet",
+      "rarity": "Advanced",
+      "stats": "Infantry Health +2%, Archer Defense +4%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Iron Ore x10, Advanced Ebony x40, Gold 1,000,000",
+      "for": "Early / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helm of Fear",
+      "slot": "Helmet",
+      "rarity": "Advanced",
+      "stats": "Cavalry Attack +4%, Infantry Defense +2%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Iron Ore x10, Advanced Leather x40, Gold 1,000,000",
+      "for": "Cavalry early / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infantry Breastplate",
+      "slot": "Chest",
+      "rarity": "Advanced",
+      "stats": "Infantry Defense +4%, Cavalry Health +2%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Iron Ore x40, Advanced Leather x10, Gold 1,000,000",
+      "for": "Infantry early / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milanese Plate",
+      "slot": "Chest",
+      "rarity": "Advanced",
+      "stats": "Cavalry Defense +4%, Archer Attack +2%",
+      "set": null,
+      "materials": "Advanced Leather x40, Advanced Ebony x10, Gold 1,000,000",
+      "for": "Cavalry early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leather Gloves",
+      "slot": "Gloves",
+      "rarity": "Advanced",
+      "stats": "Archer Health +2.5%, Infantry Defense +1%",
+      "set": null,
+      "materials": "Advanced Iron Ore x15, Advanced Leather x20, Gold 1,000,000",
+      "for": "Archer early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ranger Trousers",
+      "slot": "Legs",
+      "rarity": "Advanced",
+      "stats": "Infantry Attack +4%, Archer Defense +2%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Iron Ore x40, Advanced Ebony x10, Gold 1,000,000",
+      "for": "Infantry early / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Boots of Reverence",
+      "slot": "Boots",
+      "rarity": "Advanced",
+      "stats": "Infantry Attack +2.5%, Archer Defense +1%",
+      "set": null,
+      "materials": "Advanced Iron Ore x20, Advanced Ebony x15, Gold 1,000,000",
+      "for": "Infantry early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edged Boots",
+      "slot": "Boots",
+      "rarity": "Advanced",
+      "stats": "Archer Attack +2.5%, Cavalry Attack +1%, Damage to Barbarians +3%",
+      "set": null,
+      "materials": "Advanced Leather x15, Advanced Ebony x20, Gold 1,000,000",
+      "for": "Archer early / barbari",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sharp Longsword",
+      "slot": "Weapon",
+      "rarity": "Normal",
+      "stats": "Cavalry Defense +5%, Gathering Speed +2%",
+      "set": null,
+      "materials": "Normal Iron Ore x60, Gold 200,000",
+      "for": "Early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Helm",
+      "slot": "Helmet",
+      "rarity": "Normal",
+      "stats": "Infantry Attack +3%",
+      "set": null,
+      "materials": "Normal Iron Ore x80, Gold 200,000",
+      "for": "Early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chain Mail",
+      "slot": "Chest",
+      "rarity": "Normal",
+      "stats": "Archer Attack +3%",
+      "set": null,
+      "materials": "Normal Ebony x80, Gold 200,000",
+      "for": "Early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cloth Gloves",
+      "slot": "Gloves",
+      "rarity": "Normal",
+      "stats": "Infantry Defense +2%",
+      "set": null,
+      "materials": "Normal Iron Ore x60, Gold 200,000",
+      "for": "Early",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coarse Breeches",
+      "slot": "Legs",
+      "rarity": "Normal",
+      "stats": "Cavalry Attack +2%, Gathering Speed +1%",
+      "set": null,
+      "materials": "Normal Leather x60, Gold 200,000",
+      "for": "Early / gathering",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sturdy Boots",
+      "slot": "Boots",
+      "rarity": "Normal",
+      "stats": "Archer Defense +2%, Gathering Speed +1%",
+      "set": null,
+      "materials": "Normal Ebony x60, Gold 200,000",
+      "for": "Early / archer F2P",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats",
+            "materials"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "for"
+          ]
+        }
+      ]
+    }
+  ],
+  "builds": {
+    "principi_generali": {
+      "note": "Priorità di investimento (packsify, ldshop, riseofkingdomsguides): 1) tutto Epic (viola) sulla marcia principale, con special talent se possibile: gli epici smontati rendono il 100% dei materiali; 2) arma leggendaria per prima (slot a maggior ritorno), tenendola finché non esce lo special talent; 3) elmo (KvK helm attiva il 2-set), poi corazza; 4) guanti e gambali; 5) stivali per ultimi (upgrade epico->leggendario vale ~2% stat); 6) solo dopo la marcia principale full-legendary si passa alla seconda tipologia. Statistiche: fanteria salute/difesa; cavalleria attacco/salute; arcieri salute > difesa >= skill dmg > attacco (lootbar) o skill damage/attacco (packsify). Accessori dopo il set base: Horn of Fury + Ring of Doom (offesa), Scolas' Lucky Coin + Vengeance (guarnigione), Pendant of Eternal Night (skill dmg).",
+      "sources": [
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "ordine"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-08-06",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "epic first",
+            "refund",
+            "weapon/helmet first"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "boots 2%"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "accessori"
+          ]
+        },
+        {
+          "url": "https://www.lootbar.com/blog/en/ultimate-archer-equipment-guide-early-endgame.html",
+          "site": "lootbar.com (AFFIDABILITA' BASSA: nomi/slot errati)",
+          "page_date": "2026-05-18",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "priorità stat arcieri"
+          ]
+        }
+      ]
+    },
+    "infantry": {
+      "F2P": {
+        "pieces": "Set Windswept completo (War Helm, Breastplate, Bracers, Boots) + Gatekeeper's Shield (arma) + Karuak's Humility (gambali)",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          }
+        ]
+      },
+      "low": {
+        "pieces": "Epici con due pezzi attacco: Witch's Lineage (elmo) + Quinn's Soul (corazza); alternativa Sakura Fubuki (solo con special talent); resto: Gatekeeper's Shield, Seth's Brutality, Karuak's Humility, Frost Treads; accessori Silent Trial + Delane's Amulet",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Gatekeeper",
+              "Revival Helm alt",
+              "accessori"
+            ]
+          }
+        ]
+      },
+      "mid": {
+        "pieces": "Come low ma corazza -> Hope Cloak (leggendaria) ed elmo -> Gold Helm of the Eternal Empire",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          }
+        ]
+      },
+      "high": {
+        "pieces": "Helm of the Conqueror + Hammer of the Sun and Moon (KvK) + Hope Cloak + Karuak's Humility + Vambraces e Sturdy Boots of the Eternal Empire (2-set Troop Defense +3%). Alternativa ldshop/packsify: 'Eternal Knight' legs/set (vedi gaps) al posto di Karuak's Humility su Zenobia/Constantine/Harald. Accessori: Horn of Fury + Ring of Doom",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+            "site": "packsify.com",
+            "page_date": "2026-03-20",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces",
+              "accessori"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Eternal Knight legs"
+            ]
+          }
+        ]
+      },
+      "crafting_order": "Gatekeeper's Shield -> epici (Witch's Lineage, Quinn's Soul, Karuak's Humility) -> Hope Cloak (primo leggendario) -> Hammer of the Sun and Moon -> Helm of the Conqueror -> guanti/stivali Eternal Empire",
+      "crafting_order_src": [
+        [
+          "LD",
+          [
+            "Hope Cloak first"
+          ]
+        ],
+        [
+          "PK",
+          [
+            "weapon->helmet->chest->gloves/legs->boots"
+          ]
+        ]
+      ]
+    },
+    "cavalry": {
+      "F2P": {
+        "pieces": "Windswept Boots + Bracers + Breastplate, Expedition War Helm, Vanguard Halberd + Vanguard Greaves (2-set Cavalry Attack +2%)",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Vanguard+Windswept"
+            ]
+          }
+        ]
+      },
+      "low": {
+        "pieces": "Epici su arma, corazza, guanti, gambali puntando a difesa/salute: Heart of the Saint, Abyssal Visage, Dark Lord's Blessing, Iset's Sufferance, Gladiator, Cloud Racers",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://app.rokstats.online/equipment",
+            "site": "app.rokstats.online",
+            "page_date": null,
+            "retrieved": "2026-09-27",
+            "fields": [
+              "stat pezzi"
+            ]
+          }
+        ]
+      },
+      "mid": {
+        "pieces": "Come low + due leggendari del set Hellish Wasteland: Heavy Armor (corazza) e Boots (2-set Troop Health +3%); ldshop mid: Navar's Control (guanti) + Ash of the Dawn (gambali)",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Navar",
+              "Ash"
+            ]
+          }
+        ]
+      },
+      "high": {
+        "pieces": "Pride of the Khan (elmo KvK) + Sacred Dominion o Rifle/Lance of the Hellish Wasteland (arma; tenere Heart of the Saint finché non esce l'arma con special talent) + Hope Cloak o Heavy Armor of the Hellish Wasteland + Navar's Control + Ash of the Dawn + Boots of the Hellish Wasteland/Mountain Crushers. Accessori Horn of Fury + Ring of Doom",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+            "site": "packsify.com",
+            "page_date": "2026-03-20",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://app.rokstats.online/equipment",
+            "site": "app.rokstats.online",
+            "page_date": null,
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Sacred Dominion",
+              "Pride of the Khan slot"
+            ]
+          }
+        ]
+      },
+      "crafting_order": "Arma leggendaria per prima, poi elmo KvK, poi Hope Cloak; MAI stivali leggendari cavalleria per primi (ritorno stat minimo)",
+      "crafting_order_src": [
+        [
+          "LD",
+          [
+            "ordine"
+          ]
+        ],
+        [
+          "PK",
+          [
+            "ordine"
+          ]
+        ]
+      ]
+    },
+    "archer": {
+      "F2P": {
+        "pieces": "Pezzi verdi/blu + un epico: Flame Treads (o Sturdy Boots bianchi se non disponibili); ldshop early: Revival Greaves, Revival Helm, Leather Gloves, Sturdy Boots; Staff of the Lost (arma)",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          }
+        ]
+      },
+      "low": {
+        "pieces": "Full epic + 4 pezzi Revival (Helm, Plate, Gauntlets, Greaves: Troop Attack +3%, Troop Defense +3%) + Golden Age + Flame Treads; accessori Silent Trial + Delane's Amulet",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+            "site": "ldshop.gg",
+            "page_date": "2026-08-06",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "accessori"
+            ]
+          }
+        ]
+      },
+      "mid": {
+        "pieces": "Sostituire corazza e guanti con Dragon's Breath Plate + Vambraces (2-set Troop Attack +3%) mantenendo 2 Revival",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          }
+        ]
+      },
+      "high": {
+        "pieces": "4 pezzi Dragon's Breath (Skill Damage +3%) + arma (Dragon's Breath Bow o The Hydra's Blast KvK) + Ancestral Mask of Night (elmo KvK) + Commander's Boots/Dragon's Breath Boots; The Milky Way come corazza salute; accessori Pendant of Eternal Night / Horn of Fury / Ring of Doom",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces"
+            ]
+          },
+          {
+            "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+            "site": "packsify.com",
+            "page_date": "2026-03-20",
+            "retrieved": "2026-09-27",
+            "fields": [
+              "pieces",
+              "accessori"
+            ]
+          },
+          {
+            "url": "https://app.rokstats.online/equipment",
+            "site": "app.rokstats.online",
+            "page_date": null,
+            "retrieved": "2026-09-27",
+            "fields": [
+              "Hydra's Blast",
+              "Ancestral Mask"
+            ]
+          }
+        ]
+      },
+      "crafting_order": "Revival set epico -> Dragon's Breath corazza+guanti -> arma -> elmo -> gambali -> stivali",
+      "crafting_order_src": [
+        [
+          "RG",
+          [
+            "ordine per fasce"
+          ]
+        ],
+        [
+          "PK",
+          [
+            "ordine generale"
+          ]
+        ]
+      ]
+    },
+    "leadership_mixed": {
+      "pieces": "DERIVATO dalle statistiche (nessuna guida consultata ha una build leadership esplicita): set Garb of the Glorious Goddess (Scepter Troop Attack +15%, Diadem Troop Attack +8%, Plate Troop Defense +8%, Gauntlets Troop Defense +6%, Chausses Troop Health +8%, Greaves Troop Health +6%; 2-set Troop Defense +3%, 4-set Skill Damage Reduction +3%, 6-set Troop Health +5%); alternative: Shadow Legion's Retribution (attacco a tutte le truppe), set Windswept elite (Troop Attack +2%, March Speed +4%), Revival epico (Troop Attack/Defense +3%), Commander's Heavy Armor.",
+      "derived": true,
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stat e set"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "Windswept",
+            "Revival"
+          ]
+        }
+      ]
+    },
+    "gathering": {
+      "pieces": "Epico/elite: Harvester's Breeches + Harvester's Boots (2-set Gathering Speed +10%) + Forest Guardian Mask + Robe + Claws + Scepter (4-set: Troop Load +20%, extra resources +5%) = +65% gathering speed, +20% load, +5% extra; accessori Peter's Sickle (+10%) + The Bard's Pendant (+5% extra). Materiale: solo Animal Bone. Leggendario: set Witch's Wardrobe (Feathered Staff +15%, Deadwood Crown +12%, Hexed Cloak +12%, Crimson Bracers +8%, Ornamented Pants +12%, Mire-Waders +8%; 2: Troop Load +25%, 4: extra resources +5%, 6: March Speed +10%) presente su rokstats; onechilledgamer (2024) diceva che non esiste gear leggendario da raccolta.",
+      "sources": [
+        {
+          "url": "https://hackmd.io/@k1t0/GatheringGuide",
+          "site": "hackmd.io",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "set epico/elite",
+            "totale 65%"
+          ]
+        },
+        {
+          "url": "https://onechilledgamer.com/best-gathering-commanders-in-rise-of-kingdoms/",
+          "site": "onechilledgamer.com",
+          "page_date": "2024-04-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "accessori",
+            "nessun leggendario 2024"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "set bonus",
+            "materiali"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "Witch's Wardrobe"
+          ]
+        }
+      ]
+    },
+    "barbarians": {
+      "pieces": "DERIVATO dalle statistiche 'Damage to Barbarians': Savage Totem (+10%) accessorio; Quinn's Soul (corazza, +5%), Seth's Brutality (guanti, +5%), Gladiator (gambali, +5%), Frost Treads (stivali, +5%); economici: Helm of Phoenix/Helm of Fear (+3%), Infantry Breastplate (+3%), Ranger Trousers (+3%), Edged Boots (+3%), Blessed Blade (+3%); Knight's Triumphant Tassets / Winter Sabatons (+5%, siege). Nessuna guida consultata propone una build barbari completa.",
+      "derived": true,
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        }
+      ]
+    },
+    "garrison": {
+      "pieces": "High spender: pezzi 'Eternal Knight'/Eternal Empire per salute-difesa (packsify), Hope Cloak, Eternal Night; accessori Scolas' Lucky Coin (scudo) + Vengeance (contrattacco +8%). Charles Martel come garrison captain. ldshop: Vengeance e Scolas sono ruolo-specifici da forgiare dopo gli universali.",
+      "sources": [
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "pieces",
+            "accessori"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "accessori"
+          ]
+        }
+      ]
+    },
+    "rally": {
+      "pieces": "Set leggendario offensivo del tipo di truppa + Horn of Fury come accessorio primario; per rally leader skill-damage Pendant of Eternal Night; support rally: Concealed Dagger, Mora's Web, Seth's Call",
+      "sources": [
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "pieces"
+          ]
+        },
+        {
+          "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+          "site": "ldshop.gg",
+          "page_date": "2026-07-29",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "support"
+          ]
+        }
+      ]
+    }
+  },
+  "rare_materials": [
+    {
+      "name": "Legendary materials (Iron Ore / Leather / Animal Bone / Ebony LEGENDARY)",
+      "how_obtained": "Combinazione 4 Epic -> 1 Legendary (256 Normal equivalenti); eventi (Ceroli Crisis, Ian's Ballad, stagionali), Sunset/Lost Canyon, VIP shop material choice chest, Geared Up bundle, Tavern Equipment Chest (Crystal Key), Lost Kingdom drops",
+      "used_for": "Pezzi leggendari (10-60 per pezzo; set 105-ish per arma; accessori leggendari 120 + 50M oro)",
+      "warning": "Non consumare senza conferma: ogni pezzo leggendario richiede decine di materiali; lootbar/ldshop consigliano di accumulare prima di forgiare e di non spendere su pezzi di transizione",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "materiali per pezzo",
+            "fonti"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "fonti"
+          ]
+        },
+        {
+          "url": "https://www.lootbar.com/blog/en/ultimate-cavalry-equipment-guide-early-endgame.html",
+          "site": "lootbar.com (AFFIDABILITA' BASSA: nomi/slot errati)",
+          "page_date": "2026-05-18",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "hoard"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legendary blueprints (30 frammenti)",
+      "how_obtained": "Sunset Canyon / Lost Canyon, KvK / Lost Kingdom rewards, Osiris League, Ceroli Crisis, VIP chests, Tavern Equipment Chest (0.052% per estrazione), Lucerne Scrolls (accessori)",
+      "used_for": "Un blueprint = un pezzo specifico; non viene restituito allo smontaggio",
+      "warning": "Confermare quale pezzo forgiare: il blueprint si consuma e smontando il pezzo non si recupera",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "30 frammenti",
+            "specifico"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-11",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "fonti",
+            "non recuperato"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Equipment_Chests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "probabilità"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "Lucerne Scrolls"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crystal Key (Equipment Chest della Tavern)",
+      "how_obtained": "Daily objectives, Supply Box, Shop a gemme (VIP shop ~1000 gemme), Geared Up bundle",
+      "used_for": "Apre l'Equipment Chest: 40.6% materiali, 0.052% blueprint legendary, 0.676% epic",
+      "warning": "Non è un materiale di forgiatura; le 'gold key' aprono le Golden Chest (comandanti/sculture), non c'entrano con l'equipaggiamento",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Key",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "fonti"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Equipment_Chests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "probabilità"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "valore 1000 gemme"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iconic Crystals",
+      "how_obtained": "Max 6: 4 Artisan's Forge, 1 Crystal Quest, 1 Lost Canyon Shop",
+      "used_for": "Rendere Iconic un pezzo leggendario (irreversibile; smontando non si recupera nulla). Priorità: accessori -> arma -> guanti",
+      "warning": "MAI usarli su pezzi che verranno sostituiti; l'operazione è definitiva",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "tutti i campi"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Epic/Elite Animal Bone",
+      "how_obtained": "Produzione Fabbro, eventi, chest",
+      "used_for": "Esclusivo per set raccolta (Forest Guardian x25-35 epic, Harvester x20-30 elite) e accessori Crimson Ring / Peter's Sickle / Bard's Pendant (x80 epic), Savage Totem / Lohar's Bone Necklace (x70 elite)",
+      "warning": "Non fondere/smontare senza piano: serve solo a raccolta e accessori utility",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "materiali"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "materiali"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pezzi con Special Talent",
+      "how_obtained": "Casuale alla forgiatura (probabilità in gioco) o Refinement",
+      "used_for": "+30% attributi con comandante della specializzazione giusta; +30% attributi Iconic",
+      "warning": "Non smontare un pezzo con special talent per rifarne uno: si perde il talento e il blueprint",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+          "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "+30%"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/responses-from-rok-developers-10-7-2021/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2021-10-07",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "refinement"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "+30% iconic"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blueprint/materiali KvK (Helm of the Conqueror, Pride of the Khan, Ancestral Mask of Night, Hammer of the Sun and Moon, Sacred Dominion, The Hydra's Blast)",
+      "how_obtained": "Lost Kingdom / KvK rewards e shop (dettagli costi non trovati)",
+      "used_for": "Pezzi +2000 power, BiS per slot elmo/arma",
+      "warning": "Costi materiali/oro non documentati nelle fonti consultate: confermare in gioco prima di forgiare",
+      "sources": [
+        {
+          "url": "https://app.rokstats.online/equipment",
+          "site": "app.rokstats.online",
+          "page_date": null,
+          "retrieved": "2026-09-27",
+          "fields": [
+            "stats"
+          ]
+        },
+        {
+          "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+          "site": "packsify.com",
+          "page_date": "2026-03-20",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "KvK"
+          ]
+        },
+        {
+          "url": "https://theriagames.com/guide/rise-of-kingdoms-helmet-equipment-guide/",
+          "site": "theriagames.com",
+          "page_date": "2025-02-14",
+          "retrieved": "2026-09-27",
+          "fields": [
+            "Helm of the Conqueror fonti"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "code": "RG",
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "RS",
+      "url": "https://app.rokstats.online/equipment",
+      "site": "app.rokstats.online",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "FW",
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+      "site": "riseofkingdoms.fandom.com (letto via api.php; dati equipaggiamento pre-rework materiali)",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "KEY",
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Key",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TAV",
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Equipment_Chests",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TH_BS",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-blacksmith-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-11",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TW",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-weapon-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-12",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TH",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-helmet-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-14",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TC",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-chest-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-14",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TG",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-gloves-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-16",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TL",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-legs-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-16",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TB",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-boots-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-16",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "TA",
+      "url": "https://theriagames.com/guide/rise-of-kingdoms-accessories-equipment-guide/",
+      "site": "theriagames.com",
+      "page_date": "2025-02-16",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "LD",
+      "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+      "site": "ldshop.gg",
+      "page_date": "2026-08-06",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "LDA",
+      "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/accessory-tier-list.html",
+      "site": "ldshop.gg",
+      "page_date": "2026-07-29",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "PK",
+      "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+      "site": "packsify.com",
+      "page_date": "2026-03-20",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "IC",
+      "url": "https://riseofkingdomsguides.com/iconic-crystals-guide-and-priorities/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "DEV",
+      "url": "https://riseofkingdomsguides.com/responses-from-rok-developers-10-7-2021/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2021-10-07",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "HK",
+      "url": "https://hackmd.io/@k1t0/GatheringGuide",
+      "site": "hackmd.io",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "OCG",
+      "url": "https://onechilledgamer.com/best-gathering-commanders-in-rise-of-kingdoms/",
+      "site": "onechilledgamer.com",
+      "page_date": "2024-04-29",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "LB_CAV",
+      "url": "https://www.lootbar.com/blog/en/ultimate-cavalry-equipment-guide-early-endgame.html",
+      "site": "lootbar.com (AFFIDABILITA' BASSA: nomi/slot errati)",
+      "page_date": "2026-05-18",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "LB_ARCHER",
+      "url": "https://www.lootbar.com/blog/en/ultimate-archer-equipment-guide-early-endgame.html",
+      "site": "lootbar.com (AFFIDABILITA' BASSA: nomi/slot errati)",
+      "page_date": "2026-05-18",
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "CX",
+      "url": "https://codexhelper.com/tools/equipment/",
+      "site": "codexhelper.com",
+      "page_date": null,
+      "retrieved": "2026-09-27"
+    },
+    {
+      "code": "AC",
+      "url": "https://www.allclash.com/best-bai-qi-builds-talents-skill-order-pairing-equipment-in-rise-of-kingdoms/",
+      "site": "allclash.com (build equip dietro paywall PRO)",
+      "page_date": "2026-03-03",
+      "retrieved": "2026-09-27"
+    }
+  ],
+  "gaps": [
+    "Tempi di forgiatura (ore) per rarità: nessuna fonte consultata li riporta.",
+    "Probabilità esatta di Special Talent alla forgiatura e costi del Refinement: visibili solo in gioco; nessuna fonte pubblica con numeri.",
+    "Costo oro dello smontaggio materiali/equip: non quantificato.",
+    "Materiali e oro dei pezzi KvK (+2000 power: Helm of the Conqueror, Pride of the Khan, Ancestral Mask of Night, Hammer of the Sun and Moon, Sacred Dominion, The Hydra's Blast, Twilight Epiphany) e dei set Glorious Goddess, Witch's Wardrobe, Lupine Vestments, Knight's: rokstats non li mostra nell'estratto; non trovati.",
+    "'Eternal Knight' (set/gambali +12% Infantry Health citati da ldshop e packsify): nessun database (rokstats, riseofkingdomsguides, fandom) contiene un pezzo con questo nome; potrebbe essere confusione con 'Eternal Night' (gambali, Infantry Defense +12%) o con il set Eternal Empire. Da confermare in gioco.",
+    "Composizione esatta e bonus del set 'Knight's' (siege epico) e appartenenza dei pezzi 'Wolf's' al set Lupine Vestments: inferita dai nomi.",
+    "Testo esatto degli effetti di Saddle of a Thousand Blessings e Immolating Plume e degli accessori Artifact/Curio (Megingjörð senza stat).",
+    "Fonti esatte (evento/shop) dei blueprint di ogni pezzo leggendario non-set (Hope Cloak, Ash of the Dawn, Navar's Control, Shio's Return, Milky Way...): le guide dicono genericamente 'eventi/chest/Sunset Canyon'.",
+    "Build leadership/misto e build barbari: nessuna guida consultata le fornisce; quelle nel file sono derivate dalle statistiche (flag derived=true).",
+    "Fasce di spesa per garrison/gathering/barbari: non presenti nelle fonti.",
+    "'Gold heads': termine non trovato in nessuna fonte RoK; le Golden Key aprono chest comandanti, non equipaggiamento.",
+    "Requisiti di livello del Blacksmith oltre il lv1 (fandom mostra solo lv1: City Hall 16, costo 1000/1000/1000)."
+  ],
+  "conflicts": [
+    {
+      "item": "Pride of the Khan - slot",
+      "a": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Helmet, Cavalry Defense +15%, Archer Health +8%"
+      },
+      "b": {
+        "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+        "value": "'weapon (cavalry attack)' nella build cavalleria"
+      },
+      "note": "rokstats (dati letti dal client) più affidabile; packsify probabilmente confonde con Sacred Dominion"
+    },
+    {
+      "item": "Helm of the Conqueror - varianti",
+      "a": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Un solo pezzo: Infantry Defense +15%, Cavalry Health +8% (elmi KvK cavalleria/arcieri sono Pride of the Khan / Ancestral Mask of Night)"
+      },
+      "b": {
+        "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+        "value": "'Conqueror's Helm' con varianti infantry/cavalry/archer"
+      },
+      "note": "Probabile uso di 'Conqueror's Helm' come nome generico degli elmi KvK"
+    },
+    {
+      "item": "Dragon's Breath Bow - 2a stat",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "value": "Infantry Defense +5%"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Infantry Health +5%"
+      }
+    },
+    {
+      "item": "Rifle/Lance of the Hellish Wasteland - nome e 2a stat",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "value": "Rifle of the Hellish Wasteland: Cavalry Attack +20%, Infantry Attack +5%, Archer Attack +5%"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Lance of the Hellish Wasteland: Cavalry Attack +20%, Infantry Health +5%, Archer Attack +5%"
+      }
+    },
+    {
+      "item": "Cape/Tassets of the War God - nome",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "value": "Cape of the War God (legs)"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Tassets of the War God (legs)"
+      }
+    },
+    {
+      "item": "Calvin's Hand - 1a stat",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "value": "Cavalry Attack +4% (anche theriagames)"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Infantry Attack +4%"
+      }
+    },
+    {
+      "item": "Hellish Wasteland 6-set",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+        "value": "Cavalry Defense +5%"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Cavalry Defense +3%"
+      }
+    },
+    {
+      "item": "Trial of the Lost Kingdom / Heart of the Saint / Shadow Legion's Retribution / Ash of the Dawn ecc. - valori stat",
+      "a": {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+        "value": "Valori più bassi (es. Trial Cavalry Defense +10%, Heart of the Saint Cavalry Defense +8%, Ash of the Dawn Cavalry Health +5%) e materiali Crystal/Silk/Feather"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Valori attuali (Trial +15%, Heart of the Saint +13%, Ash of the Dawn +12%) e materiali Iron Ore/Leather/Animal Bone/Ebony"
+      },
+      "note": "La pagina fandom è antecedente all'ottimizzazione equipaggiamento (agosto 2021 circa): usare come storico"
+    },
+    {
+      "item": "Witch's Crimson Bracers - slot/rarità",
+      "a": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Guanti leggendari da raccolta (Witch's Wardrobe)"
+      },
+      "b": {
+        "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+        "value": "'Best Budget / Epic Choice' come ELMO fanteria"
+      },
+      "note": "Errore ldshop"
+    },
+    {
+      "item": "Gear leggendario da raccolta",
+      "a": {
+        "url": "https://onechilledgamer.com/best-gathering-commanders-in-rise-of-kingdoms/",
+        "value": "'there is no legendary gear for gathering' (2024)"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Set Witch's Wardrobe leggendario con Gathering Speed"
+      },
+      "note": "Differenza temporale: set aggiunto dopo"
+    },
+    {
+      "item": "Special talent 'fino al 25% attacco'",
+      "a": {
+        "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+        "value": "Special Talent = fino a +25% attacco sulle armi"
+      },
+      "b": {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+        "value": "Special Talent = +30% degli attributi del pezzo con specializzazione corrispondente"
+      },
+      "note": "Il 25% è la stat base delle armi KvK; fandom/theria descrivono la meccanica reale"
+    },
+    {
+      "item": "Meccanica special talent '1 su 5 forgiature'",
+      "a": {
+        "url": "https://riseofkingdomsguides.com/responses-from-rok-developers-10-7-2021/",
+        "value": "Meccanica sostituita da Refinement; la probabilità non cresce più con i tentativi"
+      },
+      "b": {
+        "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+        "value": "'requires re-forging the piece if it doesn't proc initially' (2026)"
+      }
+    },
+    {
+      "item": "lootbar cavalry/archer guides",
+      "a": {
+        "url": "https://www.lootbar.com/blog/en/ultimate-cavalry-equipment-guide-early-endgame.html",
+        "value": "Cita 'Trial of the Crusader', 'Vanguard Armor', 'Gatekeeper's Shield' come guanti, 'Helm of the Eternal Empire' per cavalleria, 'Bow of the Fenrir', 'Ash of the Dawn' come elmo, 'Flame Treads' come gambali"
+      },
+      "b": {
+        "url": "https://app.rokstats.online/equipment",
+        "value": "Nessun 'Trial of the Crusader' o 'Bow of the Fenrir'; slot diversi"
+      },
+      "note": "lootbar considerata inaffidabile per i nomi; usata solo per principi generali"
+    }
+  ],
+  "unreachable": [
+    {
+      "url": "https://rokhub.xyz/rok-best-equipment-builds",
+      "error": "HTTP 402 DEPLOYMENT_DISABLED (Vercel) - sito offline"
+    },
+    {
+      "url": "https://rokhub.xyz/rok-materials-calculator",
+      "error": "HTTP 402 DEPLOYMENT_DISABLED"
+    },
+    {
+      "url": "https://rok.guide/equipment/",
+      "error": "HTTP 503"
+    },
+    {
+      "url": "https://www.rok.guide/face-to-face-iconic-equipment/",
+      "error": "HTTP 503"
+    },
+    {
+      "url": "https://www.rok.guide/august-optimization/",
+      "error": "non tentato: host rok.guide in 503 su tutte le richieste"
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Equipment",
+      "error": "HTML: 403 Cloudflare challenge / WebFetch 402; pagina 'Equipment' inesistente via API (missingtitle). Le pagine Buildings/Blacksmith, Items/Key, Buildings/Tavern/Equipment_Chests sono state lette via api.php"
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Category:Material",
+      "error": "API restituisce pagina vuota"
+    },
+    {
+      "url": "https://rokf2p.com/rok-guide/best-infantry-equipment-in-rise-of-kingdoms-2025-complete-upgrade-guide",
+      "error": "HTTP 521 (3 tentativi)"
+    },
+    {
+      "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+      "error": "curl 403 (letta però via WebFetch: contenuto riassunto)"
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/",
+      "error": "raggiungibile ma nessuna pagina su equipaggiamento trovata"
+    },
+    {
+      "url": "https://www.allclash.com/ (articoli equipment)",
+      "error": "nessun articolo generale sull'equipaggiamento; le build per comandante sono dietro paywall AllClash PRO"
+    },
+    {
+      "url": "WebSearch",
+      "error": "budget di ricerche della sessione esaurito (200/200) dopo la prima fase: le ricerche su 'refinement', 'Eternal Knight', build leadership/barbari non sono state effettuate"
+    }
+  ]
+}

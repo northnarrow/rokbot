@@ -1,0 +1,33 @@
+{
+  "_comment": "ESEMPIO di profilo account. Il bot sul PC deve produrre un file con questa struttura leggendo il telefono (vedi account_reader.py). I valori qui sono inventati solo per mostrare il formato e per il test del motore: NON sono il tuo account.",
+  "profile_version": 1,
+  "read_at": "2026-09-27T21:00:00",
+  "player": {"name": "Esempio", "city_hall": 19, "vip": 8, "power": 6500000, "civilization": "Rome"},
+  "commanders": [
+    {"name": "Sun Tzu", "rarity": "Epic", "level": 50, "stars": 5, "skills": [5, 5, 5, 5], "expertise": true,
+     "talents": {"points_spent": 64, "trees": {"Skill": 34, "Infantry": 20, "Garrison": 10}},
+     "equipment": {"weapon": "Gatekeeper's Shield", "helmet": "Windswept Helm", "chest": "Quinn's Soul", "gloves": "Windswept Gloves", "legs": "Karuak's Humility", "boots": "Windswept Boots", "accessory1": null, "accessory2": null},
+     "formation": {"name": "Wedge", "level": 1, "armaments": [
+        {"slot": 1, "name": "Epics of Olympia", "rarity": "Epic", "attributes": [{"name": "Infantry Attack", "value": 2.0}, {"name": "Skill Damage", "value": 1.5}, {"name": "Infantry Health", "value": 1.5}], "inscription": null}
+     ]}},
+    {"name": "Joan of Arc", "rarity": "Epic", "level": 40, "stars": 4, "skills": [5, 5, 1, 1], "expertise": false, "talents": {"points_spent": 44, "trees": {"Gathering": 30, "Support": 14}}, "equipment": {}, "formation": {"name": "Line", "level": 1, "armaments": []}},
+    {"name": "Cao Cao", "rarity": "Legendary", "level": 42, "stars": 3, "skills": [5, 1, 1, 0], "expertise": false, "talents": {"points_spent": 48, "trees": {"Peacekeeping": 30, "Cavalry": 18}}, "equipment": {}, "formation": {"name": "Wedge", "level": 1, "armaments": []}},
+    {"name": "Boudica", "rarity": "Epic", "level": 45, "stars": 5, "skills": [5, 5, 5, 3], "expertise": false, "talents": {"points_spent": 55, "trees": {"Peacekeeping": 35, "Skill": 20}}, "equipment": {}, "formation": {"name": "Wedge", "level": 1, "armaments": []}},
+    {"name": "Richard I", "rarity": "Legendary", "level": 38, "stars": 3, "skills": [5, 3, 1, 0], "expertise": false, "talents": {"points_spent": 40, "trees": {"Garrison": 25, "Infantry": 15}}, "equipment": {}, "formation": {"name": "Hollow Square", "level": 1, "armaments": []}},
+    {"name": "Constance", "rarity": "Elite", "level": 37, "stars": 4, "skills": [1, 5, 5, 5], "expertise": false, "talents": {"points_spent": 37, "trees": {"Gathering": 37}}, "equipment": {}, "formation": {"name": "Line", "level": 1, "armaments": []}},
+    {"name": "Sarka", "rarity": "Elite", "level": 30, "stars": 3, "skills": [1, 5, 1, 0], "expertise": false, "talents": {"points_spent": 30, "trees": {"Gathering": 30}}, "equipment": {}, "formation": {"name": "Line", "level": 1, "armaments": []}},
+    {"name": "Pelagius", "rarity": "Epic", "level": 30, "stars": 3, "skills": [5, 1, 1, 0], "expertise": false, "talents": {"points_spent": 30, "trees": {"Cavalry": 30}}, "equipment": {}, "formation": {"name": "Arch", "level": 1, "armaments": []}}
+  ],
+  "troops": {
+    "infantry": {"T1": 5000, "T2": 3000, "T3": 20000, "T4": 60000, "T5": 0},
+    "cavalry": {"T1": 8000, "T2": 0, "T3": 15000, "T4": 30000, "T5": 0},
+    "archer": {"T1": 2000, "T2": 0, "T3": 10000, "T4": 10000, "T5": 0},
+    "siege": {"T1": 40000, "T2": 0, "T3": 0, "T4": 0, "T5": 0},
+    "wounded": {"infantry": 1200, "cavalry": 0, "archer": 0, "siege": 0}
+  },
+  "troop_tiers_unlocked": {"infantry": 4, "cavalry": 4, "archer": 4, "siege": 3},
+  "march": {"capacity": 90000, "max_marches": 4, "rally_capacity": 500000},
+  "resources": {"food": 12000000, "wood": 11000000, "stone": 6000000, "gold": 2500000, "gems": 3200},
+  "inventory": {"rare_materials": {"Sage's Testimony": 2, "Transmutation Stone": 4, "Gold Coin": 1}, "speedups_training_min": 900},
+  "armament_workshop": {"travel_left": 3, "dispatch_left": 2, "gold_coins": 1, "silver_coins": 25, "transmutation_stones": 4, "conversion_stones": 0}
+}

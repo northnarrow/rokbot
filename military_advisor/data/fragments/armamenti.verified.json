@@ -1,0 +1,4101 @@
+{
+ "retrieved": "2026-09-28",
+ "game": "Rise of Kingdoms (Lilith Games)",
+ "scope": "Formazioni, Armamenti (Armaments), Iscrizioni (Inscriptions), State Forum (Travel/Dispatch), materiali rari, evento Arms Training, priorita' attributi",
+ "method_note": "Dati raccolti il 2026-09-27 con WebSearch/WebFetch/curl. Ogni oggetto porta 'sources'. I valori marcati 'verified': false provengono solo da snippet dei risultati di ricerca (pagina non scaricabile) e vanno confermati in gioco. rok.guide (503) e riseofkingdoms.fandom.com (402) irraggiungibili.",
+ "formations": [
+  {
+   "name": "Arch Formation",
+   "effect_en": "Troops deal 5% more attack damage.",
+   "effect_it": "Le truppe infliggono il 5% di danno da attacco (attacco normale) in piu'.",
+   "suited_for": [
+    "commanders basati su attacco normale/danno diretto (nota BlueStacks: 'boosts the effectiveness of ranged units' - descrizione generica, non verificata sui numeri)"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni (State Forum). Nessuna fonte specifica un requisito separato per questa formazione.",
+   "upgrade": null,
+   "introduced": "Lancio ufficiale del sistema formazioni: update 1.0.63 (nov 2022).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-combat-guide-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2024-12-11",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "suited_for (descrizione generica)"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2022-11-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "introduced"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (5% normal attack damage)"
+     ]
+    }
+   ],
+   "verified": true
+  },
+  {
+   "name": "Wedge Formation",
+   "effect_en": "Troops deal 5% more skill damage.",
+   "effect_it": "Le truppe infliggono il 5% di danno da abilita' in piu' (valore ufficiale storico, confermato da rok.guide 2024). STATO 2026: Wedge Formation II (12%) e' stata aggiunta come formazione SEPARATA con 1.1.06 (2026-03-24) e le patch note ufficiali fino a 1.1.09 (2026-06-30) la trattano ancora come formazione distinta. La 'fusione in un'unica Wedge al 12%' e' affermata SOLO dal changelog del tool di terze parti Davor's Toolkit (giugno 2026) e non compare in nessuna patch nota ufficiale letta: NON confermata, vedi conflicts.",
+   "suited_for": [
+    "commanders skill-damage (in generale la formazione piu' usata per il danno in campo aperto)"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni (State Forum). Nessun requisito aggiuntivo trovato.",
+   "upgrade": null,
+   "introduced": "Lancio ufficiale del sistema formazioni: update 1.0.63 (nov 2022).",
+   "armament_slots_known": {
+    "top_slot": "Epics of Olympia (nome confermato come armamento Wedge nelle patch note 1.0.93)",
+    "slot_below_top": "Honors of the Pantheon",
+    "other_slots": null
+   },
+   "formation_ii": "Wedge Formation II (vedi voce dedicata)",
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "suited_for",
+      "armament_slots_known"
+     ]
+    },
+    {
+     "url": "https://codexhelper.com/tools/davor_toolkit/",
+     "site": "codexhelper.com",
+     "page_date": "2026-08",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_it (nota fusione Wedge/Wedge II, 12%)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "suited_for (Wedge raccomandata)"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (5%)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1994801",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.93",
+     "page_date": "2025-04-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "armament_slots_known (Epics of Olympia = armamento Wedge)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1862964",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Commander Swaps, Armament Conversion Q&A",
+     "page_date": "2024-11-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "armament_slots_known (Honors of the Pantheon = armamento Wedge)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2259768",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.09 (live 2026-06-30)",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "assenza di menzioni di fusione Wedge/Wedge II nelle note 1.1.09"
+     ]
+    }
+   ],
+   "current_value_status": "5% confermato come valore ufficiale storico; eventuale fusione/aumento a 12% non confermato da fonti ufficiali"
+  },
+  {
+   "name": "Wedge Formation II",
+   "effect_en": "The user's troop deals 12% more skill damage.",
+   "effect_it": "La truppa dell'utente infligge il 12% di danno da abilita' in piu'. Versione potenziata di Wedge per chi ha gia' investito su Wedge I.",
+   "suited_for": [
+    "commanders skill-damage late game"
+   ],
+   "unlock": "Aggiunta con update 1.1.06 'Battle Resurgent' (live 2026-03-24 06:00 UTC). Nessun requisito di sblocco specifico indicato nelle patch note ufficiali; gli armamenti si ottengono da travels, dispatches, formation choice chests, random armament chests ed eventi collegati. I requisiti citati da Topuplist (livello comandante, possesso formazione precedente) NON sono presenti nella fonte ufficiale: rimossi come non verificati.",
+   "upgrade": "Nessun 'upgrade' della formazione nelle note ufficiali. 1.1.06 introduce l'EVENTO formazione 'Wedge Formation Boost': si spendono Swapping Stones per trasferire la Wishlist e il progresso della garanzia iscrizioni tra Wedge Formation e Wedge Formation II. 'Insignia' come collo di bottiglia: NON presente nelle note ufficiali (non verificato).",
+   "introduced": "Update 1.1.06 'Battle Resurgent', live 2026-03-24 06:00 UTC (patch note ufficiali 2026-03-18).",
+   "armament_slots_known": {
+    "flag": "Herald's Ensign (Flag; iscrizione speciale nell'Armament Shop)",
+    "scroll": "Herald's Message (Scroll; iscrizione speciale negli Inscription Shop del Lost Kingdom SoC aperti dopo l'update)"
+   },
+   "armaments_obtained_from": [
+    "travels",
+    "dispatches",
+    "formation choice chests",
+    "random armament chests",
+    "related events"
+   ],
+   "inscriptions_known": {
+    "legendary": [
+     "Advantage Advanced",
+     "Indomitable",
+     "Maneuver at Ease",
+     "Horseback Action"
+    ],
+    "rare": [
+     "Fury",
+     "Soar",
+     "Ballista",
+     "Divine Staff"
+    ]
+   },
+   "later_change": "Changelog Davor's Toolkit giugno 2026: 'Wedge and Wedge II inscriptions can now be mixed and matched in a single build, matching the latest in-game change. The two are now one Wedge formation with a 12% Skill Damage base bonus'.",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Patch Notes 1.1.06 Battle Resurgent (live 2026-03-24)",
+     "page_date": "2026-03-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en",
+      "unlock",
+      "introduced",
+      "upgrade (Wedge Formation Boost, Swapping Stones)",
+      "armament_slots_known",
+      "armaments_obtained_from"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2232581",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.07",
+     "page_date": "2026-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "inscription_note_official",
+      "inscriptions_known (Maneuver at Ease)"
+     ]
+    },
+    {
+     "url": "https://codexhelper.com/tools/davor_toolkit/",
+     "site": "codexhelper.com (tool di terze parti, changelog)",
+     "page_date": "2026-08",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "inscriptions_known",
+      "later_change (claim fusione, NON confermato)"
+     ]
+    }
+   ],
+   "inscription_note_official": "1.1.07 (2026-04-30): corretta (solo testo) la descrizione di 'Maneuver at Ease' su Herald's Ensign: entro 5 s dopo una skill attiva, ogni 3 istanze di danno da attacco base/contrattacco il prossimo attacco base diventa danno diretto pari al 150% del Damage Factor dell'attacco base."
+  },
+  {
+   "name": "V Formation",
+   "effect_en": "Switches troops to Ranged Mode, launching 1 ranged attack per second. Only commanders with the 'Engineering' Talent can use their Active Skill in Ranged Mode.",
+   "effect_it": "Converte la truppa in modalita' a distanza: 1 attacco a distanza al secondo. Solo i comandanti con talento 'Engineering' possono usare la skill attiva in modalita' a distanza.",
+   "suited_for": [
+    "uso situazionale; nessuna raccomandazione specifica trovata"
+   ],
+   "unlock": "Si sblocca quando il regno entra nella Season of Conquest (update 1.0.63).",
+   "upgrade": null,
+   "introduced": "Update 1.0.63 (nov 2022).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2022-11-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "unlock",
+      "introduced"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (inclusa condizione Engineering)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Echelon Formation",
+   "effect_en": "When this troop grants percentage-based buffs to other troops, their effects are multiplied 1.2x, with a maximum increase of up to 5% of their original value after upgrading.",
+   "effect_it": "I buff percentuali concessi ad altre truppe sono moltiplicati x1.2, con aumento massimo del 5% (valore assoluto) rispetto al valore originale 'dopo il potenziamento' (testo rok.guide 2024).",
+   "suited_for": [
+    "commanders di supporto che buffano altre truppe (rally/garrison support)"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni. Nessun requisito aggiuntivo trovato.",
+   "upgrade": null,
+   "introduced": "Lancio sistema formazioni (1.0.63).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "suited_for (citata tra le piu' preziose)"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (cap +5%)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hollow Square Formation",
+   "effect_en": "Reduces all troop damage taken by 2%.",
+   "effect_it": "Riduce del 2% tutto il danno subito dalla truppa.",
+   "suited_for": [
+    "commanders tank/difensivi; raccomandata dalla maggior parte delle guide insieme a Wedge"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni. Nessun requisito aggiuntivo trovato.",
+   "upgrade": null,
+   "introduced": "Lancio sistema formazioni (1.0.63).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "suited_for"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "suited_for"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en"
+     ]
+    }
+   ],
+   "verified": true
+  },
+  {
+   "name": "Line Formation",
+   "effect_en": "Increases food, wood, stone and gold gathering speed by 10%.",
+   "effect_it": "+10% velocita' di raccolta cibo, legno, pietra e oro.",
+   "suited_for": [
+    "commanders di raccolta"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni. Nessun requisito aggiuntivo trovato.",
+   "upgrade": null,
+   "introduced": "Lancio sistema formazioni (1.0.63).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "suited_for"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en"
+     ]
+    }
+   ],
+   "verified": true
+  },
+  {
+   "name": "Triple Line Formation",
+   "effect_en": "Increases troop march speed by 5%.",
+   "effect_it": "+5% velocita' di marcia della truppa.",
+   "suited_for": [
+    "mobilita' generica"
+   ],
+   "unlock": "Disponibile con il sistema Formazioni. Nessun requisito aggiuntivo trovato.",
+   "upgrade": null,
+   "introduced": "Lancio sistema formazioni (1.0.63).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "site": "rok.guide (snapshot Wayback 2024-05-28)",
+     "page_date": "2024-05-28",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en"
+     ]
+    }
+   ],
+   "verified": true
+  },
+  {
+   "name": "Testudo Formation",
+   "effect_en": "User takes 5% less damage when shielded. Healing is increased by 2.5%.",
+   "effect_it": "L'utente subisce il 5% di danno in meno quando ha uno scudo; guarigione +2.5%.",
+   "suited_for": [
+    "commanders con scudi (shield) / sostenibilita'"
+   ],
+   "unlock": "Aggiunta con update 1.0.79 'Surging Spring' (2024-02-26).",
+   "upgrade": null,
+   "introduced": "Update 1.0.79 (2024-02-26).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "introduced",
+      "unlock"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.79",
+     "page_date": "2024-02-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "introduced (Testudo e Circle aggiunte in 1.0.79)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Circle Formation",
+   "effect_en": "All healing received is increased by 5%.",
+   "effect_it": "Tutte le guarigioni ricevute +5%.",
+   "suited_for": [
+    "commanders healer / sostenibilita'"
+   ],
+   "unlock": "Aggiunta con update 1.0.79 'Surging Spring' (2024-02-26).",
+   "upgrade": null,
+   "introduced": "Update 1.0.79 (2024-02-26).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "introduced",
+      "unlock"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.79",
+     "page_date": "2024-02-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "introduced (Testudo e Circle aggiunte in 1.0.79)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Staggered Formation",
+   "effect_en": "User's troop gains 15% march speed when marching towards a rally or garrison.",
+   "effect_it": "+15% velocita' di marcia quando la truppa marcia verso un rally o una guarnigione.",
+   "suited_for": [
+    "rally/garrison joiners"
+   ],
+   "unlock": "Aggiunta con update 1.0.83 'Eternal City' (2024-06-27); armamenti iniziali via evento 'In Search of Wonders'.",
+   "upgrade": null,
+   "introduced": "Update 1.0.83 (2024-06-27).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-83-eternal-city-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "introduced",
+      "unlock"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1670239",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Version 1.0.83 announcement",
+     "page_date": "2024-06-20",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "unlock (In Search of Wonders con armamenti Staggered)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Delta Formation",
+   "effect_en": "The user's troop deals 10% more combo attack damage.",
+   "effect_it": "La truppa dell'utente infligge il 10% di danno combo in piu'.",
+   "suited_for": [
+    "commanders combo (es. Arthur Pendragon)"
+   ],
+   "unlock": "Aggiunta con update 1.0.85 'Poised for Battle' (2024-08-22).",
+   "upgrade": null,
+   "introduced": "Update 1.0.85 (2024-08-22).",
+   "armament_slots_known": {
+    "flag": "Leonine Rampant (Flag; iscrizione speciale nell'Armament Shop)",
+    "scroll": "Leonine Chronicle (Scroll; iscrizione speciale negli Inscription Shop SoC)"
+   },
+   "armaments_obtained_from": [
+    "traveling",
+    "dispatches",
+    "Formation Choice Chests",
+    "Random Armament Chests",
+    "events"
+   ],
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "suited_for"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "introduced",
+      "armament_slots_known",
+      "armaments_obtained_from"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1752431",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.85 (live 2024-08-22)",
+     "page_date": "2024-08-15",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (10% combo)",
+      "introduced (live 2024-08-22)",
+      "armament_slots_known",
+      "armaments_obtained_from"
+     ]
+    }
+   ],
+   "verified": true
+  },
+  {
+   "name": "Tercio Formation",
+   "effect_en": "If garrisoned, all armament attribute bonuses will apply to all unit types.",
+   "effect_it": "Se in guarnigione, tutti i bonus attributo degli armamenti si applicano a tutti i tipi di unita' (formazione da garrison).",
+   "suited_for": [
+    "garrison commanders (difesa citta'/strutture con truppe miste)"
+   ],
+   "unlock": "Presente nella guida aggiornata il 2025-05-14; versione di introduzione non trovata (vedi gaps).",
+   "upgrade": null,
+   "introduced": "Prima del 2025-05-14 (versione non identificata).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "introduced"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pincer Formation",
+   "effect_en": "The user's troop deals 10% more smite damage. (Valore 12% dopo 'Pincer II Update' agosto 2026: solo Davor's Toolkit, non confermato da fonti ufficiali)",
+   "effect_it": "+10% danno smite (ultimo valore documentato da guida, ott 2025). Il passaggio a 12% (agosto 2026, 'Pincer II Update') e' riportato SOLO dal tool di terze parti Davor's Toolkit. Le patch note ufficiali disponibili nell'API del forum si fermano a 1.1.09 (2026-06-30) e non menzionano Pincer; l'articolo LDShop su 1.1.11 (2026-08-27) cita solo una correzione testuale della descrizione di un'iscrizione Pincer senza cambi di effetto. Contesto ufficiale: nel Q&A di aprile 2025 Lilith pianificava 3 nuove formazioni (smite, skill, combo) tra dic 2025 e mag 2026: la Wedge II (skill) e' uscita a marzo 2026; una 'Pincer II' (smite) e' plausibile ma NON confermata. Valore attuale: NON verificato, vedi conflicts.",
+   "suited_for": [
+    "commanders smite (es. William Wallace, Bai Qi)"
+   ],
+   "unlock": "Presente nella guida aggiornata il 2025-05-14; versione di introduzione non trovata (titoli YouTube nei risultati di ricerca la collocano ad aprile 2025, non verificato).",
+   "upgrade": null,
+   "introduced": "Prima del 2025-05-14 (versione non identificata).",
+   "armament_slots_known": {
+    "slot_equivalente_a_Epics_of_Olympia": "Annals of the Nine Cauldrons (stesso slot di Epics of Olympia di Wedge; tipo slot non specificato)"
+   },
+   "inscriptions_known_pincer_ii": {
+    "legendary": [
+     "Dominate",
+     "Cleaver",
+     "Bulwark",
+     "Tidebreaker"
+    ],
+    "rare": [
+     "Bludgeon",
+     "Charge",
+     "Bolstered",
+     "Vigor"
+    ]
+   },
+   "formation_ii": "'Pincer II' citato nel changelog Davor's Toolkit (agosto 2026) e in titoli YouTube; non e' chiaro se sia una formazione separata o un potenziamento della Pincer (bonus 10%->12%). Nessuna patch note ufficiale letta.",
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en (10%)",
+      "suited_for",
+      "armament_slots_known",
+      "introduced"
+     ]
+    },
+    {
+     "url": "https://codexhelper.com/tools/davor_toolkit/",
+     "site": "codexhelper.com",
+     "page_date": "2026-08",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en (12%)",
+      "inscriptions_known_pincer_ii",
+      "formation_ii"
+     ]
+    },
+    {
+     "url": "https://ldshop.gg/blog/rise-of-kingdoms/anniversary-special.html",
+     "site": "ldshop.gg (via WebFetch)",
+     "page_date": "2026-08-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_it (correzione descrizione iscrizione Pincer in 1.1.11)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2013999",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Face-to-Face Hot Topics Q&A April 2025",
+     "page_date": "2025-04-21",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "formation_ii (piano 3 nuove formazioni smite/skill/combo)"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com (ri-scaricata 2026-09-28)",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en (10%, ri-verificato)"
+     ]
+    }
+   ],
+   "current_value_status": "conflitto aperto 10% vs 12%"
+  },
+  {
+   "name": "Double Line Formation",
+   "effect_en": "If the user's troop is marching towards barbarians, it gains 10% March Speed.",
+   "effect_it": "+10% velocita' di marcia verso i barbari (farming/catene di barbari).",
+   "suited_for": [
+    "barbarian farming"
+   ],
+   "unlock": "Aggiunta con update 1.0.99 'Elysian Feast' (live 2025-09-09 06:00 UTC). Armamenti da traveling, dispatches, Formation Choice Chests, Random Armament Chests, eventi.",
+   "upgrade": null,
+   "introduced": "Update 1.0.99 'Elysian Feast', live 2025-09-09 (non 7th Anniversary Update 2025-09-16 come indicato in precedenza).",
+   "formation_ii": null,
+   "sources": [
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-7th-anniversary-update-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2025-09-16",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "effect_en",
+      "unlock",
+      "introduced"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2124406",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.99 Elysian Feast (live 2025-09-09)",
+     "page_date": "2025-09-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "effect_en",
+      "unlock",
+      "introduced",
+      "armament_slots_known"
+     ]
+    }
+   ],
+   "armament_slots_known": {
+    "flag": "Falcon's Pride (Flag; iscrizione speciale nell'Armament Shop)",
+    "scroll": "Falcon's Wisdom (Scroll; iscrizione speciale negli Inscription Shop SoC aperti dopo l'update)"
+   },
+   "verified": true
+  }
+ ],
+ "formations_general": {
+  "how_assigned": "Una formazione si assegna a un comandante mentre e' in citta'. I bonus della formazione e degli armamenti si applicano solo al comandante primario della marcia, non al secondario. La stessa formazione puo' essere usata su piu' marce contemporaneamente. (Confermato: 'You can select a commander's Formation when they are in the city'; 'Formation and Armaments of Secondary Commander have no effect'.)",
+  "slots": "Ogni formazione ha 4 slot armamento; ogni slot accetta solo un tipo specifico di armamento (famiglia) legato alla formazione.",
+  "unlock_system": "Il sistema formazioni si sblocca costruendo lo State Forum (livello 1 sblocca Travel). V Formation solo in Season of Conquest. Nuove formazioni vengono aggiunte con gli update (vedi 'introduced' in ogni voce).",
+  "formation_levels": "NESSUNA fonte descrive livelli o potenziamento della formazione in se' (nessun costo di upgrade formazione trovato). Il 'potenziamento' passa per gli armamenti equipaggiati: rarita', attributi (transmutation), honing, iscrizioni. Unica eccezione: 'Formation II' (Wedge II) e i 'Formation Boost'/'Swapping Stones' citati per Wedge II (non verificati). NOTA: il testo rok.guide dell'Echelon parla di cap 'after upgrading', indizio di un qualche potenziamento: non chiarito.",
+  "best_practice": "Wedge per il danno; Line per raccolta; Hollow Square per commanders robusti; Pincer/Delta per commanders smite/combo emergenti; Tercio per garrison.",
+  "sources": [
+   {
+    "url": "https://touchscreengaming.com/formations-guide/",
+    "site": "touchscreengaming.com",
+    "page_date": "2025-10-10",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "how_assigned",
+     "slots",
+     "best_practice"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "how_assigned (stessa formazione su piu' marce)"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2022-11-29",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "unlock_system (V Formation SoC)"
+    ]
+   },
+   {
+    "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+    "site": "rok.guide (snapshot Wayback 2024-05-28)",
+    "page_date": "2024-05-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "how_assigned",
+     "inscriptions_by_rarity_official"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/1392870",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.62 Hallows Eve",
+    "page_date": "2022-10-19",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "launch",
+     "unlock_system"
+    ]
+   }
+  ],
+  "inscriptions_by_rarity_official": "Epic: max 1 iscrizione; Legendary: max 2; le Legendary possono avere Special Inscription.",
+  "launch": "1.0.62 (ott 2022): 7 formazioni e 28 armamenti unici al lancio; il sistema si sblocca costruendo lo State Forum."
+ },
+ "armaments": {
+  "overview": {
+   "description_it": "Gli armamenti si equipaggiano nei 4 slot di una formazione e danno bonus statistici al comandante primario; le guide li considerano paragonabili o superiori all'equipaggiamento. Ogni armamento ha 3 attributi casuali (Slot 1 = tipo attacco, Slot 2 = tipo difesa, Slot 3 = tipo salute/danno) piu' eventuali iscrizioni (4o attributo). Si possono possedere piu' copie dello stesso armamento con statistiche diverse.",
+   "armament_types": [
+    "Scroll",
+    "Instrument",
+    "Flag",
+    "Emblem"
+   ],
+   "rarities": [
+    "Elite",
+    "Epic",
+    "Legendary"
+   ],
+   "attributes_per_piece": 3,
+   "inscriptions_per_piece": "0-2 (vedi probabilita' 'Two Inscriptions')",
+   "sources": [
+    {
+     "url": "https://rok.lilith.com/probability/",
+     "site": "rok.lilith.com (ufficiale)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "armament_types",
+      "attributes_per_piece",
+      "inscriptions_per_piece",
+      "rarities"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it",
+      "rarities"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it (paragone con equipaggiamento)"
+     ]
+    }
+   ]
+  },
+  "acquisition": {
+   "travel": {
+    "requires": "State Forum livello 1 ('Unlocks Travel').",
+    "cost_ap_single": 20,
+    "cost_ap_batch_10": 200,
+    "gem_travel": "ATTUALE (1.0.86, set 2024): dopo 20 viaggi giornalieri con AP si possono fare fino a 120 viaggi extra al giorno con gemme. Il valore di 200 viaggi extra (1.0.66, feb 2023) e' SUPERATO.",
+    "luck_windfall": "Ogni viaggio da' Luck; accumulata la Luck puo' scatenare un Windfall (1.0.66; ribadito 1.0.86). La Luck giornaliera e' limitata e si resetta al reset server.",
+    "rewards": "Armamenti e Sage's Testimony. Dal 1.0.79 le ricompense di travel/dispatch NON includono piu' risorse ne' speedup (touchscreengaming, che le cita ancora, e' obsoleta).",
+    "preferred_formations": "Dal 1.0.79 si scelgono 3 formazioni preferite: un armamento ottenuto da travel/dispatch e' garantito per una di esse.",
+    "buttons": "Pulsante 'Travel x10' aggiunto allo State Forum con 1.0.91 (live 2025-02-10); skip animazioni dal 1.0.67.",
+    "daily_chances_by_state_forum_level": "vedi state_forum.levels",
+    "sources": [
+     {
+      "url": "https://touchscreengaming.com/formations-guide/",
+      "site": "touchscreengaming.com",
+      "page_date": "2025-10-10",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "requires",
+       "cost_ap_single",
+       "cost_ap_batch_10",
+       "rewards"
+      ]
+     },
+     {
+      "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-gunning-for-the-top-en.html",
+      "site": "bluestacks.com",
+      "page_date": "2023-02-20",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "gem_travel (200)",
+       "luck_windfall"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-86-anchors-aweigh-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "gem_travel (20+120)",
+       "luck_windfall"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "preferred_formations",
+       "rewards (risorse rimosse)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-91-moon-and-star-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "buttons"
+      ]
+     },
+     {
+      "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+      "site": "bluestacks.com",
+      "page_date": "2023-03-29",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "buttons (skip animazioni)"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1782979",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.86",
+      "page_date": "2024-09-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "gem_travel (20 + 120)"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1433064",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.66",
+      "page_date": "2023-02-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "gem_travel (200, superato)",
+       "luck_windfall"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.79",
+      "page_date": "2024-02-19",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "rewards",
+       "preferred_formations"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.91 (live 2025-02-10)",
+      "page_date": "2025-02-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "buttons"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1817043",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.87",
+      "page_date": "2024-10-15",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "auto_recycle"
+      ]
+     },
+     {
+      "url": "https://touchscreengaming.com/formations-guide/",
+      "site": "touchscreengaming.com (ri-scaricata 2026-09-28)",
+      "page_date": "2025-10-10",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "cost_ap_single",
+       "cost_ap_batch_10"
+      ]
+     }
+    ],
+    "cost_ap_note": "20 AP / 200 AP (x10): unica fonte touchscreengaming (ri-verificata 2026-09-28); nessuna fonte ufficiale letta indica il numero.",
+    "auto_recycle": "1.0.87: auto-riciclo degli armamenti ottenuti viaggiando secondo condizioni scelte."
+   },
+   "dispatch": {
+    "requires": "State Forum livello 10 ('Unlocks Dispatches').",
+    "cost_ap_range": "30-150 AP a seconda della rarita' dell'oggetto. (Ufficiale/rok.guide: 'Dispatches cost Action Points' senza cifra; il range 30-150 e' solo touchscreengaming.)",
+    "mechanic": "Si vede una lista di ricompense; si assembla una squadra di comandanti che soddisfi i requisiti dell'oggetto; se tutti i requisiti sono soddisfatti il recupero e' quasi certo. Il tempo di recupero dipende dalla rarita' ed e' mostrato accanto all'oggetto.",
+    "commendation": "Dopo 15 dispatch riusciti si sblocca la Dispatch Commendation chest: garantisce un armamento Epic o Legendary oppure 100 Sage's Testimony. (Confermato da rok.guide: 'Complete 15 Dispatches to receive a Dispatch Commendation containing a valuable random armament'.)",
+    "preferred_formations": "3 formazioni preferite (1.0.79); pulsante 'Quick Dispatch' nello State Forum (1.0.91).",
+    "major_dispatch_chance": "Percentuale 'Major Dispatch Chance' cresce con il livello State Forum (1.5% -> 3%), vedi tabella.",
+    "sources": [
+     {
+      "url": "https://touchscreengaming.com/formations-guide/",
+      "site": "touchscreengaming.com",
+      "page_date": "2025-10-10",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "requires",
+       "cost_ap_range",
+       "mechanic",
+       "commendation",
+       "preferred_formations",
+       "major_dispatch_chance"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "commendation (6 dispatch a L18)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-91-moon-and-star-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "preferred_formations (Quick Dispatch)"
+      ]
+     },
+     {
+      "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+      "site": "rok.guide (snapshot Wayback 2024-05-28)",
+      "page_date": "2024-05-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "reset",
+       "commendation",
+       "cost_ap (senza cifra)"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.91 (live 2025-02-10)",
+      "page_date": "2025-02-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "preferred_formations (Quick Dispatch)"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2246725",
+      "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.08 (live 2026-06-03)",
+      "page_date": "2026-05-27",
+      "retrieved": "2026-09-28",
+      "fields": [
+       "conversion_fragments"
+      ]
+     }
+    ],
+    "reset": "Chance di dispatch resettate ogni giorno alle 00:00 UTC.",
+    "conversion_fragments": "1.1.08: l'opzione di dispatch che premia Conversion Stone Fragments e' prioritaria nella pagina."
+   },
+   "formation_choice_chest": {
+    "description_it": "Aprendo una Formation Choice Chest si sceglie una formazione e si riceve un armamento casuale per quella formazione. Esistono in tre qualita' (Legendary, Epic, Elite). Acquistabili al Courier Station con le monete del riciclo; date anche da eventi Lost Kingdom, Lucerne Scrolls, Crusader Achievements, Armament Shops, bundle.",
+    "probabilities": {
+     "Formation Choice Chest (Legendary)": {
+      "Inscribed Legendary Armament": "12.472%",
+      "Legendary Armament": "87.528%"
+     },
+     "Formation Choice Chest (Epic)": {
+      "Inscribed Legendary Armament": "2.078%",
+      "Legendary Armament": "14.587%",
+      "Inscribed Epic Armament": "16.667%",
+      "Epic Armament": "66.668%"
+     },
+     "Formation Choice Chest (Elite)": {
+      "Inscribed Legendary Armament": "0.480%",
+      "Legendary Armament": "3.366%",
+      "Inscribed Epic Armament": "3.846%",
+      "Epic Armament": "15.385%",
+      "Elite Armament": "76.923%"
+     }
+    },
+    "price": null,
+    "sources": [
+     {
+      "url": "https://rok.lilith.com/probability/",
+      "site": "rok.lilith.com (ufficiale)",
+      "page_date": null,
+      "retrieved": "2026-09-27",
+      "fields": [
+       "probabilities",
+       "description_it"
+      ]
+     },
+     {
+      "url": "https://touchscreengaming.com/formations-guide/",
+      "site": "touchscreengaming.com",
+      "page_date": "2025-10-10",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (Courier Station)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (Lucerne Scrolls, Lost Kingdom events)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (Crusader Achievements, Armament Shops, bundles)"
+      ]
+     }
+    ]
+   },
+   "random_armament_chest": {
+    "description_it": "Casse con armamento casuale (non a scelta di formazione). Fonti: Lucerne Scrolls, Silk Road, Civilization Event Series (1.0.71, regni da Season 2 a SoC), eventi successivi (Delta, Double Line...).",
+    "sources": [
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it"
+      ]
+     }
+    ]
+   },
+   "armament_shop": {
+    "description_it": "Negozio dedicato agli armamenti. Cosa vende secondo le patch note: Transmutation Stones (1.0.67, 1.0.71); iscrizioni speciali per specifici armamenti (Leonine Rampant - Flag di Delta, 1.0.85; Herald's Ensign - Flag di Wedge II, 1.1.06); armamenti delle nuove formazioni (1.0.79 cita 'Armament Shops' tra le fonti di Formation Choice/Random Chests). riseofkingdomsguides lo cita come fonte di iscrizioni. Valuta e prezzi NON trovati (vedi gaps). touchscreengaming attribuisce al 'Courier Station' l'acquisto con Gold/Silver Coin di Transmutation Stones (30 silver), Formation Choice Chests, Sage's Testimony, Inscription Shard Chests: possibile sovrapposizione di nomi Armament Shop/Courier Station, vedi conflicts.",
+    "items_known": [
+     {
+      "item": "Transmutation Stone",
+      "price": "30 Silver Coins (Courier Station, secondo touchscreengaming); 3000 Season Coins nel Season Shop",
+      "source_note": "prezzo nell'Armament Shop non trovato"
+     },
+     {
+      "item": "Special inscription - Leonine Rampant (Delta Flag)",
+      "price": null
+     },
+     {
+      "item": "Special inscription - Herald's Ensign (Wedge II Flag)",
+      "price": null
+     },
+     {
+      "item": "Formation Choice Chest",
+      "price": null
+     },
+     {
+      "item": "Sage's Testimony",
+      "price": null
+     },
+     {
+      "item": "Inscription Shard Chest (dal 1.0.80 contiene Transmutation Stones invece di iscrizioni Epic)",
+      "price": null
+     }
+    ],
+    "sources": [
+     {
+      "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+      "site": "bluestacks.com",
+      "page_date": "2023-03-29",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (Transmutation Stone)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (Transmutation Stone)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (Leonine Rampant)"
+      ]
+     },
+     {
+      "url": "https://topuplist.com/blogs/detail/rise-of-kingdoms-wedge-formation-ii-guide",
+      "site": "topuplist.com (solo snippet WebSearch)",
+      "page_date": null,
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (Herald's Ensign)"
+      ]
+     },
+     {
+      "url": "https://touchscreengaming.com/formations-guide/",
+      "site": "touchscreengaming.com",
+      "page_date": "2025-10-10",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (prezzi Courier Station)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "items_known (Inscription Shard Chest)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (fonte di iscrizioni)"
+      ]
+     }
+    ]
+   },
+   "event_armament_reveal_thyself": {
+    "description_it": "Evento (introdotto con 1.0.83, giugno 2024): si sceglie la formazione preferita per riempire il negozio evento di armamenti di quella formazione; le informazioni sugli armamenti sono parzialmente nascoste e si rivelano solo dopo l'acquisto con 'Armament Tickets'. Aperto solo ai regni in Season 3 o Season of Conquest all'inizio dell'evento (snippet forum Lilith, pagina non leggibile). La community (Chisgule) lo giudica di scarso valore. Gli armamenti Legendary di questo evento hanno odds attributo DIVERSE dalle altre fonti (tabella 4.3 ufficiale).",
+    "overall_odds_buying_all_without_refresh": {
+     "Inscribed Legendary Armament": "3.381%",
+     "Legendary Armament": "24.512%",
+     "Inscribed Epic Armament": "14.365%",
+     "Epic Armament": "57.742%"
+    },
+    "odds_no_info_revealed": {
+     "Inscribed Legendary Armament": "0.23%",
+     "Legendary Armament": "5.09%",
+     "Inscribed Epic Armament": "7.49%",
+     "Epic Armament": "87.19%"
+    },
+    "odds_1_info_revealed": {
+     "Armament Type": {
+      "Inscribed Legendary": "0.42%",
+      "Legendary": "6.06%",
+      "Inscribed Epic": "8.72%",
+      "Epic": "84.80%"
+     },
+     "Quality": {
+      "Inscribed Legendary": "2.89%",
+      "Legendary": "97.11%"
+     },
+     "Inscription": {
+      "Inscribed Legendary": "1.24%",
+      "Inscribed Epic": "98.76%"
+     },
+     "1 attribute": {
+      "Inscribed Legendary": "0.34%",
+      "Legendary": "6.98%",
+      "Inscribed Epic": "9.41%",
+      "Epic": "83.27%"
+     },
+     "2 attributes": {
+      "Inscribed Legendary": "0.31%",
+      "Legendary": "5.50%",
+      "Inscribed Epic": "10.80%",
+      "Epic": "83.39%"
+     },
+     "3 attributes": {
+      "Inscribed Legendary": "4.15%",
+      "Legendary": "4.69%",
+      "Inscribed Epic": "11.66%",
+      "Epic": "79.50%"
+     }
+    },
+    "odds_2_info_revealed": {
+     "Armament Type + Quality": {
+      "Inscribed Legendary": "11.13%",
+      "Legendary": "88.87%"
+     },
+     "Armament Type + 1 attribute": {
+      "Inscribed Legendary": "0.52%",
+      "Legendary": "11.26%",
+      "Inscribed Epic": "9.31%",
+      "Epic": "78.91%"
+     },
+     "Armament Type + 2 attributes": {
+      "Inscribed Legendary": "0.56%",
+      "Legendary": "9.00%",
+      "Inscribed Epic": "10.82%",
+      "Epic": "79.62%"
+     },
+     "Armament Type + 3 attributes": {
+      "Inscribed Legendary": "1.08%",
+      "Legendary": "7.80%",
+      "Inscribed Epic": "12.49%",
+      "Epic": "78.63%"
+     },
+     "Armament Type + Inscription": {
+      "Inscribed Legendary": "2.70%",
+      "Inscribed Epic": "97.30%"
+     },
+     "Inscription + 1 attribute": {
+      "Inscribed Legendary": "2.260%",
+      "Inscribed Epic": "97.740%"
+     },
+     "Inscription + 2 attributes": {
+      "Inscribed Legendary": "3.34%",
+      "Inscribed Epic": "96.66%"
+     },
+     "Inscription + 3 attributes": {
+      "Inscribed Legendary": "6.070%",
+      "Inscribed Epic": "93.930%"
+     },
+     "Quality + 1 attribute": {
+      "Inscribed Legendary": "3.27%",
+      "Legendary": "96.73%"
+     },
+     "Quality + 2 attributes": {
+      "Inscribed Legendary": "4.66%",
+      "Legendary": "95.34%"
+     },
+     "Quality + 3 attributes": {
+      "Inscribed Legendary": "5.51%",
+      "Legendary": "94.49%"
+     }
+    },
+    "odds_3_info_revealed": {
+     "Armament Type + Quality + 1 attribute": {
+      "Inscribed Legendary": "4.41%",
+      "Legendary": "95.59%"
+     },
+     "Armament Type + Quality + 2 attributes": {
+      "Inscribed Legendary": "6.22%",
+      "Legendary": "93.78%"
+     },
+     "Armament Type + Quality + 3 attributes": {
+      "Inscribed Legendary": "6.68%",
+      "Legendary": "93.32%"
+     },
+     "Armament Type + Inscription + 1 attribute": {
+      "Inscribed Legendary": "17.21%",
+      "Inscribed Epic": "82.79%"
+     },
+     "Armament Type + Inscription + 2 attributes": {
+      "Inscribed Legendary": "32.21%",
+      "Inscribed Epic": "67.79%"
+     },
+     "Armament Type + Inscription + 3 attributes": {
+      "Inscribed Legendary": "23.61%",
+      "Inscribed Epic": "76.39%"
+     }
+    },
+    "event_legendary_attribute_odds": {
+     "Scroll_Instrument": {
+      "Attribute 1": {
+       "Infantry Attack": "21.14%",
+       "Archer Attack": "21.14%",
+       "Cavalry Attack": "21.14%",
+       "Siege Unit Attack": "12.60%",
+       "Gold Gathering Speed": "23.99%"
+      },
+      "Attribute 2": {
+       "Infantry Defense": "21.14%",
+       "Archer Defense": "21.14%",
+       "Cavalry Defense": "21.14%",
+       "Siege Unit Defense": "12.60%",
+       "Troop Load": "23.99%"
+      },
+      "Attribute 3": {
+       "Infantry Health": "17.15%",
+       "Archer Health": "17.15%",
+       "Cavalry Health": "17.15%",
+       "Siege Unit Health": "16.61%",
+       "All Damage": "3.20%",
+       "Damage Reduction vs Barbarians": "14.37%",
+       "Damage to Barbarians": "14.37%"
+      }
+     },
+     "Flag": {
+      "Attribute 1": {
+       "Infantry Attack": "15.20%",
+       "Archer Attack": "15.20%",
+       "Cavalry Attack": "15.20%",
+       "Siege Unit Attack": "10.68%",
+       "March Speed (Infantry)": "15.87%",
+       "March Speed (Cavalry)": "15.87%",
+       "Gold Gathering Speed": "11.98%"
+      },
+      "Attribute 2": {
+       "Infantry Defense": "15.20%",
+       "Archer Defense": "15.20%",
+       "Cavalry Defense": "15.20%",
+       "Siege Unit Defense": "10.68%",
+       "March Speed (Archers)": "15.87%",
+       "March Speed (Siege Units)": "15.87%",
+       "Troop Load": "11.98%"
+      },
+      "Attribute 3": {
+       "Infantry Health": "17.00%",
+       "Archer Health": "17.00%",
+       "Cavalry Health": "17.00%",
+       "Siege Unit Health": "17.00%",
+       "All Damage": "3.20%",
+       "Damage Reduction vs Barbarians": "14.39%",
+       "Damage to Barbarians": "14.39%"
+      }
+     },
+     "Emblem": {
+      "Attribute 1": {
+       "Infantry Attack": "15.05%",
+       "Archer Attack": "15.05%",
+       "Cavalry Attack": "15.05%",
+       "Siege Unit Attack": "10.77%",
+       "March Speed (Infantry)": "16.00%",
+       "March Speed (Cavalry)": "16.00%",
+       "Gold Gathering Speed": "12.08%"
+      },
+      "Attribute 2": {
+       "Infantry Defense": "15.05%",
+       "Archer Defense": "15.05%",
+       "Cavalry Defense": "15.05%",
+       "Siege Unit Defense": "10.77%",
+       "March Speed (Archers)": "16.00%",
+       "March Speed (Siege Units)": "16.00%",
+       "Troop Load": "12.08%"
+      },
+      "Attribute 3": {
+       "Infantry Health": "13.01%",
+       "Archer Health": "13.01%",
+       "Cavalry Health": "13.01%",
+       "Siege Unit Health": "13.01%",
+       "All Damage": "2.39%",
+       "Damage Reduction vs Barbarians": "22.79%",
+       "Damage to Barbarians": "22.79%"
+      }
+     },
+     "bonus_ranges_legendary": "identici alla tabella standard (1.5%-3.5% per attack/defense/health/march speed; 5%-7.5% gold gathering; 4%-7% troop load, dmg to/vs barbarians; 0.5%-2% all damage)"
+    },
+    "sources": [
+     {
+      "url": "https://rok.lilith.com/probability/",
+      "site": "rok.lilith.com (ufficiale)",
+      "page_date": null,
+      "retrieved": "2026-09-27",
+      "fields": [
+       "overall_odds_buying_all_without_refresh",
+       "odds_no_info_revealed",
+       "odds_1_info_revealed",
+       "odds_2_info_revealed",
+       "odds_3_info_revealed",
+       "event_legendary_attribute_odds"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-83-eternal-city-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (introduzione 1.0.83, scelta formazione)"
+      ]
+     },
+     {
+      "url": "https://forum-global.lilithgame.com/post/1670239",
+      "site": "forum-global.lilithgame.com (solo snippet WebSearch; pagina non leggibile)",
+      "page_date": null,
+      "retrieved": "2026-09-27",
+      "fields": [
+       "description_it (Armament Tickets, eligibilita' S3/SoC)"
+      ]
+     }
+    ]
+   },
+   "other_sources": {
+    "list": [
+     "Lost Kingdom Crusader Achievements (Transmutation Stones, Transmutation Crystals, Conversion Stones, casse)",
+     "Bundle: 'Cultivator of History' (armamenti con iscrizioni fisse), '7-Day Armament Supply' (S3/SoC, 1.0.80), 'Destiny Reforged' (mensile, 1.0.90)",
+     "Eventi: Lucerne Scrolls, Silk Road, Civilization Event Series, In Search of Wonders, Armament Reveal Thyself, eventi formazione (Spring Awakening 1.1.06)",
+     "Ark of Osiris: armamenti forniti dal sistema nelle Grand Finals/Balanced Mode (solo in-evento)"
+    ],
+    "sources": [
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "list"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "list"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-90-return-of-the-king-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "list"
+      ]
+     },
+     {
+      "url": "https://rok.lilith.com/probability/",
+      "site": "rok.lilith.com (ufficiale)",
+      "page_date": null,
+      "retrieved": "2026-09-27",
+      "fields": [
+       "list (Cultivator of History)"
+      ]
+     },
+     {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-83-eternal-city-update/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02",
+      "retrieved": "2026-09-27",
+      "fields": [
+       "list (Ark of Osiris)"
+      ]
+     }
+    ]
+   }
+  },
+  "attributes": {
+   "structure_note_it": "Fonte ufficiale (rok.lilith.com/probability, sezione 2). Ogni armamento ha esattamente 3 slot attributo. Lo slot 1 pesca dal pool 'attacco', lo slot 2 dal pool 'difesa', lo slot 3 dal pool 'salute/danno'. Scroll e Instrument hanno pool identici; Flag ed Emblem aggiungono March Speed. Le probabilita' sotto sono per armamenti da fonti standard (NON evento Reveal Thyself).",
+   "bonus_ranges_by_rarity": {
+    "Infantry/Archer/Cavalry/Siege Attack, Defense, Health; March Speed (tutti i tipi)": {
+     "Legendary": "1.5%-3.5%",
+     "Epic": "1%-2.5%",
+     "Elite": "0.5%-2%"
+    },
+    "Gold Gathering Speed": {
+     "Legendary": "5%-7.5%",
+     "Epic": "4%-6%",
+     "Elite": "3%-5%"
+    },
+    "Troop Load": {
+     "Legendary": "4%-7%",
+     "Epic": "3%-5%",
+     "Elite": "2%-4%"
+    },
+    "All Damage": {
+     "Legendary": "0.5%-2%",
+     "Epic": "0.5%-1.5%",
+     "Elite": "0.5%-1%"
+    },
+    "Damage Reduction vs Barbarians": {
+     "Legendary": "4%-7%",
+     "Epic": "3%-5%",
+     "Elite": "2%-3%"
+    },
+    "Damage to Barbarians": {
+     "Legendary": "4%-7%",
+     "Epic": "3%-5%",
+     "Elite": "2%-3%"
+    }
+   },
+   "pools_by_armament_type": {
+    "Scroll": {
+     "Slot 1": {
+      "Infantry Attack": "17.00%",
+      "Archer Attack": "17.00%",
+      "Cavalry Attack": "17.00%",
+      "Siege Unit Attack": "17.00%",
+      "Gold Gathering Speed": "31.98%"
+     },
+     "Slot 2": {
+      "Infantry Defense": "17.00%",
+      "Archer Defense": "17.00%",
+      "Cavalry Defense": "17.00%",
+      "Siege Unit Defense": "17.00%",
+      "Troop Load": "31.98%"
+     },
+     "Slot 3": {
+      "Infantry Health": "17.00%",
+      "Archer Health": "17.00%",
+      "Cavalry Health": "17.00%",
+      "Siege Unit Health": "17.00%",
+      "All Damage": "3.20%",
+      "Damage Reduction vs Barbarians": "14.39%",
+      "Damage to Barbarians": "14.39%"
+     }
+    },
+    "Instrument": {
+     "Slot 1": {
+      "Infantry Attack": "17.00%",
+      "Archer Attack": "17.00%",
+      "Cavalry Attack": "17.00%",
+      "Siege Unit Attack": "17.00%",
+      "Gold Gathering Speed": "31.98%"
+     },
+     "Slot 2": {
+      "Infantry Defense": "17.00%",
+      "Archer Defense": "17.00%",
+      "Cavalry Defense": "17.00%",
+      "Siege Unit Defense": "17.00%",
+      "Troop Load": "31.98%"
+     },
+     "Slot 3": {
+      "Infantry Health": "17.00%",
+      "Archer Health": "17.00%",
+      "Cavalry Health": "17.00%",
+      "Siege Unit Health": "17.00%",
+      "All Damage": "3.20%",
+      "Damage Reduction vs Barbarians": "14.39%",
+      "Damage to Barbarians": "14.39%"
+     }
+    },
+    "Flag": {
+     "Slot 1": {
+      "Infantry Attack": "14.72%",
+      "Archer Attack": "14.72%",
+      "Cavalry Attack": "14.72%",
+      "Siege Unit Attack": "14.72%",
+      "March Speed (Infantry)": "13.71%",
+      "March Speed (Cavalry)": "13.71%",
+      "Gold Gathering Speed": "13.71%"
+     },
+     "Slot 2": {
+      "Infantry Defense": "14.72%",
+      "Archer Defense": "14.72%",
+      "Cavalry Defense": "14.72%",
+      "Siege Unit Defense": "14.72%",
+      "March Speed (Archers)": "13.71%",
+      "March Speed (Siege Units)": "13.71%",
+      "Troop Load": "13.71%"
+     },
+     "Slot 3": {
+      "Infantry Health": "17.00%",
+      "Archer Health": "17.00%",
+      "Cavalry Health": "17.00%",
+      "Siege Unit Health": "17.00%",
+      "All Damage": "3.20%",
+      "Damage Reduction vs Barbarians": "14.39%",
+      "Damage to Barbarians": "14.39%"
+     }
+    },
+    "Emblem": {
+     "Slot 1": {
+      "Infantry Attack": "13.01%",
+      "Archer Attack": "13.01%",
+      "Cavalry Attack": "13.01%",
+      "Siege Unit Attack": "13.01%",
+      "March Speed (Infantry)": "15.99%",
+      "March Speed (Cavalry)": "15.99%",
+      "Gold Gathering Speed": "15.99%"
+     },
+     "Slot 2": {
+      "Infantry Defense": "13.01%",
+      "Archer Defense": "13.01%",
+      "Cavalry Defense": "13.01%",
+      "Siege Unit Defense": "13.01%",
+      "March Speed (Archers)": "15.99%",
+      "March Speed (Siege Units)": "15.99%",
+      "Troop Load": "15.99%"
+     },
+     "Slot 3": {
+      "Infantry Health": "13.01%",
+      "Archer Health": "13.01%",
+      "Cavalry Health": "13.01%",
+      "Siege Unit Health": "13.01%",
+      "All Damage": "2.40%",
+      "Damage Reduction vs Barbarians": "22.79%",
+      "Damage to Barbarians": "22.79%"
+     }
+    }
+   },
+   "complete_attribute_list": [
+    "Infantry Attack",
+    "Archer Attack",
+    "Cavalry Attack",
+    "Siege Unit Attack",
+    "Gold Gathering Speed",
+    "March Speed (Infantry)",
+    "March Speed (Cavalry)",
+    "Infantry Defense",
+    "Archer Defense",
+    "Cavalry Defense",
+    "Siege Unit Defense",
+    "Troop Load",
+    "March Speed (Archers)",
+    "March Speed (Siege Units)",
+    "Infantry Health",
+    "Archer Health",
+    "Cavalry Health",
+    "Siege Unit Health",
+    "All Damage",
+    "Damage Reduction vs Barbarians",
+    "Damage to Barbarians"
+   ],
+   "sources": [
+    {
+     "url": "https://rok.lilith.com/probability/",
+     "site": "rok.lilith.com (ufficiale)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "structure_note_it",
+      "bonus_ranges_by_rarity",
+      "pools_by_armament_type",
+      "complete_attribute_list"
+     ]
+    }
+   ]
+  },
+  "slots_and_families": {
+   "note_it": "Ogni formazione ha 4 slot; ogni slot accetta solo una famiglia di armamenti (nome proprio) e ogni famiglia appartiene a uno dei 4 tipi (Scroll/Instrument/Flag/Emblem). La corrispondenza famiglia->tipo e' nota solo per pochi casi (sotto). Il tool rokcentral elenca gli slot come Scroll, Instrument, Emblem, Flag e i pool per posizione 'Top/Middle/Bottom' coincidono con Slot 1/2/3 ufficiali.",
+   "known_mappings": [
+    {
+     "formation": "Wedge",
+     "family": "Epics of Olympia",
+     "position": "top slot",
+     "type": null
+    },
+    {
+     "formation": "Wedge",
+     "family": "Honors of the Pantheon",
+     "position": "slot directly below the top",
+     "type": null
+    },
+    {
+     "formation": "Arch",
+     "family": "Emblem of the North",
+     "position": "stesso slot di Honors of the Pantheon (esempio ufficiale di conversione)",
+     "type": "Emblem (dedotto dal nome, non confermato)"
+    },
+    {
+     "formation": "Pincer",
+     "family": "Annals of the Nine Cauldrons",
+     "position": "same slot as Epics of Olympia",
+     "type": null
+    },
+    {
+     "formation": "Triple Line",
+     "family": "Volumes of Constantine",
+     "position": null,
+     "type": null
+    },
+    {
+     "formation": "Delta",
+     "family": "Leonine Rampant",
+     "position": null,
+     "type": "Flag"
+    },
+    {
+     "formation": "Delta",
+     "family": "Leonine Chronicle",
+     "position": null,
+     "type": "Scroll"
+    },
+    {
+     "formation": "Double Line",
+     "family": "Falcon's Pride",
+     "position": null,
+     "type": "Flag"
+    },
+    {
+     "formation": "Double Line",
+     "family": "Falcon's Wisdom",
+     "position": null,
+     "type": "Scroll"
+    },
+    {
+     "formation": "Wedge II",
+     "family": "Herald's Ensign",
+     "position": null,
+     "type": "Flag"
+    },
+    {
+     "formation": "Wedge II",
+     "family": "Herald's Message",
+     "position": null,
+     "type": "Scroll"
+    }
+   ],
+   "conversion_rule": "Un armamento puo' essere convertito solo in un armamento che occupa lo STESSO slot in un'altra formazione (es. Epics of Olympia -> Annals of the Nine Cauldrons). Esempio ufficiale: Honors of the Pantheon (Wedge) -> Emblem of the North (Arch). Piu' alta la rarita' e il numero di iscrizioni, piu' materiali servono.",
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "known_mappings (Wedge, Pincer)",
+      "conversion_rule",
+      "note_it"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "known_mappings (Delta)"
+     ]
+    },
+    {
+     "url": "https://www.rokcentral.com/armaments/",
+     "site": "rokcentral.com",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "note_it (slot types, Top/Middle/Bottom)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1862964",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Commander Swaps, Armament Conversion Q&A",
+     "page_date": "2024-11-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "known_mappings (Arch Emblem of the North, Wedge Honors of the Pantheon)",
+      "conversion_rule (costo per rarita'/iscrizioni)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1994801",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.93",
+     "page_date": "2025-04-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "known_mappings (Epics of Olympia = Wedge; Volumes of Constantine = Triple Line)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1752431",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.85 (live 2024-08-22)",
+     "page_date": "2024-08-15",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "known_mappings (Delta)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2124406",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.99 Elysian Feast (live 2025-09-09)",
+     "page_date": "2025-09-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "known_mappings (Double Line)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Patch Notes 1.1.06 Battle Resurgent (live 2026-03-24)",
+     "page_date": "2026-03-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "known_mappings (Wedge II)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1392870",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.62 Hallows Eve",
+     "page_date": "2022-10-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "launch_count"
+     ]
+    }
+   ],
+   "launch_count": "28 armamenti unici al lancio (1.0.62) = 7 formazioni x 4 slot."
+  },
+  "honing": {
+   "description_it": "Funzione 'honing' (1.1.03 'Verdant Spring', live 2026-01-20) per potenziare in modo costante gli attributi degli armamenti LEGENDARY. Affinabili solo: Attack, Defense, Health e March Speed di fanteria/cavalleria/arcieri/assedio, e All Damage. Ogni honing: +0.2% (max +3.5% di aumento) per gli attributi standard; +0.1% (max +2.0%) per All Damage. Consuma Honing Stones, ottenibili SOLO dalla sezione Autarch-limited dell'Inscription Shop (nel Lost Kingdom, dopo l'update).",
+   "per_hone_increase": "0.2% (attributi standard) / 0.1% (All Damage)",
+   "max_increase": "+3.5% (attributi standard) / +2.0% (All Damage)",
+   "material": "Honing Stones",
+   "material_source": "Sezione Autarch-limited dell'Inscription Shop (Lost Kingdom)",
+   "introduced": "Update 1.1.03 'Verdant Spring', live 2026-01-20 06:00 UTC",
+   "verified": true,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.03 Verdant Spring (live 2026-01-20)",
+     "page_date": "2026-01-13",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "description_it",
+      "per_hone_increase",
+      "max_increase",
+      "material",
+      "material_source",
+      "introduced"
+     ]
+    }
+   ],
+   "stones_per_hone": null
+  },
+  "transmutation": {
+   "description_it": "Rerolla gli attributi di un armamento; iscrizioni e tutto il resto restano invariati. Introdotta con 1.0.67 (mar 2023) con Transmutation Stones. Dal 1.0.71 (lug 2023): utilizzabile SOLO su armamenti Legendary con iscrizione ('Inscribed Legendary'); lock di 1 o 2 attributi; il numero di attributi bloccati cambia il numero di Transmutation Stones richieste (cifre esatte NON pubblicate nelle fonti ufficiali lette); massimo 10 transmutation per armamento; dopo il roll si sceglie se tenere i nuovi attributi o tornare ai precedenti. Transmutation Crystal (1.0.79): se l'armamento ha esaurito le transmutation, un Crystal resetta le chance. Garanzia (1.0.94 'Frontiers of Knowledge', live 2025-05-13), attiva solo se hai bloccato un attributo di combattimento (Attack/Defense/Health/March Speed/Damage): ogni 10 transmutation ricevi garantito un attributo dello stesso tipo di unita' di uno degli attributi bloccati; ogni 30 transmutation ricevi garantito un attributo 2.5%+ dello stesso tipo di unita'. Dopo l'update sono stati compensati Transmutation Crystals in base a quanti ne erano stati spesi.",
+   "max_rolls_per_armament": 10,
+   "lockable_attributes": "1 o 2",
+   "cost_per_roll": null,
+   "cost_by_locks": null,
+   "revert_option": true,
+   "transmutation_stone_sources": [
+    "Armament Shop (1.0.67, 1.0.71)",
+    "Lost Kingdom Crusader Achievements (1.0.67)",
+    "Season Shop: 3000 Season Coins (touchscreengaming)",
+    "Courier Station: 30 Silver Coins (touchscreengaming)",
+    "Inscription Shard Chests (dal 1.0.80 danno Transmutation Stones)",
+    "eventi (History Hunter/Qixi citati in titoli YouTube, non verificati)",
+    "Bundle 'Armory Alchemy' (1.0.95): Transmutation Stones + Transmutation Crystals"
+   ],
+   "transmutation_crystal_sources": [
+    "Crusader Achievement rewards nelle Lost Kingdom SoC iniziate dopo il 1.0.79",
+    "Crusader Achievements Season 2 'Distant Journey' e Season 3 'Light and Darkness' (Lost Kingdom iniziati dopo 1.0.89)",
+    "Bundle 'Armory Alchemy' (1.0.95)",
+    "Compensazione una tantum 1.0.94"
+   ],
+   "guarantee_2025": {
+    "condition": "almeno un attributo di combattimento bloccato (Attack/Defense/Health/March Speed/Damage)",
+    "every_10": "attributo per lo stesso tipo di unita' di uno degli attributi bloccati",
+    "every_30": "attributo 2.5%+ per lo stesso tipo di unita' di uno degli attributi bloccati",
+    "introduced": "1.0.94, live 2025-05-13"
+   },
+   "sources": [
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2023-03-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it (introduzione 1.0.67)",
+      "transmutation_stone_sources"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "max_rolls_per_armament",
+      "lockable_attributes",
+      "revert_option",
+      "transmutation_stone_sources"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it",
+      "transmutation_stone_sources (3000 season coins, 30 silver)",
+      "max_rolls_per_armament",
+      "Transmutation Crystal (1.0.79.25)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "transmutation_crystal_sources"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "transmutation_stone_sources (Inscription Shard Chests)"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-frontiers-of-knowledge-update-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2025-05-13",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "guarantee_2025"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1443512",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.67",
+     "page_date": "2023-03-08",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "introduzione 1.0.67",
+      "Armament Shop / Crusader Achievements"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.71",
+     "page_date": "2023-07-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "eligible",
+      "lockable_attributes",
+      "max_rolls_per_armament",
+      "revert_option",
+      "cost_note"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1492493",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Face-to-Face Armament Transmutation Q&A",
+     "page_date": "2023-06-25",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "eligible (Inscribed Legendary)",
+      "cost_note"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1441180",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Face-to-Face Armament System Q&A",
+     "page_date": "2023-03-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "eligible (Q&A pre-lancio, superato)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.79",
+     "page_date": "2024-02-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Transmutation Crystal"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1868790",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.89",
+     "page_date": "2024-12-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "transmutation_crystal_sources (S2/S3)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.94 (live 2025-05-13)",
+     "page_date": "2025-05-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "guarantee_2025"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2056756",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.95",
+     "page_date": "2025-06-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Armory Alchemy"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1994801",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.93",
+     "page_date": "2025-04-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "contatore transmutation nell'interfaccia di riciclo"
+     ]
+    }
+   ],
+   "eligible": "Solo Inscribed Legendary (1.0.71). Nota: il Q&A di marzo 2023 parlava di Legendary ed Epic, superato dalla patch 1.0.71.",
+   "cost_note": "Ufficiale: 'The number of attributes you've locked will affect the number of Transmutation Stones needed'. Nessuna cifra trovata.",
+   "verified": true
+  },
+  "conversion": {
+   "description_it": "Update 1.0.90 (2025-01-07): con l'oggetto 'Conversion Stone' si convertono armamenti Legendary in armamenti dello stesso tipo per un'altra formazione. Dopo la conversione le iscrizioni speciali e rare cambiano per adattarsi alla nuova formazione; attributi e iscrizioni comuni NON cambiano. Vincolo: solo verso armamenti che occupano lo stesso slot (es. Epics of Olympia [Wedge] -> Annals of the Nine Cauldrons [Pincer]). Conversion Stones: molto rare ('really hard to get'); da achievement 'Potentate' (in base alla collezione di armamenti Legendary), da Lost Kingdom Crusader Achievements e dal bundle mensile 'Destiny Reforged'. NON confondere con 'Armament Converter' (1.0.85): oggetto inviato via mail che converte un armamento con iscrizione speciale in un altro della STESSA formazione, resettando attributi base e contatore transmutation.",
+   "item": "Conversion Stone",
+   "only_legendary": true,
+   "same_slot_only": true,
+   "inscription_behavior": "special/rare cambiano per la nuova formazione; common e attributi invariati",
+   "sources_of_stone": [
+    "Potentate achievements (collezione Legendary)",
+    "Lost Kingdom Crusader Achievement rewards",
+    "Bundle mensile 'Destiny Reforged'",
+    "Shop (acquistabili se hai costruito lo State Forum, 1.0.91)",
+    "Dispatch con ricompensa Conversion Stone Fragments (1.1.08)"
+   ],
+   "armament_converter_1_0_85": "converte un armamento special-inscription in un altro della stessa formazione; resetta attributi base e contatore transmutation",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-90-return-of-the-king-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it",
+      "item",
+      "only_legendary",
+      "inscription_behavior",
+      "sources_of_stone"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "same_slot_only",
+      "description_it (rarita', esempio)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "armament_converter_1_0_85"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1896244",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.90",
+     "page_date": "2024-12-31",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "description_it",
+      "sources_of_stone (Potentate)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.91 (live 2025-02-10)",
+     "page_date": "2025-02-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sources_of_stone (Shop)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2246725",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.08 (live 2026-06-03)",
+     "page_date": "2026-05-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sources_of_stone (fragments)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1862964",
+     "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Commander Swaps, Armament Conversion Q&A",
+     "page_date": "2024-11-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "cost_scaling"
+     ]
+    }
+   ],
+   "cost_scaling": "Piu' alta la rarita' e il numero di iscrizioni, piu' oggetti servono (Q&A ufficiale nov 2024)."
+  },
+  "recycling": {
+   "description_it": "Gli armamenti non voluti si riciclano in Gold/Silver Coins (dal 1.0.66 il riciclo richiede la password secondaria e gli armamenti si possono bloccare 'lock' dall'inventario per evitare ricicli accidentali). Le monete si spendono al Courier Station per Transmutation Stones, Formation Choice Chests, Sage's Testimony, Inscription Shard Chests.",
+   "values": {
+    "Elite Armament": "1 Silver Coin",
+    "Epic Armament": "2 Silver Coins",
+    "Epic Armament with Inscription": "4 Silver Coins",
+    "Legendary Armament": "1 Gold Coin",
+    "Legendary Armament with Inscription": "2 Gold Coins"
+   },
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "values",
+      "description_it"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-gunning-for-the-top-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2023-02-20",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it (lock, password secondaria)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "description_it (monete per materiali/Formation Choice Chest)"
+     ]
+    }
+   ]
+  },
+  "quality_of_life_features": {
+   "list": [
+    {
+     "feature": "Armament icons show applicable formations; formation effects shown in inventory",
+     "update": "1.0.66 (2023-02)"
+    },
+    {
+     "feature": "Lock armaments from inventory; recycling requires secondary password",
+     "update": "1.0.66 (2023-02)"
+    },
+    {
+     "feature": "Inventory sorting by date received; optimized attribute display order; skip travel animations",
+     "update": "1.0.67 (2023-03)"
+    },
+    {
+     "feature": "Armament loadouts per commander (save/load setups)",
+     "update": "1.0.71 (2023-07); max loadouts 10 -> 30 in 1.0.80"
+    },
+    {
+     "feature": "Preferred formations (3) for travel/dispatch; guaranteed rare inscription after 150 Legendary armaments of one formation",
+     "update": "1.0.79 (2024-02)"
+    },
+    {
+     "feature": "Troop loadouts (up to 45) also save commander armaments and equipment",
+     "update": "1.0.81 (2024-04)"
+    },
+    {
+     "feature": "Share commander and armament info in chat",
+     "update": "1.0.84 (2024-07)"
+    },
+    {
+     "feature": "Wishlist one armament per formation: all later special-inscription armaments for that formation match the wishlist; progress bar (1 point per rare-inscription armament; at 9 the next rare becomes special; reset on special)",
+     "update": "1.0.85 (2024-08)"
+    },
+    {
+     "feature": "'Travel x10' and 'Quick Dispatch' buttons",
+     "update": "1.0.91 (2025-02)"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-gunning-for-the-top-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2023-02-20",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.66)"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2023-03-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.67)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.71)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.79)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.80)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-81-unearthing-history-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.81)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-84-magpies-song-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.84)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.85)"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-91-moon-and-star-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "list (1.0.91)"
+     ]
+    }
+   ]
+  }
+ },
+ "state_forum": {
+  "description_it": "Edificio che governa Travel (viaggi del governatore) e Dispatch. Livello 1 sblocca Travel; livello 10 sblocca Dispatch; salendo aumentano viaggi giornalieri, dispatch giornalieri e 'Major Dispatch Chance'. Per l'upgrade servono Sage's Testimony (da travel, dispatch, side quest, Courier Station; molti usano gemme). Al livello 25: 'No Sage's Testimony available' (rok.guide) / 'No Longer Receive Sage's Testimonies'. Le guide consigliano almeno livello 18.",
+  "levels": [
+   {
+    "level": 1,
+    "unlock": "Unlocks Travel",
+    "daily_travel": 5,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 5
+   },
+   {
+    "level": 2,
+    "daily_travel": 6,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 11
+   },
+   {
+    "level": 3,
+    "daily_travel": 7,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 24
+   },
+   {
+    "level": 4,
+    "daily_travel": 8,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 58
+   },
+   {
+    "level": 5,
+    "daily_travel": 9,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 134
+   },
+   {
+    "level": 6,
+    "daily_travel": 10,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 273
+   },
+   {
+    "level": 7,
+    "daily_travel": 11,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 537
+   },
+   {
+    "level": 8,
+    "daily_travel": 12,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 1038
+   },
+   {
+    "level": 9,
+    "daily_travel": 13,
+    "daily_dispatch": null,
+    "major_dispatch_chance": null,
+    "power": 2004
+   },
+   {
+    "level": 10,
+    "unlock": "Unlocks Dispatches",
+    "daily_travel": 13,
+    "daily_dispatch": 3,
+    "major_dispatch_chance": "1.5%",
+    "power": 3877
+   },
+   {
+    "level": 11,
+    "daily_travel": 14,
+    "daily_dispatch": 3,
+    "major_dispatch_chance": "1.5%",
+    "power": 6187
+   },
+   {
+    "level": 12,
+    "daily_travel": 14,
+    "daily_dispatch": 4,
+    "major_dispatch_chance": "1.5%",
+    "power": 9050
+   },
+   {
+    "level": 13,
+    "daily_travel": 15,
+    "daily_dispatch": 4,
+    "major_dispatch_chance": "1.5%",
+    "power": 12618
+   },
+   {
+    "level": 14,
+    "daily_travel": 15,
+    "daily_dispatch": 5,
+    "major_dispatch_chance": "1.5%",
+    "power": 17090
+   },
+   {
+    "level": 15,
+    "daily_travel": 16,
+    "daily_dispatch": 5,
+    "major_dispatch_chance": "1.5%",
+    "power": 22750
+   },
+   {
+    "level": 16,
+    "daily_travel": 16,
+    "daily_dispatch": 5,
+    "major_dispatch_chance": "2%",
+    "power": 29978
+   },
+   {
+    "level": 17,
+    "daily_travel": 17,
+    "daily_dispatch": 5,
+    "major_dispatch_chance": "2%",
+    "power": 39307
+   },
+   {
+    "level": 18,
+    "daily_travel": 17,
+    "daily_dispatch": 6,
+    "major_dispatch_chance": "2%",
+    "power": 51611
+   },
+   {
+    "level": 19,
+    "daily_travel": 18,
+    "daily_dispatch": 6,
+    "major_dispatch_chance": "2%",
+    "power": 67924
+   },
+   {
+    "level": 20,
+    "daily_travel": 18,
+    "daily_dispatch": 7,
+    "major_dispatch_chance": "2%",
+    "power": 89787
+   },
+   {
+    "level": 21,
+    "daily_travel": 18,
+    "daily_dispatch": 7,
+    "major_dispatch_chance": "2.5%",
+    "power": 119450
+   },
+   {
+    "level": 22,
+    "daily_travel": 19,
+    "daily_dispatch": 7,
+    "major_dispatch_chance": "2.5%",
+    "power": 161444
+   },
+   {
+    "level": 23,
+    "daily_travel": 19,
+    "daily_dispatch": 8,
+    "major_dispatch_chance": "2.5%",
+    "power": 222852
+   },
+   {
+    "level": 24,
+    "daily_travel": 20,
+    "daily_dispatch": 8,
+    "major_dispatch_chance": "2.5%",
+    "power": 315628
+   },
+   {
+    "level": 25,
+    "unlock": "No Longer Receive Sage's Testimonies",
+    "daily_travel": 20,
+    "daily_dispatch": 8,
+    "major_dispatch_chance": "3%",
+    "power": 524281
+   }
+  ],
+  "sage_testimony_cost_per_level": null,
+  "resource_costs": {
+   "level_25": {
+    "food": 15125000,
+    "wood": 18500000,
+    "stone": 7000000,
+    "gold": null,
+    "build_time": "34d 20h"
+   },
+   "city_hall_requirement": "rokstats: livelli 1-21 richiedono City Hall 21 (da verificare, valore sospetto), L22 CH22, L23 CH23, L24 CH24, L25 CH25. Il salto di costo maggiore e' al livello 6 (~2.0x del livello precedente).",
+   "full_table": "non estratta (pagina rokstats fornisce 25 livelli con food/wood/stone/tempo/power, ma il fetch ha restituito solo un riassunto)"
+  },
+  "sources": [
+   {
+    "url": "https://touchscreengaming.com/formations-guide/",
+    "site": "touchscreengaming.com",
+    "page_date": "2025-10-10",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "levels",
+     "description_it"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "description_it (livello 18 consigliato, gemme)"
+    ]
+   },
+   {
+    "url": "https://app.rokstats.online/buildings/state-forum",
+    "site": "app.rokstats.online",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "resource_costs"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-combat-guide-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2024-12-11",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "description_it (ruolo edificio)"
+    ]
+   },
+   {
+    "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+    "site": "rok.guide (snapshot Wayback 2024-05-28)",
+    "page_date": "2024-05-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "levels (daily_travel, daily_dispatch, power, major dispatch bonus)",
+     "L25 unlock"
+    ]
+   }
+  ],
+  "table_verification": "Colonne daily_travel, daily_dispatch e power per L1-25 identiche nello snapshot rok.guide 2024-05-28 (a parte refusi di separatore migliaia, es. '1,2618' = 12618). La colonna rok.guide si chiama 'Major Dispatch Chance Bonus' e riporta: L16-20 0.5%, L21-24 1%, L25 1.5% (vuota L1-15), mentre touchscreengaming riporta valori assoluti 1.5%/2%/2.5%/3%: vedi conflicts.",
+  "sage_testimony_note": "Costo in Sage's Testimony per livello: NON trovato in nessuna fonte raggiungibile (rok.guide, patch note ufficiali, touchscreengaming)."
+ },
+ "inscriptions": {
+  "description_it": "Le iscrizioni aggiungono un attributo extra (il 4o, oltre ai 3 standard) all'armamento, spesso con bonus piu' grandi e unici (es. skill damage, all damage, counterattack). Un armamento puo' averne fino a 2. Le iscrizioni disponibili dipendono dalla formazione dell'armamento.",
+  "rarities": [
+   "Common",
+   "Rare (introdotta 1.0.79, tra Special e Common)",
+   "Special (le guide/tool le chiamano anche 'Legendary')"
+  ],
+  "rules_official": [
+   "Legendary-quality armaments: tutte le iscrizioni non-speciali sono equiprobabili.",
+   "Epic-quality armaments: solo iscrizioni non-speciali, equiprobabili.",
+   "Elite: nessuna probabilita' di iscrizione elencata (tabella ufficiale solo Legendary).",
+   "Armamenti del bundle 'Cultivator of History' hanno iscrizioni fisse."
+  ],
+  "probabilities_legendary_with_inscription": {
+   "Scroll": {
+    "One Special Inscription": "0.66%",
+    "One Rare Inscription": "6.55%",
+    "One Common Inscription": "85.69%",
+    "Two Inscriptions": "7.10%"
+   },
+   "Instrument": {
+    "One Special Inscription": "0.66%",
+    "One Rare Inscription": "6.55%",
+    "One Common Inscription": "85.69%",
+    "Two Inscriptions": "7.10%"
+   },
+   "Flag": {
+    "One Special Inscription": "0.67%",
+    "One Rare Inscription": "6.81%",
+    "One Common Inscription": "88.97%",
+    "Two Inscriptions": "3.55%"
+   },
+   "Emblem": {
+    "One Special Inscription": "0.67%",
+    "One Rare Inscription": "6.81%",
+    "One Common Inscription": "88.97%",
+    "Two Inscriptions": "3.55%"
+   },
+   "note": "Le percentuali sono condizionate al fatto che l'armamento abbia almeno un'iscrizione."
+  },
+  "how_obtained": [
+   "Casualmente sugli armamenti ottenuti (travel, dispatch, casse, eventi).",
+   "Inscription Shop (Lost Kingdom, Season of Conquest): iscrizioni specifiche acquistabili con Conquest Coins; sezione 'Autarch-limited' accessibile solo con Autarch Testimony (1.0.63).",
+   "Armament Shop: iscrizioni speciali per armamenti specifici (Leonine Rampant, Herald's Ensign).",
+   "Pity: dopo 150 armamenti Legendary della stessa formazione, uno e' garantito con iscrizione Rare o superiore (1.0.79); progress bar 9 punti per trasformare la prossima Rare in Special (1.0.85); wishlist garantisce quale armamento special-inscription si riceve (1.0.85).",
+   "Inscription Shard Chests: fino al 1.0.80 davano iscrizioni Epic; ora danno Transmutation Stones."
+  ],
+  "conquest_coins": "Ottenuti completando i Crusader Achievements (tipicamente 30 milioni di kill in una stagione KvK o top-20 honor). Autarch Testimony: se la coalizione va bene tutti i membri la ricevono; dal 1.0.84 anche i top 10 delle 'Autarch Point Leaderboards' (kill/death/heal) ricevono 1 Autarch Testimony.",
+  "examples": {
+   "note_it": "Valori numerici dal changelog del tool Davor's Toolkit (codexhelper.com, agg. agosto 2026) e nomi dalle patch note 1.0.86: sono esempi, non la lista completa. I valori del tool sono quelli post-modifica (freccia = prima -> dopo).",
+   "renames_and_changes_1_0_86": "Modificati gli effetti di Enraged, Tremors, Calm, Devious, Brawler, Daring, Artisan, Furious; 'Combo' rinominata 'Furious'.",
+   "values_from_tool_changelog": [
+    {
+     "inscription": "Embattled",
+     "effect": "2.0% All Damage (era 0)"
+    },
+    {
+     "inscription": "Hardheaded",
+     "effect": "1.0% All Damage (era 0)"
+    },
+    {
+     "inscription": "Unswerving",
+     "effect": "1.86% All Damage (era 4.0% Skill Damage)"
+    },
+    {
+     "inscription": "Invincible",
+     "effect": "1.5% All Damage (era 5.0% Skill Damage)"
+    },
+    {
+     "inscription": "Furious",
+     "effect": "3.0% Counterattack Damage (era 1.5% Normal Attack)"
+    },
+    {
+     "inscription": "Demolisher",
+     "effect": "3.75% Defense + 2.0% All Damage (era 3.75% Attack)"
+    },
+    {
+     "inscription": "Airtight",
+     "effect": "4.75% All Damage (era 3.75%)"
+    },
+    {
+     "inscription": "Deflecter",
+     "effect": "2.0% All Damage (era 3.0% Skill Damage)"
+    },
+    {
+     "inscription": "Eclipsed",
+     "effect": "1.5% All Damage (era 2.5% Skill Damage)"
+    },
+    {
+     "inscription": "Guarded",
+     "effect": "1.42% All Damage (era 1.42% Skill Damage)"
+    }
+   ],
+   "names_by_formation_from_tool": {
+    "Wedge II legendary": [
+     "Advantage Advanced",
+     "Indomitable",
+     "Maneuver at Ease",
+     "Horseback Action"
+    ],
+    "Wedge II rare": [
+     "Fury",
+     "Soar",
+     "Ballista",
+     "Divine Staff"
+    ],
+    "Pincer II legendary": [
+     "Dominate",
+     "Cleaver",
+     "Bulwark",
+     "Tidebreaker"
+    ],
+    "Pincer II rare": [
+     "Bludgeon",
+     "Charge",
+     "Bolstered",
+     "Vigor"
+    ]
+   },
+   "tool_scoring_note": "Davor's Toolkit valuta ogni iscrizione su un armamento base (tre stat uguali) + buff formazione; la piu' forte = 100% e le altre in proporzione; 1 punto per 1% attack."
+  },
+  "sources": [
+   {
+    "url": "https://rok.lilith.com/probability/",
+    "site": "rok.lilith.com (ufficiale)",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "rules_official",
+     "probabilities_legendary_with_inscription"
+    ]
+   },
+   {
+    "url": "https://touchscreengaming.com/formations-guide/",
+    "site": "touchscreengaming.com",
+    "page_date": "2025-10-10",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "description_it",
+     "rarities",
+     "how_obtained",
+     "conquest_coins"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2022-11-29",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "how_obtained (Inscription Shop, Autarch-limited)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "rarities (Rare)",
+     "how_obtained (pity 150)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "how_obtained (progress bar, wishlist)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "how_obtained (Inscription Shard Chests)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-84-magpies-song-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "conquest_coins (Autarch leaderboards)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-86-anchors-aweigh-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "examples.renames_and_changes_1_0_86"
+    ]
+   },
+   {
+    "url": "https://codexhelper.com/tools/davor_toolkit/",
+    "site": "codexhelper.com",
+    "page_date": "2026-08",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "examples.values_from_tool_changelog",
+     "examples.names_by_formation_from_tool",
+     "examples.tool_scoring_note"
+    ]
+   }
+  ]
+ },
+ "ui_flow": {
+  "verified_it": [
+   "State Forum (edificio in citta'): da qui si fanno Travel e Dispatch (1.0.62). Pulsanti ufficiali 'Travel x10' e 'Quick Dispatch' aggiunti allo State Forum con 1.0.91 (live 2025-02-10). Animazioni di viaggio saltabili dal 1.0.67.",
+   "Funzione di auto-riciclo nel Travel dello State Forum: gli armamenti ottenuti viaggiando che rispettano le condizioni scelte vengono riciclati automaticamente (1.0.87).",
+   "Prima di Travel/Dispatch si selezionano 3 formazioni preferite; ogni armamento ottenuto e' garantito per una di esse (1.0.79).",
+   "Interfaccia 'Formations': da qui si imposta la Wishlist (un armamento per formazione) e si vede la barra di progresso della garanzia iscrizione speciale (1.0.85).",
+   "La formazione si seleziona per un comandante quando e' in citta'; fino a 4 armamenti equipaggiabili; formazione/armamenti del secondario non hanno effetto.",
+   "Interfaccia di riciclo armamenti ('armament recycling interface'): ordinamento per data e contatore delle transmutation (1.0.93). Il riciclo richiede la password secondaria; lock dall'inventario (1.0.66).",
+   "Funzioni: Transmute (lock 0-2 attributi, scelta tenere/ripristinare), Conversion (Conversion Stone; acquistabili nello 'Shop' se hai costruito lo State Forum, 1.0.91), Recycle, Honing (1.1.03), Loadout armamenti (1.0.71; interazione ottimizzata in 1.1.04), condivisione in chat (1.0.84).",
+   "Dispatch: le chance si resettano ogni giorno alle 00:00 UTC; dopo 15 dispatch completati si riceve la Dispatch Commendation. Da 1.1.08 l'opzione di dispatch che premia Conversion Stone Fragments e' mostrata per prima."
+  ],
+  "unverified_it": [
+   "Percorso esatto dei menu (es. Comandante -> Formazione -> Armamenti) e nome esatto dei pulsanti Recycle/Transmute/Convert/Hone: NON confermati testualmente (le patch note citano solo 'Formations interface', 'armament recycling interface', 'State Forum', 'Shop').",
+   "Posizione dell'Armament Shop nella UI: non verificata."
+  ],
+  "sources": [
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-91-moon-and-star-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (Travel x10, Quick Dispatch)"
+    ]
+   },
+   {
+    "url": "https://touchscreengaming.com/formations-guide/",
+    "site": "touchscreengaming.com",
+    "page_date": "2025-10-10",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (assegnazione in citta', 4 slot, screenshot)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (sezione Armament)",
+     "unverified_it (rimando ai video)"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-gunning-for-the-top-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2023-02-20",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (lock, password, icone)"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2023-03-29",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (ordinamento, skip animazioni)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (transmute lock/revert, loadout)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (wishlist)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-84-magpies-song-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (share in chat)"
+    ]
+   },
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "verified_it (3 formazioni preferite)"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.91 (live 2025-02-10)",
+    "page_date": "2025-02-06",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "Travel x10",
+     "Quick Dispatch",
+     "Conversion Stones nello Shop"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/1817043",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.87",
+    "page_date": "2024-10-15",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "auto-recycle"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/1752431",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.85 (live 2024-08-22)",
+    "page_date": "2024-08-15",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "Formations interface / wishlist"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/1994801",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.0.93",
+    "page_date": "2025-04-03",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "armament recycling interface"
+    ]
+   },
+   {
+    "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+    "site": "rok.guide (snapshot Wayback 2024-05-28)",
+    "page_date": "2024-05-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "reset 00:00 UTC",
+     "selezione in citta'",
+     "15 dispatch"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/2246725",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.08 (live 2026-06-03)",
+    "page_date": "2026-05-27",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "Conversion Stone Fragments dispatch"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/2213663",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Patch Notes 1.1.04",
+    "page_date": "2026-02-24",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "loadout"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+    "site": "forum-global.lilithgame.com (API ufficiale, account 10000000) - Update 1.1.03 Verdant Spring (live 2026-01-20)",
+    "page_date": "2026-01-13",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "Honing"
+    ]
+   }
+  ]
+ },
+ "rare_materials": [
+  {
+   "name": "Sage's Testimony",
+   "how_obtained": "Travel, Dispatch (Dispatch Commendation chest = 100 Sage's Testimony o armamento Epic/Legendary), side quest, Courier Station (con monete del riciclo), gemme. Non piu' ricevute a State Forum livello 25.",
+   "used_for": "Upgrade dello State Forum.",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained (gemme)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Transmutation Stone",
+   "how_obtained": "Armament Shop; Lost Kingdom Crusader Achievements; Season Shop 3000 Season Coins; Courier Station 30 Silver Coins; Inscription Shard Chests (dal 1.0.80); eventi.",
+   "used_for": "Transmutation (reroll attributi; costo cresce con attributi bloccati).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2023-03-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained (Inscription Shard Chests)"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Transmutation Crystal",
+   "how_obtained": "Crusader Achievement rewards nelle Lost Kingdom SoC iniziate dopo il 1.0.79; eventi (non verificato).",
+   "used_for": "Resetta il limite di 10 transmutation di un armamento (altre 10 chance).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Conversion Stone",
+   "how_obtained": "Achievement 'Potentate' (collezione armamenti Legendary), Lost Kingdom Crusader Achievements, bundle mensile 'Destiny Reforged'. Estremamente rara.",
+   "used_for": "Convertire un armamento Legendary in uno dello stesso slot per un'altra formazione.",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-90-return-of-the-king-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained (rarita')"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Armament Converter",
+   "how_obtained": "Inviato via mail (1.0.85) in base agli armamenti special-inscription gia' posseduti.",
+   "used_for": "Convertire un armamento special-inscription in un altro della stessa formazione (resetta attributi base e contatore transmutation).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Coin / Silver Coin (armament coins)",
+   "how_obtained": "Riciclo armamenti: Elite 1 Silver, Epic 2 Silver, Epic con iscrizione 4 Silver, Legendary 1 Gold, Legendary con iscrizione 2 Gold.",
+   "used_for": "Acquisti al Courier Station: Transmutation Stones (30 Silver), Formation Choice Chests, Sage's Testimony, Inscription Shard Chests.",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Autarch Testimony",
+   "how_obtained": "Season of Conquest: assegnata a tutti i membri di una coalizione che va bene; dal 1.0.84 anche ai top 10 delle Autarch Point Leaderboards (kill/death/heal) se non selezionati come Autarch. Quantita' distribuite variano per configurazione (4/6/8 campi, mini-season).",
+   "used_for": "Sblocca la sezione 'Autarch-limited' dell'Inscription Shop (iscrizioni speciali; secondo snippet non verificato anche Honing Stones).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-84-magpies-song-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained (leaderboards)"
+     ]
+    },
+    {
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+     "site": "bluestacks.com",
+     "page_date": "2022-11-29",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Conquest Coins",
+   "how_obtained": "Crusader Achievements nella Season of Conquest (tipicamente 30M kill in una stagione KvK o top-20 honor).",
+   "used_for": "Inscription Shop (iscrizioni specifiche).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Honing Stones",
+   "how_obtained": "Snippet (non verificato): 'solo dalla sezione Autarch-limited'.",
+   "used_for": "Honing degli armamenti Legendary (+0.2%/hone fino a +3.5%; All Damage +0.1% fino a +2.0%).",
+   "do_not_spend_without_confirmation": true,
+   "verified": false,
+   "sources": [
+    {
+     "url": "WebSearch snippet (query: rise of kingdoms armament honing legendary 0.2% 3.5% honing material) - pagina d'origine non identificata",
+     "site": "snippet WebSearch",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained",
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Swapping Stone",
+   "how_obtained": null,
+   "used_for": "Wedge Formation Boost: trasferisce Wishlist e progresso garanzia iscrizioni tra Wedge e Wedge II (snippet, non verificato).",
+   "do_not_spend_without_confirmation": true,
+   "verified": false,
+   "sources": [
+    {
+     "url": "https://topuplist.com/blogs/detail/rise-of-kingdoms-wedge-formation-ii-guide",
+     "site": "topuplist.com (solo snippet WebSearch, pagina 403)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Insignia (Wedge II)",
+   "how_obtained": null,
+   "used_for": "Indicate come 'collo di bottiglia' del sistema Wedge II (snippet, non verificato; funzione precisa sconosciuta).",
+   "do_not_spend_without_confirmation": true,
+   "verified": false,
+   "sources": [
+    {
+     "url": "https://topuplist.com/blogs/detail/rise-of-kingdoms-wedge-formation-ii-guide",
+     "site": "topuplist.com (solo snippet WebSearch, pagina 403)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Armament Tickets",
+   "how_obtained": null,
+   "used_for": "Acquisto armamenti nel negozio dell'evento 'Armament, Reveal Thyself'.",
+   "do_not_spend_without_confirmation": true,
+   "verified": false,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/post/1670239",
+     "site": "forum-global.lilithgame.com (solo snippet WebSearch)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Formation Choice Chest (Legendary/Epic/Elite), Random Armament Chest, Dispatch Commendation, Inscription Shard Chest",
+   "how_obtained": "Courier Station (monete riciclo), eventi, Crusader Achievements, Armament Shop, bundle; Dispatch Commendation dopo 15 dispatch riusciti.",
+   "used_for": "Aprire per armamenti (la community consiglia di conservare le casse finche' non si e' deciso la formazione da costruire: Formation Choice Chest permette la scelta).",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://rok.lilith.com/probability/",
+     "site": "rok.lilith.com (ufficiale)",
+     "page_date": null,
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for (scelta formazione)"
+     ]
+    },
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "site": "riseofkingdomsguides.com",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "how_obtained"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Season Coins",
+   "how_obtained": "Valuta stagionale (non approfondita qui).",
+   "used_for": "Season Shop: Transmutation Stone a 3000 Season Coins.",
+   "do_not_spend_without_confirmation": true,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Action Points (AP)",
+   "how_obtained": "Rigenerazione, oggetti AP.",
+   "used_for": "Travel 20 AP (x10 = 200), Dispatch 30-150 AP; dopo gli AP si viaggia con gemme.",
+   "do_not_spend_without_confirmation": false,
+   "sources": [
+    {
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "site": "touchscreengaming.com",
+     "page_date": "2025-10-10",
+     "retrieved": "2026-09-27",
+     "fields": [
+      "used_for"
+     ]
+    }
+   ]
+  }
+ ],
+ "arms_training_event": {
+  "what_it_is_it": "Evento PvE competitivo in cui si combatte ripetutamente 'Armsmaster Lohar', un barbaro elite evocato vicino alla citta', con UNA sola marcia e senza tornare a casa (tornare in citta' azzera la catena di punti). NON ha nulla a che vedere con gli 'Armaments' (armamenti delle formazioni): 'Arms Training' = allenamento alle armi contro Lohar.",
+  "rules": {
+   "duration": "3 giorni",
+   "attempts_per_day": 5,
+   "lohar_progression": "Ogni volta che lo sconfiggi Lohar diventa piu' forte e sblocca una nuova abilita' (riseofkingdomsguides). Kibezaka (2021): ogni 3 sconfitte Lohar sale di livello e attiva una nuova skill. Snippet WebSearch (non attribuibile): all'inizio Lohar ha 2 Starting Skills e 1 Active Skill; ogni 3a vittoria sale di livello; i governatori possono impostare l'ordine di attivazione delle skill prima dell'evento.",
+   "points": "10.000 punti per ogni sconfitta di Lohar. Snippet (non verificato): se vieni sconfitto a meta', ricevi Bonus Points = percentuale delle truppe di Lohar sconfitte nell'ultima battaglia x 10.000.",
+   "legend_mode": "Gli stage normali danno al massimo 300.000 punti; in Legend Mode il punteggio dipende dalle truppe rimaste dopo la vittoria.",
+   "strategy": "Usare i primi due giorni per testare e il terzo per il tentativo con tutti i buff attivi; consigliati Khan + YSG (o cavalleria), 50% army expansion per la top 10, buff danno (equipaggiamento, civilta', rune, titoli, skin, territorio alleanza). Evento che favorisce chi spende."
+  },
+  "rewards": "Top 10: 'legendary helmet blueprints' (in precedenza legendary commander sculptures); posizioni inferiori: materiali non specificati (riseofkingdomsguides 2026). Kibezaka (2021, valori storici): 1o posto 2000 gemme, 20 Universal Legendary Sculptures, 20 speedup edifici, 20 speedup addestramento, 12h Enhanced Defense; classifica limitata ai top 100.",
+  "schedule": "Appare durante gli Holiday Events (circa ogni 2-3 mesi secondo Kibezaka 2021).",
+  "sources": [
+   {
+    "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-arms-training-event/",
+    "site": "riseofkingdomsguides.com",
+    "page_date": "2026-01-02",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "what_it_is_it",
+     "rules.duration",
+     "rules.attempts_per_day",
+     "rules.lohar_progression",
+     "rules.points",
+     "rules.legend_mode",
+     "rules.strategy",
+     "rewards"
+    ]
+   },
+   {
+    "url": "https://www.kibezaka.com/2021/11/tips-arms-training-rise-of-kingdoms.html",
+    "site": "kibezaka.com",
+    "page_date": "2021-11",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "what_it_is_it (marcia singola, no ritorno)",
+     "rules.lohar_progression (ogni 3)",
+     "rewards (2021)",
+     "schedule"
+    ]
+   },
+   {
+    "url": "WebSearch snippet (query: rise of kingdoms Arms Training event Lohar rewards rules) - candidati: https://www.appgamer.com/rise-of-kingdoms/strategy-guide/arms-training (403), https://www.rok.guide/arms-training-event-2022/ (503)",
+    "site": "snippet WebSearch",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "rules.lohar_progression (2 starting + 1 active skill, ordine impostabile)",
+     "rules.points (bonus points)"
+    ]
+   }
+  ]
+ },
+ "attribute_priorities": {
+  "method_note_it": "Nessuna guida testuale con ranking quantitativo degli attributi ARMAMENTO e' stata raggiungibile (le guide rimandano ai video di Chisgule/Spartan; i tool rokcentral/Davor's Toolkit calcolano pesi ma non li espongono in testo). Le priorita' sotto sono DERIVATE dalla regola 'allinea gli attributi al tipo di truppa del comandante' (touchscreengaming) + dai pool ufficiali per slot (rok.lilith.com) + dagli effetti formazione. Il tool Davor's Toolkit usa '1 punto per 1% attack' come riferimento. Le guide equipaggiamento (packsify/ldshop) NON riguardano gli armamenti e sono citate solo come indicazione generale di stat preferite.",
+  "general_rules": [
+   "Slot 1 = Attack del proprio tipo truppa; Slot 2 = Defense del proprio tipo; Slot 3 = Health del proprio tipo oppure All Damage (raro: 2.4-3.2%, range Legendary 0.5-2%).",
+   "Range Legendary attack/defense/health 1.5-3.5%: puntare a valori alti (>=3%) e usare la transmutation con lock sugli attributi gia' buoni.",
+   "Iscrizioni Rare/Special valgono piu' degli attributi: conservarle e trasmutare gli attributi attorno a esse.",
+   "Formazione: Wedge/Wedge II (skill dmg), Arch (attack dmg), Hollow Square (-2% danno subito), Pincer (smite), Delta (combo), Tercio (garrison), Line (raccolta), Double Line/Triple Line/Staggered (marcia)."
+  ],
+  "infantry": {
+   "slot1": "Infantry Attack",
+   "slot2": "Infantry Defense",
+   "slot3": "Infantry Health (o All Damage)",
+   "formation": "Wedge/Wedge II per skill dmg; Hollow Square per tank; Pincer per smite (es. Bai Qi/W. Wallace)",
+   "equipment_guides_hint": "guide equipaggiamento: fanteria scala molto con Defense (non armamenti, indicativo)"
+  },
+  "cavalry": {
+   "slot1": "Cavalry Attack",
+   "slot2": "Cavalry Defense",
+   "slot3": "Cavalry Health (o All Damage)",
+   "formation": "Wedge/Wedge II; Delta per combo (Arthur); Flag/Emblem possono dare March Speed (Cavalry) in slot 1",
+   "equipment_guides_hint": "guide equipaggiamento: Attack + Health per colpire e disingaggiare (indicativo)"
+  },
+  "archers": {
+   "slot1": "Archer Attack",
+   "slot2": "Archer Defense",
+   "slot3": "Archer Health (o All Damage)",
+   "formation": "Wedge/Wedge II; Flag/Emblem: March Speed (Archers) in slot 2",
+   "equipment_guides_hint": "guide equipaggiamento: set completo + skill damage (indicativo)"
+  },
+  "gathering": {
+   "slot1": "Gold Gathering Speed (5-7.5% Legendary; 31.98% di probabilita' su Scroll/Instrument)",
+   "slot2": "Troop Load (4-7% Legendary)",
+   "slot3": "qualsiasi",
+   "formation": "Line Formation (+10% raccolta cibo/legno/pietra/oro)",
+   "note": "Gli armamenti danno solo Gold Gathering Speed, non food/wood/stone."
+  },
+  "barbarians": {
+   "slot1": "Attack del tipo truppa",
+   "slot2": "Defense del tipo truppa",
+   "slot3": "Damage to Barbarians (4-7% Legendary) oppure Damage Reduction vs Barbarians (4-7%); su Emblem probabilita' 22.79% ciascuno",
+   "formation": "Double Line Formation (+10% marcia verso barbari); per Lohar/forti valutare Wedge se il danno viene da skill",
+   "note": "Utile per Arms Training (Lohar) e Ceroli/forti: Damage to Barbarians e' l'attributo piu' impattante disponibile."
+  },
+  "garrison": {
+   "slot1": "Attack (tipo truppa prevalente)",
+   "slot2": "Defense",
+   "slot3": "Health o All Damage",
+   "formation": "Tercio: in guarnigione TUTTI i bonus attributo armamento si applicano a tutti i tipi di unita', quindi con Tercio non importa quale tipo truppa compare negli attributi; Hollow Square come alternativa difensiva",
+   "equipment_guides_hint": "guide equipaggiamento garrison: riduzione danno, counterattack, health (indicativo)"
+  },
+  "rally_join": {
+   "formation": "Staggered (+15% marcia verso rally/garrison) oppure Echelon per i buffer (x1.2 sui buff percentuali ad altre truppe)"
+  },
+  "sources": [
+   {
+    "url": "https://rok.lilith.com/probability/",
+    "site": "rok.lilith.com (ufficiale)",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "general_rules (pool per slot, range)",
+     "gathering",
+     "barbarians"
+    ]
+   },
+   {
+    "url": "https://touchscreengaming.com/formations-guide/",
+    "site": "touchscreengaming.com",
+    "page_date": "2025-10-10",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "general_rules (allineare al tipo truppa, conservare iscrizioni rare)",
+     "infantry.formation",
+     "cavalry.formation",
+     "garrison.formation",
+     "gathering.formation"
+    ]
+   },
+   {
+    "url": "https://codexhelper.com/tools/davor_toolkit/",
+    "site": "codexhelper.com",
+    "page_date": "2026-08",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "method_note_it (1 punto per 1% attack)"
+    ]
+   },
+   {
+    "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-7th-anniversary-update-en.html",
+    "site": "bluestacks.com",
+    "page_date": "2025-09-16",
+    "retrieved": "2026-09-27",
+    "fields": [
+     "barbarians.formation (Double Line)"
+    ]
+   },
+   {
+    "url": "https://www.packsify.com/blogs/rise-of-kingdoms-equipment-guide",
+    "site": "packsify.com (solo snippet WebSearch; riguarda EQUIPAGGIAMENTO non armamenti)",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "*.equipment_guides_hint"
+    ]
+   },
+   {
+    "url": "https://www.ldshop.gg/blog/rise-of-kingdoms/rok-equipment-guide.html",
+    "site": "ldshop.gg (solo snippet WebSearch; riguarda EQUIPAGGIAMENTO)",
+    "page_date": null,
+    "retrieved": "2026-09-27",
+    "fields": [
+     "*.equipment_guides_hint"
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "url": "https://rok.lilith.com/probability/",
+   "site": "rok.lilith.com (ufficiale Lilith)",
+   "page_date": null,
+   "retrieved": "2026-09-27",
+   "status": "fetched (WebFetch + curl 200)",
+   "fields": [
+    "inscription probabilities",
+    "attribute pools/ranges",
+    "Formation Choice Chest odds",
+    "Armament Reveal Thyself odds"
+   ]
+  },
+  {
+   "url": "https://touchscreengaming.com/formations-guide/",
+   "site": "touchscreengaming.com",
+   "page_date": "2025-10-10",
+   "retrieved": "2026-09-27",
+   "status": "fetched (curl 200; 'UPDATED May 14, 2025', 'Last Updated on October 10, 2025')",
+   "fields": [
+    "formations",
+    "State Forum table",
+    "travel",
+    "dispatch",
+    "transmutation",
+    "conversion",
+    "recycling",
+    "inscriptions"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "State Forum L18",
+    "Armament section/recycle",
+    "best formations"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-arms-training-event/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "Arms Training"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-wall-of-arrow-event-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2022-11-29",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.63: formation launch, V Formation SoC, Inscription Shop, Autarch"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-gunning-for-the-top-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2023-02-20",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.66: gem travel, Luck/Windfall, lock, recycle password"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2023-03-29",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.67: transmutation intro, Armament Shop stones"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-71ode-to-greece-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.71: lock 1-2, 10 rolls, revert, loadouts, chest sources"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.79: Testudo, Circle, rare inscriptions, 150 pity, Transmutation Crystal, 3 preferred formations"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-80-easter-elation-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.80: Inscription Shard Chest -> Transmutation Stones, loadouts 30"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-81-unearthing-history-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.81: troop loadouts save armaments"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-82-dragon-boat-bash-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched (nessun dato rilevante)",
+   "fields": []
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-83-eternal-city-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.83: Staggered, Armament Reveal Thyself, In Search of Wonders"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-84-magpies-song-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.84: Autarch leaderboards, armament share"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-85-poised-for-battle-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.85: Delta, Leonine Rampant/Chronicle, wishlist, progress bar, Armament Converter"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-86-anchors-aweigh-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.86: inscription changes, Combo->Furious, gem travel 120"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-87-rex-totius-britanniae-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched (nessun dato rilevante)",
+   "fields": []
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-88-giving-thanks-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched (nessun dato rilevante)",
+   "fields": []
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-89-sleigh-all-day-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched (nessun dato rilevante)",
+   "fields": []
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-90-return-of-the-king-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.90: Conversion Stone"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-91-moon-and-star-update/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "1.0.91: Travel x10, Quick Dispatch"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-frontiers-of-knowledge-update-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2025-05-13",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "transmutation guarantee 10/30"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-7th-anniversary-update-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2025-09-16",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "Double Line Formation"
+   ]
+  },
+  {
+   "url": "https://www.bluestacks.com/blog/game-guides/rise-of-kingdoms/rok-combat-guide-en.html",
+   "site": "bluestacks.com",
+   "page_date": "2024-12-11",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "State Forum role, generic formation descriptions"
+   ]
+  },
+  {
+   "url": "https://codexhelper.com/tools/davor_toolkit/",
+   "site": "codexhelper.com",
+   "page_date": "2026-08",
+   "retrieved": "2026-09-27",
+   "status": "fetched (curl 200)",
+   "fields": [
+    "Wedge II 12%",
+    "Wedge/Wedge II merge",
+    "Pincer 10->12%",
+    "inscription names/values"
+   ]
+  },
+  {
+   "url": "https://www.rokcentral.com/armaments/",
+   "site": "rokcentral.com",
+   "page_date": null,
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "armament slot types, position pools"
+   ]
+  },
+  {
+   "url": "https://app.rokstats.online/buildings/state-forum",
+   "site": "app.rokstats.online",
+   "page_date": null,
+   "retrieved": "2026-09-27",
+   "status": "fetched (riassunto)",
+   "fields": [
+    "State Forum L25 costs, CH requirements"
+   ]
+  },
+  {
+   "url": "https://www.kibezaka.com/2021/11/tips-arms-training-rise-of-kingdoms.html",
+   "site": "kibezaka.com",
+   "page_date": "2021-11",
+   "retrieved": "2026-09-27",
+   "status": "fetched",
+   "fields": [
+    "Arms Training 2021 rules/rewards"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/courier-station/",
+   "site": "riseofkingdomsguides.com",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-27",
+   "status": "fetched (nessun prezzo armamenti)",
+   "fields": []
+  },
+  {
+   "url": "https://topuplist.com/blogs/detail/rise-of-kingdoms-wedge-formation-ii-guide",
+   "site": "topuplist.com",
+   "page_date": null,
+   "retrieved": "2026-09-27",
+   "status": "snippet only (HTTP 403)",
+   "fields": [
+    "Wedge II"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/post/1670239",
+   "site": "forum-global.lilithgame.com",
+   "page_date": null,
+   "retrieved": "2026-09-27",
+   "status": "snippet only (pagina JS senza contenuto)",
+   "fields": [
+    "Armament Reveal Thyself eligibility/tickets"
+   ]
+  },
+  {
+   "url": "https://www.facebook.com/riseofkingdomsgame/posts/update-1106-battle-resurgent-arrives-on-march-24-get-ready-for-spring-awakening-/1326813576146850/",
+   "site": "facebook.com",
+   "page_date": "2026-03",
+   "retrieved": "2026-09-27",
+   "status": "snippet only",
+   "fields": [
+    "1.1.06 date"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000",
+   "site": "forum-global.lilithgame.com (API ufficiale, account 10000000)",
+   "page_date": "2026-06-23 (ultimo post)",
+   "retrieved": "2026-09-28",
+   "status": "fetched (832 post)",
+   "fields": [
+    "patch note 1.0.62-1.1.09",
+    "Q&A sviluppatori"
+   ]
+  },
+  {
+   "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+   "site": "rok.guide via web.archive.org",
+   "page_date": "2024-05-28",
+   "retrieved": "2026-09-28",
+   "status": "fetched (curl id_)",
+   "fields": [
+    "State Forum table",
+    "Dispatch rules",
+    "effetti 7 formazioni originali",
+    "feature overview"
+   ]
+  }
+ ],
+ "gaps": [
+  "Costo in Sage's Testimony per ogni livello dello State Forum: non trovato (rokstats mostra solo food/wood/stone/tempo).",
+  "Tabella completa costi risorse State Forum L1-24: non estratta (solo L25).",
+  "Costo esatto in Transmutation Stones per transmutation con 0/1/2 attributi bloccati: non trovato.",
+  "Prezzi e valuta dell'Armament Shop (iscrizioni speciali, Transmutation Stone, Formation Choice Chest, Sage's Testimony): non trovati; prezzi Courier Station noti solo per Transmutation Stone (30 Silver).",
+  "Prezzi dell'Inscription Shop in Conquest Coins e lista completa delle iscrizioni Autarch-limited: non trovati.",
+  "Lista completa delle famiglie di armamenti (nomi propri) per ogni formazione e mappatura famiglia -> tipo (Scroll/Instrument/Flag/Emblem) e -> slot: nota solo per Wedge (2 slot), Pincer (1), Delta (2), Wedge II (2). Tipo di Epics of Olympia/Honors of the Pantheon/Annals of the Nine Cauldrons non indicato.",
+  "Versione/data di introduzione di Tercio e Pincer (tra 1.0.91 di feb 2025 e la guida del 14 mag 2025): non trovata; patch note 1.0.92+ non raggiungibili.",
+  "Se 'Pincer II' sia una formazione separata o un aggiornamento della Pincer (10%->12%): non chiarito.",
+  "Lista completa di tutte le iscrizioni con effetti per ogni formazione: non trovata (solo esempi).",
+  "Livelli/potenziamento della formazione in se' e relativi costi: nessuna fonte li descrive (probabilmente non esistono; il potenziamento e' degli armamenti).",
+  "Percorso menu esatto della UI (Comandante -> Formazione -> Armamenti ecc.) e nomi dei pulsanti: non verificati.",
+  "Regole complete Arms Training 2026 (skill iniziali di Lohar, formula bonus points, ricompense fuori top 10): solo snippet/fonte 2021.",
+  "Probabilita' iscrizioni per armamenti Epic (la tabella ufficiale copre solo Legendary).",
+  "Numero massimo di Honing per attributo e se il honing si perde con transmutation/conversion: non trovato.",
+  "Requisito City Hall per costruire lo State Forum: rokstats indica CH21 per L1-21 (valore da verificare).",
+  "Honing: costo in Honing Stones per singolo honing e prezzo nell'Inscription Shop non pubblicati nelle note ufficiali.",
+  "Patch note ufficiali 1.1.10 (lug-ago 2026, presunto 'Pincer II') non presenti nell'API del forum (ultimo post ufficiale: 1.1.09, 2026-06-23): Pincer 12% e fusione Wedge non verificabili.",
+  "Costo AP di Travel (20/200) e Dispatch (30-150) presente solo in touchscreengaming; nessuna fonte ufficiale con cifre.",
+  "Versione di introduzione di Tercio e Pincer: non trovata nemmeno nelle 832 note ufficiali (probabilmente annunciate come immagini/eventi)."
+ ],
+ "conflicts": [
+  {
+   "topic": "Bonus Wedge Formation",
+   "values": [
+    {
+     "value": "5% skill damage (Wedge) e Wedge II separata a 12%",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "Da giugno 2026 Wedge e Wedge II sono 'one Wedge formation with a 12% Skill Damage base bonus' e le iscrizioni si mescolano",
+     "url": "https://codexhelper.com/tools/davor_toolkit/",
+     "page_date": "2026-08"
+    },
+    {
+     "value": "Wedge Formation II aggiunta come formazione separata a 12% (1.1.06, 2026-03-24); 1.1.07 (2026-04-30) la chiama ancora 'Wedge Formation II'; nessuna fusione nelle note 1.1.08 (2026-06-03) e 1.1.09 (2026-06-30)",
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+     "page_date": "2026-03-18"
+    },
+    {
+     "value": "Troops deal 5% more skill damage",
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "page_date": "2024-05-28"
+    }
+   ],
+   "note": "Fusione/12% unico solo da tool di terze parti; non confermata dalle patch note ufficiali disponibili (fino a 1.1.09). Aperto."
+  },
+  {
+   "topic": "Bonus Pincer Formation",
+   "values": [
+    {
+     "value": "10% smite damage",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "12% smite damage (base bonus increased 10% -> 12%, 'Pincer II Update' agosto 2026)",
+     "url": "https://codexhelper.com/tools/davor_toolkit/",
+     "page_date": "2026-08"
+    },
+    {
+     "value": "Nessuna menzione di Pincer II nelle patch note ufficiali disponibili (fino a 1.1.09, 2026-06-30); 1.1.11 (2026-08-27) cita solo correzione testo di un'iscrizione Pincer",
+     "url": "https://ldshop.gg/blog/rise-of-kingdoms/anniversary-special.html",
+     "page_date": "2026-08-27"
+    }
+   ],
+   "note": "Patch note ufficiali di luglio-agosto 2026 (1.1.10) non reperibili: aperto."
+  },
+  {
+   "topic": "Viaggi extra con gemme al giorno",
+   "values": [
+    {
+     "value": "fino a 200 viaggi aggiuntivi al giorno con gemme (1.0.66)",
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1433064",
+     "page_date": "2023-02-20"
+    },
+    {
+     "value": "dopo 20 viaggi con AP, fino a 120 viaggi aggiuntivi al giorno con gemme (1.0.86)",
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1782979",
+     "page_date": "2026-01-02"
+    }
+   ],
+   "note": "RISOLTO: entrambe confermate dalle patch note ufficiali; 1.0.86 (set 2024) sostituisce 1.0.66 -> valore attuale 20 AP + 120 con gemme."
+  },
+  {
+   "topic": "Ricompense del Travel",
+   "values": [
+    {
+     "value": "armamenti, risorse, speedup, Sage's Testimony",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "risorse e speedup rimossi dalle ricompense di travel/dispatch (1.0.79)",
+     "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+     "page_date": "2026-01-02"
+    }
+   ],
+   "note": "RISOLTO: patch note ufficiali 1.0.79 confermano la rimozione di risorse e speedup; touchscreengaming obsoleta."
+  },
+  {
+   "topic": "Dove si spendono Gold/Silver Coin (Armament Shop vs Courier Station)",
+   "values": [
+    {
+     "value": "Courier Station: Transmutation Stones (30 Silver), Formation Choice Chests, Sage's Testimony, Inscription Shard Chests",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "Transmutation Stones ottenibili tramite 'Armament Shop'",
+     "url": "https://www.bluestacks.com/blog/updates/rise-of-kingdoms/rok-spring-once-more-en.html",
+     "page_date": "2023-03-29"
+    },
+    {
+     "value": "Riciclo al Courier Station per Gold/Silver Coins usati per Armament Chests e supplies con iscrizioni (1.0.62, snippet)",
+     "url": "https://www.rok.guide/update-1-0-62-hallows-eve/",
+     "page_date": null
+    }
+   ],
+   "note": "Potrebbero essere lo stesso negozio con nomi diversi nelle guide; non verificato."
+  },
+  {
+   "topic": "Numero di formazioni",
+   "values": [
+    {
+     "value": "'seven different formations' (testo non aggiornato)",
+     "url": "https://riseofkingdomsguides.com/formations-armaments-and-inscriptions-guide-rok/",
+     "page_date": "2026-01-02"
+    },
+    {
+     "value": "13 formazioni (guida ott 2025) + Wedge II (mar 2026) + Double Line (set 2025) = 15",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    }
+   ]
+  },
+  {
+   "topic": "Versione di introduzione Transmutation Crystal",
+   "values": [
+    {
+     "value": "Update 1.0.79.25",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "Update 1.0.79 'Surging Spring' (2024-02-26)",
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-1-0-79-surging-spring-update/",
+     "page_date": "2026-01-02"
+    }
+   ],
+   "note": "Coerenti (1.0.79.25 e' una sotto-versione)."
+  },
+  {
+   "topic": "Progressione di Lohar in Arms Training",
+   "values": [
+    {
+     "value": "ogni vittoria sblocca una nuova skill",
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-arms-training-event/",
+     "page_date": "2026-01-02"
+    },
+    {
+     "value": "ogni 3 sconfitte Lohar sale di livello e attiva una nuova skill",
+     "url": "https://www.kibezaka.com/2021/11/tips-arms-training-rise-of-kingdoms.html",
+     "page_date": "2021-11"
+    }
+   ]
+  },
+  {
+   "topic": "Major Dispatch Chance per livello State Forum",
+   "values": [
+    {
+     "value": "valori assoluti: 1.5% (L10-15), 2% (L16-20), 2.5% (L21-24), 3% (L25)",
+     "url": "https://touchscreengaming.com/formations-guide/",
+     "page_date": "2025-10-10"
+    },
+    {
+     "value": "'Major Dispatch Chance Bonus': nessuno L1-15, +0.5% L16-20, +1% L21-24, +1.5% L25",
+     "url": "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/",
+     "page_date": "2024-05-28"
+    }
+   ],
+   "note": "Coerenti se la base e' 1.5% e rok.guide mostra solo l'incremento; non confermato in gioco."
+  }
+ ],
+ "unreachable": [
+  "https://rok.guide/formations/ (HTTP 503)",
+  "https://www.rok.guide/update-1-0-67-spring-once-more/ (HTTP 503)",
+  "https://www.rok.guide/update-1-0-62-hallows-eve/ (HTTP 503)",
+  "https://www.rok.guide/arms-training-event-2022/ (HTTP 503)",
+  "https://riseofkingdoms.fandom.com/wiki/Armaments (HTTP 402)",
+  "https://topuplist.com/blogs/detail/rise-of-kingdoms-wedge-formation-ii-guide (HTTP 403 via WebFetch e curl)",
+  "https://tiermaker.com/categories/video-games/rise-of-kingdoms-armaments-18508098 (HTTP 403)",
+  "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/arms-training (HTTP 403 / challenge JS)",
+  "https://forum-global.lilithgame.com/post/1670239 (pagina JS: solo titolo)",
+  "https://forum-global.lilithgame.com/post/1392870 (pagina JS: solo titolo)",
+  "https://www.facebook.com/riseofkingdomsgame/posts/update-1106-battle-resurgent-arrives-on-march-24-get-ready-for-spring-awakening-/1326813576146850/ (solo titolo)",
+  "https://rok-club.lilith.com/ (solo 'Loading...')",
+  "https://rok.lilith.com/news/ (HTTP 404)",
+  "https://riseofkingdomsguides.com/post-sitemap3.xml (HTTP 404)",
+  "https://www.bluestacks.com/blog/?s=... (ricerca blog, HTTP 403)",
+  "https://riseofkingdomsguides.com/wp-json/wp/v2/posts?search=... (JSON vuoto)",
+  "riseofkingdomsguides.com via curl (pagina di blocco 1976 byte; ok via WebFetch)",
+  "Pagina d'origine dello snippet sul honing (non identificata)",
+  "Video YouTube (Chisgule Gaming, Spartan Gaming, ecc.) non analizzabili: solo titoli",
+  "https://heaven-guardian.com/post-sitemap.xml (curl: connection reset; via WebFetch nessun articolo pertinente)",
+  "https://ldshop.gg/sitemap.xml (403 curl / 404 WebFetch)",
+  "Wayback CDX rok.guide/* (connection reset intermittente)",
+  "Patch note 1.1.10 (non presenti nell'API ufficiale)",
+  "https://www.rok.guide/formation-system/ (503 live; letto via snapshot Wayback 2024-05-28)"
+ ],
+ "verification": {
+  "checked_with": [
+   "https://codexhelper.com/tools/davor_toolkit/",
+   "https://forum-global.lilithgame.com/api/v2/posts/1392870",
+   "https://forum-global.lilithgame.com/api/v2/posts/1433064",
+   "https://forum-global.lilithgame.com/api/v2/posts/1441180",
+   "https://forum-global.lilithgame.com/api/v2/posts/1443512",
+   "https://forum-global.lilithgame.com/api/v2/posts/1492493",
+   "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+   "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+   "https://forum-global.lilithgame.com/api/v2/posts/1634559",
+   "https://forum-global.lilithgame.com/api/v2/posts/1670239",
+   "https://forum-global.lilithgame.com/api/v2/posts/1752431",
+   "https://forum-global.lilithgame.com/api/v2/posts/1782979",
+   "https://forum-global.lilithgame.com/api/v2/posts/1817043",
+   "https://forum-global.lilithgame.com/api/v2/posts/1862964",
+   "https://forum-global.lilithgame.com/api/v2/posts/1868790",
+   "https://forum-global.lilithgame.com/api/v2/posts/1896244",
+   "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+   "https://forum-global.lilithgame.com/api/v2/posts/1994801",
+   "https://forum-global.lilithgame.com/api/v2/posts/2013999",
+   "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+   "https://forum-global.lilithgame.com/api/v2/posts/2056756",
+   "https://forum-global.lilithgame.com/api/v2/posts/2124406",
+   "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+   "https://forum-global.lilithgame.com/api/v2/posts/2213663",
+   "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+   "https://forum-global.lilithgame.com/api/v2/posts/2232581",
+   "https://forum-global.lilithgame.com/api/v2/posts/2246725",
+   "https://forum-global.lilithgame.com/api/v2/posts/2259768",
+   "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000",
+   "https://ldshop.gg/blog/rise-of-kingdoms/anniversary-special.html",
+   "https://riseofkingdomshandbook.com/guides/riseofkingdoms-formations-armaments-inscriptions-guide",
+   "https://touchscreengaming.com/formations-guide/",
+   "https://web.archive.org/web/20240528102010/https://www.rok.guide/formation-system/"
+  ],
+  "retrieved": "2026-09-28",
+  "status": "partially_verified",
+  "per_section": {
+   "formations": "partially_verified (effetti di Arch/Wedge/V/Echelon/Hollow Square/Line/Triple Line/Delta/Double Line/Wedge II/Testudo/Circle confermati da fonti ufficiali o rok.guide; Pincer 10 vs 12% e fusione Wedge NON verificati)",
+   "ui_flow": "partially_verified (pulsanti State Forum e interfacce confermati; percorso menu esatto no)",
+   "armaments.honing": "verified (patch note ufficiali 1.1.03)",
+   "armaments.acquisition": "partially_verified (gemme/preferite/ricompense/pulsanti ufficiali; costi AP solo terze parti)",
+   "state_forum": "partially_verified (tabella confermata da 2 fonti; Sage's Testimony per livello non trovato)",
+   "armaments.transmutation": "partially_verified (regole e garanzia 10/30 ufficiali; costi in Stones per lock non pubblicati)",
+   "armaments.slots_and_families": "partially_verified (11 famiglie note, molte ufficiali; mappa completa slot/tipo mancante)",
+   "armaments.conversion": "verified (patch note 1.0.90/1.0.91/1.1.08 + Q&A)"
+  }
+ }
+}

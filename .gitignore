@@ -7,3 +7,6 @@ raccomandazioni.json
 test_pc/
 test_telefono/
 *.log
+
+# mappa della città imparata dal bot sul PC
+city_map.json

@@ -1,0 +1,2242 @@
+{
+  "retrieved": "2026-09-28",
+  "lucerne_scrolls": {
+    "what": "Evento/sistema a stagioni ('volumi') tipo battle pass: si completano missioni (settimanali e di stagione) per guadagnare punti chiamati 'Clues' che fanno salire il livello dello Scroll; ogni livello dà ricompense in una riga gratuita e in righe a pagamento. Si trova nel Trading Post ('Mercato' nel client italiano) come voce con pulsante giallo. Evento ufficiale: il nome compare nelle patch note Lilith 1.0.44, 1.0.70, 1.0.71, 1.0.77, 1.0.79. In italiano 'Pergamene di Lucerna' (nome italiano non verificato su fonte).",
+    "when": "Volumi consecutivi (1.0.33, 2020: 'the fourth volume ... is about to begin'). Durata: 8 settimane / 50-55 giorni prima della 1.0.44; dal 2021-03-04 (1.0.44) 5 settimane per volume, livello massimo 50. Esiste una versione per la Season of Conquest (1.0.77). Ultima menzione ufficiale trovata: 1.0.79 (2024-02-19), che parla di 'ongoing and newly-opened Lucerne Scrolls'. Nessuna menzione nelle patch note 1.0.80-1.1.09 (2024-03 / 2026-06): non si sa se esista ancora nel 2026.",
+    "availability": "Ricompense variano per stagione del regno: Preparation Season-Season 3 hanno blueprint leggendari di equipaggiamento da raccolta nella riga Ancestor's Legacy (1.0.70); Season 2-SoC hanno Formation Choice Chest e Random Armament Chest (1.0.71); SoC ha Blueprint Choice Chest al livello 50 (1.0.77). Riga gratuita accessibile a tutti; righe premium a pagamento.",
+    "structure": {
+      "levels": "80 (2020, rok.guide) -> 50 (dal 1.0.44)",
+      "points": "Clues",
+      "tiers": {
+        "free": "riga gratuita (54 livelli 'free' secondo rok.guide 2020; dato non ricontrollato dopo 1.0.44)",
+        "paid": "Ancestor's Legacy (5 USD, riga extra), Divine Inheritance (19.99 USD, +10 livelli, +50% Clues) secondo rok.guide 2020; riseofkingdomsguides indica ~20 USD per il tier 'Unlock Divine Inheritance'"
+      },
+      "level_purchase": "750 gemme per livello (2020)",
+      "rewards_examples": "city theme, cornici avatar, emoji, >=5 sculture dorate su 80 livelli, Golden Key, risorse, speedup, materiali equipaggiamento, punti VIP, pozioni AP (2020); Lv.7 Tome of Knowledge possibile dalla 'Lucerne chest' (wiki); Formation Choice/Random Armament Chest (1.0.71); Blueprint Choice Chest al livello 50 in SoC (1.0.77); speedup anche nel tier gratuito (riseofkingdomsguides)",
+      "after_max": "Oltre l'ultimo livello si ricevono regali extra se si continuano le missioni (2020)"
+    },
+    "quests": [
+      {
+        "name": "Weekly Challenge (missioni settimanali, generico)",
+        "goal": "Missioni sbloccate ogni settimana che danno Clues (punti) per salire di livello nello Scroll. Esempi citati: distruggere Barbarian Fort, uccidere barbari, aprire Gold/Silver Chest, raccogliere risorse su mappa o in città, ottenere comandanti Epic/Legendary in Tavern.",
+        "reward": "Clues (punti livello Scroll); le ricompense arrivano dai livelli",
+        "requirements": "Evento Lucerne Scrolls attivo (Trading Post)",
+        "how_free": "Completabili senza gemme con attività normali; restano completabili fino all'ultimo giorno del volume, quindi conviene farle coincidere con eventi che chiedono le stesse azioni. 'Ottenere comandanti in Tavern' si fa con chiavi gratuite (Silver/Gold Key da Daily Objectives).",
+        "bot_action": "Leggere la lista settimanale; mappare ogni missione su un'azione di routine (barbari, fort, raccolta, apertura casse con chiavi gratuite); riscuotere i Clues quando completata.",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Battlefield Native",
+        "goal": "Sconfiggere 1590 eserciti barbari (dato 2020, 80 livelli)",
+        "reward": "Clues",
+        "requirements": "AP sufficienti",
+        "how_free": "~32 barbari/giorno su 50 giorni; usare AP naturali e pozioni AP gratuite",
+        "bot_action": "Routine caccia barbari con AP disponibili; non comprare AP con gemme",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unyielding",
+        "goal": "Distruggere 500 Barbarian Fort (dato 2020)",
+        "reward": "Clues",
+        "requirements": "Alleanza attiva per i rally sui fort",
+        "how_free": "~10 fort/giorno; partecipare ai rally d'alleanza",
+        "bot_action": "Unirsi ai rally sui Barbarian Fort dell'alleanza; lanciarli solo se AP e marcia disponibili",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Reliable",
+        "goal": "Login per 50 giorni",
+        "reward": "Clues",
+        "requirements": "nessuno",
+        "how_free": "Aprire il gioco ogni giorno",
+        "bot_action": "Login giornaliero (già in routine)",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Well-Trained Army",
+        "goal": "Addestrare 450.000 unità (dato 2020)",
+        "reward": "Clues",
+        "requirements": "Risorse e code d'addestramento",
+        "how_free": "Addestrare di continuo, concentrando gli acceleratori negli eventi di addestramento (MGE, Increase Power) per doppia ricompensa",
+        "bot_action": "Tenere sempre piene le code di addestramento con risorse disponibili; niente gemme",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Through",
+        "goal": "Completare 850 missioni giornaliere (Daily Objectives)",
+        "reward": "Clues",
+        "requirements": "nessuno",
+        "how_free": "Completare tutte le Daily Objectives possibili ogni giorno",
+        "bot_action": "Routine Daily Objectives completa",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nature's Gift",
+        "goal": "Ottenere 256.750.000 risorse raccogliendo in città e sulla mappa",
+        "reward": "Clues",
+        "requirements": "marce di raccolta",
+        "how_free": "Raccolta continua con comandanti da raccolta",
+        "bot_action": "Tenere tutte le marce libere in raccolta e raccogliere la produzione cittadina",
+        "requires_confirmation": false,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acquisto di livelli con gemme",
+        "goal": "Comprare un livello dello Scroll",
+        "reward": "1 livello",
+        "requirements": "750 gemme per livello (dato 2020)",
+        "how_free": "Impossibile senza gemme: saltare",
+        "bot_action": "Mai usare",
+        "requires_confirmation": true,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tier a pagamento (Ancestor's Legacy / Divine Inheritance; nomi 1.0.44: 'Treasure Hunter', 'The Archaeologist')",
+        "goal": "Sbloccare la riga di ricompense premium / livelli bonus",
+        "reward": "Ricompense premium (blueprint leggendari, city theme, sculture, ecc.)",
+        "requirements": "Acquisto con denaro reale",
+        "how_free": "Impossibile senza pagare: il bot usa solo la riga gratuita",
+        "bot_action": "Ignorare; mai acquistare",
+        "requires_confirmation": true,
+        "sources": [
+          {
+            "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+            "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+            "page_date": "2020-07-23",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+            ]
+          },
+          {
+            "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+            "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+            "page_date": "2021-03-04",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Update 1.0.44: Lucerne Scrolls Optimizations (durata 8->5 settimane, livello max 50, quest più facili, Ancestor's Legacy / Divine Inheritance, Treasure Hunter / The Archaeologist)"
+            ]
+          },
+          {
+            "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-bundles/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02 (modificato; pubblicato 2022-01-14)",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Lucerne Scrolls Bundle: tier 'Unlock Divine Inheritance', ~20 USD per completare il percorso, blueprint leggendari"
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2021-03-04",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.44: Lucerne Scrolls Optimizations (durata 8->5 settimane, livello max 50, quest più facili, Ancestor's Legacy / Divine Inheritance, Treasure Hunter / The Archaeologist)"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1474351",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2023-05-18",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.70: blueprint equipaggiamento raccolta leggendari nelle ricompense Ancestor's Legacy (Preparation Season - Season 3)"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2023-07-04",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.71: Formation Choice Chest e Random Armament Chest nelle ricompense Lucerne Scrolls (Season 2 - SoC)"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1599092",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2023-12-05",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.77: Lucerne Scrolls della Season of Conquest, ricompense livello 50 -> Blueprint Choice Chest; 'volume'"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2024-02-19",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.79: armamenti Testudo/Circle e rare inscriptions anche nei Lucerne Scrolls in corso e nuovi"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1095757",
+        "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+        "page_date": "2021-07-09",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Developers' Feedback: miglioramenti a Lucerne Scrolls legati a blueprint/materiali"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-update-1-0-33-osiris-invitational/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2020-04-20",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "1.0.33: 'The fourth volume of The Lucerne Scrolls is about to begin' (struttura a volumi)"
+        ]
+      },
+      {
+        "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+        "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+        "page_date": "2020-07-23",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-bundles/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02 (modificato; pubblicato 2022-01-14)",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Lucerne Scrolls Bundle: tier 'Unlock Divine Inheritance', ~20 USD per completare il percorso, blueprint leggendari"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/how-to-get-speedups-in-rise-of-kingdoms/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02 (modificato; pubblicato 2022-01-04)",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Lucerne Scroll: speedup anche nel tier free-to-play; fare le attività giornaliere e alcune sfide"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/the-museum-building-guide-rok/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02 (modificato; pubblicato 2022-02-04)",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Civilization Explorer 'simile ai Lucerne Scrolls': si completano quest per guadagnare punti/livelli; parte free + parte a pagamento (10 USD)"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Items/Tome_of_Knowledge",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Lv.7 Tome of Knowledge: 'Chance from Lucerne chest'"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Trading Post: sblocco City Hall 12, invio risorse agli alleati; nessuna menzione di Lucerne nel wiki"
+        ]
+      },
+      {
+        "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+        "site": "rok.guide (via web.archive.org)",
+        "page_date": "2020-07-23",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "'Lucerne Scrolls is located in the Trading Post building!'; immagine alt 'Lucerne Scrolls in the Trading Post'; video 'Lucerne Scrolls Treasure Hunting Season'"
+        ]
+      },
+      {
+        "url": null,
+        "site": "osservazione del proprietario (screenshot client italiano, riferita dal coordinatore)",
+        "page_date": "2026-09-28",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "posizione Pergamene di Lucerna: edificio Mercato, voce con pulsante giallo",
+          "menu Missioni e Obiettivi: icona pergamena aperta in alto a destra sotto l'etichetta dell'era ('Età del ferro') e l'orologio UTC",
+          "testo 'molte più quest e premi se partecipi'"
+        ]
+      }
+    ],
+    "where": "edificio Mercato, voce con pulsante giallo",
+    "where_detail": "Il proprietario (client italiano) vede le Pergamene di Lucerna dentro l'edificio 'Mercato' come unica voce con pulsante giallo. rok.guide (2020) conferma: 'Lucerne Scrolls is located in the Trading Post building!'. Quindi 'Mercato' nel client italiano = Trading Post (edificio inglese; sblocco City Hall 12 secondo il wiki). NON è l'icona a pergamena in alto a destra (quella è il menu Missioni e Obiettivi). NON confondere con Mysterious Merchant (negozio a comparsa).",
+    "name_it": "Pergamene di Lucerna (nome fornito dal proprietario, client italiano)"
+  },
+  "other_quest_systems": [
+    {
+      "system": "Main Quests (Main Quest Line)",
+      "what": "Linea principale dal tutorial: una quest attiva alla volta; i requisiti di quest successive vengono tracciati anche prima che siano visibili.",
+      "how_free": "Tutte completabili senza gemme con la crescita normale (edifici, ricerca, esplorazione nebbia, Expedition, addestramento).",
+      "bot_action": "Riscuotere appena completata; usare la quest attiva come suggerimento del prossimo obiettivo di crescita.",
+      "quests": [
+        {
+          "name": "Origins",
+          "requirement": "Upgrade City Hall to Level 2",
+          "reward": "2,000 Food, 2,000 Wood, 50 Gems"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 1 Fog Blocks on the map",
+          "reward": "10,000 Wood"
+        },
+        {
+          "name": "Sharpshooter",
+          "requirement": "Build an Archery Range",
+          "reward": "Archer x500"
+        },
+        {
+          "name": "Archer Training",
+          "requirement": "Train 20 Archer",
+          "reward": "Universal Speedup (5m) x2"
+        },
+        {
+          "name": "Barbarian Buster",
+          "requirement": "Defeat Level 2 Barbarians on the map",
+          "reward": "Lv.1 Tome of Knowledge x5"
+        },
+        {
+          "name": "Hand of Benevolence",
+          "requirement": "Heal and collect 1 unit",
+          "reward": "1,000 Food, 1,000 Wood, 1,000 Food x2"
+        },
+        {
+          "name": "Log Merchant",
+          "requirement": "Build a Lumber Mill",
+          "reward": "1,000 Wood x2"
+        },
+        {
+          "name": "Newborn",
+          "requirement": "Upgrade City Hall to Level 3",
+          "reward": "3,000 Food, 3,000 Wood, 80 Gems"
+        },
+        {
+          "name": "Hall of Unity",
+          "requirement": "Build an Alliance Center",
+          "reward": "20,000 Wood"
+        },
+        {
+          "name": "One of a Kind",
+          "requirement": "Set your avatar in the Governor Profile",
+          "reward": "1,000 Food, 1,000 Wood, Silver Key"
+        },
+        {
+          "name": "Barbarian Buster",
+          "requirement": "Defeat Level 3 Barbarians on the map",
+          "reward": "3,000 Food, 3,000 Wood, Lv.1 Tome of Knowledge x8"
+        },
+        {
+          "name": "Logistical Support",
+          "requirement": "Own 2 Farm",
+          "reward": "20,000 Food"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 50 Fog Blocks on the map",
+          "reward": "4,000 Food, 4,000 Wood, 8-Hour Food Boost"
+        },
+        {
+          "name": "The Manor Owner",
+          "requirement": "Upgrade Farm to level 2",
+          "reward": "10,000 Food x1"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 1,500",
+          "reward": "sculture del comandante della civiltà (x10) per 'Powerful Leader 1,500'"
+        },
+        {
+          "name": "Experience",
+          "requirement": "Upgrade City Hall to Level 4",
+          "reward": "5,000 Food, 5,000 Wood, 150 Gems"
+        },
+        {
+          "name": "Gift From Earth",
+          "requirement": "Build a Quarry",
+          "reward": "75,000 Stone"
+        },
+        {
+          "name": "Fountain of Knowledge",
+          "requirement": "Build an Academy",
+          "reward": "30,000 Wood"
+        },
+        {
+          "name": "Power of Science",
+          "requirement": "Start 1 Technology Research",
+          "reward": "2,000 Food, 2,000 Wood"
+        },
+        {
+          "name": "Hand of Benevolence",
+          "requirement": "Heal and collect 50 units",
+          "reward": "30,000 Food, 30,000 Wood"
+        },
+        {
+          "name": "Barbarian Buster",
+          "requirement": "Defeat Level 4 Barbarians on the map",
+          "reward": "4,000 Food, 4,000 Wood, Lv.1 Tome of Knowledge x10"
+        },
+        {
+          "name": "Guardian Angel",
+          "requirement": "Upgrade Hospital to Level 2",
+          "reward": "3,000 Food, 3,000 Wood, 10,000 Stone"
+        },
+        {
+          "name": "Space Clearance",
+          "requirement": "Clear 5 Trees in the city",
+          "reward": "500 Food, 500 Wood, 1,000 Wood x5"
+        },
+        {
+          "name": "Take The Lead",
+          "requirement": "Build a Stable",
+          "reward": "Horseman x300"
+        },
+        {
+          "name": "Cavalry Training",
+          "requirement": "Train 20 Cavalry Units",
+          "reward": "500 Food, 500 Wood, 500 Stone"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 100 Fog Blocks on the map",
+          "reward": "1,000 Food, 1,000 Wood, 750 Stone"
+        },
+        {
+          "name": "Battlefield Elite",
+          "requirement": "Upgrade Barracks to level 2",
+          "reward": "1,000 Food, 1,000 Wood, 750 Stone"
+        },
+        {
+          "name": "Enlarge An Army",
+          "requirement": "Open 1 Silver Chests in the Tavern",
+          "reward": "2,000 Food, 2,000 Wood, 1,500 Stone"
+        },
+        {
+          "name": "The Chosen One",
+          "requirement": "Add 1 Talent Point to a commander",
+          "reward": "100 Food, 100 Wood, 500 Stone"
+        },
+        {
+          "name": "Abstinence",
+          "requirement": "Upgrade City Hall to Level 14",
+          "reward": "55,000 Food, 55,000 Wood, 25,000 Stone, 1,100 Gems"
+        },
+        {
+          "name": "More Gold",
+          "requirement": "Build 3 Goldmines",
+          "reward": "1,000 Food, 1,000 Wood, 750 Stone"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 16,000 Fog Blocks on the map",
+          "reward": "5,000 Food, 5,000 Wood, 750 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 20",
+          "reward": "25,000 Food, 25,000 Wood, 5,000 Stone, Tome of Knowledge Lv.2 (500 EXP) x14"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 60,000 units within your city",
+          "reward": "10,000 Food, 10,000 Wood, 20,000 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 22 Missions in Expedition",
+          "reward": "100,000 Food, 100,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 400,000",
+          "reward": "6,000 Food, 8,000 Wood, 3,500 Stone"
+        },
+        {
+          "name": "Discord",
+          "requirement": "Upgrade City Hall to Level 15",
+          "reward": "78,000 Food, 78,000 Wood, 35,000 Stone, 1,200 Gems"
+        },
+        {
+          "name": "Casualty Reduction",
+          "requirement": "Build 4 Hospitals",
+          "reward": "1,000 Food, 1,000 Wood, 1,500 Stone"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 20,000 Fog Blocks on the map",
+          "reward": "3,000 Food, 3,000 Wood, 8,000 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 22",
+          "reward": "28,000 Food, 28,000 Wood, 8,000 Stone, Tome of Knowledge Lv.2 (500 EXP) x15"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 70,000 units within your city",
+          "reward": "6,000 Food, 6,000 Wood, 3,000 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 24 Missions in Expedition",
+          "reward": "110,000 Food, 110,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 500,000",
+          "reward": "9,000 Food, 7,000 Wood, 3,500 Stone"
+        },
+        {
+          "name": "Courage",
+          "requirement": "Upgrade City Hall to Level 16",
+          "reward": "100,000 Food, 100,000 Wood, 50,000 Stone, 1,300 Gems"
+        },
+        {
+          "name": "More Gold",
+          "requirement": "Build 4 Goldmines",
+          "reward": "4,000 Food, 4,000 Wood, 2,000 Stone"
+        },
+        {
+          "name": "Technology Research",
+          "requirement": "Complete the research of \"Spearmen\"",
+          "reward": "10,000 Food, 10,000 Wood, 7,500 Stone"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 25,000 Fog Blocks on the map",
+          "reward": "7,000 Food, 5,000 Wood, 1,250 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 24",
+          "reward": "9,000 Food, 9,000 Wood, 1,500 Stone"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 80,000 units within your city",
+          "reward": "70,000 Food, 50,000 Wood, 30,000 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 26 Missions in Expedition",
+          "reward": "120,000 Food, 120,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 800,000",
+          "reward": "18,000 Food, 14,000 Wood, 8,000 Stone"
+        },
+        {
+          "name": "Responsibility",
+          "requirement": "Upgrade City Hall to Level 17",
+          "reward": "160,000 Food, 160,000 Wood, 70,000 Stone, 1,400 Gems"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 1,000,000",
+          "reward": "15,000 Food, 25,000 Wood, 5,000 Stone"
+        },
+        {
+          "name": "Principle",
+          "requirement": "Upgrade City Hall to Level 18",
+          "reward": "235,000 Food, 235,000 Wood, 105,000 Stone, 1,500 Gems"
+        },
+        {
+          "name": "Technology Research",
+          "requirement": "Complete the research of \"Heavy Cavalry\"",
+          "reward": "10,000 Food, 10,000 Wood, 7,500 Stone"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 40,000 Fog Blocks on the map",
+          "reward": "15,000 Food, 13,500 Wood, 7,500 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 28",
+          "reward": "18,500 Food, 16,500 Wood, 8,500 Stone, Tome of Knowledge Lv.2 (500 EXP) x18"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 100,000 units within your city",
+          "reward": "16,500 Food, 24,500 Wood, 7,350 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 30 Missions in Expedition",
+          "reward": "140,000 Food, 140,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 1,500,000",
+          "reward": "25,000 Food, 28,500 Wood, 8,500 Stone"
+        },
+        {
+          "name": "Freedom",
+          "requirement": "Upgrade City Hall to Level 19",
+          "reward": "350,000 Food, 350,000 Wood, 150,000 Stone, 1,600 Gems"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 50,000 Fog Blocks on the map",
+          "reward": "12,000 Food, 12,000 Wood, 4,000 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 30",
+          "reward": "40,000 Food, 40,000 Wood, 20,000 Stone"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 110,000 units within your city",
+          "reward": "11,000 Food, 22,000 Wood, 3,500 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 33 Missions in Expedition",
+          "reward": "150,000 Food, 150,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 2,000,000",
+          "reward": "20,000 Food, 20,000 Wood, 15,000 Stone"
+        },
+        {
+          "name": "Unparalleled",
+          "requirement": "Upgrade City Hall to Level 20",
+          "reward": "500,000 Food, 500,000 Wood, 250,000 Stone, 1,700 Gems"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 60,000 Fog Blocks on the map",
+          "reward": "16,000 Food, 16,000 Wood, 16,000 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 32",
+          "reward": "40,000 Food, 40,000 Wood, 40,000 Stone"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Own 120,000 units",
+          "reward": "150,000 Food, 150,000 Wood, 50,000 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 36 Missions in Expedition",
+          "reward": "160,000 Food, 160,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 2,500,000",
+          "reward": "50,000 Food, 50,000 Wood, 37,500 Stone"
+        },
+        {
+          "name": "Road of Honor",
+          "requirement": "Upgrade City Hall to Level 21",
+          "reward": "800,000 Food, 800,000 Wood, 350,000 Stone, 1,800 Gems"
+        },
+        {
+          "name": "Respected Overlord",
+          "requirement": "Upgrade City Hall to Level 22",
+          "reward": "1,200,000 Food, 1,200,000 Wood, 500,000 Stone, 1,900 Gems"
+        },
+        {
+          "name": "Respected Overlord",
+          "requirement": "Upgrade City Hall to Level 23",
+          "reward": "1,800,000 Food, 1,800,000 Wood, 800,000 Stone, 2,000 Gems"
+        },
+        {
+          "name": "Technology Research",
+          "requirement": "Complete the research of Knight",
+          "reward": "10,000 Food x30"
+        },
+        {
+          "name": "Mysterious Fog",
+          "requirement": "Explore 90,000 Fog Blocks on the map",
+          "reward": "80,000 Food, 80,000 Wood, 40,000 Stone"
+        },
+        {
+          "name": "Mighty General",
+          "requirement": "Upgrade a commander to Level 38",
+          "reward": "50,000 Food, 50,000 Wood, 50,000 Stone"
+        },
+        {
+          "name": "Rising Star",
+          "requirement": "Retain a total of 150,000 units within your city",
+          "reward": "50,000 Food, 50,000 Wood, 35,000 Stone"
+        },
+        {
+          "name": "A Long Journey",
+          "requirement": "Complete 50 Missions in Expedition",
+          "reward": "190,000 Food, 190,000 Wood"
+        },
+        {
+          "name": "Powerful Leader",
+          "requirement": "Power reached 6,000,000",
+          "reward": "80,000 Food, 80,000 Wood, 60,000 Stone"
+        },
+        {
+          "name": "Respected Overlord",
+          "requirement": "Upgrade City Hall to Level 24",
+          "reward": "2,700,000 Food, 2,700,000 Wood, 1,200,000 Stone, 2,200 Gems"
+        },
+        {
+          "name": "Technology Research",
+          "requirement": "Complete the research of Ballista",
+          "reward": "10,000 Food x30, 10,000 Wood x30, 7,500 Stone x30, Training Speedup (60m) x20"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Side Quests",
+      "what": "Linee parallele: edifici, ricerca economica/militare, raccolta, produzione, barbari/fort, addestramento, comandanti (livello, abilità, talenti), esplorazione (villaggi, caverne, passi, holy sites), varie (Silver/Golden Chest, cure, aiuti, strade, decorazioni). Una quest attiva per linea.",
+      "how_free": "Completabili con la progressione normale; quelle su Golden Chest/decorazioni possono richiedere chiavi/oggetti: usare solo quelli gratuiti.",
+      "bot_action": "Riscuotere tutte le ricompense pronte; non spendere gemme per soddisfarle.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Side_Quests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Side Quests: edifici, ricerca, barbari, truppe; una quest attiva per linea"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Template:Navbox_quests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "categorie di Side Quests (Building, Research, Gathering, Production, Collect, Barbarians, Training, Exploration, Miscellany)"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Daily Objectives",
+      "what": "Missioni giornaliere casuali che danno risorse e Activity Points; forzieri a 20/40/60/80/100 punti. Reset 00:00 UTC.",
+      "quests": [
+        {
+          "name": "A Small Problem",
+          "goal": "Sconfiggere 1 barbaro",
+          "activity_points": 2,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Hazard Cleanup",
+          "goal": "Sconfiggere 5 barbari",
+          "activity_points": 8,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "The Gatherer",
+          "goal": "Raccogliere 25.000 cibo",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "The Lumberjack",
+          "goal": "Raccogliere 25.000 legno",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Rock Star",
+          "goal": "Raccogliere 18.000 pietra",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Gold Digger",
+          "goal": "Raccogliere 12.000 oro",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Sustainable Development",
+          "goal": "Raccogliere 30.000 risorse in città",
+          "activity_points": 3,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "The Great Physician",
+          "goal": "Curare e raccogliere 50 unità",
+          "activity_points": 2,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Help Each Other",
+          "goal": "Aiutare alleati 20 volte",
+          "activity_points": 10,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Skillful Craftsman",
+          "goal": "Migliorare edifici 1 volta",
+          "activity_points": 10,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Age Of Science",
+          "goal": "Ricercare 1 tecnologia",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Strange Fate",
+          "goal": "Aprire 7 Silver Chest in Tavern",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Do More With Less",
+          "goal": "Usare 5 oggetti risorsa",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Usa oggetti che consumano inventario: farlo solo con oggetti gratuiti già posseduti e se il boost serve",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Food/Wood/Stone/Gold Growth",
+          "goal": "Usare 1 boost produzione del tipo",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Usa oggetti che consumano inventario: farlo solo con oggetti gratuiti già posseduti e se il boost serve",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Gathering Enhancement",
+          "goal": "Usare 1 Enhanced Gathering",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Usa oggetti che consumano inventario: farlo solo con oggetti gratuiti già posseduti e se il boost serve",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Sword/Bow/Horse of the King",
+          "goal": "Reclutare 200 fanti/arcieri/cavalieri",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Power of Knowledge",
+          "goal": "Usare 5 Tome of Knowledge",
+          "activity_points": 5,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Usa oggetti che consumano inventario: farlo solo con oggetti gratuiti già posseduti e se il boost serve",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        },
+        {
+          "name": "Friendly Commerce",
+          "goal": "Comprare 10 oggetti al Courier Station",
+          "activity_points": 10,
+          "reward": "~4.000 cibo, 4.000 legno, 3.000 pietra, 400 oro + punti attività (Friendly Commerce: 1.000 cibo, 1.000 legno)",
+          "how_free": "Azione normale di routine; Friendly Commerce: acquisti al Courier Station pagati in risorse/monete, non gemme",
+          "bot_action": "Completare se possibile senza gemme; riscuotere la ricompensa della singola missione"
+        }
+      ],
+      "chests": [
+        {
+          "points": 20,
+          "reward": "30k cibo, 30k legno, 22.5k pietra, 3k oro; Training Speedup 5m x5"
+        },
+        {
+          "points": 40,
+          "reward": "60k/60k/45k/6k; Building Speedup 5m x5"
+        },
+        {
+          "points": 60,
+          "reward": "Silver Key x1, Research Speedup 5m x8, 100 AP x1, Lv.1 Tome x40, Brand-new Starlight Sculpture x2"
+        },
+        {
+          "points": 80,
+          "reward": "120k/120k/90k/12k; Universal Speedup 5m x16"
+        },
+        {
+          "points": 100,
+          "reward": "100 gemme, Golden Key x1 (in SoC Sovereign Key dalla 1.1.02), Magic Box x1, Epic Commander Sculpture x3"
+        }
+      ],
+      "how_free": "Raggiungere 100 punti con barbari, raccolta, aiuti, costruzione/ricerca, addestramento e Silver Chest gratuite.",
+      "bot_action": "Ogni giorno prima delle 00:00 UTC: completare le missioni fino a 100 punti, aprire tutti e 5 i forzieri.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1172667",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2021-11-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.52: nuova quest Daily Objectives per crafting materiali al Blacksmith"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2025-12-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.02: in SoC il forziere Daily Objective da 100 punti contiene Sovereign Key invece di Golden Key; Bastion Quests refresh"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1782979",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2024-09-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.86: più Relic Coins dalle ricompense Daily Objectives"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/how-to-get-speedups-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (modificato; pubblicato 2022-01-04)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Lucerne Scroll: speedup anche nel tier free-to-play; fare le attività giornaliere e alcune sfide"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Season Quests (Season of Conquest)",
+      "what": "Quest di stagione in SoC che danno molti speedup (1.0.44); pulsante 'claim all' (1.0.89).",
+      "how_free": "Si completano giocando la SoC; alcune possono implicare combattimento.",
+      "bot_action": "Usare 'claim all' per riscuotere; quest che richiedono attacchi a giocatori -> conferma.",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2021-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.44: aggiunte 'Season Quests' in Season of Conquest che danno molti speedup"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1868790",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2024-12-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.89: pulsante 'claim all' per le season quest in SoC"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Lost Kingdom Chronicles / Crusader Achievements / Bastion Quests (KvK)",
+      "what": "Capitoli (chapters) della cronaca KvK con obiettivi di regno; Crusader Achievements personali; Bastion quests con Favor; ricompense riscattabili dall'interfaccia Bastion (1.1.04).",
+      "how_free": "Parte PvE/raccolta; parte PvP.",
+      "bot_action": "Riscuotere ricompense; missioni PvP solo con conferma.",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2026-01-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.03: Lost Kingdom Chronicles, capitolo 'Coalition Recruiter' rimosso; bug Bastion quest"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2213663",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2026-02-24",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.04: Bastion quest: ricompense riscattabili direttamente dall'interfaccia; Chronicles chapters"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2026-03-18",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.06: Crusader Achievement Bastion -> Favor"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2025-12-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.02: in SoC il forziere Daily Objective da 100 punti contiene Sovereign Key invece di Golden Key; Bastion Quests refresh"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Civilization Explorer",
+      "what": "Sistema 'simile ai Lucerne Scrolls' (quest -> punti -> livelli) con Exhibit/Relic Coins per il Museum; parte free e parte a 10 USD.",
+      "how_free": "Solo riga gratuita.",
+      "bot_action": "Completare quest gratuite, riscuotere riga free, ignorare acquisti.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/the-museum-building-guide-rok/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (modificato; pubblicato 2022-02-04)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Civilization Explorer 'simile ai Lucerne Scrolls': si completano quest per guadagnare punti/livelli; parte free + parte a pagamento (10 USD)"
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Quest a tentativi (Quest Attempts / Quest Crests)",
+      "what": "Quest accettate consumando Quest Attempts/Quest Crests, rimborsati se annullate/fallite (1.1.01). Contesto evento non chiarito dalla patch note.",
+      "how_free": "Usare solo tentativi gratuiti.",
+      "bot_action": "Non comprare tentativi con gemme.",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2161435",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2025-11-08",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.01: quest con Quest Attempts e Quest Crests rimborsati se annullate/fallite"
+          ]
+        }
+      ]
+    }
+  ],
+  "missions_menu": {
+    "menu_path": "HUD in alto a destra, icona pergamena aperta sotto l'era",
+    "ui_names": {
+      "en": [
+        "Main Quests",
+        "Side Quests",
+        "Daily Objectives",
+        "Activity Points",
+        "Events",
+        "Achievements",
+        "Lucerne Scrolls",
+        "Trading Post",
+        "Iron Age"
+      ],
+      "it_from_owner": [
+        "Missioni e Obiettivi",
+        "Missioni principali e giornaliere",
+        "Obiettivi di crescita",
+        "Eventi a tempo",
+        "Età del ferro",
+        "Mercato",
+        "Pergamene di Lucerna"
+      ],
+      "it_note": "Nomi italiani solo dall'osservazione del proprietario; nessuna fonte web. Età: Stone/Bronze/Iron/Dark/Feudal Age = Età della pietra/del bronzo/del ferro/oscura/feudale (solo 'Età del ferro' confermata dal proprietario, le altre sono traduzioni non verificate)."
+    },
+    "main_and_daily": {
+      "types": [
+        "Main Quest Line",
+        "Side Quests",
+        "Daily Objectives"
+      ],
+      "typical_rewards": "Main: risorse, gemme ai livelli City Hall 2-24 (50-2.200), speedup, Tome, chiavi. Side: risorse/oggetti. Daily: risorse + forzieri 20-100 punti (speedup, Silver/Golden Key, Tome, sculture, 100 gemme).",
+      "activity_chests": [
+        {
+          "points": 20,
+          "reward": "30k cibo, 30k legno, 22.5k pietra, 3k oro; Training Speedup 5m x5"
+        },
+        {
+          "points": 40,
+          "reward": "60k/60k/45k/6k; Building Speedup 5m x5"
+        },
+        {
+          "points": 60,
+          "reward": "Silver Key x1, Research Speedup 5m x8, 100 AP x1, Lv.1 Tome x40, Brand-new Starlight Sculpture x2"
+        },
+        {
+          "points": 80,
+          "reward": "120k/120k/90k/12k; Universal Speedup 5m x16"
+        },
+        {
+          "points": 100,
+          "reward": "100 gemme, Golden Key x1 (in SoC Sovereign Key dalla 1.1.02), Magic Box x1, Epic Commander Sculpture x3"
+        }
+      ],
+      "order": [
+        "1. Riscuotere tutte le ricompense già pronte (main, side, daily)",
+        "2. Daily Objectives fino a 100 punti (Help Each Other 10, Skillful Craftsman 10, Hazard Cleanup 8, Friendly Commerce 10 sono i più redditizi)",
+        "3. Avanzare la Main Quest (tipicamente City Hall/edifici/ricerca)",
+        "4. Side Quests che coincidono con azioni già in corso",
+        "5. Missioni Lucerne/evento che coincidono con le azioni del giorno"
+      ],
+      "how_free": "Nessuna di queste richiede gemme se si usano azioni normali e oggetti gratuiti.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Side_Quests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Side Quests: edifici, ricerca, barbari, truppe; una quest attiva per linea"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Template:Navbox_quests",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "categorie di Side Quests (Building, Research, Gathering, Production, Collect, Barbarians, Training, Exploration, Miscellany)"
+          ]
+        }
+      ]
+    },
+    "growth_objectives": {
+      "ages": [
+        {
+          "age": "Stone Age",
+          "city_hall": "City Hall 1-3"
+        },
+        {
+          "age": "Bronze Age",
+          "city_hall": "City Hall 4-9"
+        },
+        {
+          "age": "Iron Age",
+          "city_hall": "City Hall 10-15"
+        },
+        {
+          "age": "Dark Age",
+          "city_hall": "City Hall 16-20"
+        },
+        {
+          "age": "Feudal Age",
+          "city_hall": "City Hall 21-25"
+        }
+      ],
+      "age_achievements": [
+        {
+          "name": "Bronze Beauty",
+          "task": "Enter the Bronze Age",
+          "reward": "5m Speedup x1"
+        },
+        {
+          "name": "Iron Will",
+          "task": "Enter the Iron Age",
+          "reward": "5m Speedup x1"
+        },
+        {
+          "name": "Dark Night",
+          "task": "Enter the Dark Age",
+          "reward": "5m Speedup x1"
+        },
+        {
+          "name": "Resistance is Feudal",
+          "task": "Enter the Feudal Age",
+          "reward": "15m Speedup x1"
+        },
+        {
+          "name": "Architectural Genius",
+          "task": "City Hall 25",
+          "reward": "60m Speedup x1"
+        }
+      ],
+      "city_hall_upgrade_mail_rewards": {
+        "2": "10.0K Food, 10.0K Wood ; Universal Speedup (5m) x1",
+        "3": "20.0K Food, 20.0K Wood ; Universal Speedup (5m) x2",
+        "4": "30.0K Food, 30.0K Wood ; Universal Speedup (5m) x3",
+        "5": "40.0K Food, 40.0K Wood, 40.0K Stone ; Universal Speedup (30m) x1",
+        "6": "50.0K Food, 50.0K Wood, 50.0K Stone ; Universal Speedup (30m) x2",
+        "7": "50.0K Food, 50.0K Wood, 50.0K Stone ; Universal Speedup (30m) x5",
+        "8": "50.0K Food, 50.0K Wood, 50.0K Stone ; Universal Speedup (8h) x2",
+        "9": "50.0K Food, 50.0K Wood, 50.0K Stone ; Universal Speedup (24h) x1",
+        "10": "50.0K Food, 50.0K Wood, 50.0K Stone, 10.0K Gold ; Civilization Change",
+        "11": "50.0K Food, 50.0K Wood ; Building Speedup (10m) x11, Training Speedup (10m) x11",
+        "12": "100.0K Food, 100.0K Wood ; Building Speedup (10m) x12, Training Speedup (10m) x12",
+        "13": "100.0K Food, 100.0K Wood ; Building Speedup (10m) x13, Training Speedup (10m) x13",
+        "14": "100.0K Stone, 20.0K Gold ; Building Speedup (10m) x14, Training Speedup (10m) x14",
+        "15": "100.0K Food, 100.0K Wood ; Building Speedup (10m) x15, Training Speedup (10m) x15",
+        "16": "100.0K Stone, 20.0K Gold ; Universal Speedup (7d) x1, Gem (100) x1",
+        "17": "100.0K Food, 100.0K Wood ; Building Speedup (10m) x17, Training Speedup (10m) x17",
+        "18": "100.0K Stone, 20.0K Gold ; Building Speedup (10m) x18, Training Speedup (10m) x18",
+        "19": "100.0K Food, 100.0K Wood ; Building Speedup (10m) x19, Training Speedup (10m) x19",
+        "20": "100.0K Stone, 20.0K Gold ; Building Speedup (10m) x20, Training Speedup (10m) x20",
+        "21": "? Food, ? Wood, ? Stone, ? Gold ; Universal Speedup (7d) x1",
+        "22": "100.0K Stone, 20.0K Gold ; Building Speedup (10m) x22, Training Speedup (10m) x22",
+        "23": "150.0K Food, 150.0K Wood ; Building Speedup (10m) x23, Training Speedup (10m) x23",
+        "24": "150.0K Stone, 30.0K Gold ; Building Speedup (10m) x24, Training Speedup (10m) x24",
+        "25": "200.0K Stone, 50.0K Gold ; Master's Blueprint x1, Gem x500"
+      },
+      "era_breakthrough_event": {
+        "trigger": "City Hall 4",
+        "until": "City Hall 25",
+        "milestones": [
+          {
+            "city_hall": 4,
+            "reward": "Universal Speedup 15m x4, Builder Recruitment x1"
+          },
+          {
+            "city_hall": 7,
+            "reward": "Universal Speedup 15m x6, 24h Enhanced Gathering x1"
+          },
+          {
+            "city_hall": 10,
+            "reward": "100 Gems x1, Universal 60m x2, 10k Food x3, 10k Wood x3, 7.5k Stone x2"
+          },
+          {
+            "city_hall": 13,
+            "reward": "Universal 60m x4, 3k Gold x1, Research 60m x2"
+          },
+          {
+            "city_hall": 16,
+            "reward": "100 Gems x2, Universal 60m x8, 10k Food x10, 10k Wood x10, 7.5k Stone x4"
+          },
+          {
+            "city_hall": 19,
+            "reward": "Universal 60m x8, 15k Gold x1, Stone Boost 24h x2"
+          },
+          {
+            "city_hall": 21,
+            "reward": "100 Gems x5, Universal 3h x8, 10k Food x20, 10k Wood x20, 7.5k Stone x8"
+          },
+          {
+            "city_hall": 23,
+            "reward": "Universal 3h x8, 50k Gold x1, Targeted Teleport x1"
+          },
+          {
+            "city_hall": 25,
+            "reward": "100 Gems x8, Universal 3h x24, 10k Food x30, 10k Wood x30, 7.5k Stone x12"
+          }
+        ]
+      },
+      "main_quest_growth_thresholds": "Nella Main Quest: 'Powerful Leader' (potenza 1.500 ... 6.000.000), 'Rising Star' (unità possedute 60k-150k), 'Mighty General' (comandante liv. 20-38), 'A Long Journey' (Expedition 22-50 missioni), 'Mysterious Fog' (nebbia esplorata fino a 90.000), 'Technology Research' (Spearmen, Heavy Cavalry, Knight, Ballista), City Hall 2-24 con gemme. Vedi other_quest_systems[0].quests.",
+      "troops_trained_power_research": "Soglie dedicate (truppe addestrate, potenza, ricerche) documentate solo come Main Quest, Side Quests e Achievements; nessuna tabella separata 'growth objectives' trovata.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/Era_Breakthrough",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Era Breakthrough: evento permanente, trigger City Hall 4, ricompense ai livelli 4/7/10/13/16/19/21/23/25"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "ricompense per livello City Hall inviate via mail"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "suddivisione Età per livello City Hall"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Achievements",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Achievements (sblocco City Hall 6, profilo Governatore), Engineer: Bronze Beauty/Iron Will/Dark Night/Resistance is Feudal/Architectural Genius"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+          ]
+        }
+      ]
+    },
+    "timed_events": {
+      "what": "Secondo il proprietario il menu Missioni e Obiettivi ha una sezione 'Eventi a tempo' ('molte più quest e premi se partecipi'); le fonti web descrivono gli eventi nel pannello Eventi: Permanent (Era Breakthrough), Kingdom events legati alla timeline del regno/Monument (Mighty Army, Warpath, Clarion Call, Boundless Wisdom, Tiles & Bricks, Strategic Reserve, Rise of Kingdoms 7 giorni, Golden Kingdom, Alliance Mobilization...), Global events (festività).",
+      "bot_recognition": "OCR del titolo evento nella lista del pannello Eventi e della descrizione ('Defeat barbarians', 'Train troops', 'Research', 'Gather'); classificare per tipo di azione; leggere il timer residuo e i requisiti di ingresso.",
+      "bot_behaviour": "Se l'evento premia azioni già in routine -> allineare le azioni del giorno (es. usare speedup di ricerca durante Boundless Wisdom); riscuotere ogni milestone gratuita; ignorare ricariche/acquisti/spin a gemme; eventi PvP -> conferma.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Permanent Events (Era Breakthrough), Kingdom Events legati alla Monument/kingdom timeline, Global Events"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/Era_Breakthrough",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Era Breakthrough: evento permanente, trigger City Hall 4, ricompense ai livelli 4/7/10/13/16/19/21/23/25"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Side_Quests",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Side Quests: edifici, ricerca, barbari, truppe; una quest attiva per linea"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Template:Navbox_quests",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "categorie di Side Quests (Building, Research, Gathering, Production, Collect, Barbarians, Training, Exploration, Miscellany)"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Events/Era_Breakthrough",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Era Breakthrough: evento permanente, trigger City Hall 4, ricompense ai livelli 4/7/10/13/16/19/21/23/25"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "ricompense per livello City Hall inviate via mail"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "suddivisione Età per livello City Hall"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Achievements",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Achievements (sblocco City Hall 6, profilo Governatore), Engineer: Bronze Beauty/Iron Will/Dark Night/Resistance is Feudal/Architectural Genius"
+        ]
+      },
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Events",
+        "site": "riseofkingdoms.fandom.com (api.php)",
+        "page_date": null,
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Permanent Events (Era Breakthrough), Kingdom Events legati alla Monument/kingdom timeline, Global Events"
+        ]
+      },
+      {
+        "url": null,
+        "site": "osservazione del proprietario (screenshot client italiano, riferita dal coordinatore)",
+        "page_date": "2026-09-28",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "posizione Pergamene di Lucerna: edificio Mercato, voce con pulsante giallo",
+          "menu Missioni e Obiettivi: icona pergamena aperta in alto a destra sotto l'etichetta dell'era ('Età del ferro') e l'orologio UTC",
+          "testo 'molte più quest e premi se partecipi'"
+        ]
+      }
+    ],
+    "menu_path_detail": "Icona a pergamena aperta in alto a destra dell'HUD, subito sotto l'etichetta dell'era (es. 'Età del ferro') e l'orologio UTC, accanto a un'icona rotonda dorata con un personaggio (osservazione del proprietario). Nessuna fonte web descrive questa posizione. Distinto dalle Pergamene di Lucerna (Mercato/Trading Post). Lucerne: Trading Post; Achievements: profilo Governatore (wiki); Era Breakthrough: pannello Eventi (wiki).",
+    "sections": {
+      "main_and_daily": "Missioni principali e giornaliere",
+      "growth_objectives": "Obiettivi di crescita",
+      "timed_events": "Eventi a tempo"
+    }
+  },
+  "bot_rules": [
+    {
+      "id": "claim_all_free",
+      "when": "Qualsiasi ricompensa di missione/forziere/milestone risulta pronta (main, side, daily, achievements, Era Breakthrough, Lucerne riga free, season quests)",
+      "then": "Riscuoterla subito (usare 'claim all' se presente)",
+      "why": "Ricompense gratuite; alcune scadono con il reset o la fine evento",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1868790",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2024-12-03",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.89: pulsante 'claim all' per le season quest in SoC"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/Era_Breakthrough",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Era Breakthrough: evento permanente, trigger City Hall 4, ricompense ai livelli 4/7/10/13/16/19/21/23/25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily_100",
+      "when": "Ogni giorno prima delle 00:00 UTC",
+      "then": "Completare Daily Objectives fino a 100 Activity Points e aprire i 5 forzieri",
+      "why": "Il forziere 100 dà Golden Key (Sovereign Key in SoC), 100 gemme e sculture",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2025-12-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.02: in SoC il forziere Daily Objective da 100 punti contiene Sovereign Key invece di Golden Key; Bastion Quests refresh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "never_gems",
+      "when": "Una missione/livello/tentativo si completa solo spendendo gemme (es. livello Lucerne a 750 gemme, tentativi extra)",
+      "then": "Saltare la missione e registrarla come 'impossibile senza gemme'",
+      "why": "Regola utente: mai gemme",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+          "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+          "page_date": "2020-07-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "never_pay",
+      "when": "Offerta di tier a pagamento (Ancestor's Legacy, Divine Inheritance, Treasure Hunter, The Archaeologist, Civilization Explorer premium)",
+      "then": "Chiudere senza acquistare",
+      "why": "Solo contenuti gratuiti",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+          "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+          "page_date": "2020-07-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2021-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.44: Lucerne Scrolls Optimizations (durata 8->5 settimane, livello max 50, quest più facili, Ancestor's Legacy / Divine Inheritance, Treasure Hunter / The Archaeologist)"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/the-museum-building-guide-rok/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (modificato; pubblicato 2022-02-04)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Civilization Explorer 'simile ai Lucerne Scrolls': si completano quest per guadagnare punti/livelli; parte free + parte a pagamento (10 USD)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "never_shield",
+      "when": "Una missione o un evento suggerisce l'uso di scudi (Peace Shield)",
+      "then": "Non usare scudi",
+      "why": "Regola utente: mai scudi",
+      "requires_confirmation": true,
+      "sources": []
+    },
+    {
+      "id": "pvp_confirm",
+      "when": "Missione che richiede attaccare città/truppe di giocatori (SoC, KvK, Crusader Achievements PvP)",
+      "then": "Chiedere conferma all'utente prima di agire",
+      "why": "Rischio di perdite e ritorsioni",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2213663",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2026-02-24",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.04: Bastion quest: ricompense riscattabili direttamente dall'interfaccia; Chronicles chapters"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2026-03-18",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.06: Crusader Achievement Bastion -> Favor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rare_material_confirm",
+      "when": "Missione che consuma materiali rari (sculture leggendarie, blueprint, Golden/Sovereign Key, Tome alti, boost)",
+      "then": "Chiedere conferma",
+      "why": "Risorse scarse con usi migliori",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lucerne_overlap",
+      "when": "Volume Lucerne Scrolls attivo",
+      "then": "Leggere missioni settimanali/stagionali e farle coincidere con eventi a tempo e Daily Objectives (barbari, fort, raccolta, addestramento); completarle anche a fine volume",
+      "why": "Le missioni restano completabili fino alla fine del volume; doppia ricompensa",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+          "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+          "page_date": "2020-07-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lucerne_absent",
+      "when": "Il bot non trova 'Lucerne Scrolls' nel Trading Post né nel pannello eventi",
+      "then": "Registrare assenza e proseguire; non cercarlo altrove con acquisti",
+      "why": "Nessuna fonte ufficiale lo cita dopo 1.0.79 (2024-02); può essere stato rimosso o rinominato",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+          "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+          "page_date": "2024-02-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.79: armamenti Testudo/Circle e rare inscriptions anche nei Lucerne Scrolls in corso e nuovi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "main_quest_guide",
+      "when": "Nessuna azione prioritaria in corso",
+      "then": "Seguire la Main Quest attiva come prossimo obiettivo (City Hall, edifici, ricerca, Expedition, nebbia)",
+      "why": "Ricompense crescenti inclusi gemme ai livelli di City Hall",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timed_event_align",
+      "when": "Evento a tempo attivo che premia un'azione (ricerca, addestramento, barbari, raccolta)",
+      "then": "Concentrare quell'azione e i relativi speedup durante l'evento; riscuotere milestone gratuite",
+      "why": "Stessa azione, ricompense multiple",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Permanent Events (Era Breakthrough), Kingdom Events legati alla Monument/kingdom timeline, Global Events"
+          ]
+        },
+        {
+          "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+          "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+          "page_date": "2020-07-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open_lucerne",
+      "when": "Routine giornaliera, City Hall >= 12",
+      "then": "Aprire l'edificio Mercato (Trading Post), toccare la voce con pulsante giallo (Pergamene di Lucerna), riscuotere livelli della riga gratuita e leggere le missioni attive; non toccare pulsanti di acquisto",
+      "why": "Posizione indicata dal proprietario e da rok.guide",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+          "site": "rok.guide (via web.archive.org)",
+          "page_date": "2020-07-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "'Lucerne Scrolls is located in the Trading Post building!'; immagine alt 'Lucerne Scrolls in the Trading Post'; video 'Lucerne Scrolls Treasure Hunting Season'"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Trading Post: sblocco City Hall 12, invio risorse agli alleati; nessuna menzione di Lucerne nel wiki"
+          ]
+        },
+        {
+          "url": null,
+          "site": "osservazione del proprietario (screenshot client italiano, riferita dal coordinatore)",
+          "page_date": "2026-09-28",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "posizione Pergamene di Lucerna: edificio Mercato, voce con pulsante giallo",
+            "menu Missioni e Obiettivi: icona pergamena aperta in alto a destra sotto l'etichetta dell'era ('Età del ferro') e l'orologio UTC",
+            "testo 'molte più quest e premi se partecipi'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "open_missions_menu",
+      "when": "Routine giornaliera",
+      "then": "Aprire l'icona pergamena aperta in alto a destra sotto l'era; scorrere le sezioni Missioni principali e giornaliere, Obiettivi di crescita, Eventi a tempo; riscuotere tutto il gratuito",
+      "why": "Menu Missioni e Obiettivi indicato dal proprietario",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": null,
+          "site": "osservazione del proprietario (screenshot client italiano, riferita dal coordinatore)",
+          "page_date": "2026-09-28",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "posizione Pergamene di Lucerna: edificio Mercato, voce con pulsante giallo",
+            "menu Missioni e Obiettivi: icona pergamena aperta in alto a destra sotto l'etichetta dell'era ('Età del ferro') e l'orologio UTC",
+            "testo 'molte più quest e premi se partecipi'"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+          "site": "riseofkingdoms.fandom.com (api.php)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2021-03-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.44: Lucerne Scrolls Optimizations (durata 8->5 settimane, livello max 50, quest più facili, Ancestor's Legacy / Divine Inheritance, Treasure Hunter / The Archaeologist)"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1474351",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2023-05-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.70: blueprint equipaggiamento raccolta leggendari nelle ricompense Ancestor's Legacy (Preparation Season - Season 3)"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2023-07-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.71: Formation Choice Chest e Random Armament Chest nelle ricompense Lucerne Scrolls (Season 2 - SoC)"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1599092",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2023-12-05",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.77: Lucerne Scrolls della Season of Conquest, ricompense livello 50 -> Blueprint Choice Chest; 'volume'"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2024-02-19",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.79: armamenti Testudo/Circle e rare inscriptions anche nei Lucerne Scrolls in corso e nuovi"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1095757",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2021-07-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Developers' Feedback: miglioramenti a Lucerne Scrolls legati a blueprint/materiali"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-update-1-0-33-osiris-invitational/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2020-04-20",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.33: 'The fourth volume of The Lucerne Scrolls is about to begin' (struttura a volumi)"
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+      "site": "rok.guide (via web.archive.org, cattura 2023-12-12)",
+      "page_date": "2020-07-23",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Lucerne Scrolls = 'battle pass' nel Trading Post; 80 livelli; Ancestor's Legacy 5$; Divine Inheritance 19.99$ (+10 livelli, +50% Clues); Weekly Challenge; Season Challenge (Battlefield Native, Unyielding, Reliable, A Well-Trained Army, Through, Nature's Gift); 750 gemme per livello; durata 50-55 giorni"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-bundles/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (modificato; pubblicato 2022-01-14)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Lucerne Scrolls Bundle: tier 'Unlock Divine Inheritance', ~20 USD per completare il percorso, blueprint leggendari"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/how-to-get-speedups-in-rise-of-kingdoms/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (modificato; pubblicato 2022-01-04)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Lucerne Scroll: speedup anche nel tier free-to-play; fare le attività giornaliere e alcune sfide"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/the-museum-building-guide-rok/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (modificato; pubblicato 2022-02-04)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Civilization Explorer 'simile ai Lucerne Scrolls': si completano quest per guadagnare punti/livelli; parte free + parte a pagamento (10 USD)"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Tome_of_Knowledge",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Lv.7 Tome of Knowledge: 'Chance from Lucerne chest'"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Daily_Objectives",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "elenco quest giornaliere, punti attività, forzieri 20/40/60/80/100, reset 00:00 UTC"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Main_Quest_Line",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Main Quest Line: una quest attiva alla volta, requisiti tracciati anche prima di essere visibili, elenco quest e ricompense"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Quests/Side_Quests",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Side Quests: edifici, ricerca, barbari, truppe; una quest attiva per linea"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Template:Navbox_quests",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "categorie di Side Quests (Building, Research, Gathering, Production, Collect, Barbarians, Training, Exploration, Miscellany)"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Events/Era_Breakthrough",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Era Breakthrough: evento permanente, trigger City Hall 4, ricompense ai livelli 4/7/10/13/16/19/21/23/25"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Events",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Permanent Events (Era Breakthrough), Kingdom Events legati alla Monument/kingdom timeline, Global Events"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "ricompense per livello City Hall inviate via mail"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "suddivisione Età per livello City Hall"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Achievements",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Achievements (sblocco City Hall 6, profilo Governatore), Engineer: Bronze Beauty/Iron Will/Dark Night/Resistance is Feudal/Architectural Genius"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1172667",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2021-11-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.52: nuova quest Daily Objectives per crafting materiali al Blacksmith"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2025-12-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.02: in SoC il forziere Daily Objective da 100 punti contiene Sovereign Key invece di Golden Key; Bastion Quests refresh"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1782979",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2024-09-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.86: più Relic Coins dalle ricompense Daily Objectives"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2021-03-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.44: aggiunte 'Season Quests' in Season of Conquest che danno molti speedup"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1868790",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2024-12-03",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.89: pulsante 'claim all' per le season quest in SoC"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2161435",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2025-11-08",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.01: quest con Quest Attempts e Quest Crests rimborsati se annullate/fallite"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2026-01-13",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.03: Lost Kingdom Chronicles, capitolo 'Coalition Recruiter' rimosso; bug Bastion quest"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2213663",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2026-02-24",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.04: Bastion quest: ricompense riscattabili direttamente dall'interfaccia; Chronicles chapters"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2219742",
+      "site": "forum-global.lilithgame.com (Lilith ufficiale)",
+      "page_date": "2026-03-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.06: Crusader Achievement Bastion -> Favor"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+      "site": "riseofkingdoms.fandom.com (api.php)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Trading Post: sblocco City Hall 12, invio risorse agli alleati; nessuna menzione di Lucerne nel wiki"
+      ]
+    },
+    {
+      "url": null,
+      "site": "osservazione del proprietario (screenshot client italiano, riferita dal coordinatore)",
+      "page_date": "2026-09-28",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "posizione Pergamene di Lucerna: edificio Mercato, voce con pulsante giallo",
+        "menu Missioni e Obiettivi: icona pergamena aperta in alto a destra sotto l'etichetta dell'era ('Età del ferro') e l'orologio UTC",
+        "testo 'molte più quest e premi se partecipi'"
+      ]
+    }
+  ],
+  "search_log": [
+    "forum-global.lilithgame.com API: 832 post ufficiali (2020-2026) scaricati e filtrati per 'Lucern', 'scroll', 'quest', 'daily objective', 'chapter', 'chronicle', 'Treasure Hunter', 'Ancestor's Legacy' -> 6 post con Lucerne",
+    "riseofkingdoms.fandom.com api (search Lucerne, Lucerne Scrolls, Daily Objectives, Side quests, Chapter quests) -> solo menzione 'Lucerne chest' in Items/Tome of Knowledge",
+    "riseofkingdomsguides.com wp-json search 'lucerne' -> 9 post",
+    "riseofkingdomshandbook.com sitemap (133 URL): nessuna pagina su Lucerne",
+    "web.archive.org: rok.guide/lucerne-scrolls/ (cattura 2023-12-12, articolo 2020-07-23)",
+    "heaven-guardian.com via WebFetch: nessun risultato"
+  ],
+  "gaps": [
+    "Elenco completo e attuale (2024-2026) delle missioni Lucerne Scrolls dopo la 1.0.44 (livello max 50, 5 settimane): nessuna fonte con la lista aggiornata; le missioni riportate sono del 2020 (80 livelli) e numeri/obiettivi potrebbero essere cambiati ('Reduced the difficulty of Lucerne Scrolls quests').",
+    "Tabella ricompense per livello Lucerne Scrolls (free vs premium): non trovata.",
+    "Stato del sistema nel 2026: nessuna patch note 1.0.80-1.1.09 lo menziona; non confermato se esista ancora.",
+    "Nome italiano 'Pergamene di Lucerna' e nomi italiani dell'interfaccia missioni: non verificati su fonte.",
+    "Soglie 'growth objectives' dedicate (truppe addestrate, potenza, ricerche) fuori da Main Quest/Achievements: non trovate.",
+    "Main Quest Line wiki incompleta (righe '-' tra CH4 e CH14 e tra CH21-23); wiki non datata.",
+    "Kingdom Chronicle intesa come linea di quest non-KvK: nelle patch note 'Chronicles' si riferisce solo a Lost Kingdom (KvK).",
+    "Percorso HUD del menu Missioni e Obiettivi: noto solo dall'osservazione del proprietario, nessuna fonte web; nomi inglesi delle tre sezioni non trovati.",
+    "Traduzione 'Mercato' = Trading Post: dedotta (rok.guide + proprietario), non verificata su fonte italiana."
+  ],
+  "conflicts": [
+    {
+      "topic": "Durata e livelli Lucerne Scrolls",
+      "values": {
+        "rok.guide 2020": "80 livelli, 50-55 giorni",
+        "Lilith 1.0.44 (2021-03-04)": "da 8 a 5 settimane, livello massimo 50"
+      },
+      "resolution": "Usare il dato ufficiale 1.0.44 (più recente)."
+    },
+    {
+      "topic": "Nomi/prezzi dei tier a pagamento",
+      "values": {
+        "rok.guide 2020": "Ancestor's Legacy 5$ (riga extra), Divine Inheritance 19.99$ (+10 livelli, +50% Clues)",
+        "Lilith 1.0.44": "Aggiunte 'quest rewards' per Ancestor's Legacy e Divine Inheritance; acquistabili 'Treasure Hunter' e 'The Archaeologist'",
+        "riseofkingdomsguides": "tier 'Unlock Divine Inheritance', ~20$ per completare il percorso"
+      },
+      "resolution": "Irrilevante per il bot (mai pagare); nomi probabilmente cambiati nel 2021."
+    },
+    {
+      "topic": "Main Quest 'Powerful Leader' 1.500 potenza",
+      "values": {
+        "wiki": "10 sculture del comandante della civiltà"
+      },
+      "resolution": "unica fonte"
+    },
+    {
+      "topic": "Daily quest line e 100 gemme",
+      "values": {
+        "riseofkingdomsguides speedups": "completando la daily line si ricevono 100 gemme",
+        "wiki Daily Objectives": "forziere 100 punti include 100 gemme (icona risorsa)"
+      },
+      "resolution": "concordano"
+    },
+    {
+      "topic": "Posizione Lucerne Scrolls",
+      "values": {
+        "rok.guide 2020": "Trading Post",
+        "proprietario 2026": "edificio Mercato, voce con pulsante giallo"
+      },
+      "resolution": "Coerenti se 'Mercato' = Trading Post nel client italiano (probabile, non verificato su fonte)."
+    }
+  ],
+  "unreachable": [
+    {
+      "url": "https://heaven-guardian.com/?s=lucerne",
+      "why": "curl: connection reset; WebFetch: nessun risultato su Lucerne Scrolls"
+    },
+    {
+      "url": "https://web.archive.org/cdx/search/cdx (rok.guide/*)",
+      "why": "Internet Archive 'Temporarily Offline' / 429 per le ricerche CDX; recuperata solo la cattura diretta di rok.guide/lucerne-scrolls/"
+    },
+    {
+      "url": "https://rok.guide/wp-json/wp/v2/search?search=lucerne",
+      "why": "captcha sgcaptcha"
+    },
+    {
+      "url": "https://www.rokfandom.com",
+      "why": "CONNECT 502"
+    },
+    {
+      "url": "https://allclash.com",
+      "why": "Cloudflare challenge"
+    },
+    {
+      "url": "https://rok.wiki",
+      "why": "connection reset"
+    }
+  ]
+}

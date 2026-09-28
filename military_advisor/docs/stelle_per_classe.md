@@ -167,3 +167,96 @@ Per gli Advanced le righe 51-60 sono vuote e rokstats non ha dati su questa rari
 - web.archive.org: connessione interrotta (connection reset).
 - rokstats per i comandanti Advanced e per Šárka: pagina non trovata (404).
 - Pagine wiki per Imhotep, Narses, Pericles, Catherine, Tamar e Wak: non esistono.
+
+## Aggiornamento 28/09: dati mancanti
+
+Dati completi con fonti in `data/fragments/stelle_esperienza_extra.json`.
+
+### Star EXP per promozione
+
+| Promozione | Star EXP | Stato |
+|---|---|---|
+| 1→2 | 500 (implicito) | Ricavato dal "3-star trick" della wiki [Commander Guide](https://riseofkingdoms.fandom.com/wiki/Commander_Guide): 2 sculture regolari = 40% della prima stella. Non è un valore pubblicato. |
+| 2→3 | sconosciuta | Dallo stesso trucco risulta al massimo circa 1.100. |
+| 3→4 | 6.500 | Uguale per tutte le rarità ([wiki Starlight Sculpture](https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture)). |
+| 4→5 | 16.000 | Uguale per tutte le rarità. |
+| 5→6 | sconosciuta | Nella wiki è indicata con "?". |
+
+**Valori delle Starlight Sculpture** (Dazzling, Brand-new, Ordinary, Obsolete):
+
+- Regular: 100 Star EXP, luck +10%.
+- Blessed: 400 Star EXP, luck +20%.
+- Bundle of: 800 Star EXP, luck +5%.
+
+Il critico raddoppia l'EXP.
+
+**Non documentati:**
+
+- quanta Star EXP dà una scultura di comandante usata come materiale (la wiki conferma solo che si può usare);
+- la probabilità esatta del critico;
+- il numero massimo di materiali per ogni tentativo.
+
+### Tabella EXP 1-60
+
+Ho confrontato la tabella della wiki su 5 revisioni, dal 2019 al 2023: i valori sono identici e non sono cambiati dal 2020.
+
+- **Refuso:** Advanced livello 30 è riportato come "81,00". Il valore corretto è 81.000 (0,6 × Epic).
+- **Advanced 51-60:** le righe sono vuote in tutte le revisioni. Per analogia con le altre rarità potrebbe essere 1.380.000 per livello, ma non è verificato.
+- **Lettura ambigua della tabella:** non è chiaro se una riga indichi l'EXP per arrivare a quel livello o per passare al successivo. In entrambi i casi il totale 1→60 è la somma delle righe 2-59 più una riga ignota:
+  - Legendary: 47.862.600
+  - Epic: 39.885.500
+  - Elite: 31.908.400
+- Non ho trovato una seconda fonte indipendente: il calcolatore di riseofkingdomsguides è bloccato da una protezione anti-bot.
+
+### Sculture da altre fonti
+
+**VIP daily chest** (sculture universali al giorno, fonte [wiki VIP](https://riseofkingdoms.fandom.com/wiki/VIP)):
+
+- VIP 1-3: 1 Advanced.
+- VIP 4-5: 1 Elite; VIP 6: 2 Elite.
+- VIP 7-8: 1 Epic; VIP 9: 2 Epic.
+- VIP 10-11: 1 Legendary; VIP 12-13: 2 Legendary; VIP 14-18: 3 Legendary.
+
+I valori di VIP 10, 12 e 14 sono confermati anche da heaven-guardian e handbook (2026).
+
+**VIP Shop** ([heaven-guardian, 02/09/2026](https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/)):
+
+- VIP 4: Brand-new Starlight Sculpture, 60.000 Food, massimo 20 a settimana.
+- VIP 5: Dazzling Starlight Sculpture, 400.000 Wood, massimo 5 a settimana.
+- VIP 9: Epic Commander Sculpture, 200 gemme, massimo 50 a settimana. La wiki indica VIP 8.
+- VIP 13: Legendary Commander Sculpture, 2.000 gemme l'una, massimo 20 a settimana.
+
+**Expedition Medal Store** ([wiki](https://riseofkingdoms.fandom.com/wiki/Expedition)):
+
+- Featured Epic: 1.000 medaglie.
+- Constance: 400 medaglie.
+- Aethelflaed: 1.500 medaglie, massimo 3 al giorno.
+- Tra gli oggetti casuali:
+  - Random Legendary Commander Sculpture: 2.500 medaglie.
+  - Random Epic Commander Sculpture: 1.000 medaglie.
+  - Random Elite Commander Sculpture: 300 medaglie.
+  - Random Advanced Commander Sculpture: 100 medaglie.
+  - Universal Elite Commander Sculpture: 800 medaglie.
+  - Dazzling Starlight: 1.000 medaglie; Blessed Dazzling: 4.000.
+  - Brand-new Starlight: 150 medaglie; Blessed Brand-new: 600.
+
+**KvK, fase Past Glory, negozio Hero's Welcome** ([wiki](https://riseofkingdoms.fandom.com/wiki/Lost_Kingdom/Past_Glory/Hero%27s_Welcome)):
+
+- 100 Hero Medallion danno 1 Legendary Commander Sculpture, fino a 20.
+- Le Hero Medallion si ottengono donando sculture.
+- Sono dati del formato KvK1 storico.
+
+**Season Shop:** la patch ufficiale 1.0.55 conferma sculture leggendarie scontate, ma non indica le quantità.
+
+**Ark of Osiris:** fino a 10 sculture leggendarie per evento. Con 3.000-5.000 punti se ne ottengono 3 in caso di sconfitta e 4-5 in caso di vittoria. Unica fonte: riseofkingdomsguides.
+
+**Osiris League:** i negozi League Bets ed Eye for Talent vendono sculture leggendarie. Le quantità non sono indicate.
+
+**City Hall (premi di upgrade 1-25):** nessuna scultura.
+
+**Senza dati sulle sculture:**
+
+- Golden Kingdom e Champions of Olympia.
+- Lucerne Scrolls: esiste almeno fino al 2024 (patch 1.0.77 e 1.0.79, 5 USD ogni 45 giorni secondo zoe-rok). Non è verificato se esista ancora nel 2026.
+
+**Fonti irraggiungibili:** calcolatore di riseofkingdomsguides (anti-bot), allclash (errore 403), rok.guide (errore 503), wiki.gg (errore 401). Su zoe-rok e rokstats non ci sono dati sulle stelle o sull'EXP.

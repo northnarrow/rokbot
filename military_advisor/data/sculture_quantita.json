@@ -1,0 +1,1652 @@
+{
+  "retrieved": "2026-09-28",
+  "mge": {
+    "descrizione": "The Mightiest Governor (MGE): evento a fasi ricorrente; premi principali = sculture del comandante leggendario dell'evento (o scelto dal Governor dopo Season 3 / 'Commander of Choice'). Fonte: fandom + forum ufficiale.",
+    "ranking_rewards": {
+      "valore": {
+        "1": 180,
+        "2": 90,
+        "3": 60,
+        "4": 50,
+        "5": 40,
+        "6": 30,
+        "7-10": 20,
+        "11-15": 10,
+        "16-25": 5,
+        "26-35": 3,
+        "36-45": 2,
+        "46-50": 1
+      },
+      "unita": "sculture del comandante dell'evento per posizione",
+      "nota": "Tabella wiki fandom, aggiornata l'ultima volta nel contenuto il 2021-02-06 (revisione 'number of commander statues given at each rank'); revisioni successive minori. Non confermata da fonte ufficiale 2026: usare come stima storica. Totale distribuito 180+90+60+50+40+30+4*20+5*10+10*5+10*3+10*2+5*1 = 685 sculture.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/The_Mightiest_Governor",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2026-01-15 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.ranking_legacy",
+            "mge.stages_points_legacy",
+            "mge.commander_rotation_legacy"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/api.php?action=query&titles=Events/The_Mightiest_Governor&prop=revisions",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.ranking_legacy: ultima modifica sostanziale della tabella premi 2021-02-06"
+          ]
+        }
+      ]
+    },
+    "milestone_rewards": {
+      "valore": null,
+      "nota": "Soglie punti e sculture per milestone non trovate. Handbook 2026 conferma solo che esistono 'routine milestone rewards' utili anche senza classifica.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.stages_current",
+            "mge.training_points",
+            "mge.commander_development_stage_conflict",
+            "mge.kingdom_rules"
+          ]
+        }
+      ]
+    },
+    "punti_per_entrare_in_classifica": {
+      "valore": null,
+      "nota": "Handbook 2026: 'there is no universal cheap winning score' - dipende da regno, roster e scorte; molti regni impongono cap di punteggio/assegnazioni.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.stages_current",
+            "mge.training_points",
+            "mge.commander_development_stage_conflict",
+            "mge.kingdom_rules"
+          ]
+        }
+      ]
+    },
+    "fasi": {
+      "formato_legacy_2020": "5 fasi: Training Troops, Defeating Barbarians, Gathering Resources, Upgrading Power (1 giorno ciascuna), Eliminating Enemies (2 giorni); nel primo MGE del regno la fase 5 dura 1 giorno.",
+      "formato_dal_1.0.41_(2020-12)": "Aggiunta fase 6 'Sprint for the Win' (1 giorno); fase 5 'Enemy Elimination' ridotta da 2 a 1 giorno; il primo MGE di ogni regno resta a 5 fasi / 5 giorni.",
+      "nota_guida_2026": "riseofkingdomsguides.com (mod. 2026-01-02) elenca 6 fasi e afferma che si sceglie tra tre comandanti offerti; dice anche 'final stage lasting 48 hours' in contrasto con la patch 1.0.41.",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1000050",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2020-09-01",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Developer's Feedback",
+            "mge.stages_legacy_duration"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1030636",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2020-12-15",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.41 Snowy Christmas",
+            "mge.stage6_added",
+            "mge.first_event_5_stages"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.stages_current",
+            "mge.commander_choice"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.stages_current",
+            "mge.training_points",
+            "mge.commander_development_stage_conflict",
+            "mge.kingdom_rules"
+          ]
+        }
+      ],
+      "nota_handbook_2026": "Handbook (2026-09-09): formato consolidato a 6 fasi (Training, Barbarians, Gathering, Power, Eliminating Enemies, Final Sprint); guide commerciali piu' recenti descrivono una fase separata di 'commander development' non verificata come sostitutiva universale; non spendere sculture/tomi per MGE a meno che il pannello live li conti. Molti regni assegnano i posti MGE o impongono limiti di punteggio."
+    },
+    "punteggi_per_attivita_legacy": {
+      "training": {
+        "T1": 5,
+        "T2": 10,
+        "T3": 20,
+        "T4": 40,
+        "T5": 100,
+        "nota": "upgrade truppe = differenza di punti",
+        "conferme": "Stessi valori T1-T5 (5/10/20/40/100) in zoe-rok.com (calcolatore) e riseofkingdomshandbook.com (2026-09-09, cita AppGamer)."
+      },
+      "barbarians": {
+        "lv1-6": 300,
+        "lv7-9": 600,
+        "lv10-12": 900,
+        "lv13-15": 1200,
+        "lv16-17": 1500,
+        "lv18-19": 1800,
+        "lv20": 2100,
+        "lv21": 2400,
+        "lv22": 2700,
+        "lv23": 3000,
+        "lv24": 3300,
+        "lv25": 3600,
+        "lv26-30": 4000,
+        "lv31-35": 4500,
+        "lv36-40": 5000,
+        "lv41-55": 10000
+      },
+      "gathering": {
+        "100 food": 1,
+        "100 wood": 1,
+        "100 stone": 2,
+        "100 gold": 5,
+        "1 gem": 150
+      },
+      "power": {
+        "troop power +1": 2,
+        "building power +1": 2,
+        "tech power +1": 2
+      },
+      "kills": {
+        "T1": 1,
+        "T2": 2,
+        "T3": 4,
+        "T4": 8,
+        "T5": 20
+      },
+      "final_sprint": "circa 80% dei valori delle fasi precedenti (es. T5 training 80, kill T5 16); la wiki contiene refusi (es. barb lv31-35 '360').",
+      "nota": "Valori dalla wiki fandom, non datati; il formato attuale (2026) potrebbe differire.",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/The_Mightiest_Governor",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2026-01-15 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.ranking_legacy",
+            "mge.stages_points_legacy",
+            "mge.commander_rotation_legacy"
+          ]
+        },
+        {
+          "url": "https://zoe-rok.com/tools/calculators",
+          "site": "zoe-rok.com (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.training_points (mge:5/10/20/40/100 per T1-T5)"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.stages_current",
+            "mge.training_points",
+            "mge.commander_development_stage_conflict",
+            "mge.kingdom_rules"
+          ]
+        }
+      ]
+    },
+    "differenze_stagioni": {
+      "pre_SoC": "Rotazione fissa di comandanti MGE-esclusivi (wiki: Julius Caesar, Charles Martel, El Cid; Season 2: Saladin, Constantine I, Tomyris, Genghis Khan...). I comandanti MGE per le nuove generazioni sono leadership (garrison/rally) secondo il roundtable 2022.",
+      "dopo_Season_3_/_SoC": "Dal 1.0.44 (2021-03) terminata la Season 3 'Light and Darkness' si sceglie il comandante (Commander of Choice) da un set per ciclo.",
+      "Season_3_dal_2025-02": "In regni Season 3 la lista comandanti premio di MGE e Wheel of Fortune include tutti i comandanti (1.0.91).",
+      "SoC_2025-05": "Bertrand du Guesclin rimosso dalla lista premi MGE della Season of Conquest (1.0.94).",
+      "Ragnar_Prime": "Non disponibile in MGE né in Wheel of Fortune (forum 2024).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/The_Mightiest_Governor",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2026-01-15 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.ranking_legacy",
+            "mge.stages_points_legacy",
+            "mge.commander_rotation_legacy"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2021-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.44 Ninja Attack",
+            "mge.commander_of_choice_after_S3",
+            "wheel_of_fortune.commander_of_choice_after_S3",
+            "golden_chest.legendary_tavern_SoC"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1059232",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2021-03-23",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "March Developer's Feedback",
+            "mge.commander_of_choice"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-02-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.91 Moon and Star",
+            "mge.season3_all_commanders",
+            "wheel_of_fortune.season3_all_commanders"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-05-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.94 Frontiers of Knowledge",
+            "wheel_of_fortune.spin_tickets_S2",
+            "wheel_of_fortune.S2_commanders",
+            "mge.SoC_reward_list_change",
+            "golden_chest.legendary_tavern_rates_up"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1801215",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2024-09-30",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Dev Feedback September 2024",
+            "universal_exchange.ragnar_prime_universal_ok"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1402281",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2022-11-11",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Developer Roundtable Shenzhen",
+            "mge.leadership_commanders",
+            "wheel_of_fortune.ranged_commanders"
+          ]
+        }
+      ]
+    }
+  },
+  "wheel_of_fortune": {
+    "descrizione": "Evento circa ogni 2 settimane (wiki) / in media ogni 3 settimane (guida), durata 3 giorni; si spendono gemme (o Spin Ticket) per sculture del comandante, sculture universali leggendarie, risorse, speedup; premi extra a numero di spin (milestone).",
+    "sculture_per_spin": {
+      "valore": null,
+      "nota": "Guida: il premio massimo sulla ruota e' 8 sculture del comandante; valori per spin/probabilita' non pubblicati ufficialmente.",
+      "max_premio_ruota": 8,
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.gem_cost",
+            "wheel_of_fortune.free_spin",
+            "wheel_of_fortune.duration",
+            "wheel_of_fortune.schedule"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-wheel-of-fortune-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.free_spins",
+            "wheel_of_fortune.milestones_qualitative",
+            "wheel_of_fortune.max_8_sculptures_screenshot"
+          ]
+        }
+      ]
+    },
+    "milestone": {
+      "valore": null,
+      "nota_guida": "Guida (testo confuso): primo forziere milestone (10 spin) = 5 sculture; circa 45 sculture dai premi extra completando 100 spin. Da verificare in gioco.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.gem_cost",
+            "wheel_of_fortune.free_spin",
+            "wheel_of_fortune.duration",
+            "wheel_of_fortune.schedule"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-wheel-of-fortune-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-09-09 (Updated)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.free_spins",
+            "wheel_of_fortune.milestones_qualitative",
+            "wheel_of_fortune.max_8_sculptures_screenshot"
+          ]
+        }
+      ],
+      "nota_handbook": "Handbook 2026: i forzieri milestone (a numero di spin) sono la parte garantita; 'do not assume ten spins alone always completes the summon'; un chest puo' contenere sculture specifiche o universali."
+    },
+    "costo_gemme_informativo": {
+      "nota": "SOLO INFORMATIVO: il bot non usa gemme.",
+      "guida_2026": "1 spin gratuito all'inizio (per giorno secondo la guida); spin scontato del 50% = 400 gemme (quindi prezzo pieno implicito 800?); 10 spin = 5.600 gemme; 100 spin = 70.400 gemme (~1.564 gemme per scultura). Testo della guida contraddittorio in piu' punti.",
+      "spin_tickets": "Dal 1.0.92 (2025-03) in Season 3 e SoC e dal 1.0.94 (2025-05) in Season 2 servono Spin Ticket, ottenibili con gemme o bundle.",
+      "multi_spin": "Dal 1.1.03 (2026-01) aggiunta funzione multi-spin.",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.gem_cost",
+            "wheel_of_fortune.free_spin",
+            "wheel_of_fortune.duration",
+            "wheel_of_fortune.schedule"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1963188",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.92 Spring Glory",
+            "wheel_of_fortune.spin_tickets_S3_SoC",
+            "wheel_of_fortune.SoC_pool_healing_speedups"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-05-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.94 Frontiers of Knowledge",
+            "wheel_of_fortune.spin_tickets_S2",
+            "wheel_of_fortune.S2_commanders",
+            "mge.SoC_reward_list_change",
+            "golden_chest.legendary_tavern_rates_up"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2026-01-13",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.1.03 Verdant Spring",
+            "wheel_of_fortune.multi_spin"
+          ]
+        }
+      ]
+    },
+    "probabilita": {
+      "valore": null,
+      "nota": "La pagina ufficiale probabilita' rok.lilith.com/probability/ al 2026-09-28 contiene solo tabelle Armament (inscription, bonus, Formation Choice Chest, 'Armament, Reveal Thyself'); nessuna tabella Wheel of Fortune.",
+      "sources": [
+        {
+          "url": "https://rok.lilith.com/probability/",
+          "site": "rok.lilith.com (ufficiale)",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.official_probability (assente)",
+            "wheel_of_fortune.official_probability (assente)"
+          ]
+        }
+      ]
+    },
+    "ordine_comandanti": {
+      "valore": [
+        "Richard I",
+        "Yi Seong-Gye",
+        "Genghis Khan",
+        "Alexander the Great",
+        "Edward of Woodstock",
+        "Takeda Shingen",
+        "Guan Yu",
+        "Ramesses II",
+        "Yi Sun-sin",
+        "William I",
+        "Harald Sigurdsson"
+      ],
+      "nota": "Ogni comandante per 3 iterazioni consecutive poi una ruota generica (wiki); la guida riporta invece 'Random Commander' alternato (giorni regno 24,38,80,94...).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/Wheel_of_Fortune",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2025-02-21 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.description",
+            "wheel_of_fortune.commander_order"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.gem_cost",
+            "wheel_of_fortune.free_spin",
+            "wheel_of_fortune.duration",
+            "wheel_of_fortune.schedule"
+          ]
+        }
+      ]
+    },
+    "stagioni": {
+      "S2_2025": "Takeda Shingen, Cyrus the Great, Cheok Jun-gyeong, Bertrand du Guesclin aggiunti alla Wheel di Season 2 (1.0.94); Archimedes e Mary I ottenibili dalla Wheel in Season 2 (1.0.96).",
+      "SoC": "Takeda, Cyrus, Cheok rimossi dalla Wheel SoC (1.0.94); speedup costruzione sostituiti da healing speedups nel pool SoC (1.0.92).",
+      "S3": "Tutti i comandanti in lista (1.0.91).",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-05-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.94 Frontiers of Knowledge",
+            "wheel_of_fortune.spin_tickets_S2",
+            "wheel_of_fortune.S2_commanders",
+            "mge.SoC_reward_list_change",
+            "golden_chest.legendary_tavern_rates_up"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2081453",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-07-09",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.96 Struggle for Supremacy",
+            "wheel_of_fortune.S2_engineering_commanders"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1963188",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.92 Spring Glory",
+            "wheel_of_fortune.spin_tickets_S3_SoC",
+            "wheel_of_fortune.SoC_pool_healing_speedups"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-02-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.91 Moon and Star",
+            "mge.season3_all_commanders",
+            "wheel_of_fortune.season3_all_commanders"
+          ]
+        }
+      ]
+    }
+  },
+  "golden_chest": {
+    "drop_table_wiki": {
+      "valore": {
+        "Legendary Commander (o 10 sculture se gia' posseduto)": "0.80566%",
+        "Epic Commander (o 10 sculture)": "2.34762%",
+        "Elite Commander (o 10 sculture)": "3.41472%",
+        "Legendary Commander Sculpture": "3.07422%",
+        "Epic Commander Sculpture": "8.45411%",
+        "Elite Commander Sculpture": "15.97166%",
+        "Dazzling Starlight Sculpture": "4.88385%",
+        "Brand-new Starlight Sculpture": "9.7677%",
+        "Resource Item": "17.09348%",
+        "Speedup": "12.82011%",
+        "Tome of Knowledge": "21.36685%"
+      },
+      "nota": "Tabella wiki (rev. 2022); non trovata sulla pagina ufficiale probabilita' 2026. Quantita' di sculture leggendarie per singolo drop 'Legendary Commander Sculpture' non specificata (null).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Gold_Chests",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2022-09-14 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.drop_table",
+            "golden_chest.pool_rules"
+          ]
+        }
+      ]
+    },
+    "items_per_apertura": {
+      "valore": 4,
+      "nota": "Wiki: le chest della Tavern danno 4 oggetti casuali (non verificato ufficialmente per 2026).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": null,
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.items_per_open"
+          ]
+        }
+      ]
+    },
+    "pool_comandanti": {
+      "regola": "Leggendari esclusi: Wheel of Fortune, premi KvK, esclusivi MGE/Expedition/VIP (wiki). Aggiunte ufficiali: Pyrrhus (1.0.71), Pepin III e Casimir III (1.1.01, anche Commander Sculpture Chests).",
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Gold_Chests",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2022-09-14 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.drop_table",
+            "golden_chest.pool_rules"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2023-07-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.71 Ode to Greece",
+            "golden_chest.pool_Pyrrhus"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2161435",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-11-08",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.01 Homestead Revel",
+            "golden_chest.pool_additions_Pepin_Casimir",
+            "golden_chest.legendary_tavern_Achilles_Hector"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-08-18",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.free_every_2_days",
+            "golden_chest.pool_examples",
+            "golden_chest.no_benefit_saving_keys"
+          ]
+        }
+      ],
+      "esempi_handbook_2026": [
+        "Julius Caesar",
+        "Charles Martel",
+        "El Cid",
+        "Cao Cao",
+        "Cleopatra VII",
+        "Mehmed II",
+        "Mulan",
+        "Ragnar Lodbrok",
+        "Seondeok"
+      ]
+    },
+    "gratuito_vs_golden_key": {
+      "valore": "Forziere gratuito a timer in base al livello Tavern (3 giorni a lv1 -> 2 giorni a lv25). Nessuna fonte indica una tabella di drop diversa tra gratuito e Golden Key.",
+      "differenza_drop": null,
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/tavern/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.free_timer_by_tavern_level"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+          "site": "riseofkingdomshandbook.com",
+          "page_date": "2026-08-18",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.free_every_2_days",
+            "golden_chest.pool_examples",
+            "golden_chest.no_benefit_saving_keys"
+          ]
+        }
+      ],
+      "handbook": "Circa 1 Golden Chest gratuito ogni 2 giorni, migliora col livello Tavern; nessun meccanismo pubblicato rende piu' vantaggioso accumulare chiavi (salvo eventi che contano le aperture)."
+    },
+    "pity": {
+      "valore": null,
+      "nota": "Nessuna pity documentata per il Golden Chest. Per il Legendary Tavern (SoC) guide community riportano almeno 1 scultura leggendaria ogni 10 chest (vedi legendary_tavern_SoC).",
+      "sources": []
+    },
+    "legendary_tavern_SoC": {
+      "storia": "1.0.44 (2021-03): evento Legendary Tavern all'ingresso in SoC con sculture di comandanti gia' accessibili. 1.0.56/1.0.55: evento Heart's Desire (5 comandanti preferiti, forzieri aperti con Sovereign Keys). 1.0.60 (2022-07): chiuso evento Legendary Tavern, aggiunto Legendary Chest nella Tavern, apribile con Sovereign Keys o gemme; in regni al primo SoC compare dal 7° giorno.",
+      "sovereign_key_fonti": "Silk Road (drop dei supplies, 1.0.79); Daily Objective Chest 100 Activity Points in SoC dal 1.1.02 (al posto della Golden Key).",
+      "aggiornamenti": "1.0.94: aumentata probabilita' dei 4 nuovi comandanti S2 nella Legendary Tavern; 1.1.01: aggiunti Achilles e Hector alla Legendary Tavern; 1.0.96: Archimedes e Mary I nella Legendary Tavern nelle stagioni successive.",
+      "probabilita": null,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2021-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.44 Ninja Attack",
+            "mge.commander_of_choice_after_S3",
+            "wheel_of_fortune.commander_of_choice_after_S3",
+            "golden_chest.legendary_tavern_SoC"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1260525",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2022-03-30",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.56 Easter Eggcitement",
+            "golden_chest.hearts_desire_sovereign_keys"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1359527",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2022-07-29",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.60 Chorus of Tides",
+            "golden_chest.legendary_chest_sovereign_keys",
+            "golden_chest.legendary_tavern_event_closed"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2024-02-19",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.79 Surging Spring",
+            "golden_chest.sovereign_key_silk_road"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-12-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.02 Winter's Embrace",
+            "golden_chest.SoC_daily_objective_sovereign_key"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-05-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.94 Frontiers of Knowledge",
+            "wheel_of_fortune.spin_tickets_S2",
+            "wheel_of_fortune.S2_commanders",
+            "mge.SoC_reward_list_change",
+            "golden_chest.legendary_tavern_rates_up"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2161435",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-11-08",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.01 Homestead Revel",
+            "golden_chest.pool_additions_Pepin_Casimir",
+            "golden_chest.legendary_tavern_Achilles_Hector"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2081453",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-07-09",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.96 Struggle for Supremacy",
+            "wheel_of_fortune.S2_engineering_commanders"
+          ]
+        }
+      ],
+      "guide_community": {
+        "pity_10": "Almeno 1 Legendary Commander Sculpture ogni 10 chest aperti (RG 2022/2026); altra pagina dice '1 legendary commander garantito' aprendone 10 insieme.",
+        "scelta_a_200": "Aprendo 200 chest si puo' scegliere il comandante/premio.",
+        "limite_giornaliero": 2000,
+        "chiave": "1 Sovereign Key per chest (o gemme)",
+        "doppioni_max": "Sculture di comandanti gia' al massimo convertite in Legendary Marks, spendibili nel Legendary Tavern Exchange Shop (anche per sculture universali leggendarie).",
+        "chiavi_non_usate": "conservate per il prossimo evento",
+        "nota": "Descrive l'evento Legendary Tavern che il forum ufficiale dichiara chiuso nel 2022 (1.0.60) e sostituito dal Legendary Chest: possibile obsolescenza.",
+        "sources": [
+          {
+            "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02 (dateModified; pubbl. 2022-01-06)",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "golden_chest.legendary_tavern_pity_10",
+              "golden_chest.legendary_tavern_200_choice",
+              "golden_chest.legendary_tavern_2000_day",
+              "golden_chest.legendary_marks"
+            ]
+          },
+          {
+            "url": "https://riseofkingdomsguides.com/legendary-tavern-event-guide-rok/",
+            "site": "riseofkingdomsguides.com",
+            "page_date": "2026-01-02 (dateModified; pubbl. 2021-04-16)",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "golden_chest.legendary_tavern_pity_10_commander",
+              "golden_chest.legendary_tavern_2000_day"
+            ]
+          },
+          {
+            "url": "https://forum-global.lilithgame.com/api/v2/posts/1359527",
+            "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+            "page_date": "2022-07-29",
+            "retrieved": "2026-09-28",
+            "fields": [
+              "Update 1.0.60 Chorus of Tides",
+              "golden_chest.legendary_chest_sovereign_keys",
+              "golden_chest.legendary_tavern_event_closed"
+            ]
+          }
+        ]
+      }
+    },
+    "autarch_vindicator_aspirant_tavern": {
+      "valore": "Aspirant Tavern aperta a tutti; Autarch/Vindicator per chi ha ricevuto quei titoli; apertura all'inizio della Lost Kingdom Season, 3 giorni (1.0.70); non nel primo SoC.",
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1474351",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2023-05-18",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.70 Scale the Summit",
+            "golden_chest.autarch_vindicator_aspirant_tavern"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1457158",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2023-04-07",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.68 Shifting Sands",
+            "golden_chest.autarch_vindicator_tavern"
+          ]
+        }
+      ]
+    }
+  },
+  "universal_exchange": {
+    "regola": "La Legendary Commander Sculpture (universale) si scambia con una scultura di qualsiasi comandante leggendario gia' posseduto; rapporto implicito 1:1 (wiki: 'exchanged for a sculpture of any Legendary Commander you already have').",
+    "rapporto": "1:1 (implicito dalla descrizione dell'oggetto; non esplicitato numericamente da fonte ufficiale)",
+    "limiti": [
+      "Solo comandanti gia' posseduti (reclutati)",
+      "Eccezioni wiki (2022): Minamoto no Yoshitsune, Aethelflaed, Hannibal Barca",
+      "Ragnar Prime: le sue sculture si ottengono anche con universali (forum 2024)",
+      "Commander Trial: dal 1.0.88 le universali potenziano direttamente le skill del comandante in prova",
+      "Dopo Commander Swap le sculture restano (FAQ 2025)",
+      "Lo scambio e' irreversibile (non documentato: null)"
+    ],
+    "irreversibile": null,
+    "fonti_universali": "Lord of War, VIP chest lv10+, Wheel of Fortune, VIP Shop (VIP 13), Ark of Osiris (wiki 2022); evento 'A Will to Skill' premia l'uso di universali su certi comandanti (1.0.88, 1.1.00).",
+    "sources": [
+      {
+        "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+        "site": "riseofkingdoms.fandom.com",
+        "page_date": "2022-11-19 (ultima revisione wiki)",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "universal_exchange.rule",
+          "universal_exchange.exceptions",
+          "universal_exchange.sources"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1801215",
+        "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+        "page_date": "2024-09-30",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Dev Feedback September 2024",
+          "universal_exchange.ragnar_prime_universal_ok"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1835007",
+        "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+        "page_date": "2024-10-31",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Update 1.0.88 Giving Thanks",
+          "universal_exchange.A_Will_to_Skill",
+          "universal_exchange.commander_trial_direct_use"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/1904121",
+        "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+        "page_date": "2025-01-07",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "Commander Swap FAQ",
+          "universal_exchange.sculptures_kept_after_swap"
+        ]
+      },
+      {
+        "url": "https://forum-global.lilithgame.com/api/v2/posts/2139649",
+        "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+        "page_date": "2025-09-30",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "1.1.00 Song of Troy",
+          "universal_exchange.A_Will_to_Skill"
+        ]
+      },
+      {
+        "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+        "site": "riseofkingdomsguides.com",
+        "page_date": "2026-01-02 (dateModified)",
+        "retrieved": "2026-09-28",
+        "fields": [
+          "universal_exchange.skill_cost_table_690",
+          "universal_exchange.sources_universal",
+          "universal_exchange.vip_shop_2000_gems"
+        ]
+      }
+    ],
+    "costo_skill_leggendario": {
+      "valore": {
+        "skill_point_1-16": [
+          10,
+          10,
+          15,
+          15,
+          30,
+          30,
+          40,
+          40,
+          45,
+          45,
+          50,
+          50,
+          75,
+          75,
+          80,
+          80
+        ]
+      },
+      "totale": 690,
+      "nota": "Sculture necessarie per 5-5-5-5 di un leggendario (dopo il reclutamento con 10).",
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "universal_exchange.skill_cost_table_690",
+            "universal_exchange.sources_universal",
+            "universal_exchange.vip_shop_2000_gems"
+          ]
+        }
+      ]
+    },
+    "fonti_universali_guida": "VIP 10+ (chest giornaliero), Ark of Osiris, KvK, More Than Gems; VIP Shop: 2000 gemme per scultura leggendaria (solo informativo, mai gemme); bundle economico con 10 universali dopo il reclutamento di un leggendario."
+  },
+  "bot_rules": [
+    {
+      "id": "SQ-01",
+      "when": "Qualsiasi azione che costi gemme (spin Wheel of Fortune, acquisto Spin Ticket, Golden Key, Legendary Chest con gemme, Mysterious Merchant)",
+      "then": "Non eseguire mai. Al massimo informare l'utente del costo.",
+      "why": "Politica del bot: mai spendere gemme.",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1963188",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.92 Spring Glory",
+            "wheel_of_fortune.spin_tickets_S3_SoC",
+            "wheel_of_fortune.SoC_pool_healing_speedups"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1359527",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2022-07-29",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.60 Chorus of Tides",
+            "golden_chest.legendary_chest_sovereign_keys",
+            "golden_chest.legendary_tavern_event_closed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SQ-02",
+      "when": "Scambio di Legendary Commander Sculpture universali o upgrade skill con sculture",
+      "then": "Proporre il piano (comandante, quantita', skill attese) e chiedere conferma esplicita prima di spendere.",
+      "why": "Le sculture leggendarie sono risorsa scarsa; lo scambio e' per un comandante gia' posseduto e non risulta reversibile.",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2022-11-19 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "universal_exchange.rule",
+            "universal_exchange.exceptions",
+            "universal_exchange.sources"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SQ-03",
+      "when": "Wheel of Fortune attiva",
+      "then": "Usare solo spin gratuiti/Spin Ticket gia' posseduti gratis, con conferma; non comprare ticket.",
+      "why": "Dal 2025 la ruota richiede Spin Ticket acquistabili con gemme.",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1963188",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-03-04",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.92 Spring Glory",
+            "wheel_of_fortune.spin_tickets_S3_SoC",
+            "wheel_of_fortune.SoC_pool_healing_speedups"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-05-06",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.0.94 Frontiers of Knowledge",
+            "wheel_of_fortune.spin_tickets_S2",
+            "wheel_of_fortune.S2_commanders",
+            "mge.SoC_reward_list_change",
+            "golden_chest.legendary_tavern_rates_up"
+          ]
+        },
+        {
+          "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "wheel_of_fortune.gem_cost",
+            "wheel_of_fortune.free_spin",
+            "wheel_of_fortune.duration",
+            "wheel_of_fortune.schedule"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SQ-04",
+      "when": "Golden Chest gratuito disponibile in Tavern",
+      "then": "Aprirlo (nessun costo); le Golden Key possedute vanno aperte solo con conferma.",
+      "why": "Il forziere gratuito ricarica a timer (2-3 giorni in base al livello Tavern).",
+      "requires_confirmation": false,
+      "sources": [
+        {
+          "url": "https://riseofkingdomsguides.com/tavern/",
+          "site": "riseofkingdomsguides.com",
+          "page_date": "2026-01-02 (dateModified)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "golden_chest.free_timer_by_tavern_level"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SQ-05",
+      "when": "MGE annunciato",
+      "then": "Segnalare le fasi e suggerire di accumulare (non spendere) speedup/risorse; nessuna previsione di soglia classifica se non presente in dati del regno.",
+      "why": "Soglie di classifica dipendono dal regno; dati non disponibili.",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1030636",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2020-12-15",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.41 Snowy Christmas",
+            "mge.stage6_added",
+            "mge.first_event_5_stages"
+          ]
+        },
+        {
+          "url": "https://riseofkingdoms.fandom.com/wiki/Events/The_Mightiest_Governor",
+          "site": "riseofkingdoms.fandom.com",
+          "page_date": "2026-01-15 (ultima revisione wiki)",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "mge.ranking_legacy",
+            "mge.stages_points_legacy",
+            "mge.commander_rotation_legacy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SQ-06",
+      "when": "Legendary Chest (SoC) e Sovereign Key possedute",
+      "then": "Proporre apertura solo con conferma; mai usare gemme.",
+      "why": "Chest apribile con Sovereign Keys o gemme.",
+      "requires_confirmation": true,
+      "sources": [
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/1359527",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2022-07-29",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "Update 1.0.60 Chorus of Tides",
+            "golden_chest.legendary_chest_sovereign_keys",
+            "golden_chest.legendary_tavern_event_closed"
+          ]
+        },
+        {
+          "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+          "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+          "page_date": "2025-12-12",
+          "retrieved": "2026-09-28",
+          "fields": [
+            "1.1.02 Winter's Embrace",
+            "golden_chest.SoC_daily_objective_sovereign_key"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Events/The_Mightiest_Governor",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": "2026-01-15 (ultima revisione wiki)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "mge.ranking_legacy",
+        "mge.stages_points_legacy",
+        "mge.commander_rotation_legacy"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/api.php?action=query&titles=Events/The_Mightiest_Governor&prop=revisions",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "mge.ranking_legacy: ultima modifica sostanziale della tabella premi 2021-02-06"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-09-09 (Updated)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "mge.stages_current",
+        "mge.training_points",
+        "mge.commander_development_stage_conflict",
+        "mge.kingdom_rules"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1000050",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2020-09-01",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Developer's Feedback",
+        "mge.stages_legacy_duration"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1030636",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2020-12-15",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.41 Snowy Christmas",
+        "mge.stage6_added",
+        "mge.first_event_5_stages"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/the-mightiest-governor-event/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "mge.stages_current",
+        "mge.commander_choice"
+      ]
+    },
+    {
+      "url": "https://zoe-rok.com/tools/calculators",
+      "site": "zoe-rok.com (bundle JS /_next/static/chunks/ef6276afd87c9c52.js)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "mge.training_points (mge:5/10/20/40/100 per T1-T5)"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1055096",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2021-03-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.44 Ninja Attack",
+        "mge.commander_of_choice_after_S3",
+        "wheel_of_fortune.commander_of_choice_after_S3",
+        "golden_chest.legendary_tavern_SoC"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1059232",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2021-03-23",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "March Developer's Feedback",
+        "mge.commander_of_choice"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1935973",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-02-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.91 Moon and Star",
+        "mge.season3_all_commanders",
+        "wheel_of_fortune.season3_all_commanders"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2030530",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-05-06",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.0.94 Frontiers of Knowledge",
+        "wheel_of_fortune.spin_tickets_S2",
+        "wheel_of_fortune.S2_commanders",
+        "mge.SoC_reward_list_change",
+        "golden_chest.legendary_tavern_rates_up"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1801215",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2024-09-30",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Dev Feedback September 2024",
+        "universal_exchange.ragnar_prime_universal_ok"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1402281",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2022-11-11",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Developer Roundtable Shenzhen",
+        "mge.leadership_commanders",
+        "wheel_of_fortune.ranged_commanders"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "wheel_of_fortune.gem_cost",
+        "wheel_of_fortune.free_spin",
+        "wheel_of_fortune.duration",
+        "wheel_of_fortune.schedule"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-wheel-of-fortune-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-09-09 (Updated)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "wheel_of_fortune.free_spins",
+        "wheel_of_fortune.milestones_qualitative",
+        "wheel_of_fortune.max_8_sculptures_screenshot"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1963188",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-03-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.92 Spring Glory",
+        "wheel_of_fortune.spin_tickets_S3_SoC",
+        "wheel_of_fortune.SoC_pool_healing_speedups"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2197960",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2026-01-13",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.1.03 Verdant Spring",
+        "wheel_of_fortune.multi_spin"
+      ]
+    },
+    {
+      "url": "https://rok.lilith.com/probability/",
+      "site": "rok.lilith.com (ufficiale)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.official_probability (assente)",
+        "wheel_of_fortune.official_probability (assente)"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Events/Wheel_of_Fortune",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": "2025-02-21 (ultima revisione wiki)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "wheel_of_fortune.description",
+        "wheel_of_fortune.commander_order"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2081453",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-07-09",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.96 Struggle for Supremacy",
+        "wheel_of_fortune.S2_engineering_commanders"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Gold_Chests",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": "2022-09-14 (ultima revisione wiki)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.drop_table",
+        "golden_chest.pool_rules"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.items_per_open"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1497163",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2023-07-04",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.71 Ode to Greece",
+        "golden_chest.pool_Pyrrhus"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2161435",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-11-08",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.01 Homestead Revel",
+        "golden_chest.pool_additions_Pepin_Casimir",
+        "golden_chest.legendary_tavern_Achilles_Hector"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-tavern-keys-guide",
+      "site": "riseofkingdomshandbook.com",
+      "page_date": "2026-08-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.free_every_2_days",
+        "golden_chest.pool_examples",
+        "golden_chest.no_benefit_saving_keys"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/tavern/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.free_timer_by_tavern_level"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1260525",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2022-03-30",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.56 Easter Eggcitement",
+        "golden_chest.hearts_desire_sovereign_keys"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1359527",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2022-07-29",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.60 Chorus of Tides",
+        "golden_chest.legendary_chest_sovereign_keys",
+        "golden_chest.legendary_tavern_event_closed"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1626854",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2024-02-19",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.79 Surging Spring",
+        "golden_chest.sovereign_key_silk_road"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2179486",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-12-12",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.02 Winter's Embrace",
+        "golden_chest.SoC_daily_objective_sovereign_key"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified; pubbl. 2022-01-06)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.legendary_tavern_pity_10",
+        "golden_chest.legendary_tavern_200_choice",
+        "golden_chest.legendary_tavern_2000_day",
+        "golden_chest.legendary_marks"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/legendary-tavern-event-guide-rok/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified; pubbl. 2021-04-16)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "golden_chest.legendary_tavern_pity_10_commander",
+        "golden_chest.legendary_tavern_2000_day"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1474351",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2023-05-18",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.70 Scale the Summit",
+        "golden_chest.autarch_vindicator_aspirant_tavern"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1457158",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2023-04-07",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.68 Shifting Sands",
+        "golden_chest.autarch_vindicator_tavern"
+      ]
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+      "site": "riseofkingdoms.fandom.com",
+      "page_date": "2022-11-19 (ultima revisione wiki)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "universal_exchange.rule",
+        "universal_exchange.exceptions",
+        "universal_exchange.sources"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1835007",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2024-10-31",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Update 1.0.88 Giving Thanks",
+        "universal_exchange.A_Will_to_Skill",
+        "universal_exchange.commander_trial_direct_use"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/1904121",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-01-07",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "Commander Swap FAQ",
+        "universal_exchange.sculptures_kept_after_swap"
+      ]
+    },
+    {
+      "url": "https://forum-global.lilithgame.com/api/v2/posts/2139649",
+      "site": "forum-global.lilithgame.com (ufficiale, account Rise of Kingdoms)",
+      "page_date": "2025-09-30",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "1.1.00 Song of Troy",
+        "universal_exchange.A_Will_to_Skill"
+      ]
+    },
+    {
+      "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+      "site": "riseofkingdomsguides.com",
+      "page_date": "2026-01-02 (dateModified)",
+      "retrieved": "2026-09-28",
+      "fields": [
+        "universal_exchange.skill_cost_table_690",
+        "universal_exchange.sources_universal",
+        "universal_exchange.vip_shop_2000_gems"
+      ]
+    }
+  ],
+  "gaps": [
+    "MGE: sculture per milestone (soglie punti) non trovate",
+    "MGE: tabella classifica ufficiale 2026 non trovata (solo wiki non datata)",
+    "MGE: punti tipici per entrare in classifica non trovati",
+    "MGE: punteggi per attivita' nel formato 2026 non confermati",
+    "Wheel of Fortune: sculture per spin, milestone esatte e probabilita' non pubblicate",
+    "Wheel of Fortune: costo attuale Spin Ticket in gemme non trovato",
+    "Golden Chest: probabilita' ufficiali 2026 non presenti su rok.lilith.com/probability",
+    "Golden Chest: numero di sculture leggendarie per drop non specificato",
+    "Golden Chest: pity non documentato",
+    "Legendary Chest/Legendary Tavern SoC: probabilita' e contenuti non trovati",
+    "Universal: reversibilita' e limiti quantitativi non documentati"
+  ],
+  "conflicts": [
+    {
+      "campo": "mge.durata_fase_finale",
+      "valori": [
+        {
+          "valore": "Fase 6 Sprint 1 giorno; fase 5 ridotta a 1 giorno",
+          "source": "https://forum-global.lilithgame.com/api/v2/posts/1030636"
+        },
+        {
+          "valore": "'final stage lasting 48 hours'",
+          "source": "https://riseofkingdomsguides.com/the-mightiest-governor-event/"
+        }
+      ]
+    },
+    {
+      "campo": "wheel_of_fortune.frequenza",
+      "valori": [
+        {
+          "valore": "circa ogni 2 settimane",
+          "source": "https://riseofkingdoms.fandom.com/wiki/Events/Wheel_of_Fortune"
+        },
+        {
+          "valore": "in media ogni 3 settimane, fino a 6",
+          "source": "https://riseofkingdomsguides.com/wheel-of-fortune-guide-in-rise-of-kingdoms/"
+        }
+      ]
+    },
+    {
+      "campo": "golden_chest.legendary_tavern_garanzia_10",
+      "valori": [
+        {
+          "valore": "almeno 1 Legendary Commander Sculpture ogni 10",
+          "source": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/"
+        },
+        {
+          "valore": "1 legendary commander garantito aprendo 10 insieme",
+          "source": "https://riseofkingdomsguides.com/legendary-tavern-event-guide-rok/"
+        }
+      ]
+    },
+    {
+      "campo": "golden_chest.legendary_tavern_esistenza_2026",
+      "valori": [
+        {
+          "valore": "evento Legendary Tavern chiuso (2022), sostituito da Legendary Chest in Tavern; ma patch 2025 citano ancora 'Legendary Tavern'",
+          "source": "https://forum-global.lilithgame.com/api/v2/posts/1359527"
+        },
+        {
+          "valore": "guide aggiornate 2026-01 descrivono ancora l'evento",
+          "source": "https://riseofkingdomsguides.com/legendary-tavern-guide-rise-of-kingdoms/"
+        }
+      ]
+    },
+    {
+      "campo": "mge.fase_commander_development",
+      "valori": [
+        {
+          "valore": "6 fasi classiche",
+          "source": "https://forum-global.lilithgame.com/api/v2/posts/1030636"
+        },
+        {
+          "valore": "guide commerciali recenti citano fase 'commander development' (non verificata)",
+          "source": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-mightiest-governor-guide"
+        }
+      ]
+    },
+    {
+      "campo": "mge.fasi_numero",
+      "valori": [
+        {
+          "valore": "6 fasi",
+          "source": "https://forum-global.lilithgame.com/api/v2/posts/1030636"
+        },
+        {
+          "valore": "'There are 5 phases' poi elenca 6",
+          "source": "https://riseofkingdomsguides.com/the-mightiest-governor-event/"
+        }
+      ]
+    }
+  ],
+  "unreachable": [
+    {
+      "url": "https://www.heaven-guardian.com/",
+      "motivo": "curl: connection reset by peer; via WebFetch la home e' un marketplace di account senza guide MGE/Wheel/Tavern; /mightiest-governor-mge-guide-rise-of-kingdoms/ = 404"
+    },
+    {
+      "url": "https://www.appgamer.com/rise-of-kingdoms/strategy-guide/how-to-max-your-points-in-the-mightiest-governor",
+      "motivo": "HTTP 403 (WebFetch e curl)"
+    },
+    {
+      "url": "https://www.rok.guide/the-mightiest-governor/",
+      "motivo": "HTTP 503 (anche wheel-of-fortune, tavern)"
+    },
+    {
+      "url": "https://rok.wiki/",
+      "motivo": "proxy CONNECT 502"
+    },
+    {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Legendary_Tavern",
+      "motivo": "pagina inesistente (API: page doesn't exist); anche The_Mightiest_Governor/Wheel_of_Fortune senza prefisso 'Events/'"
+    },
+    {
+      "url": "https://rok.lilith.com/probability/",
+      "motivo": "raggiungibile ma contiene solo probabilita' Armament: nessuna tabella Tavern/Golden Chest/Wheel"
+    }
+  ]
+}

@@ -1,0 +1,4918 @@
+{
+ "retrieved": "2026-09-28",
+ "scope_note": "Mappa degli edifici della citta' di Rise of Kingdoms per il bot. danger: none = sicuro; confirm = solo con conferma dell'utente; never = mai (gemme, scudi, acquisti). Non duplica automazione.json (schermate) e strategia_routine.json (regole R1-R12): li cita.",
+ "owner_context": "Client italiano; HUD mostra 'Eta' del ferro' (Iron Age = City Hall 10-15 secondo la tabella wiki).",
+ "buildings": [
+  {
+   "name": "City Hall",
+   "name_it": null,
+   "function": "Edificio centrale: il suo livello e' il livello del giocatore e il tetto di livello di tutti gli altri edifici; aumenta capacita' truppe, code di marcia, sblocca edifici e tier truppe. Dopo ogni upgrade arriva una mail con risorse/oggetti da riscuotere.",
+   "menu_buttons": [
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-07-16",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "tetto livelli",
+        "mail ricompense"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Pulsante grafico (chart) -> Economics Buff",
+     "label_it": null,
+     "does": "Mostra i bonus economici della citta' (es. Building Speed). Citato in una nota degli editor wiki: 'click City Hall > then the chart button'.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Economics Buff (via chart button)",
+     "does": "Elenco bonus economici (velocita' costruzione ecc.)",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Queue management (dashboard code)",
+     "does": "Da CH8: panoramica di costruzione, addestramento, ricerca, cure, scouting, donazioni d'alleanza con azioni rapide; disattivabile in Settings. Posizione (HUD o City Hall) non indicata.",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/2161435",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "queue management da City Hall 8",
+        "switch civilization buff da CH16",
+        "Legendary Tavern: Achilles e Hector",
+        "misclick comandanti/edifici ridotti"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Switch Civilization (buff)",
+     "does": "Da CH16 si puo' cambiare il buff di civilta' nella pagina 'switch civilization' (1.1.01). Posizione non indicata.",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/2161435",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "queue management da City Hall 8",
+        "switch civilization buff da CH16",
+        "Legendary Tavern: Achilles e Hector",
+        "misclick comandanti/edifici ridotti"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "Presente dall'inizio (livello 1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Leggere il livello (serve a sapere cosa e' sbloccato: vedi tabella sblocchi in docs).",
+    "Leggere i requisiti del prossimo livello (quasi sempre Wall al livello precedente + un secondo edificio).",
+    "Upgrade solo su ordine confermato; mai finire con gemme.",
+    "Riscuotere la mail di ricompensa dopo l'upgrade (azione sicura)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-07-16",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-03-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "ricompense upgrade via mail"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2161435",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "queue management da City Hall 8",
+      "switch civilization buff da CH16",
+      "Legendary Tavern: Achilles e Hector",
+      "misclick comandanti/edifici ridotti"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "milestone CH 5/8/11/16/17/21/22/25"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichette esatte del menu contestuale (Upgrade/Details/altro) non documentate: da mappare con screenshot del client italiano.",
+    "Nome italiano non trovato (Google Play e App Store IT non elencano gli edifici)."
+   ]
+  },
+  {
+   "name": "Wall",
+   "name_it": null,
+   "function": "Principale edificio difensivo; ogni livello e' requisito per il City Hall successivo. Dopo un attacco riuscito la citta' brucia e la durabilita' cala: va riparata manualmente; a durabilita' 0 la citta' viene teletrasportata in un punto casuale. Toccandolo si assegnano i comandanti che difendono la citta'.",
+   "menu_buttons": [
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Wall",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-12-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "requisito City Hall"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Assegna comandanti difensori (garrison)",
+     "label_it": null,
+     "does": "'When you click on your wall ... you can put commanders that will defend the city' (riseofkingdomsguides).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdomsguides.com/wall/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "comandanti in difesa dal Wall"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Repair (riparazione durabilita')",
+     "label_it": null,
+     "does": "Ripara la durabilita' del Wall: 500 ogni 30 minuti (wiki War).",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/War",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-06",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "repair 500 ogni 30 min"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Spegnere l'incendio con gemme",
+     "label_it": null,
+     "does": "'Burning structures can be stopped using gems once every 15 minutes'.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/War",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-06",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "spegnimento con gemme ogni 15 min"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "Presente dall'inizio (CH1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Se la citta' brucia: segnalare subito all'utente; usare solo il Repair gratuito se abilitato.",
+    "Mai spegnere l'incendio con gemme.",
+    "Cambiare i comandanti in difesa solo su ordine confermato."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Wall",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "incendio",
+      "teletrasporto a durabilita' 0"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Wall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "livello 25 richiede Watchtower 25 e Tavern 25"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/wall/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "comandanti difensori",
+      "incendio e riparazione manuale"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/War",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "repair",
+      "gemme"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome esatto del pulsante di riparazione e dell'eventuale scheda 'Defenders' non verificato.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Watchtower",
+   "name_it": null,
+   "function": "Secondo edificio difensivo: aumenta danni agli attaccanti e assorbe parte dei danni alla guarnigione. Gli upgrade richiedono Arrow of Resistance.",
+   "menu_buttons": [
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Watchtower",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-30",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Arrow of Resistance"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Watchtower/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2024-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "costi per livello"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "Presente dall'inizio (CH1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Upgrade SOLO con conferma: consuma Arrow of Resistance (materiale raro, fino a decine per livello)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Watchtower",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "Arrow of Resistance"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Watchtower/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2024-09-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "livello 25: Storehouse 25 e Wall 25"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/watchtower/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Arrow of Resistance da barbari/eventi Lohar/gemme; sconsigliato comprarle con gemme"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Watchtower 25 nella catena verso T5"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Academy",
+   "name_it": null,
+   "function": "Ricerca tecnologie (Economic e Military Technology); upgrade aumenta la velocita' di ricerca e sblocca nuove tecnologie.",
+   "menu_buttons": [
+    {
+     "label": "Research",
+     "label_it": null,
+     "does": "Apre gli alberi tecnologici e avvia una ricerca (costa risorse, occupa la coda ricerca). Etichetta esatta non verificata.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Academy",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "ricerca tecnologie"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Help (richiesta Alliance Help)",
+     "label_it": null,
+     "does": "Dopo l'avvio, la ricerca puo' ricevere aiuti dall'alleanza (riduce il timer).",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-26",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "help su ricerca"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Academy",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "upgrade velocita' ricerca"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Economic Technology",
+     "does": "Sviluppo, raccolta, produzione, velocita' di ricerca",
+     "sources": [
+      {
+       "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+       "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+       "page_date": "2026-09-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Economic e Military Technology"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Military Technology",
+     "does": "Truppe, fino alla ricerca Tier 5",
+     "sources": [
+      {
+       "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+       "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+       "page_date": "2026-09-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Military Technology"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "City Hall 4 (tabella sblocchi CH); pagina edificio indica 1stUnlockCH=6 -> vedi conflicts.",
+   "max_level": 25,
+   "bot_actions": [
+    "Tenere la coda ricerca sempre occupata con la ricerca decisa dall'advisor/utente.",
+    "Premere Help dopo l'avvio.",
+    "Velocizzare solo con speedup (non gemme) e solo se l'utente lo abilita."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Academy",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "1stUnlockCH=6"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Academy/Unlocks",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-12-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "tecnologie per livello"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Academy 25 necessaria per T5"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/academy/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato.",
+    "Etichette pulsanti non verificate."
+   ]
+  },
+  {
+   "name": "Barracks",
+   "name_it": null,
+   "function": "Addestra e promuove (upgrade di un tier alla volta) le unita' di fanteria (infantry); 5 tier sbloccati con la ricerca. Coda di addestramento propria.",
+   "menu_buttons": [
+    {
+     "label": "Train",
+     "label_it": null,
+     "does": "Addestra N unita' del tier scelto consumando risorse; occupa la coda dell'edificio.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Barracks",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade (promozione unita')",
+     "label_it": null,
+     "does": "Promuove unita' esistenti al tier successivo (costo complessivo maggiore dell'addestramento diretto).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Barracks",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Barracks",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "Presente dall'inizio (CH1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Addestrare solo quantita'/tier gia' confermati dall'utente.",
+    "L'Alliance Help NON riduce l'addestramento: non cercare il pulsante Help qui.",
+    "Raccogliere le truppe pronte (tocco sull'icona sopra l'edificio: posizione da verificare)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Barracks",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-29",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "5 tier",
+      "promozione di un tier alla volta"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/barracks/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichette esatte Train/Upgrade e slider quantita' non documentate.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Archery Range",
+   "name_it": null,
+   "function": "Addestra e promuove (upgrade di un tier alla volta) le unita' di arcieri (archer); 5 tier sbloccati con la ricerca. Coda di addestramento propria.",
+   "menu_buttons": [
+    {
+     "label": "Train",
+     "label_it": null,
+     "does": "Addestra N unita' del tier scelto consumando risorse; occupa la coda dell'edificio.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Archery_Range",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade (promozione unita')",
+     "label_it": null,
+     "does": "Promuove unita' esistenti al tier successivo (costo complessivo maggiore dell'addestramento diretto).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Archery_Range",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Archery_Range",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-29",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 2.",
+   "max_level": 25,
+   "bot_actions": [
+    "Addestrare solo quantita'/tier gia' confermati dall'utente.",
+    "L'Alliance Help NON riduce l'addestramento: non cercare il pulsante Help qui.",
+    "Raccogliere le truppe pronte (tocco sull'icona sopra l'edificio: posizione da verificare)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Archery_Range",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-29",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "5 tier",
+      "promozione di un tier alla volta"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/archery-range/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichette esatte Train/Upgrade e slider quantita' non documentate.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Stable",
+   "name_it": null,
+   "function": "Addestra e promuove (upgrade di un tier alla volta) le unita' di cavalleria (cavalry); 5 tier sbloccati con la ricerca. Coda di addestramento propria.",
+   "menu_buttons": [
+    {
+     "label": "Train",
+     "label_it": null,
+     "does": "Addestra N unita' del tier scelto consumando risorse; occupa la coda dell'edificio.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Stable",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade (promozione unita')",
+     "label_it": null,
+     "does": "Promuove unita' esistenti al tier successivo (costo complessivo maggiore dell'addestramento diretto).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Stable",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Stable",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 4 (tabella sblocchi CH); pagina edificio 1stUnlockCH=3 -> vedi conflicts.",
+   "max_level": 25,
+   "bot_actions": [
+    "Addestrare solo quantita'/tier gia' confermati dall'utente.",
+    "L'Alliance Help NON riduce l'addestramento: non cercare il pulsante Help qui.",
+    "Raccogliere le truppe pronte (tocco sull'icona sopra l'edificio: posizione da verificare)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Stable",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "5 tier",
+      "promozione di un tier alla volta"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/stable/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichette esatte Train/Upgrade e slider quantita' non documentate.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Siege Workshop",
+   "name_it": null,
+   "function": "Addestra e promuove (upgrade di un tier alla volta) le unita' di assedio (siege); 5 tier sbloccati con la ricerca. Coda di addestramento propria.",
+   "menu_buttons": [
+    {
+     "label": "Train",
+     "label_it": null,
+     "does": "Addestra N unita' del tier scelto consumando risorse; occupa la coda dell'edificio.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Siege_Workshop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade (promozione unita')",
+     "label_it": null,
+     "does": "Promuove unita' esistenti al tier successivo (costo complessivo maggiore dell'addestramento diretto).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Siege_Workshop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Siege_Workshop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "funzione",
+        "5 tier",
+        "promozione di un tier alla volta"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Quick Replenish",
+     "label_it": null,
+     "does": "Rifornisce rapidamente le risorse mancanti per ricerca/costruzione/addestramento (aggiunto in 1.0.87). Non documentato se usa oggetti risorsa o gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 5 (tabella sblocchi CH); pagina edificio 1stUnlockCH=4 -> vedi conflicts.",
+   "max_level": 25,
+   "bot_actions": [
+    "Addestrare solo quantita'/tier gia' confermati dall'utente.",
+    "L'Alliance Help NON riduce l'addestramento: non cercare il pulsante Help qui.",
+    "Raccogliere le truppe pronte (tocco sull'icona sopra l'edificio: posizione da verificare)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Siege_Workshop",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "5 tier",
+      "promozione di un tier alla volta"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/siege-workshop/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichette esatte Train/Upgrade e slider quantita' non documentate.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Hospital",
+   "name_it": null,
+   "function": "Cura i feriti gravi; fino a 4 ospedali. Se l'ospedale e' pieno i feriti in eccesso muoiono. Nessuna cura durante un rally subito.",
+   "menu_buttons": [
+    {
+     "label": "Heal",
+     "label_it": null,
+     "does": "Cura i feriti selezionati consumando risorse; la cura puo' ricevere Alliance Help.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Hospital",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-30",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "cura"
+       ]
+      },
+      {
+       "url": "https://riseofkingdomsguides.com/hospital/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "niente cure durante un rally"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Help (Alliance Help)",
+     "label_it": null,
+     "does": "Richiede aiuto all'alleanza per ridurre il timer di cura.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-26",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "help su healing"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Hospital/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2022-09-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "livello 25 richiede Castle 25 + Master's Blueprint"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Completamento istantaneo / velocizzazione con gemme (icona gemma)",
+     "label_it": null,
+     "does": "Le gemme possono velocizzare costruzione, ricerca e addestramento; qualunque pulsante con icona gemma spende gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-05-31",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme spendibili per velocizzare training, research, building"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "1° CH1, 2° CH4, 3° CH9, 4° CH15.",
+   "max_level": 25,
+   "bot_actions": [
+    "Controllare la capacita' prima/durante combattimenti e avvisare se vicino al pieno.",
+    "Curare solo su ordine confermato (costo risorse); mai cura istantanea con gemme."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Hospital",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "sblocchi 1/4/9/15",
+      "ospedale pieno -> morti"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/hospital/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "max 4 ospedali",
+      "rally"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Storehouse",
+   "name_it": null,
+   "function": "Protegge una quota di risorse dal saccheggio; l'upgrade aumenta la protezione.",
+   "menu_buttons": [
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Storehouse",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-12-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "protezione risorse"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Details (capacita' protetta)",
+     "label_it": null,
+     "does": "Mostra le quantita' protette per risorsa (dato presente nelle tabelle, etichetta non verificata).",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdomsguides.com/storehouse/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Protection Capacity"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "Presente dall'inizio (CH1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Leggere la capacita' protetta per decidere se aprire oggetti risorsa (preferire tenerli impacchettati)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Storehouse",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/storehouse/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "protezione",
+      "migrazione"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "tenere risorse impacchettate"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Trading Post",
+   "name_it": "Mercato (dal client italiano del proprietario; coerente con rok.guide: le Lucerne Scrolls stanno nel Trading Post)",
+   "function": "Invia risorse ai membri d'alleanza tramite un mercante (trader) che occupa una coda di marcia; capacita' di trasporto sale e la tassa scende con i livelli. Ospita le Pergamene di Lucerna (Lucerne Scrolls) e, in Season of Conquest con TP 25, l'Oasis Bazaar.",
+   "menu_buttons": [
+    {
+     "label": "Trade / invio risorse a un alleato",
+     "label_it": null,
+     "does": "Invia risorse a un membro dell'alleanza (tassa 35% al liv.1, 8% al 25; capacita' 10M al 25).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-06-05",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "trader",
+        "coda di marcia",
+        "tassa",
+        "capacita'"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-08-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "tassa e capacita' per livello"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1896244",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.90'",
+       "page_date": "2025-02-24",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "capacita' di trasporto Trading Post 25 da 5M a 10M"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Pergamene di Lucerna (Lucerne Scrolls) - voce con pulsante giallo",
+     "label_it": "Pergamene di Lucerna",
+     "does": "Apre il pass stagionale: missioni -> Clues -> livelli con riga gratuita e righe a pagamento.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+       "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+       "page_date": "2020-07-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "'Lucerne Scrolls is located in the Trading Post building'",
+        "righe premium a pagamento",
+        "750 gemme per livello"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Mercato (client italiano) = Trading Post",
+        "Pergamene di Lucerna = voce con pulsante giallo"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/riferimenti_ui/README.md",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "client italiano",
+        "'Mercato' contiene le Pergamene di Lucerna con pulsante giallo",
+        "HUD 'Eta' del ferro'"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Lucerne Scrolls: sblocco righe premium / acquisto livelli",
+     "label_it": null,
+     "does": "Ancestor's Legacy e Divine Inheritance a pagamento in denaro; livelli acquistabili con 750 gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+       "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+       "page_date": "2020-07-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "'Lucerne Scrolls is located in the Trading Post building'",
+        "righe premium a pagamento",
+        "750 gemme per livello"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Oasis Bazaar",
+     "label_it": null,
+     "does": "Compra risorse con Clamyks o VENDE risorse in cambio di gemme; limite settimanale. Si sblocca con Trading Post 25 in Season of Conquest (pioneer in alcuni regni).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/2219742",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+       "page_date": "2026-03-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+        "Smithy Specials nel Blacksmith"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/2139649",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.00 Song of Troy'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "evento Oasis Bazaar: compra risorse con Clamyks o vendi risorse per gemme"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-08-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "livello 25 richiede Goldmine 25 + Master's Blueprint"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Pergamene di Lucerna / Lucerne Scrolls",
+     "does": "Missioni settimanali e di stagione, ritiro ricompense della riga gratuita",
+     "sources": [
+      {
+       "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+       "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+       "page_date": "2020-07-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "'Lucerne Scrolls is located in the Trading Post building'",
+        "righe premium a pagamento",
+        "750 gemme per livello"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Mercato (client italiano) = Trading Post",
+        "Pergamene di Lucerna = voce con pulsante giallo"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Oasis Bazaar",
+     "does": "Scambio risorse <-> Clamyks/gemme (solo SoC, TP 25)",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/2219742",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+       "page_date": "2026-03-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+        "Smithy Specials nel Blacksmith"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "City Hall 10 (tabella sblocchi CH e riseofkingdomsguides); la pagina edificio indica 1stUnlockCH=12 -> vedi conflicts.",
+   "max_level": 25,
+   "bot_actions": [
+    "Nelle Pergamene di Lucerna: ritirare solo ricompense della riga gratuita e leggere le missioni.",
+    "Mai toccare sblocchi premium o acquisto livelli.",
+    "Invio risorse solo su ordine con destinatario e quantita' confermati (occupa una coda di marcia)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2025-06-05",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-08-11",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "tassa/capacita'"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/trading-post/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "CH10",
+      "farm account",
+      "KvK"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+     "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+     "page_date": "2020-07-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "'Lucerne Scrolls is located in the Trading Post building'",
+      "righe premium a pagamento",
+      "750 gemme per livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Mercato (client italiano) = Trading Post",
+      "Pergamene di Lucerna = voce con pulsante giallo"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/riferimenti_ui/README.md",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "client italiano",
+      "'Mercato' contiene le Pergamene di Lucerna con pulsante giallo",
+      "HUD 'Eta' del ferro'"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2219742",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+     "page_date": "2026-03-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+      "Smithy Specials nel Blacksmith"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1896244",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.90'",
+     "page_date": "2025-02-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "capacita' di trasporto Trading Post 25 da 5M a 10M"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Trading Post nella catena verso Academy 25"
+     ]
+    }
+   ],
+   "gaps": [
+    "Il nome 'Mercato' viene dal proprietario (client italiano), non da una fonte pubblica.",
+    "Etichetta del pulsante di invio risorse non verificata."
+   ]
+  },
+  {
+   "name": "Tavern",
+   "name_it": null,
+   "function": "Apertura forzieri Silver, Golden ed Equipment Chests con chiavi; aperture gratuite periodiche che aumentano con il livello. In Season of Conquest esiste anche la 'Legendary Tavern' (1.1.01).",
+   "menu_buttons": [
+    {
+     "label": "Apertura gratuita (Silver / Golden)",
+     "label_it": null,
+     "does": "Apre un forziere senza costo quando il timer gratuito e' pronto.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-01",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "aperture gratuite piu' frequenti con il livello"
+       ]
+      },
+      {
+       "url": "https://riseofkingdomsguides.com/tavern/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Free Golden Chest / Daily Free Silver per livello"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Apri con chiave / Open all (>=10 chiavi)",
+     "label_it": null,
+     "does": "Consuma Silver o Golden Keys; 'option to open all keys if you have 10 or more'.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdomsguides.com/tavern/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "open all keys"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Apertura senza chiavi (prezzo in gemme)",
+     "label_it": null,
+     "does": "Se il pulsante mostra l'icona gemma, apre il forziere spendendo gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-05",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "livello 25: Wall 25, Quarry 25, Master's Blueprint"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Silver Chests",
+     "does": "Comandanti/sculture advanced-elite, risorse, speedup",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Silver_Chests",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-12-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "probabilita'"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Gold Chests",
+     "does": "Comandanti/sculture fino a leggendari; dal 1.1.01 anche Pepin III e Casimir III",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Gold_Chests",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2022-09-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "probabilita'"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/2161435",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "queue management da City Hall 8",
+        "switch civilization buff da CH16",
+        "Legendary Tavern: Achilles e Hector",
+        "misclick comandanti/edifici ridotti"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Equipment Chests",
+     "does": "Materiali/blueprint equipaggiamento; blueprint epici engineering dopo l'evento Season 2",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern/Equipment_Chests",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-11-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "contenuto"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1935973",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+       "page_date": "2025-02-24",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "State Forum: 'Quick Dispatch' e 'Travel x10'",
+        "Conversion Stones nello Shop se si ha lo State Forum",
+        "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+        "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "Presente dall'inizio (CH1).",
+   "max_level": 25,
+   "bot_actions": [
+    "Aprire ogni giorno i forzieri gratuiti (routine sicura).",
+    "Aprire con chiavi solo se l'utente lo abilita; fermarsi se compare l'icona gemma."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Tavern",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-01",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "open all",
+      "tabella gratuiti"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2161435",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "queue management da City Hall 8",
+      "switch civilization buff da CH16",
+      "Legendary Tavern: Achilles e Hector",
+      "misclick comandanti/edifici ridotti"
+     ]
+    }
+   ],
+   "gaps": [
+    "Posizione/accesso della Legendary Tavern non documentati.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Courier Station",
+   "name_it": null,
+   "function": "Casa del Mysterious Merchant: arriva alle 0:00 UTC (e piu' spesso dopo upgrade, addestramenti e barbari), icona sopra l'edificio; 16 oggetti a prezzo in gemme (sconto 30-90%) o in cibo/legno (10-40%). Dal 1.1.09 non vende piu' Deceptive Troops 24h ne' boost risorse.",
+   "menu_buttons": [
+    {
+     "label": "Acquisto con cibo/legno",
+     "label_it": null,
+     "does": "Compra un oggetto pagando risorse (utile per 'impacchettare' risorse).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-01-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "prezzi cibo/legno"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station/FoodWood",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2021-08-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "elenco oggetti"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Acquisto con gemme",
+     "label_it": null,
+     "does": "Oggetti a prezzo in gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-01-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "prezzi in gemme"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Refresh (in alto a destra)",
+     "label_it": null,
+     "does": "1° refresh gratis, poi 100/200/300/400 gemme.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-01-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "costi refresh"
+       ]
+      },
+      {
+       "url": "https://riseofkingdomsguides.com/courier-station/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Free/100/200/300/400"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-11-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "requisiti"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 6.",
+   "max_level": 25,
+   "bot_actions": [
+    "Controllare l'icona del mercante dopo le 0:00 UTC.",
+    "Comprare solo voci in cibo/legno gia' approvate.",
+    "Refresh solo se gratuito e abilitato; se mostra un costo in gemme: stop."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-01-11",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "CH6"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/courier-station/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costi refresh"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "resources or Gems"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato; nel client il mercante potrebbe avere nome proprio italiano."
+   ]
+  },
+  {
+   "name": "Scout Camp",
+   "name_it": null,
+   "function": "Invia scout per rimuovere la nebbia, trovare Tribal Villages e Mysterious Caves; con la ricerca permette anche di spiare citta', truppe in marcia e guarnigioni. Dal 1.0.88 si possono mandare piu' scout insieme.",
+   "menu_buttons": [
+    {
+     "label": "Explore",
+     "label_it": null,
+     "does": "Seleziona il blocco di nebbia piu' vicino; ripremendo lo scout parte (gratuito).",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1835007",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.88'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Scout Camp: effetti potenziati, invio di piu' scout insieme"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Scout su citta'/truppe/edifici di altri giocatori",
+     "label_it": null,
+     "does": "Ricognizione ostile (dalla mappa).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Scout_Camp",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-11-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "informazioni su citta'/truppe/guarnigioni"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Scout_Camp/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2024-11-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "velocita', raggio 5x5->20x20, numero scout"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 2.",
+   "max_level": 25,
+   "bot_actions": [
+    "Esplorare con tutti gli scout liberi (azione sicura).",
+    "Ritirare le ricompense dei villaggi (dal 1.0.89 esiste il 'claim all').",
+    "Mai scout su giocatori senza conferma."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Scout_Camp",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-11-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "CH2"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Scout_Camp/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2024-11-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "parametri per livello"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/scout-camp/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "numero scout, raggio"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1835007",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.88'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Scout Camp: effetti potenziati, invio di piu' scout insieme"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Alliance Center",
+   "name_it": null,
+   "function": "Aiuti d'alleanza: ogni aiuto toglie max(1% del tempo residuo, 1 min; fino a 3 min con Together We Rise) a costruzioni, ricerche e cure (non addestramento ne' raccolta). Numero massimo di aiuti: 5 al liv.1, +1 per livello (30 al 25). Determina anche la capacita' di rinforzi.",
+   "menu_buttons": [
+    {
+     "label": "Help (mano sopra l'edificio: aiutare gli alleati)",
+     "label_it": null,
+     "does": "Toccando la mano si aiutano tutti gli alleati; gratuito.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-26",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "mano sopra l'edificio"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Rinforzi (reinforcement)",
+     "label_it": null,
+     "does": "Capacita' di truppe alleate in rinforzo nella citta'.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+       "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+       "page_date": "2026-09-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "reinforcement capacity"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2019-02-06",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "requisiti"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 3 (tabella sblocchi CH e riseofkingdomsguides); pagina edificio 1stUnlockCH=5 -> vedi conflicts.",
+   "max_level": 25,
+   "bot_actions": [
+    "Premere la mano 'Help' ogni volta che compare (azione sicura e utile alla routine).",
+    "Prima di usare speedup su un timer, attendere il massimo degli aiuti."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "meccanica aiuti",
+      "tabella per livello"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/alliance-center/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "requisiti CH3"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "30 aiuti al 25",
+      "non determina la capacita' rally"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Blacksmith",
+   "name_it": null,
+   "function": "Sistema equipaggiamento: forgia equipaggiamento dai blueprint, produce materiali (10 materiali ogni 3 ore, coda di 5, ritiro manuale), combina 4 materiali uguali in uno di qualita' superiore, unisce 30 frammenti in un blueprint, smonta materiali (costa oro) ed equipaggiamento. Evento periodico 'Smithy Specials' (offerte).",
+   "menu_buttons": [
+    {
+     "label": "Material Production (coda di 5) + ritiro",
+     "label_it": null,
+     "does": "Produce materiali gratuitamente; vanno ritirati a mano.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "10 materiali ogni 3 ore",
+        "coda 5",
+        "ritiro manuale"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Combine (materiali / blueprint)",
+     "label_it": null,
+     "does": "4 materiali -> 1 superiore; 30 frammenti -> 1 blueprint.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith/Combining_Materials",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-30",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "4 in 1"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "30 frammenti"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Dismantle materiali",
+     "label_it": null,
+     "does": "1 materiale -> 4 di qualita' inferiore; costa oro.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "dismantle costa oro"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Forge",
+     "label_it": null,
+     "does": "Forgia un pezzo di equipaggiamento consumando blueprint e materiali rari.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "forge"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Dismantle / Awaken equipaggiamento leggendario",
+     "label_it": null,
+     "does": "Richiedono la password secondaria se impostata (1.0.83); smontare un leggendario con talento rimborsa 100% forgiatura e 50% risveglio (1.0.96).",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/2081453",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.96'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "smantellare equipaggiamento leggendario con talento speciale rimborsa 100% forgiatura e 50% risveglio"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Smithy Specials (offerte a tempo)",
+     "label_it": null,
+     "does": "Frammenti blueprint e materiali leggendari scontati (acquisto).",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1868790",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+        "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+        "City Hall 25 espande l'area edificabile",
+        "claim all villaggi"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/2219742",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+       "page_date": "2026-03-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+        "Smithy Specials nel Blacksmith"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Material Production",
+     "does": "coda materiali",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Production"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Materials & Blueprint Combination",
+     "does": "combina/smonta",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Combination",
+        "Dismantling"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Forge (Weapons, Helms, Chest, Gloves, Legs, Boots, Accessories)",
+     "does": "forgia per slot",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-09-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sezioni Forge"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/2030530",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.0.94 Frontiers of Knowledge'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "nuovi accessori leggendari nel Blacksmith",
+        "Hall of Heroes: tasso di ritorno unita' (Lost Kingdom)"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "City Hall 16 (e ricezione del primo equipaggiamento).",
+   "max_level": "1 (la wiki elenca solo il livello 1; nessun upgrade documentato)",
+   "bot_actions": [
+    "Tenere piena la coda di produzione materiali e ritirare i materiali (sicuro).",
+    "Forge/Combine/Dismantle solo con conferma: consumano materiali rari o oro.",
+    "Mai toccare le offerte Smithy Specials."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "CH16"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2019-12-01",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "solo livello 1, CH16"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2030530",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.0.94 Frontiers of Knowledge'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "nuovi accessori leggendari nel Blacksmith",
+      "Hall of Heroes: tasso di ritorno unita' (Lost Kingdom)"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2081453",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.96'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "smantellare equipaggiamento leggendario con talento speciale rimborsa 100% forgiatura e 50% risveglio"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2219742",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+     "page_date": "2026-03-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+      "Smithy Specials nel Blacksmith"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-equipment-guide/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "guida equipaggiamento"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "forgia e smonta"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato.",
+    "Livello massimo: la wiki mostra solo il livello 1 (tabella 2019)."
+   ]
+  },
+  {
+   "name": "Castle",
+   "name_it": null,
+   "function": "Organizza i rally: ogni upgrade aumenta le truppe che il capo puo' comandare in un rally. Gli upgrade richiedono Book of Covenant.",
+   "menu_buttons": [
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Castle/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2021-06-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Book of Covenant fino a x30+ per livello",
+        "livello 25: Siege Workshop 25 + Alliance Center 25"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Rally / truppe in rally",
+     "label_it": null,
+     "does": "Lancio e gestione rally avvengono dal bersaglio sulla mappa; il Castle determina la capacita'.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Castle",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-12-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "rally"
+       ]
+      },
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 7.",
+   "max_level": 25,
+   "bot_actions": [
+    "Upgrade solo con conferma (consuma Book of Covenant, materiale raro).",
+    "Nessun rally contro giocatori senza conferma."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Castle",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Castle/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2021-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "costi"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-castle-upgrade-requirements-cost-book-of-covenant/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Book of Covenant"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Castle 25 nella catena verso Academy 25"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Farm",
+   "name_it": null,
+   "function": "Produce cibo (food) nel tempo fino alla capacita' massima; va raccolto. Fino a 4 edifici. Dal 1.1.09 i boost di produzione come oggetto sono stati rimossi e i buff VIP di produzione aumentati.",
+   "menu_buttons": [
+    {
+     "label": "Raccolta (icona risorsa sopra l'edificio)",
+     "label_it": null,
+     "does": "Riscuote la produzione accumulata; gratuito.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Farm",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Farm",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "1a CH1, 2a CH3, 3a CH6, 4a CH9 (tabella CH; la 1a e' presente dal CH1 secondo la tabella requisiti Farm)",
+   "max_level": 25,
+   "bot_actions": [
+    "Raccogliere periodicamente la produzione (azione sicura)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Farm",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "produzione e capacita'",
+      "sblocchi"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichetta/forma esatta dell'icona di raccolta da verificare.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Lumber Mill",
+   "name_it": null,
+   "function": "Produce legno (wood) nel tempo fino alla capacita' massima; va raccolto. Fino a 4 edifici. Dal 1.1.09 i boost di produzione come oggetto sono stati rimossi e i buff VIP di produzione aumentati.",
+   "menu_buttons": [
+    {
+     "label": "Raccolta (icona risorsa sopra l'edificio)",
+     "label_it": null,
+     "does": "Riscuote la produzione accumulata; gratuito.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lumber_Mill",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lumber_Mill",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "1a CH2, 2a CH5, 3a CH8, 4a CH11",
+   "max_level": 25,
+   "bot_actions": [
+    "Raccogliere periodicamente la produzione (azione sicura)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lumber_Mill",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "produzione e capacita'",
+      "sblocchi"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichetta/forma esatta dell'icona di raccolta da verificare.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Quarry",
+   "name_it": null,
+   "function": "Produce pietra (stone) nel tempo fino alla capacita' massima; va raccolto. Fino a 4 edifici. Dal 1.1.09 i boost di produzione come oggetto sono stati rimossi e i buff VIP di produzione aumentati.",
+   "menu_buttons": [
+    {
+     "label": "Raccolta (icona risorsa sopra l'edificio)",
+     "label_it": null,
+     "does": "Riscuote la produzione accumulata; gratuito.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Quarry",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Quarry",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "1a CH6, 2a CH7, 3a CH10, 4a CH13 (pagina edificio); la tabella CH elenca 2a CH7, 3a CH10, 4a CH13",
+   "max_level": 25,
+   "bot_actions": [
+    "Raccogliere periodicamente la produzione (azione sicura)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Quarry",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "produzione e capacita'",
+      "sblocchi"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichetta/forma esatta dell'icona di raccolta da verificare.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Goldmine",
+   "name_it": null,
+   "function": "Produce oro (gold) nel tempo fino alla capacita' massima; va raccolto. Fino a 4 edifici. Dal 1.1.09 i boost di produzione come oggetto sono stati rimossi e i buff VIP di produzione aumentati.",
+   "menu_buttons": [
+    {
+     "label": "Raccolta (icona risorsa sopra l'edificio)",
+     "label_it": null,
+     "does": "Riscuote la produzione accumulata; gratuito.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Goldmine",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-12-18",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Upgrade",
+     "label_it": null,
+     "does": "Avvia l'upgrade dell'edificio consumando risorse (e, per alcuni, materiali speciali); occupa una coda costruttore. Etichetta esatta del menu contestuale non documentata nelle fonti lette.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Goldmine",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-12-18",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "produzione e capacita'",
+        "sblocchi"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "1a CH10, 2a CH12, 3a CH14, 4a CH16",
+   "max_level": 25,
+   "bot_actions": [
+    "Raccogliere periodicamente la produzione (azione sicura)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Goldmine",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-12-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "produzione e capacita'",
+      "sblocchi"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    }
+   ],
+   "gaps": [
+    "Etichetta/forma esatta dell'icona di raccolta da verificare.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Builder's Hut",
+   "name_it": null,
+   "function": "Mostra in una schermata le code costruttore (edificio, livello, tempo residuo). Secondo costruttore: temporaneo con Builder Recruitment (2 giorni) o permanente a VIP 6.",
+   "menu_buttons": [
+    {
+     "label": "Visualizza code costruzione",
+     "label_it": null,
+     "does": "Stato delle code.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-11-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "code"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Aggiungi coda con gemme",
+     "label_it": null,
+     "does": "La descrizione in gioco: 'You can spend gems to add an additional queue'.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-11-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "gemme per coda aggiuntiva"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Usa Builder Recruitment",
+     "label_it": null,
+     "does": "Attiva/estende di 2 giorni la seconda coda.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Items/Builder_Recruitment",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2022-08-06",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "2 giorni"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Builder_queue",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-30",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "max 2 code"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Speedup items sulla costruzione",
+     "label_it": null,
+     "does": "Riduce i tempi con oggetti speedup.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-11-22",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "speedup items"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 5? (wiki con punto interrogativo).",
+   "max_level": 1,
+   "bot_actions": [
+    "Leggere lo stato delle code per sapere se un costruttore e' libero."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-11-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-11-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "solo livello 1, CH5?"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Builder_queue",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "code"
+     ]
+    }
+   ],
+   "gaps": [
+    "Livello di sblocco incerto (CH5? nella wiki).",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Monument",
+   "name_it": null,
+   "function": "Linea temporale del regno (Chronicle): obiettivi individuali, d'alleanza o di regno con ricompense (gemme, chiavi, sculture) e sblocchi di contenuti (forti barbari, sanctum, ecc.).",
+   "menu_buttons": [
+    {
+     "label": "Claim (ricompense della timeline)",
+     "label_it": null,
+     "does": "Ritira le ricompense degli eventi completati.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Monument",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-02-21",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "ricompense"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 8 (tabella CH e tabella requisiti Monument); la pagina edificio indica 1stUnlockCH=9 -> vedi conflicts.",
+   "max_level": 1,
+   "bot_actions": [
+    "Controllare e ritirare le ricompense del Monument (sicuro)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Monument",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2025-02-21",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "timeline",
+      "ricompense"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Monument/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-27",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "solo livello 1, CH8"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-01-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "sblocchi per livello di City Hall",
+      "requisiti upgrade City Hall"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Chronicle"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Bulletin Board",
+   "name_it": null,
+   "function": "Mostra i messaggi dello sviluppatore (eventi e promozioni).",
+   "menu_buttons": [
+    {
+     "label": "Leggi messaggi",
+     "label_it": null,
+     "does": "Solo lettura; i messaggi possono linkare offerte.",
+     "danger": "none",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Bulletin_Board",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2018-11-23",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "messaggi sviluppatore"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 1? (wiki con punto interrogativo).",
+   "max_level": null,
+   "bot_actions": [
+    "Nessuna azione automatica; eventuali link a offerte = non toccare."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Bulletin_Board",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-11-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-05-11",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "elenco edifici Economic/Military/Others/Decorative"
+     ]
+    }
+   ],
+   "gaps": [
+    "Livello massimo e sblocco non confermati.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Shop",
+   "name_it": null,
+   "function": "Acquisto con gemme di risorse, speedup, boost (incluso Peace Shield) e altri oggetti; contiene il VIP Shop (sconti per livello VIP, rinnovo lunedi 00:00 UTC). Con lo State Forum costruito vende Conversion Stones.",
+   "menu_buttons": [
+    {
+     "label": "Acquisto oggetti (gemme)",
+     "label_it": null,
+     "does": "Qualsiasi acquisto con gemme.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-10-12",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "prezzi in gemme"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Peace Shield (8h/24h/3 giorni)",
+     "label_it": null,
+     "does": "Attiva/compra uno scudo che protegge la citta'.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Items/Peace_Shield",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-30",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "scudo, venduto nello Shop"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "VIP Shop: voci pagate in risorse",
+     "label_it": null,
+     "does": "Alcune voci VIP Shop costano cibo (es. 100 AP per 12.000 cibo a VIP 2).",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-10-12",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "VIP Shop"
+       ]
+      },
+      {
+       "url": "https://riseofkingdomsguides.com/shop/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "voci in risorse"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "VIP Shop: voci pagate in gemme",
+     "label_it": null,
+     "does": "",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-10-12",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "VIP Shop"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Resources / Speedups / Boosts / Other",
+     "does": "categorie della wiki",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-10-12",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sezioni"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "VIP Shop",
+     "does": "sconti settimanali per livello VIP",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-10-12",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "VIP Shop"
+       ]
+      }
+     ]
+    }
+   ],
+   "unlock": "City Hall 5.",
+   "max_level": null,
+   "bot_actions": [
+    "Entrare solo per leggere; acquisti solo in risorse e solo con conferma.",
+    "Mai Peace Shield (anche se richiesto: lo attiva l'utente)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Shop",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-10-12",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "CH5"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/VIP_Shop",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-11-16",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "redirect a Shop#VIP Shop"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/shop/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "VIP shop"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1935973",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+     "page_date": "2025-02-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "State Forum: 'Quick Dispatch' e 'Travel x10'",
+      "Conversion Stones nello Shop se si ha lo State Forum",
+      "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+      "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2259768",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Version Update 1.1.09'",
+     "page_date": "2026-06-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Courier Station e shop non vendono piu' Deceptive Troops 24h e boost risorse"
+     ]
+    }
+   ],
+   "gaps": [
+    "Livello massimo non documentato (pagina senza tabella livelli oltre il 1?).",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Lyceum of Wisdom",
+   "name_it": null,
+   "function": "Quiz mensile Peerless Scholar (preliminari feriali 0:00-23:00 UTC, midterm sabato 2:30 e 12:30 UTC, finale ultimo sabato 14:30 UTC; montepremi in gemme) e Kingdom Newspaper acquistabile per 1000 oro (a volte da' buff). Legato anche a World Wanderer.",
+   "menu_buttons": [
+    {
+     "label": "Peerless Scholar",
+     "label_it": null,
+     "does": "Risposte al quiz; 3 richieste di aiuto all'alleanza nei preliminari.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Peerless_Scholar",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2023-04-15",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "fasi e orari"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Kingdom Newspaper",
+     "label_it": null,
+     "does": "Acquisto per 1000 oro.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lyceum_of_Wisdom",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2022-05-07",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "1000 oro"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": "City Hall 10.",
+   "max_level": 1,
+   "bot_actions": [
+    "Nessuna risposta automatica al quiz senza conferma (le risposte errate riducono le ricompense)."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lyceum_of_Wisdom",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2022-05-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "funzione",
+      "CH10",
+      "solo livello 1"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Peerless_Scholar",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-04-15",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "regole"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+     "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Peerless Scholar e World Wanderer"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/lyceum-of-wisdom-rok-answers/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-09-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "risposte quiz"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "State Forum",
+   "name_it": null,
+   "function": "Sistema formazioni e armamenti: Travel (20 AP, 'Travel x10' = 200 AP), Dispatch dal livello 10 (30-150 AP), Quick Dispatch, auto-recycle degli armamenti; abilita l'acquisto di Conversion Stones nello Shop.",
+   "menu_buttons": [
+    {
+     "label": "Travel / Travel x10",
+     "label_it": null,
+     "does": "Consuma AP; esauriti gli AP puo' costare gemme.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1935973",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+       "page_date": "2025-02-24",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "State Forum: 'Quick Dispatch' e 'Travel x10'",
+        "Conversion Stones nello Shop se si ha lo State Forum",
+        "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+        "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Travel pagato in gemme",
+     "label_it": null,
+     "does": "",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Dispatch / Quick Dispatch",
+     "label_it": null,
+     "does": "Consuma AP.",
+     "danger": "confirm",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1935973",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+       "page_date": "2025-02-24",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "State Forum: 'Quick Dispatch' e 'Travel x10'",
+        "Conversion Stones nello Shop se si ha lo State Forum",
+        "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+        "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Recycle / Transmute / Convert / Inscribe",
+     "label_it": null,
+     "does": "Consumano materiali rari; richiedono password secondaria.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [
+    "Vedi automazione.json (schermata State Forum): fermarsi all'icona gemma; operazioni con password secondaria = manuali."
+   ],
+   "sources": [
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1935973",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+     "page_date": "2025-02-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "State Forum: 'Quick Dispatch' e 'Travel x10'",
+      "Conversion Stones nello Shop se si ha lo State Forum",
+      "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+      "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1817043",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+      "auto-recycle nello State Forum",
+      "SVIP/SVIP Shop"
+     ]
+    }
+   ],
+   "gaps": [
+    "Nessuna pagina wiki; livello di sblocco (CH) e livello massimo non trovati.",
+    "Nome italiano non trovato."
+   ]
+  },
+  {
+   "name": "Hall of Heroes",
+   "name_it": null,
+   "function": "Funzione del Lost Kingdom / Season of Conquest: restituisce una parte delle unita' perse (tasso che sale con il livello del Lost Kingdom) e, dal 1.0.89, parte delle risorse spese in cure alla fine del Lost Kingdom.",
+   "menu_buttons": [],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [
+    "Nessuna azione nota; solo lettura."
+   ],
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2030530",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.0.94 Frontiers of Knowledge'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "nuovi accessori leggendari nel Blacksmith",
+      "Hall of Heroes: tasso di ritorno unita' (Lost Kingdom)"
+     ]
+    }
+   ],
+   "gaps": [
+    "Non verificato se sia un edificio della citta' o solo un'interfaccia KvK; pulsanti ignoti."
+   ]
+  },
+  {
+   "name": "Crystal Research Center",
+   "name_it": null,
+   "function": "Ricerca con Crystal (tecnologie Crystal) nel Lost Kingdom / Season of Conquest; 'instant research' sbloccabile acquistando la Premium Season Crystal Supply.",
+   "menu_buttons": [
+    {
+     "label": "Instant research (Premium Season Crystal Supply)",
+     "label_it": null,
+     "does": "Funzione a pagamento.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1935973",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+       "page_date": "2025-02-24",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "State Forum: 'Quick Dispatch' e 'Travel x10'",
+        "Conversion Stones nello Shop se si ha lo State Forum",
+        "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+        "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [
+    "Nessuna azione senza conferma."
+   ],
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/post/1935973",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+     "page_date": "2025-02-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "State Forum: 'Quick Dispatch' e 'Travel x10'",
+      "Conversion Stones nello Shop se si ha lo State Forum",
+      "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+      "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2124406",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.99'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "ridotti i Crystal per upgrade del Crystal Research Center"
+     ]
+    }
+   ],
+   "gaps": [
+    "Non verificato se sia un edificio della citta'; sblocco e pulsanti ignoti."
+   ]
+  },
+  {
+   "name": "Decorazioni (Decorative: strade, alberi, lanterne ecc.) e cosmetici citta'",
+   "name_it": null,
+   "function": "Oggetti decorativi piazzabili (Road, King's Road, alberi, Pedestal Lantern, Stone Drum...), quest 'The Beauty of the City'. City Hall Decor (temi citta' con bonus/malus). Dal 1.0.92 Cosmetic Shop; SVIP Shop con effetti citta'; City Hall 25 espande l'area edificabile.",
+   "menu_buttons": [
+    {
+     "label": "Costruisci decorazione (costo in risorse o gemme)",
+     "label_it": null,
+     "does": "Alcune decorazioni costano gemme (es. King's Road 100, Pedestal Lantern 100 nella wiki: valore nel campo gemme del template).",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-05-11",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "elenco edifici Economic/Military/Others/Decorative"
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Cosmetic Shop / SVIP Shop",
+     "label_it": null,
+     "does": "Acquisto cosmetici.",
+     "danger": "never",
+     "sources": [
+      {
+       "url": "https://forum-global.lilithgame.com/post/1963188",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.92'",
+       "page_date": "2025-11-14",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Cosmetic Shop con cosmetici e decorazioni"
+       ]
+      },
+      {
+       "url": "https://forum-global.lilithgame.com/post/1817043",
+       "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+       "page_date": "2024-12-17",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+        "auto-recycle nello State Forum",
+        "SVIP/SVIP Shop"
+       ]
+      }
+     ]
+    }
+   ],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [
+    "Nessuna azione: puramente estetico o a pagamento."
+   ],
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-05-11",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "elenco edifici Economic/Military/Others/Decorative"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Quests/BuildDecorations",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "quest decorazioni"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/City_Hall_Decor",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-12-04",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "temi City Hall"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1963188",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.92'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Cosmetic Shop con cosmetici e decorazioni"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1817043",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+      "auto-recycle nello State Forum",
+      "SVIP/SVIP Shop"
+     ]
+    }
+   ],
+   "gaps": [
+    "Interpretazione dei costi decorativi dal template wiki (5=100 interpretato come gemme) non verificata in gioco."
+   ]
+  },
+  {
+   "name": "Commander Statue / Commander Hall",
+   "name_it": null,
+   "function": null,
+   "menu_buttons": [],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [],
+   "sources": [],
+   "gaps": [
+    "Nessuna fonte consultata (wiki API, forum ufficiale 2024-2026, riseofkingdomsguides, heaven-guardian) documenta un edificio con questo nome. Ricerca wiki 'Commander Statue' restituisce solo Sculture."
+   ]
+  },
+  {
+   "name": "Market (edificio separato)",
+   "name_it": "Mercato",
+   "function": "Non risulta un edificio separato: 'Mercato' nel client italiano corrisponde al Trading Post (Pergamene di Lucerna dentro). Vedi voce Trading Post.",
+   "menu_buttons": [],
+   "tabs": [],
+   "unlock": null,
+   "max_level": null,
+   "bot_actions": [
+    "Mappare 'Mercato' -> Trading Post."
+   ],
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+     "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+     "page_date": "2020-07-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "'Lucerne Scrolls is located in the Trading Post building'",
+      "righe premium a pagamento",
+      "750 gemme per livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Mercato (client italiano) = Trading Post",
+      "Pergamene di Lucerna = voce con pulsante giallo"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/riferimenti_ui/README.md",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "client italiano",
+      "'Mercato' contiene le Pergamene di Lucerna con pulsante giallo",
+      "HUD 'Eta' del ferro'"
+     ]
+    }
+   ],
+   "gaps": [
+    "Verificare con screenshot che il titolo dell'edificio sia 'Mercato'."
+   ]
+  }
+ ],
+ "bot_rules": [
+  {
+   "id": "E1_gem_icon_any_building",
+   "when": "In qualunque menu di edificio compare un pulsante con icona gemma (finire subito, spegnere incendio, refresh a pagamento, apertura forziere senza chiave, Travel oltre AP, coda costruttore extra)",
+   "then": "Non toccare; chiudere il menu; loggare.",
+   "why": "Le gemme non si spendono mai in automatico.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Resources",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2025-05-31",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "gemme spendibili per velocizzare training, research, building"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/War",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "gemme per spegnere"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Builder's_Hut",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-11-22",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "gemme coda"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/strategia_routine.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "bot_rules R1-R12 generali (gemme, PvP, materiali rari, code, speedup, negozi)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E2_shield_never",
+   "when": "Shop o inventario mostrano Peace Shield",
+   "then": "Mai attivare o comprare scudi; notificare l'utente se la citta' e' minacciata.",
+   "why": "Regola del proprietario: mai scudi.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/Peace_Shield",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "scudo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E3_rare_material_upgrades",
+   "when": "Upgrade di Watchtower (Arrow of Resistance), Castle (Book of Covenant), edifici al 25 (Master's Blueprint), Forge/Combine/Dismantle nel Blacksmith",
+   "then": "Solo con conferma esplicita.",
+   "why": "Consumano materiali rari.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Watchtower",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Arrow of Resistance"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Castle",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2018-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Book of Covenant"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Hospital/Requirements",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2022-09-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Master's Blueprint"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "forge/dismantle"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E4_safe_collect",
+   "when": "Icone di raccolta su Farm/Lumber Mill/Quarry/Goldmine, materiali pronti nel Blacksmith, ricompense Monument, forzieri gratuiti Tavern, mano Help sull'Alliance Center",
+   "then": "Eseguire automaticamente.",
+   "why": "Azioni gratuite senza rischio.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Farm",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "raccolta"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Blacksmith",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "ritiro manuale"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "help"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/tavern/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "free chests"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E5_help_before_speedup",
+   "when": "Costruzione, ricerca o cura avviata",
+   "then": "Premere Help (Alliance Help) e attendere gli aiuti prima di proporre speedup.",
+   "why": "Ogni aiuto toglie 1% o 1-3 minuti; l'addestramento non ne beneficia.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2026-09-26",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "meccanica"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/alliance-center/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "aiuti prima degli speedup"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E6_mercato_is_trading_post",
+   "when": "Il bot deve aprire le Pergamene di Lucerna",
+   "then": "Toccare l'edificio 'Mercato' (Trading Post) e la voce con pulsante giallo; ritirare solo la riga gratuita.",
+   "why": "Mappatura dal client italiano + rok.guide.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+     "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+     "page_date": "2020-07-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "'Lucerne Scrolls is located in the Trading Post building'",
+      "righe premium a pagamento",
+      "750 gemme per livello"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Mercato (client italiano) = Trading Post",
+      "Pergamene di Lucerna = voce con pulsante giallo"
+     ]
+    },
+    {
+     "url": "file:///home/user/military_advisor/riferimenti_ui/README.md",
+     "site": "file locale del progetto (gia' raccolto)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "client italiano",
+      "'Mercato' contiene le Pergamene di Lucerna con pulsante giallo",
+      "HUD 'Eta' del ferro'"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E7_trading_post_send",
+   "when": "Invio risorse o Oasis Bazaar",
+   "then": "Solo con destinatario/quantita' confermati; mai vendere risorse per gemme senza ordine.",
+   "why": "Tassa, coda di marcia occupata, scambi irreversibili.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2025-06-05",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "trader"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2219742",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Patch Notes 1.1.06'",
+     "page_date": "2026-03-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Oasis Bazaar nel Trading Post (TP livello 25, Season of Conquest, pioneer)",
+      "Smithy Specials nel Blacksmith"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E8_wall_fire",
+   "when": "La citta' brucia (Wall)",
+   "then": "Avvisare l'utente; usare solo Repair gratuito; mai spegnimento con gemme.",
+   "why": "A durabilita' 0 teletrasporto casuale.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Wall",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2023-12-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "incendio"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/War",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-09-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "repair/gemme"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E9_hospital_capacity",
+   "when": "Ospedale oltre ~90% o sotto rally",
+   "then": "Avvisare; curare solo su ordine; durante un rally subito la cura non e' possibile.",
+   "why": "Feriti oltre capacita' muoiono.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Hospital",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-04-30",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "pieno"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/hospital/",
+     "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "rally"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E10_courier_food_wood_only",
+   "when": "Mysterious Merchant presente",
+   "then": "Solo acquisti in cibo/legno gia' approvati; refresh solo se gratuito.",
+   "why": "Refresh 100-400 gemme; voci in gemme vietate.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Courier_Station",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2020-01-11",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "refresh"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E11_offers_in_buildings",
+   "when": "Smithy Specials, Lucerne premium, Cosmetic/SVIP Shop, Crystal Supply, Kingdom Newspaper",
+   "then": "Non toccare offerte a pagamento; Kingdom Newspaper (1000 oro) solo su conferma.",
+   "why": "Acquisti reali o gemme.",
+   "requires_confirmation": true,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/post/1868790",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.89'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Smithy Specials: frammenti blueprint e materiali leggendari scontati",
+      "Hall of Heroes restituisce risorse di cura (Lost Kingdom)",
+      "City Hall 25 espande l'area edificabile",
+      "claim all villaggi"
+     ]
+    },
+    {
+     "url": "https://web.archive.org/web/20231212210343/https://www.rok.guide/lucerne-scrolls/",
+     "site": "rok.guide (via web.archive.org, cattura 2023-12-12; citato da data/fragments/quest_lucerna.json)",
+     "page_date": "2020-07-23",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "'Lucerne Scrolls is located in the Trading Post building'",
+      "righe premium a pagamento",
+      "750 gemme per livello"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1963188",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.92'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "Cosmetic Shop con cosmetici e decorazioni"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/1935973",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.91'",
+     "page_date": "2025-02-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "State Forum: 'Quick Dispatch' e 'Travel x10'",
+      "Conversion Stones nello Shop se si ha lo State Forum",
+      "Crystal Research Center: 'instant research' con Premium Season Crystal Supply",
+      "blueprint epici engineering nei forzieri equipaggiamento della Tavern"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Lyceum_of_Wisdom",
+     "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+     "page_date": "2022-05-07",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "newspaper"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "E12_misclick_commanders",
+   "when": "Tocco su un edificio in citta'",
+   "then": "Verificare il titolo del pannello aperto prima del secondo tocco (comandanti che passeggiano possono sovrapporsi agli edifici).",
+   "why": "Patch 1.0.87 e 1.1.01 riducono ma non eliminano i misclick.",
+   "requires_confirmation": false,
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/post/1817043",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - 'Update 1.0.87'",
+     "page_date": "2024-12-17",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "pulsante 'Quick Replenish' per risorse insufficienti in ricerca/costruzione/addestramento",
+      "auto-recycle nello State Forum",
+      "SVIP/SVIP Shop"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/post/2161435",
+     "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API) - '1.1.01 Homestead Revel'",
+     "page_date": "2025-11-14",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "queue management da City Hall 8",
+      "switch civilization buff da CH16",
+      "Legendary Tavern: Achilles e Hector",
+      "misclick comandanti/edifici ridotti"
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Buildings",
+   "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+   "page_date": "2020-05-11",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "elenco edifici Economic/Military/Others/Decorative"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+   "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+   "page_date": "2026-01-04",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "sblocchi per livello di City Hall",
+    "requisiti upgrade City Hall"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/buildings/",
+   "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+   "page_date": "2022-02-16",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "'All buildings can be upgraded to level 25'"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+   "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+   "page_date": "2026-09-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "'Most permanent city buildings can ultimately reach level 25'"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+   "site": "file locale del progetto (gia' raccolto)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/fragments/strategia_routine.json",
+   "site": "file locale del progetto (gia' raccolto)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "bot_rules R1-R12 generali (gemme, PvP, materiali rari, code, speedup, negozi)"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/data/fragments/quest_lucerna.json",
+   "site": "file locale del progetto (gia' raccolto)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "Mercato (client italiano) = Trading Post",
+    "Pergamene di Lucerna = voce con pulsante giallo"
+   ]
+  },
+  {
+   "url": "file:///home/user/military_advisor/riferimenti_ui/README.md",
+   "site": "file locale del progetto (gia' raccolto)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "client italiano",
+    "'Mercato' contiene le Pergamene di Lucerna con pulsante giallo",
+    "HUD 'Eta' del ferro'"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000",
+   "site": "forum-global.lilithgame.com (forum ufficiale, account GM 'Rise of Kingdoms'; letto via API /api/v2/posts?account_id=10000000; page_date = edited_at dell'API)",
+   "page_date": "2026-06-23",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "300 post scansionati (2024-09 -> 2026-06-23), patch 1.0.87-1.1.09"
+   ]
+  }
+ ],
+ "gaps": [
+  "Le etichette esatte dei menu contestuali degli edifici (Upgrade/Details/Train/Heal/Research/Help/Speed Up...) non sono documentate testualmente in nessuna fonte accessibile: i label in inglese qui sono descrittivi. Vanno confermati con screenshot del client italiano.",
+  "Nomi italiani degli edifici: non presenti in Google Play IT, App Store IT, ne' in una wiki italiana (it.riseofkingdoms.fandom.com non raggiungibile). Unico nome certo: 'Mercato' = Trading Post (dal proprietario).",
+  "Nessun post del forum ufficiale dopo 1.1.09 (2026-06-23) nei 300 piu' recenti: cambiamenti luglio-settembre 2026 non coperti.",
+  "State Forum, Hall of Heroes, Crystal Research Center, Commander Statue: nessuna pagina wiki; sblocco/livelli ignoti.",
+  "Bulletin Board e Shop: livello massimo non documentato."
+ ],
+ "conflicts": [
+  {
+   "topic": "Sblocco Trading Post",
+   "values": [
+    {
+     "value": "City Hall 10",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      },
+      {
+       "url": "https://riseofkingdomsguides.com/trading-post/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "CH10"
+       ]
+      }
+     ]
+    },
+    {
+     "value": "City Hall 12 (1stUnlockCH)",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Trading_Post",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-06-05",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "1stUnlockCH=12"
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Tabelle requisiti piu' recenti -> CH10 piu' probabile."
+  },
+  {
+   "topic": "Sblocco Monument",
+   "values": [
+    {
+     "value": "City Hall 8",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Monument/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2020-04-27",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "CH8"
+       ]
+      }
+     ]
+    },
+    {
+     "value": "City Hall 9",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Monument",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2025-02-21",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "1stUnlockCH=9"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "Sblocco Academy / Stable / Siege Workshop / Alliance Center",
+   "values": [
+    {
+     "value": "Tabella CH: Academy CH4, Stable CH4, Siege Workshop CH5, Alliance Center CH3",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      }
+     ]
+    },
+    {
+     "value": "Pagine edificio: Academy 6, Stable 3, Siege Workshop 4, Alliance Center 5",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Academy",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "6"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Stable",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "3"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Siege_Workshop",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-19",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "4"
+       ]
+      },
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/Alliance_Center",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-09-26",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "5"
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "riseofkingdomsguides conferma Alliance Center a CH3."
+  },
+  {
+   "topic": "Sblocco Tier 5",
+   "values": [
+    {
+     "value": "City Hall 25 (tabella CH) + Academy 25 e ricerche",
+     "sources": [
+      {
+       "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Requirements",
+       "site": "riseofkingdoms.fandom.com (wiki community; testo letto via API MediaWiki action=parse, page_date = ultima revisione da action=query&prop=revisions)",
+       "page_date": "2026-01-04",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "sblocchi per livello di City Hall",
+        "requisiti upgrade City Hall"
+       ]
+      },
+      {
+       "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide-city-development/",
+       "site": "heaven-guardian.com (letto via API WordPress /wp-json/wp/v2/posts; page_date = modified)",
+       "page_date": "2026-09-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Academy 25 non basta"
+       ]
+      }
+     ]
+    },
+    {
+     "value": "'Upgrading Watchtower to level 25 is needed to unlock Tier 5 units'",
+     "sources": [
+      {
+       "url": "https://riseofkingdomsguides.com/watchtower/",
+       "site": "riseofkingdomsguides.com (HTML scaricato con curl; page_date = dateModified nello schema JSON-LD)",
+       "page_date": "2026-01-02",
+       "retrieved": "2026-09-28",
+       "fields": [
+        "Watchtower 25"
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Compatibili come catena di requisiti (Watchtower 25 e' prerequisito indiretto)."
+  },
+  {
+   "topic": "Aperture gratuite Tavern",
+   "values": [
+    {
+     "value": "vedi automazione.json (handbook vs riseofkingdomsguides)",
+     "sources": [
+      {
+       "url": "file:///home/user/military_advisor/data/fragments/automazione.json",
+       "site": "file locale del progetto (gia' raccolto)",
+       "page_date": null,
+       "retrieved": "2026-09-28",
+       "fields": [
+        "schermate gia' mappate: training, Hospital, Tavern, Courier Station, Scout Camp, State Forum; regola gemme; password secondaria"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-buildings-guide/",
+   "reason": "curl: connection reset; WebFetch restituisce un'immagine WebP. Recuperata invece la guida via API WordPress."
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-buildings-guide",
+   "reason": "HTTP 404"
+  },
+  {
+   "url": "https://it.riseofkingdoms.fandom.com/api.php",
+   "reason": "SSL handshake failure (wiki italiana non disponibile)"
+  }
+ ]
+}

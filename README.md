@@ -17,7 +17,8 @@ Bot personale per Rise of Kingdoms, con un **consigliere militare** che conosce 
 | Cartella | Cosa c'è |
 |---|---|
 | `military_advisor/` | consigliere, knowledge base, regole per il bot, strumenti di controllo per PC e telefono |
-| `military_advisor/docs/` | guide in italiano: difesa, attacco, routine, talenti, eventi, meccaniche, KvK e alleanza, automazione |
+| `military_advisor/docs/` | guide in italiano: difesa, attacco, routine, talenti, eventi, calendario eventi, missioni e Pergamene di Lucerna, mappa degli edifici, sculture e stelle, meccaniche, KvK e alleanza, automazione |
+| `military_advisor/riferimenti_ui/` | screenshot reali del client italiano per i modelli grafici |
 | `military_advisor/data/` | dati con fonti: 142 comandanti (con come ottenere le sculture), armamenti, equipaggiamento, truppe, strategie |
 | `extra/` | lista informativa di bug, exploit e truffe noti, **non usata dal bot** |
 

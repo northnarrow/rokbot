@@ -20,7 +20,8 @@ from .kb import DATA_DIR, normalize_name
 STRATEGY_TOPICS = (
     "strategia_difesa", "strategia_attacco", "strategia_routine", "talenti",
     "eventi_pve", "meccaniche", "kvk_alleanza", "automazione",
-    "segreti_pro", "sculture_stelle",
+    "segreti_pro", "sculture_stelle", "sculture_quantita",
+    "calendario_eventi", "quest_lucerna", "mappa_edifici",
 )
 
 

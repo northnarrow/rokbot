@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T11:37:57",
+  "generated": "2026-09-28T12:14:29",
   "groups": {
     "elite_adv.verified.json": {
       "records": 9,
@@ -2131,6 +2131,13 @@
       "conflicts": 0,
       "gaps": 16
     },
+    "calendario_eventi": {
+      "file": "calendario_eventi.json",
+      "from": "calendario_eventi.json",
+      "verified": false,
+      "conflicts": 12,
+      "gaps": 10
+    },
     "equipaggiamento": {
       "file": "equipaggiamento.json",
       "from": "equipaggiamento.json",
@@ -2152,12 +2159,33 @@
       "conflicts": 12,
       "gaps": 14
     },
+    "mappa_edifici": {
+      "file": "mappa_edifici.json",
+      "from": "mappa_edifici.json",
+      "verified": false,
+      "conflicts": 5,
+      "gaps": 5
+    },
     "meccaniche": {
       "file": "meccaniche.json",
       "from": "meccaniche.json",
       "verified": false,
       "conflicts": 13,
       "gaps": 17
+    },
+    "quest_lucerna": {
+      "file": "quest_lucerna.json",
+      "from": "quest_lucerna.json",
+      "verified": false,
+      "conflicts": 5,
+      "gaps": 9
+    },
+    "sculture_quantita": {
+      "file": "sculture_quantita.json",
+      "from": "sculture_quantita.json",
+      "verified": false,
+      "conflicts": 6,
+      "gaps": 11
     },
     "sculture_stelle": {
       "file": "sculture_stelle.json",
@@ -2172,6 +2200,13 @@
       "verified": false,
       "conflicts": 5,
       "gaps": 10
+    },
+    "stelle_esperienza_extra": {
+      "file": "stelle_esperienza_extra.json",
+      "from": "stelle_esperienza_extra.json",
+      "verified": false,
+      "conflicts": 4,
+      "gaps": 6
     },
     "strategia_attacco": {
       "file": "strategia_attacco.json",

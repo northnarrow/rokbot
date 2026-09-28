@@ -1,0 +1,1469 @@
+{
+ "retrieved": "2026-09-28",
+ "star_exp": {
+  "note": "Star EXP richiesta per passare alla stella indicata. La wiki riporta valori identici per tutte le rarita' (Legendary/Epic/Elite/Advanced) per 4 e 5 stelle; 2, 3 e 6 stelle sono '?' nella wiki.",
+  "by_promotion": {
+   "1->2": {
+    "value": null,
+    "implied_value": 500,
+    "status": "derivato, non pubblicato come numero",
+    "derivation": "wiki Commander Guide '3-star trick': 'Apply 2 starlight sculptures, to get to 40 or 80% of the first star' -> 2 x 100 Star EXP = 40% => 500 Star EXP (80% con critico = doppia EXP). Stesso valore implicito per tutte le rarita' (la guida non distingue).",
+    "sources": [
+     {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+      "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12479)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+       "three_star_trick",
+       "critical_double_exp",
+       "talent_points_5_6_star"
+      ]
+     }
+    ]
+   },
+   "2->3": {
+    "value": null,
+    "implied_value": null,
+    "status": "non documentato",
+    "derivation": "dal trucco wiki: partendo da 80% (400/500) e applicando 6 sculture regolari con critico (1.200 EXP) si arriva a 3 stelle 'con buona probabilita'': implica 2->3 <= 1.100 Star EXP, ma il valore esatto non e' pubblicato",
+    "sources": [
+     {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+      "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12479)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+       "three_star_trick",
+       "critical_double_exp",
+       "talent_points_5_6_star"
+      ]
+     }
+    ]
+   },
+   "3->4": {
+    "value": 6500,
+    "per_rarity": {
+     "Legendary": 6500,
+     "Epic": 6500,
+     "Elite": 6500,
+     "Advanced": 6500
+    },
+    "equivalents_no_luck": {
+     "regular_100": 65,
+     "blessed_400": 17,
+     "bundle_800": 9
+    },
+    "sources": [
+     {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+      "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_exp_4_5",
+       "starlight_exp_luck",
+       "sources_starlight"
+      ]
+     }
+    ]
+   },
+   "4->5": {
+    "value": 16000,
+    "per_rarity": {
+     "Legendary": 16000,
+     "Epic": 16000,
+     "Elite": 16000,
+     "Advanced": 16000
+    },
+    "equivalents_no_luck": {
+     "regular_100": 160,
+     "blessed_400": 40,
+     "bundle_800": 20
+    },
+    "sources": [
+     {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+      "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_exp_4_5",
+       "starlight_exp_luck",
+       "sources_starlight"
+      ]
+     }
+    ]
+   },
+   "5->6": {
+    "value": null,
+    "status": "non documentato ('?' nella wiki)",
+    "sources": [
+     {
+      "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+      "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+      "page_date": null,
+      "retrieved": "2026-09-28",
+      "fields": [
+       "star_exp_4_5",
+       "starlight_exp_luck",
+       "sources_starlight"
+      ]
+     }
+    ]
+   }
+  },
+  "level_requirement": {
+   "2": 10,
+   "3": 20,
+   "4": 30,
+   "5": 40,
+   "6": 50,
+   "note": "la promozione richiede il livello massimo della stella corrente (10/20/30/40/50) - gia' in stelle_per_classe.json"
+  }
+ },
+ "starlight_values": {
+  "per_item": {
+   "regular": {
+    "star_exp": 100,
+    "luck": "+10%"
+   },
+   "blessed": {
+    "star_exp": 400,
+    "luck": "+20%"
+   },
+   "bundle_of": {
+    "star_exp": 800,
+    "luck": "+5%"
+   }
+  },
+  "names_by_rarity": {
+   "Legendary": "Dazzling",
+   "Epic": "Brand-new",
+   "Elite": "Ordinary",
+   "Advanced": "Obsolete"
+  },
+  "critical": "Il critico ('luck') raddoppia l'EXP della promozione (wiki Commander Guide: 'it will critical, you'll get double experience'). Probabilita' = somma dei bonus luck dei materiali inseriti (interpretazione della tabella wiki, non confermata da fonte ufficiale).",
+  "commander_sculpture_as_material": {
+   "star_exp": null,
+   "note": "La wiki (Items/Commander Sculpture) dice che le sculture specifiche 'can be used to upgrade ... star level of any commander', ma non indica quanta Star EXP danno.",
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12270)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "specific_sculpture_usable_for_star_level",
+      "universal_sources"
+     ]
+    }
+   ]
+  },
+  "material_slot_limit": null,
+  "sources": [
+   {
+    "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+    "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+    "page_date": null,
+    "retrieved": "2026-09-28",
+    "fields": [
+     "star_exp_4_5",
+     "starlight_exp_luck",
+     "sources_starlight"
+    ]
+   },
+   {
+    "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+    "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12479)",
+    "page_date": null,
+    "retrieved": "2026-09-28",
+    "fields": [
+     "three_star_trick",
+     "critical_double_exp",
+     "talent_points_5_6_star"
+    ]
+   }
+  ]
+ },
+ "xp_table": {
+  "columns": [
+   "level",
+   "Legendary",
+   "Epic",
+   "Elite",
+   "Advanced"
+  ],
+  "rows": [
+   [
+    1,
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    2,
+    120,
+    100,
+    80,
+    60
+   ],
+   [
+    3,
+    360,
+    300,
+    240,
+    180
+   ],
+   [
+    4,
+    720,
+    600,
+    480,
+    360
+   ],
+   [
+    5,
+    1200,
+    1000,
+    800,
+    600
+   ],
+   [
+    6,
+    3600,
+    3000,
+    2400,
+    1800
+   ],
+   [
+    7,
+    7200,
+    6000,
+    4800,
+    3600
+   ],
+   [
+    8,
+    10800,
+    9000,
+    7200,
+    5400
+   ],
+   [
+    9,
+    14400,
+    12000,
+    9600,
+    7200
+   ],
+   [
+    10,
+    18000,
+    15000,
+    12000,
+    9000
+   ],
+   [
+    11,
+    22200,
+    18500,
+    14800,
+    11100
+   ],
+   [
+    12,
+    27000,
+    22500,
+    18000,
+    13500
+   ],
+   [
+    13,
+    32400,
+    27000,
+    21600,
+    16200
+   ],
+   [
+    14,
+    38400,
+    32000,
+    25600,
+    19200
+   ],
+   [
+    15,
+    45000,
+    37500,
+    30000,
+    22500
+   ],
+   [
+    16,
+    52200,
+    43500,
+    34800,
+    26100
+   ],
+   [
+    17,
+    60000,
+    50000,
+    40000,
+    30000
+   ],
+   [
+    18,
+    67800,
+    56500,
+    45200,
+    33900
+   ],
+   [
+    19,
+    75600,
+    63000,
+    50400,
+    37800
+   ],
+   [
+    20,
+    84000,
+    70000,
+    56000,
+    42000
+   ],
+   [
+    21,
+    90000,
+    75000,
+    60000,
+    45000
+   ],
+   [
+    22,
+    96000,
+    80000,
+    64000,
+    48000
+   ],
+   [
+    23,
+    103200,
+    86000,
+    68800,
+    51600
+   ],
+   [
+    24,
+    110400,
+    92000,
+    73600,
+    55200
+   ],
+   [
+    25,
+    117600,
+    98000,
+    78400,
+    58800
+   ],
+   [
+    26,
+    126000,
+    105000,
+    84000,
+    63000
+   ],
+   [
+    27,
+    134400,
+    112000,
+    89600,
+    67200
+   ],
+   [
+    28,
+    142800,
+    119000,
+    95200,
+    71400
+   ],
+   [
+    29,
+    151200,
+    126000,
+    100800,
+    75600
+   ],
+   [
+    30,
+    162000,
+    135000,
+    108000,
+    81000
+   ],
+   [
+    31,
+    180000,
+    150000,
+    120000,
+    90000
+   ],
+   [
+    32,
+    204000,
+    170000,
+    136000,
+    102000
+   ],
+   [
+    33,
+    234000,
+    195000,
+    156000,
+    117000
+   ],
+   [
+    34,
+    270000,
+    225000,
+    180000,
+    135000
+   ],
+   [
+    35,
+    312000,
+    260000,
+    208000,
+    156000
+   ],
+   [
+    36,
+    360000,
+    300000,
+    240000,
+    180000
+   ],
+   [
+    37,
+    414000,
+    345000,
+    276000,
+    207000
+   ],
+   [
+    38,
+    474000,
+    395000,
+    316000,
+    237000
+   ],
+   [
+    39,
+    540000,
+    450000,
+    360000,
+    270000
+   ],
+   [
+    40,
+    660000,
+    550000,
+    440000,
+    330000
+   ],
+   [
+    41,
+    810000,
+    675000,
+    540000,
+    405000
+   ],
+   [
+    42,
+    960000,
+    800000,
+    640000,
+    480000
+   ],
+   [
+    43,
+    1140000,
+    950000,
+    760000,
+    570000
+   ],
+   [
+    44,
+    1320000,
+    1100000,
+    880000,
+    660000
+   ],
+   [
+    45,
+    1530000,
+    1275000,
+    1020000,
+    765000
+   ],
+   [
+    46,
+    1740000,
+    1450000,
+    1160000,
+    870000
+   ],
+   [
+    47,
+    1980000,
+    1650000,
+    1320000,
+    990000
+   ],
+   [
+    48,
+    2220000,
+    1850000,
+    1480000,
+    1110000
+   ],
+   [
+    49,
+    2520000,
+    2100000,
+    1680000,
+    1245000
+   ],
+   [
+    50,
+    2820000,
+    2350000,
+    1880000,
+    1380000
+   ],
+   [
+    51,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    52,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    53,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    54,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    55,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    56,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    57,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    58,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    59,
+    2820000,
+    2350000,
+    1880000,
+    null
+   ],
+   [
+    60,
+    "Max",
+    "Max",
+    "Max",
+    null
+   ]
+  ],
+  "status": "Tabella wiki verificata riga per riga contro 5 revisioni (2019-02 -> 2023-03): valori identici, nessuna modifica dal 2020. Nessuna seconda fonte indipendente raggiungibile (calcolatori riseofkingdomsguides/heaven-guardian dietro anti-bot o solo screenshot vuoti; zoe-rok non ha una tabella livelli; rokstats non espone EXP).",
+  "typo_fix": {
+   "level": 30,
+   "rarity": "Advanced",
+   "wiki_value": "81,00",
+   "corrected": 81000,
+   "reason": "presente dalla revisione 2019 e mai corretto; 81.000 = 0,6 x Epic (135.000) e coerente con la progressione 75.600 -> 81.000 -> 90.000"
+  },
+  "advanced_51_60": {
+   "values": null,
+   "note": "righe vuote in tutte le revisioni wiki. Per Legendary/Epic/Elite le righe 51-59 ripetono il valore della 50; per analogia Advanced sarebbe 1.380.000 x 9, ma e' solo un'ipotesi non verificata (e non e' confermato che gli Advanced arrivino a 6 stelle/60)."
+  },
+  "interpretation": {
+   "A_row_N_is_exp_from_N_minus_1_to_N": "riga 1 '-' coerente; riga 60 'Max' incoerente",
+   "B_row_N_is_exp_from_N_to_N_plus_1": "riga 60 'Max' coerente (in gioco al 60 la barra mostra Max); riga 1 '-' = dato mancante",
+   "effect_on_totals": "In entrambe le letture il totale 1->60 = somma righe 2..59 + UNA riga ignota (riga 1 in B, riga 60 in A). La differenza tocca solo i totali parziali di fine stella (es. 1->10 in B = righe 1..9)."
+  },
+  "derived_totals_sum_rows": {
+   "Legendary": {
+    "sum_rows_2_59": 47862600,
+    "sum_rows_2_50": 22482600,
+    "sum_rows_2_40": 5442600,
+    "sum_rows_2_30": 1794600,
+    "sum_rows_2_20": 561000,
+    "sum_rows_2_10": 56400
+   },
+   "Epic": {
+    "sum_rows_2_59": 39885500,
+    "sum_rows_2_50": 18735500,
+    "sum_rows_2_40": 4535500,
+    "sum_rows_2_30": 1495500,
+    "sum_rows_2_20": 467500,
+    "sum_rows_2_10": 47000
+   },
+   "Elite": {
+    "sum_rows_2_59": 31908400,
+    "sum_rows_2_50": 14988400,
+    "sum_rows_2_40": 3628400,
+    "sum_rows_2_30": 1196400,
+    "sum_rows_2_20": 374000,
+    "sum_rows_2_10": 37600
+   },
+   "Advanced": {
+    "sum_rows_2_59": null,
+    "sum_rows_2_50": 11196300,
+    "sum_rows_2_40": 2721300,
+    "sum_rows_2_30": 897300,
+    "sum_rows_2_20": 280500,
+    "sum_rows_2_10": 28200
+   }
+  },
+  "derived_totals_note": "somme derivate da me sulle righe wiki (con il fix 81.000); non pubblicate dalla fonte. sum_rows_2_59 e' il totale 1->60 meno una riga ignota.",
+  "tomes": {
+   "values": [
+    100,
+    500,
+    1000,
+    5000,
+    10000,
+    20000,
+    50000
+   ],
+   "note": "valori dei Tome of Knowledge usati dal calcolatore XP di zoe-rok (bundle JS); il Lv.7 Tome = 50.000 EXP (wiki Items/Tome of Knowledge)"
+  },
+  "exp_over_cap": "dalla patch 1.0.50 l'EXP oltre il cap della stella viene conservata e applicata dopo la promozione (fonte ufficiale)",
+  "sources": [
+   {
+    "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+    "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki; revid 12361 del 2023-03-20, confrontata con revisioni 7715/8137/10817/11305)",
+    "page_date": "2023-03-20",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "xp_per_level_table",
+     "revision_history"
+    ]
+   },
+   {
+    "url": "https://zoe-rok.com/_next/static/chunks/ef6276afd87c9c52.js",
+    "site": "zoe-rok.com (bundle JS calcolatori)",
+    "page_date": "2026-09-28",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "calculators_list_no_star_exp",
+     "xp_tomes_values"
+    ]
+   },
+   {
+    "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1125881: 1.0.50 Anniversary Festival)",
+    "site": "forum-global.lilithgame.com (ufficiale)",
+    "page_date": "2021-09-06",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "exp_stored_over_star_cap"
+    ]
+   },
+   {
+    "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+    "site": "heaven-guardian.com (wp-json)",
+    "page_date": "2026-08-03",
+    "retrieved": "2026-09-28",
+    "fields": [
+     "star_level_caps_10_60"
+    ]
+   }
+  ]
+ },
+ "event_sculptures": [
+  {
+   "id": "vip_daily_chest",
+   "name": "VIP daily chest (forziere VIP giornaliero gratuito)",
+   "sculpture_type": "universali per rarita'",
+   "values": {
+    "VIP1-3": "Advanced x1",
+    "VIP4-5": "Elite x1",
+    "VIP6": "Elite x2",
+    "VIP7-8": "Epic x1",
+    "VIP9": "Epic x2",
+    "VIP10-11": "Legendary x1",
+    "VIP12-13": "Legendary x2",
+    "VIP14-18": "Legendary x3"
+   },
+   "per": "giorno",
+   "requires_gems": false,
+   "notes": "righe 1-18 della tabella wiki in ordine; heaven-guardian e handbook 2026 confermano 1/2/3 leggendarie a VIP 10/12/14",
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/VIP",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12969)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_daily_chest_sculptures_1_18"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+     "site": "heaven-guardian.com (wp-json)",
+     "page_date": "2026-09-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_daily_chest_universal_legendary",
+      "sculpture_costs"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_10_12_14_daily_legendary"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vip_shop",
+   "name": "VIP Shop (reset settimanale lunedi' 00:00 UTC)",
+   "sculpture_type": "universali + Starlight",
+   "values": {
+    "VIP4": "Brand-new Starlight Sculpture: 60.000 Food, max 20/settimana",
+    "VIP5": "Dazzling Starlight Sculpture: 400.000 Wood, max 5/settimana",
+    "VIP9 (wiki: VIP8)": "Epic Commander Sculpture: 200 gemme, max 50/settimana",
+    "VIP13": "Legendary Commander Sculpture: 2.000 gemme cad., max 20/settimana (40.000 gemme per tutte)",
+    "wiki_extra": "Bundle of Brand-new Starlight: VIP8 (gemme); Dazzling Starlight a gemme: VIP11"
+   },
+   "per": "settimana",
+   "requires_gems": "solo le voci a gemme",
+   "sources": [
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+     "site": "heaven-guardian.com (wp-json)",
+     "page_date": "2026-09-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "vip_shop_items_cost_limit"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "star_exp_4_5",
+      "starlight_exp_luck",
+      "sources_starlight"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12270)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "specific_sculpture_usable_for_star_level",
+      "universal_sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "expedition_medal_store",
+   "name": "Expedition - Medal Store (Medals of the Conqueror)",
+   "sculpture_type": "specifiche + universali + Starlight",
+   "values": {
+    "permanenti": {
+     "Featured Epic Commander Sculpture (rotazione settimanale)": 1000,
+     "Constance Sculpture": 400,
+     "Aethelflaed Sculpture": "1500 (max 3/giorno)"
+    },
+    "casuali (6 slot/giorno, 1 refresh gratis + fino a 5 a 100 gemme)": {
+     "Random Legendary Commander Sculpture": 2500,
+     "Random Epic Commander Sculpture": 1000,
+     "Random Elite Commander Sculpture": 300,
+     "Random Advanced Commander Sculpture": 100,
+     "Universal Elite Commander Sculpture": 800,
+     "Dazzling Starlight": 1000,
+     "Blessed Dazzling Starlight": 4000,
+     "Brand-new Starlight": 150,
+     "Blessed Brand-new Starlight": 600,
+     "Obsolete Starlight x1/x2": "20/40",
+     "Blessed Obsolete Starlight": 80
+    },
+    "stage_chests": "Treasure of the Warrior Queen: 1-5 sculture Aethelflaed o 1 epica/leggendaria o chiave"
+   },
+   "per": "giorno (Aethelflaed) / refresh giornaliero",
+   "requires_gems": false,
+   "notes": "prezzi wiki (data revisione non esposta); le guide 2026 confermano featured epic, Constance e Aethelflaed con limite giornaliero ma non i prezzi. La wiki Items/Commander Sculpture indica Universal Advanced 150 medaglie (non nella tabella negozio).",
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Expedition",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12613)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "medal_store_permanent",
+      "medal_store_random",
+      "aethelflaed_limit_3_day",
+      "warrior_queen_chest"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-08-18",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "medal_store_featured_epic_constance_aethelflaed"
+     ]
+    },
+    {
+     "url": "https://heaven-guardian.com/rise-of-kingdoms-expedition-guide-tips-rewards/",
+     "site": "heaven-guardian.com (wp-json)",
+     "page_date": "2026-08-03",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "aethelflaed_store_daily_limit"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "ark_of_osiris_sculptures",
+      "expedition_store_2500",
+      "vip_daily",
+      "event_rank_rewards"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12270)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "specific_sculpture_usable_for_star_level",
+      "universal_sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kvk_heros_welcome",
+   "name": "KvK (Lost Kingdom) - Past Glory stage 3 'Heroism' + negozio Hero's Welcome",
+   "sculpture_type": "Legendary Commander Sculpture (universale)",
+   "values": {
+    "Legendary Commander Sculpture": "100 Hero Medallion, max 20",
+    "Dazzling Starlight": "40 medallion, max 30",
+    "Epic Commander Sculpture": "15 medallion, max 50",
+    "Brand-new Starlight": "8 medallion, max 50",
+    "Golden Key": "20 medallion, max 20"
+   },
+   "per": "KvK (fase Past Glory)",
+   "requires_gems": false,
+   "notes": "i Hero Medallion si ottengono DONANDO sculture di comandante; i medallion non spesi vengono ritirati a fine evento. Formato KvK1 storico: verificare nel KvK corrente.",
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Lost_Kingdom/Past_Glory/Hero%27s_Welcome",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 11977)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "hero_medallion_exchange"
+     ]
+    },
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Lost_Kingdom/Past_Glory",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 10160)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "stage3_donate_sculptures_for_medallions"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/the-lost-kingdom-kvk-guide/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "individual_points_ranking_legendary_sculptures",
+      "stage3_donate_sculptures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kvk_season_shop",
+   "name": "KvK / Season of Conquest - Season Shop (Conquest/Season Coins) e classifiche honor",
+   "sculpture_type": "Legendary Commander Sculpture",
+   "values": null,
+   "per": null,
+   "requires_gems": false,
+   "notes": "Ufficiale 1.0.55: sculture leggendarie scontate nel Season Shop (quantita' e prezzi non pubblicati). La classifica punti individuali e le fasi di Light and Darkness danno sculture leggendarie (numeri non pubblicati).",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1241934: 1.0.55 Spring Awakening)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2022-03-01",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "season_shop_discounted_legendary_sculptures"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomsguides.com/the-lost-kingdom-kvk-guide/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "individual_points_ranking_legendary_sculptures",
+      "stage3_donate_sculptures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ark_of_osiris",
+   "name": "Ark of Osiris",
+   "sculpture_type": "Legendary Commander Sculpture",
+   "values": {
+    "max_per_evento": 10,
+    "3000-5000 punti, sconfitta": 3,
+    "3000-5000 punti, vittoria": "4-5"
+   },
+   "per": "evento (ogni 2 settimane)",
+   "requires_gems": false,
+   "notes": "solo riseofkingdomsguides (testo 2022, pagina aggiornata 2026-01-02); handbook e heaven-guardian 2026 dicono di controllare l'anteprima premi in gioco",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "ark_of_osiris_sculptures",
+      "expedition_store_2500",
+      "vip_daily",
+      "event_rank_rewards"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-ark-of-osiris-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "osiris_rewards_scale_no_numbers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "osiris_league",
+   "name": "Osiris League - League Bets Shop / Eye for Talent Shop",
+   "sculpture_type": "Legendary Commander Sculpture",
+   "values": null,
+   "per": "stagione di lega",
+   "requires_gems": false,
+   "notes": "entrambi i negozi vendono sculture leggendarie (consigliate come primo acquisto); quantita'/prezzi non pubblicati",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-osiris-league-betting-guide/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "league_bets_shop_legendary",
+      "eye_for_talent_shop_legendary"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "golden_kingdom",
+   "name": "Golden Kingdom",
+   "sculpture_type": null,
+   "values": null,
+   "per": null,
+   "requires_gems": false,
+   "notes": "20 piani, checkpoint premi ogni 4 piani; nessuna fonte raggiungibile elenca sculture nei premi",
+   "sources": [
+    {
+     "url": "https://riseofkingdomsguides.com/golden-kingdom-event-guide-rok/",
+     "site": "riseofkingdomsguides.com (wp-json)",
+     "page_date": "2026-01-02",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_kingdom_20_floors_checkpoint_every_4"
+     ]
+    },
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-golden-kingdom-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "golden_kingdom_format_no_reward_numbers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "champions_of_olympia",
+   "name": "Champions of Olympia",
+   "sculpture_type": null,
+   "values": null,
+   "per": null,
+   "requires_gems": false,
+   "notes": "nessuna fonte raggiungibile elenca sculture nei premi (dal 1.0.84 Balanced Mode)",
+   "sources": [
+    {
+     "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-champions-of-olympia-guide",
+     "site": "riseofkingdomshandbook.com",
+     "page_date": "2026-09-09",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "olympia_no_reward_numbers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "city_hall_upgrade_rewards",
+   "name": "City Hall - premi di upgrade (livelli 1-25)",
+   "sculpture_type": "nessuna",
+   "values": {
+    "sculture": 0
+   },
+   "per": "una tantum",
+   "requires_gems": false,
+   "notes": "la tabella wiki dei premi di upgrade 2-25 contiene solo risorse, speedup, Civilization Change (lv10), gemme e Master's Blueprint (lv25): nessuna scultura. Milestone di Growth Fund (a pagamento) non verificate.",
+   "sources": [
+    {
+     "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+     "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12376)",
+     "page_date": null,
+     "retrieved": "2026-09-28",
+     "fields": [
+      "city_hall_upgrade_rewards_1_25"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lucerne_scrolls",
+   "name": "Lucerne Scrolls (pass di Season of Conquest)",
+   "sculpture_type": null,
+   "values": null,
+   "per": "volume (~45 giorni)",
+   "requires_gems": "parte premium ~5 USD",
+   "notes": "Esiste almeno fino al 2024 (patch ufficiali 1.0.77 e 1.0.79; zoe-rok 2024-09: 5$/45 giorni). Contenuto in sculture non documentato; presenza nel 2026 non verificata.",
+   "sources": [
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1599092: 1.0.77 Winter's Tale)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2023-12-06",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lucerne_scrolls_soc_rewards_adjusted"
+     ]
+    },
+    {
+     "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1626854: 1.0.79 Surging Spring)",
+     "site": "forum-global.lilithgame.com (ufficiale)",
+     "page_date": "2024-02-19",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lucerne_scrolls_still_active_2024"
+     ]
+    },
+    {
+     "url": "https://zoe-rok.com/guides/2",
+     "site": "zoe-rok.com (Zoe Guides, autore FlyingDolphin)",
+     "page_date": "2024-09-24",
+     "retrieved": "2026-09-28",
+     "fields": [
+      "lucerne_scroll_price_5usd_45days"
+     ]
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Items/Starlight_Sculpture",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "star_exp_4_5",
+    "starlight_exp_luck",
+    "sources_starlight"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Commander_Guide",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12479)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "three_star_trick",
+    "critical_double_exp",
+    "talent_points_5_6_star"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Items/Commander_Sculpture",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12270)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "specific_sculpture_usable_for_star_level",
+    "universal_sources"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-commander-sculptures-guide/",
+   "site": "heaven-guardian.com (wp-json)",
+   "page_date": "2026-09-19",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_daily_chest_universal_legendary",
+    "sculpture_costs"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-vip-shop-guide-dominate-maximize-benefits/",
+   "site": "heaven-guardian.com (wp-json)",
+   "page_date": "2026-09-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_shop_items_cost_limit"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-sculptures-guide/",
+   "site": "riseofkingdomsguides.com (wp-json)",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "ark_of_osiris_sculptures",
+    "expedition_store_2500",
+    "vip_daily",
+    "event_rank_rewards"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Commanders/Experience",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki; revid 12361 del 2023-03-20, confrontata con revisioni 7715/8137/10817/11305)",
+   "page_date": "2023-03-20",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "xp_per_level_table",
+    "revision_history"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Expedition",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12613)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "medal_store_permanent",
+    "medal_store_random",
+    "aethelflaed_limit_3_day",
+    "warrior_queen_chest"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/VIP",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12969)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_daily_chest_sculptures_1_18"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Lost_Kingdom/Past_Glory/Hero%27s_Welcome",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 11977)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "hero_medallion_exchange"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Lost_Kingdom/Past_Glory",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 10160)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "stage3_donate_sculptures_for_medallions"
+   ]
+  },
+  {
+   "url": "https://riseofkingdoms.fandom.com/wiki/Buildings/City_Hall/Rewards",
+   "site": "riseofkingdoms.fandom.com (wiki, API MediaWiki, revid 12376)",
+   "page_date": null,
+   "retrieved": "2026-09-28",
+   "fields": [
+    "city_hall_upgrade_rewards_1_25"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1241934: 1.0.55 Spring Awakening)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2022-03-01",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "season_shop_discounted_legendary_sculptures"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1599092: 1.0.77 Winter's Tale)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2023-12-06",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lucerne_scrolls_soc_rewards_adjusted"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1626854: 1.0.79 Surging Spring)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2024-02-19",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lucerne_scrolls_still_active_2024"
+   ]
+  },
+  {
+   "url": "https://forum-global.lilithgame.com/api/v2/posts?account_id=10000000 (post 1125881: 1.0.50 Anniversary Festival)",
+   "site": "forum-global.lilithgame.com (ufficiale)",
+   "page_date": "2021-09-06",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "exp_stored_over_star_cap"
+   ]
+  },
+  {
+   "url": "https://zoe-rok.com/guides/2",
+   "site": "zoe-rok.com (Zoe Guides, autore FlyingDolphin)",
+   "page_date": "2024-09-24",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "lucerne_scroll_price_5usd_45days"
+   ]
+  },
+  {
+   "url": "https://zoe-rok.com/_next/static/chunks/ef6276afd87c9c52.js",
+   "site": "zoe-rok.com (bundle JS calcolatori)",
+   "page_date": "2026-09-28",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "calculators_list_no_star_exp",
+    "xp_tomes_values"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/rise-of-kingdoms-osiris-league-betting-guide/",
+   "site": "riseofkingdomsguides.com (wp-json)",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "league_bets_shop_legendary",
+    "eye_for_talent_shop_legendary"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/the-lost-kingdom-kvk-guide/",
+   "site": "riseofkingdomsguides.com (wp-json)",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "individual_points_ranking_legendary_sculptures",
+    "stage3_donate_sculptures"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomsguides.com/golden-kingdom-event-guide-rok/",
+   "site": "riseofkingdomsguides.com (wp-json)",
+   "page_date": "2026-01-02",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "golden_kingdom_20_floors_checkpoint_every_4"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-golden-kingdom-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "golden_kingdom_format_no_reward_numbers"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-champions-of-olympia-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "olympia_no_reward_numbers"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-ark-of-osiris-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-09-09",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "osiris_rewards_scale_no_numbers"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-vip-levels-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "vip_10_12_14_daily_legendary"
+   ]
+  },
+  {
+   "url": "https://riseofkingdomshandbook.com/guides/riseofkingdoms-expedition-guide",
+   "site": "riseofkingdomshandbook.com",
+   "page_date": "2026-08-18",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "medal_store_featured_epic_constance_aethelflaed"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-expedition-guide-tips-rewards/",
+   "site": "heaven-guardian.com (wp-json)",
+   "page_date": "2026-08-03",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "aethelflaed_store_daily_limit"
+   ]
+  },
+  {
+   "url": "https://heaven-guardian.com/rise-of-kingdoms-level-up-commanders-fast-guide/",
+   "site": "heaven-guardian.com (wp-json)",
+   "page_date": "2026-08-03",
+   "retrieved": "2026-09-28",
+   "fields": [
+    "star_level_caps_10_60"
+   ]
+  }
+ ],
+ "gaps": [
+  "Star EXP esatta per 1->2 (solo implicita 500 dalla guida wiki), 2->3 e 5->6: nessuna fonte raggiungibile la pubblica",
+  "Star EXP data da una scultura di comandante usata come materiale di promozione: non documentata",
+  "Probabilita' esatta del critico e numero massimo di materiali per tentativo di promozione: non documentati",
+  "Tabella EXP: Advanced livelli 51-60 vuoti; riga 1 o riga 60 ignota a seconda dell'interpretazione; nessuna seconda fonte indipendente",
+  "Quantita' di sculture da Golden Kingdom, Champions of Olympia, Osiris League shops, Season/Conquest shop, Lucerne Scrolls: non trovate",
+  "Prezzi del Medal Store confermati solo dalla wiki (data revisione non esposta)"
+ ],
+ "conflicts": [
+  {
+   "topic": "VIP Shop Epic Commander Sculpture",
+   "values": {
+    "wiki Items/Commander Sculpture": "VIP 8",
+    "heaven-guardian 2026-09-02": "VIP 9 (200 gemme, 50/settimana)"
+   },
+   "resolution": "non risolto; heaven-guardian piu' recente"
+  },
+  {
+   "topic": "VIP Shop Dazzling Starlight",
+   "values": {
+    "wiki Items/Starlight Sculpture": "VIP 11 a gemme",
+    "heaven-guardian 2026-09-02": "VIP 5 a 400.000 Wood (5/settimana)"
+   },
+   "resolution": "possono coesistere due offerte diverse; non verificato"
+  },
+  {
+   "topic": "Interpretazione riga tabella EXP",
+   "values": {
+    "A": "riga N = EXP da N-1 a N",
+    "B": "riga N = EXP da N a N+1"
+   },
+   "resolution": "non risolto; i totali 1->60 differiscono solo di una riga ignota"
+  },
+  {
+   "topic": "Star EXP per 3 e 5 stelle",
+   "values": {
+    "sculture_stelle/stelle_per_classe": "'non documentato' per 2,3,6 stelle",
+    "wiki Commander Guide": "trucco delle 3 stelle implica 500 Star EXP per 1->2"
+   },
+   "resolution": "aggiunto come valore implicito, non come dato ufficiale"
+  }
+ ],
+ "unreachable": [
+  "https://riseofkingdomsguides.com/rise-of-kingdoms-commander-experience-and-leveling-calculator/ (challenge anti-bot ALTCHA; wp-json contiene solo il form senza script)",
+  "https://heaven-guardian.com (connection reset intermittenti; il calcolatore EXP e' solo uno screenshot vuoto)",
+  "https://allclash.com (403)",
+  "https://rok.wiki, https://rokboom.com, https://rok.fyi, https://www.rokguides.com (proxy 502)",
+  "https://www.rok.guide (503)",
+  "https://riseofkingdoms.wiki.gg (401)",
+  "zoe-rok.com: nessun chunk JS con Star EXP o tabella livelli (13 chunk + pagine commanders/guides/tier-list)",
+  "app.rokstats.online: commander-dossier-data e JS senza campi star exp/xp",
+  "forum ufficiale (832 post): nessun valore di Star EXP o quantita' di sculture per Golden Kingdom/Olympia/Lucerne",
+  "wiki fandom: nessuna pagina per Starlight promotion, Golden Kingdom, Champions of Olympia, Ark of Osiris (eventi)"
+ ]
+}

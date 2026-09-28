@@ -17189,7 +17189,7 @@
       ],
       "skill_upgrade_order": "5-5-1-1 per F2P (tenere sotto lv.10 finche' le skill sono a 5) (riseofkingdomsguides); hokbuild 5-1-5-5. Heaven-guardian (2026-08-03): obiettivo pratico 5-5-1-1; costo totale sblocco+expertise 700 sculture.",
       "sculpture_cost_to_max": 690,
-      "recommended_formation": null,
+      "recommended_formation": "Pincer (allclash, letto 2026-09-28)",
       "recommended_armaments": null,
       "recommended_equipment": "hokbuild: Gatekeepers Shield, Windswept War Helm, The Milky Way, Windswept Bracers, Sentry Breeches, Windswept Boots.",
       "roles": [
@@ -17198,7 +17198,7 @@
         "canyon"
       ],
       "f2p_friendly": true,
-      "notes": "'Best Gold Key Commander': tank fanteria con scudo e contrattacco, valido in regni nuovi e vecchi, difesa mura e campo. Expertise 690 sculture (riseofkingdomsguides). Nessun danno attivo, nessuna cura, lento. 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Rilasciato il 2018-09-28 con il lancio del gioco (zoe-rok). Theriagames: ottenibile da gold chest, Expedition store, universali, offerte, MGE giorno 65. Heaven-guardian (2026): forte nei regni giovani, opzione legacy/backup in SoC. Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario.",
+      "notes": "'Best Gold Key Commander': tank fanteria con scudo e contrattacco, valido in regni nuovi e vecchi, difesa mura e campo. Expertise 690 sculture (riseofkingdomsguides). Nessun danno attivo, nessuna cura, lento. 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Rilasciato il 2018-09-28 con il lancio del gioco (zoe-rok). Theriagames: ottenibile da gold chest, Expedition store, universali, offerte, MGE giorno 65. Heaven-guardian (2026): forte nei regni giovani, opzione legacy/backup in SoC. Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario. Formazione visibile; armamenti dietro il paywall PRO (allclash, letto 2026-09-28).",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/charles-martel/",
@@ -19700,14 +19700,14 @@
       ],
       "skill_upgrade_order": null,
       "sculpture_cost_to_max": 690,
-      "recommended_formation": null,
+      "recommended_formation": "Line (allclash, letto 2026-09-28)",
       "recommended_armaments": null,
       "recommended_equipment": "hokbuild: Harvester's Headscarf, Scepter of the Forest Guardian, Harvester Robes, Cloth Gloves, Harvester Boots, Harvester Breeches.",
       "roles": [
         "gathering"
       ],
       "f2p_friendly": null,
-      "notes": "Solo raccolta (pietra in particolare) e carico; 'considered a weak commander', non investire sculture universali (riseofkingdomsguides). 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Correzione: civilta' 'Other' (zoe-rok, gamesguideinfo, theriagames), non Egypt. Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario.",
+      "notes": "Solo raccolta (pietra in particolare) e carico; 'considered a weak commander', non investire sculture universali (riseofkingdomsguides). 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Correzione: civilta' 'Other' (zoe-rok, gamesguideinfo, theriagames), non Egypt. Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario. allclash indica il 'sweetspot' di abilita' 1551 per renderla utile. L'ordine esatto di sblocco delle abilita' e gli armamenti sono dietro il paywall PRO (allclash, letto 2026-09-28).",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/cleopatra-vii/",
@@ -53556,7 +53556,7 @@
         "open_field"
       ],
       "f2p_friendly": false,
-      "notes": "Indifferente al tipo di truppa. riseofkingdomsguides: utile soprattutto per rally su citta'; non consigliato a F2P/piccoli spender se non si fanno rally su citta' frequenti; capacita' truppe ~2.5M al massimo (4a skill). theriagames: ottenibile da golden chest, Expedition medal store, sculture universali. 690 sculture per portare al massimo le 4 skill di un Legendary (piu' 10 per sbloccarlo = 700 totali); costo generico per tutti i Legendary, non specifico del comandante. Verifica 2026-09-28: nome corretto della 3a skill 'Fatih' (non 'Faith'); civilta' in-game 'Ottoman Empire' (rokstats) / 'Ottoman' (zoe-rok).",
+      "notes": "Indifferente al tipo di truppa. riseofkingdomsguides: utile soprattutto per rally su citta'; non consigliato a F2P/piccoli spender se non si fanno rally su citta' frequenti; capacita' truppe ~2.5M al massimo (4a skill). theriagames: ottenibile da golden chest, Expedition medal store, sculture universali. 690 sculture per portare al massimo le 4 skill di un Legendary (piu' 10 per sbloccarlo = 700 totali); costo generico per tutti i Legendary, non specifico del comandante. Verifica 2026-09-28: nome corretto della 3a skill 'Fatih' (non 'Faith'); civilta' in-game 'Ottoman Empire' (rokstats) / 'Ottoman' (zoe-rok). Formazione e armamenti entrambi dietro il paywall PRO di allclash (verificato 2026-09-28): la sezione 'Best Formation + Armaments' non mostra nulla ai non abbonati. Da prendere dal gioco.",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/mehmed-ii/",
@@ -55544,7 +55544,7 @@
       ],
       "skill_upgrade_order": "1a skill, poi 2a, saltare la 3a, sbloccare la 4a (riseofkingdomsguides); hokbuild 5-5-5-1.",
       "sculpture_cost_to_max": 690,
-      "recommended_formation": null,
+      "recommended_formation": "Wedge (allclash, letto 2026-09-28)",
       "recommended_armaments": null,
       "recommended_equipment": "hokbuild: Abyssal Visage, Sacred Dominion, Dark Lord's Blessing, Armband of the Hellish Wasteland, Revival Gauntlets, Flame Treads.",
       "roles": [
@@ -55553,7 +55553,7 @@
         "support"
       ],
       "f2p_friendly": null,
-      "notes": "Buffer AoE per qualsiasi truppa, solo secondario. Riseofkingdomsguides sconsiglia l'investimento (richiede universali, potrebbe finire nelle gold key). 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Rilasciata il 2020-09-28 (zoe-rok). Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario.",
+      "notes": "Buffer AoE per qualsiasi truppa, solo secondario. Riseofkingdomsguides sconsiglia l'investimento (richiede universali, potrebbe finire nelle gold key). 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Rilasciata il 2020-09-28 (zoe-rok). Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario. Formazione visibile; armamenti dietro il paywall PRO (allclash, letto 2026-09-28).",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/mulan/",
@@ -64118,7 +64118,7 @@
       ],
       "skill_upgrade_order": "Tutto nella 1a skill, poi la 2a: 5111 (economico) → 5511 (miglior valore/F2P/canyon) → 5551 (account fanteria) → 5555 solo se gia' sviluppato (riseofkingdomsguides, heaven-guardian); hokbuild 5-5-5-1.",
       "sculpture_cost_to_max": 690,
-      "recommended_formation": null,
+      "recommended_formation": "Arch (allclash, letto 2026-09-28)",
       "recommended_armaments": null,
       "recommended_equipment": "hokbuild: Gatekeepers Shield, Windswept War Helm, Windswept Breastplate, Seth's Brutality, Karuak's Humility, Frost Treads, Wind Scars. Priorita' heaven-guardian: Infantry Health → Defense → damage reduction → Infantry Attack → March Speed.",
       "roles": [
@@ -64128,7 +64128,7 @@
         "canyon"
       ],
       "f2p_friendly": true,
-      "notes": "Tank/healer fanteria da Wheel of Fortune iniziale (storicamente ~giorno 38). Sempre utile nei regni giovani e KvK1; la cura e' contrastata da Saladin (-50%), Alexander (-30%), Ramesses (blocco 2s). Non e' un buon investimento di universali per account SoC maturi. 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario.",
+      "notes": "Tank/healer fanteria da Wheel of Fortune iniziale (storicamente ~giorno 38). Sempre utile nei regni giovani e KvK1; la cura e' contrastata da Saladin (-50%), Alexander (-30%), Ramesses (blocco 2s). Non e' un buon investimento di universali per account SoC maturi. 690 sculture per portare un legendario da sbloccato a 5-5-5-5 (expertise); 10 sculture specifiche in piu' per sbloccarlo (fonte heaven-guardian e riseofkingdomsguides, dato generico per tutti i legendari). Bluestacks (2022-07-04) conferma indipendentemente le 690 sculture per maxare un legendario. Formazione visibile; armamenti dietro il paywall PRO (allclash, letto 2026-09-28).",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/richard/",
@@ -105585,7 +105585,18 @@
           "levels": []
         }
       ],
-      "talent_builds": [],
+      "talent_builds": [
+        {
+          "purpose": "unico build pubblicato",
+          "trees": [
+            "Engineering",
+            "Defense"
+          ],
+          "key_talents": [],
+          "stat_summary": null,
+          "notes": "Letto dall'immagine della build (riseofkingdomsguides, Narses-Talent-Tree-Build.jpg, letta 2026-09-28): la pagina non ha testo, solo lo screenshot. Punti concentrati su Engineering (nodi quasi tutti pieni, 5/5 in cima) e su Defense; l'albero Versatility resta vuoto. I nomi dei singoli talenti non sono ricavabili dall'immagine: servirebbe una legenda delle icone."
+        }
+      ],
       "pairings": [
         {
           "partner": "Catherine de' Medici",
@@ -111102,7 +111113,7 @@
         "open_field"
       ],
       "f2p_friendly": true,
-      "notes": "Secondaria di supporto early game (buff danno skill al primario); come primaria usare arcieri. allclash: non serve salire oltre il livello 30. riseofkingdomsguides: smettere di usarla appena si ottiene un arciere migliore. Nessuna skill 5. rokstats: nessuna build né pairing ufficiale.",
+      "notes": "Secondaria di supporto early game (buff danno skill al primario); come primaria usare arcieri. allclash: non serve salire oltre il livello 30. riseofkingdomsguides: smettere di usarla appena si ottiene un arciere migliore. Nessuna skill 5. rokstats: nessuna build né pairing ufficiale. La guida allclash non ha la sezione formazione (verificato 2026-09-28).",
       "sources": [
         {
           "url": "https://riseofkingdomsguides.com/talent-tree/tomoe-gozen/",

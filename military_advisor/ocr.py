@@ -15,9 +15,11 @@ Autoverifica su schermate reali di cui si conosce il contenuto:
 
 from __future__ import annotations
 
+import difflib
 import os
 import shutil
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional, Tuple
 
@@ -94,6 +96,138 @@ def leggi_numero(im: Image.Image, box=None, scala: int = 4) -> Optional[int]:
     testo = leggi(im, box, lingua="ita", riga_singola=True, scala=scala)
     cifre = "".join(c for c in testo if c.isdigit())
     return int(cifre) if cifre else None
+
+
+# --------------------------------------------------- lettura dell'intera schermata
+# I riquadri predefiniti non scalano: per coprire tutto il gioco servirebbero
+# centinaia di caselle scritte a mano, e un aggiornamento le romperebbe tutte.
+# Qui invece si legge quello che c'e', con posizione e confidenza, e poi si
+# cerca il testo che interessa. Sapere DOVE e' scritto "Caserma" significa
+# anche sapere dove cliccare: e' la stessa cosa che serve alla mappa citta'.
+
+@dataclass
+class Parola:
+    testo: str
+    riquadro: Tuple[int, int, int, int]   # x1, y1, x2, y2
+    confidenza: int
+
+    @property
+    def centro(self) -> Tuple[int, int]:
+        x1, y1, x2, y2 = self.riquadro
+        return (x1 + x2) // 2, (y1 + y2) // 2
+
+
+def parole(im: Image.Image, lingua: str = "ita", confidenza_minima: int = 55,
+           scala: int = 3, riquadri: int = 1) -> List[Parola]:
+    """Tutte le parole leggibili nella schermata, con posizione e confidenza.
+
+    Due accorgimenti, entrambi misurati:
+
+    Si legge in ENTRAMBE LE POLARITA': l'interfaccia mescola testo chiaro su
+    fondo scuro e viceversa nella stessa schermata, e una sola passata ne
+    perde sempre meta'.
+
+    ``riquadri`` > 1 elabora l'immagine a zone separate, ognuna con il proprio
+    autocontrasto. Aiuta dove il testo sta sopra un'illustrazione, ma NON e'
+    l'impostazione predefinita: misurato il 29/09/2026, a 3x3 riquadri si
+    leggono piu' parole (115 contro 48 sulla schermata citta') ma la copertura
+    delle etichette SCENDE dal 64% al 60%, perche' le etichette di piu' parole
+    finiscono a cavallo fra due zone e non si ricompongono. Leggere di piu'
+    non vuol dire capire di piu'.
+    """
+    pt = _pytesseract()
+    trovate: List[Parola] = []
+    visti = set()
+    L, A = im.width, im.height
+    passo_x, passo_y = L // riquadri, A // riquadri
+    bordo = 40  # sovrapposizione, per non tagliare le parole sul confine
+
+    zone = [(max(0, cx * passo_x - bordo), max(0, cy * passo_y - bordo),
+             min(L, (cx + 1) * passo_x + bordo), min(A, (cy + 1) * passo_y + bordo))
+            for cy in range(riquadri) for cx in range(riquadri)]
+
+    for zx1, zy1, zx2, zy2 in zone:
+        zona = im.crop((zx1, zy1, zx2, zy2))
+        for inverti in (False, True):
+            try:
+                d = pt.image_to_data(_prepara(zona, scala, inverti), lang=lingua,
+                                     config="--psm 11", output_type=pt.Output.DICT)
+            except Exception:  # noqa: BLE001
+                continue
+            for i, testo in enumerate(d["text"]):
+                t = testo.strip()
+                if not t:
+                    continue
+                try:
+                    conf = int(float(d["conf"][i]))
+                except (ValueError, TypeError):
+                    continue
+                if conf < confidenza_minima:
+                    continue
+                x = zx1 + d["left"][i] // scala
+                y = zy1 + d["top"][i] // scala
+                w, h = d["width"][i] // scala, d["height"][i] // scala
+                chiave = (t.lower(), x // 10, y // 10)
+                if chiave in visti:
+                    continue
+                visti.add(chiave)
+                trovate.append(Parola(t, (x, y, x + w, y + h), conf))
+    return sorted(trovate, key=lambda p: (p.riquadro[1], p.riquadro[0]))
+
+
+def righe(ps: List[Parola], tolleranza: int = 12) -> List[str]:
+    """Rimette insieme le parole che stanno sulla stessa riga."""
+    out: List[str] = []
+    corrente: List[Parola] = []
+    for p in ps:
+        if corrente and abs(p.riquadro[1] - corrente[-1].riquadro[1]) > tolleranza:
+            out.append(" ".join(q.testo for q in corrente))
+            corrente = []
+        corrente.append(p)
+    if corrente:
+        out.append(" ".join(q.testo for q in corrente))
+    return out
+
+
+def gruppi(ps: List[Parola], massimo: int = 5, tolleranza: int = 14) -> List[Parola]:
+    """Parole singole piu' le sequenze di parole vicine sulla stessa riga.
+
+    Serve perche' quasi nessuna etichetta del gioco e' una parola sola:
+    "Punteggio condotta", "Scipione l'Africano", "Formazione a cuneo".
+    Cercandole fra le singole parole non si trovano mai, anche quando l'OCR
+    le ha lette benissimo - erano solo spezzate in due.
+    """
+    out = list(ps)
+    for i, p in enumerate(ps):
+        testo = p.testo
+        x1, y1, x2, y2 = p.riquadro
+        for q in ps[i + 1:i + massimo]:
+            if abs(q.riquadro[1] - p.riquadro[1]) > tolleranza:
+                break
+            if q.riquadro[0] < x2 - 5 or q.riquadro[0] - x2 > 60:
+                break
+            testo += " " + q.testo
+            x2 = max(x2, q.riquadro[2])
+            y1, y2 = min(y1, q.riquadro[1]), max(y2, q.riquadro[3])
+            out.append(Parola(testo, (x1, y1, x2, y2),
+                              min(p.confidenza, q.confidenza)))
+    return out
+
+
+def trova_testo(im: Optional[Image.Image], cercato: str, soglia: float = 0.8,
+                ps: Optional[List[Parola]] = None) -> Optional[Parola]:
+    """Cerca un testo nella schermata e ne restituisce posizione e centro.
+
+    E' il mattone che serve per cliccare "quel pulsante li'" senza conoscerne
+    le coordinate in anticipo.
+    """
+    ps = ps if ps is not None else parole(im)
+    migliore, punteggio = None, 0.0
+    for p in gruppi(ps):
+        r = _somiglianza(p.testo, cercato)
+        if r > punteggio:
+            migliore, punteggio = p, r
+    return migliore if punteggio >= soglia else None
 
 
 # ------------------------------------------------------------------- risorse
@@ -196,12 +330,9 @@ CASI = [
 
 
 def _somiglianza(a: str, b: str) -> float:
-    a, b = a.lower(), b.lower()
     if not b:
         return 0.0
-    comuni = sum(1 for c in set(b) if c in a)
-    import difflib
-    return difflib.SequenceMatcher(None, a, b).ratio()
+    return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
 # Barra risorse di test_pc/live3.png, con i valori veri letti a occhio.
@@ -255,8 +386,61 @@ def prova() -> int:
     return 0 if ok == len(CASI) else 1
 
 
+# Copertura su schermate diverse del gioco: per ognuna, etichette che si
+# sanno esserci. Misura quanto il bot "vede" davvero, invece di fidarsi di
+# qualche riquadro scelto bene.
+COPERTURA = [
+    ("test_telefono/schermate/08_impostazioni.png", "impostazioni (telefono)",
+     ["Notifiche", "Account", "Lingua", "Emoji", "Punteggio condotta", "Personaggi",
+      "Comunità", "Termini di servizio"]),
+    ("test_pc/a03.png", "comandanti (PC)",
+     ["Scipione l'Africano", "Eroe di Zama", "TALENTI", "Livello", "Fanteria",
+      "Versatilità", "Supporto"]),
+    ("test_pc/a04.png", "formazione (PC)",
+     ["FORMAZIONE", "Formazione a cuneo", "CODICE", "RICICLA", "Info armamento",
+      "Attacco della fanteria"]),
+    ("test_pc/a05.png", "codice armamenti (PC)",
+     ["Leggendario", "Epico", "FONTE", "Pergamena del nord", "Inscrizione",
+      "Formazione a cuneo"]),
+    ("test_pc/b02.png", "inventario + filtri (PC)",
+     ["ARMAMENTI", "Qualità", "RESET", "Leggendario", "Pergamena", "Bandiera",
+      "Emblema", "Formazione", "Generazione"]),
+    ("test_pc/b01.png", "citta (PC)",
+     ["Costruisci", "Comando", "feudale"]),
+    ("test_telefono/schermate/01_profilo.png", "profilo (telefono)",
+     ["Governatore", "Potenza", "Classifica", "Truppe", "Impostazioni"]),
+    ("test_telefono/schermate/13_ricerca_mappa.png", "ricerca mappa (telefono)",
+     ["Barbari", "CERCA", "Livello"]),
+]
+
+
+def copertura() -> int:
+    print(f"tesseract: {percorso_tesseract()}\n")
+    tot_ok = tot = 0
+    for f, nome, attese in COPERTURA:
+        p = Path(f)
+        if not p.exists():
+            print(f"[--- ] {nome}: manca {f}")
+            continue
+        ps = parole(Image.open(p))
+        trovate = [e for e in attese if trova_testo(None, e, 0.8, ps) is not None]
+        tot_ok += len(trovate)
+        tot += len(attese)
+        mancanti = [e for e in attese if e not in trovate]
+        stato = "OK " if not mancanti else "ERR"
+        print(f"[{stato}] {nome}: {len(trovate)}/{len(attese)} "
+              f"({len(ps)} parole lette)")
+        if mancanti:
+            print(f"       non trovate: {', '.join(mancanti)}")
+    pct = 100 * tot_ok / tot if tot else 0
+    print(f"\ncopertura: {tot_ok}/{tot} etichette trovate ({pct:.0f}%)")
+    return 0 if tot_ok == tot else 1
+
+
 def main(argv: Optional[List[str]] = None) -> int:
     argv = sys.argv[1:] if argv is None else argv
+    if "--copertura" in argv:
+        return copertura()
     if "--prova" in argv:
         return prova()
     print(__doc__)

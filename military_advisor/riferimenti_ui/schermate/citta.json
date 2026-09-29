@@ -1,0 +1,360 @@
+{
+  "schermata": "citta",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "@ 1330 [7",
+      "riquadro": [
+        1542,
+        33,
+        1682,
+        82
+      ],
+      "centro": [
+        1612,
+        57
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "ENG Ro",
+      "riquadro": [
+        13,
+        72,
+        74,
+        93
+      ],
+      "centro": [
+        43,
+        82
+      ],
+      "confidenza": 55
+    },
+    {
+      "testo": "VIP 12",
+      "riquadro": [
+        136,
+        88,
+        184,
+        100
+      ],
+      "centro": [
+        160,
+        94
+      ],
+      "confidenza": 76
+    },
+    {
+      "testo": "ASS",
+      "riquadro": [
+        1384,
+        96,
+        1434,
+        120
+      ],
+      "centro": [
+        1409,
+        108
+      ],
+      "confidenza": 82
+    },
+    {
+      "testo": "eno",
+      "riquadro": [
+        1639,
+        129,
+        1666,
+        136
+      ],
+      "centro": [
+        1652,
+        132
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "feudale",
+      "riquadro": [
+        48,
+        130,
+        110,
+        144
+      ],
+      "centro": [
+        79,
+        137
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "Eta",
+      "riquadro": [
+        18,
+        131,
+        44,
+        144
+      ],
+      "centro": [
+        31,
+        137
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "3 g18 14:23 28",
+      "riquadro": [
+        1373,
+        140,
+        1471,
+        159
+      ],
+      "centro": [
+        1422,
+        149
+      ],
+      "confidenza": 91
+    },
+    {
+      "testo": "3g 18:14:24",
+      "riquadro": [
+        1547,
+        140,
+        1613,
+        150
+      ],
+      "centro": [
+        1580,
+        145
+      ],
+      "confidenza": 56
+    },
+    {
+      "testo": "Costruisci Ì",
+      "riquadro": [
+        1208,
+        189,
+        1294,
+        212
+      ],
+      "centro": [
+        1251,
+        200
+      ],
+      "confidenza": 74
+    },
+    {
+      "testo": "Spedisci",
+      "riquadro": [
+        735,
+        440,
+        794,
+        454
+      ],
+      "centro": [
+        764,
+        447
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "Scudo romano",
+      "riquadro": [
+        880,
+        474,
+        960,
+        484
+      ],
+      "centro": [
+        920,
+        479
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "SEN",
+      "riquadro": [
+        1147,
+        564,
+        1213,
+        589
+      ],
+      "centro": [
+        1180,
+        576
+      ],
+      "confidenza": 59
+    },
+    {
+      "testo": "vi.",
+      "riquadro": [
+        286,
+        568,
+        309,
+        589
+      ],
+      "centro": [
+        297,
+        578
+      ],
+      "confidenza": 71
+    },
+    {
+      "testo": "d'animalex",
+      "riquadro": [
+        1502,
+        573,
+        1565,
+        583
+      ],
+      "centro": [
+        1533,
+        578
+      ],
+      "confidenza": 90
+    },
+    {
+      "testo": "Balestriere 2.000",
+      "riquadro": [
+        553,
+        796,
+        657,
+        806
+      ],
+      "centro": [
+        605,
+        801
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "“ua",
+      "riquadro": [
+        1141,
+        799,
+        1158,
+        805
+      ],
+      "centro": [
+        1149,
+        802
+      ],
+      "confidenza": 55
+    },
+    {
+      "testo": "Sua",
+      "riquadro": [
+        1141,
+        799,
+        1158,
+        805
+      ],
+      "centro": [
+        1149,
+        802
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "Comando a",
+      "riquadro": [
+        111,
+        815,
+        215,
+        829
+      ],
+      "centro": [
+        163,
+        822
+      ],
+      "confidenza": 71
+    },
+    {
+      "testo": "rapido",
+      "riquadro": [
+        123,
+        833,
+        168,
+        849
+      ],
+      "centro": [
+        145,
+        841
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "dal",
+      "riquadro": [
+        400,
+        887,
+        425,
+        907
+      ],
+      "centro": [
+        412,
+        897
+      ],
+      "confidenza": 57
+    },
+    {
+      "testo": "©):",
+      "riquadro": [
+        186,
+        944,
+        207,
+        965
+      ],
+      "centro": [
+        196,
+        954
+      ],
+      "confidenza": 57
+    },
+    {
+      "testo": "Hadés Scientist",
+      "riquadro": [
+        121,
+        946,
+        299,
+        962
+      ],
+      "centro": [
+        210,
+        954
+      ],
+      "confidenza": 80
+    },
+    {
+      "testo": "Hades Scientist",
+      "riquadro": [
+        121,
+        974,
+        298,
+        991
+      ],
+      "centro": [
+        209,
+        982
+      ],
+      "confidenza": 88
+    }
+  ]
+}

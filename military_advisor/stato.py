@@ -21,13 +21,33 @@ from typing import List, Optional
 
 from PIL import Image
 
-from . import ocr, pc_tools as P
+from . import dispositivo as D, ocr
 
 DEST = Path("test_pc/stato")
-APRI_LISTA = (40, 222)          # icona a righe in alto a sinistra
-PANNELLO = (10, 130, 325, 975)
-ROTELLA = (165, 700)
+
+# Le coordinate NON si trasferiscono fra dispositivi: il telefono e' 1560x720,
+# il PC 1796x1040, e le proporzioni sono diverse (2.17 contro 1.73), quindi non
+# basta scalare. Una tabella per risoluzione, e chi manca si dichiara mancante
+# invece di far girare il bot su numeri inventati.
+COORDINATE = {
+    (1796, 1040): {                 # client PC, misurate il 29/09/2026
+        "apri_lista": (40, 222),    # icona a righe in alto a sinistra
+        "pannello": (10, 130, 325, 975),
+        "rotella": (165, 700),
+    },
+    (1560, 720): None,              # telefono: DA MISURARE quando e' collegato
+}
 SCORRIMENTI = (0, -6, -8)       # posizioni successive dell'elenco
+
+
+def coordinate(disp) -> dict:
+    dim = disp.dimensioni()
+    c = COORDINATE.get(dim)
+    if c is None:
+        raise RuntimeError(
+            f"coordinate del Sommario delle code non ancora misurate per {dim[0]}x{dim[1]} "
+            f"({disp.nome}). Vanno prese sul dispositivo, non ricavate per scala.")
+    return c
 
 FERMO = ("inattivo", "in attesa")
 
@@ -57,22 +77,23 @@ CONSIGLI = {
 }
 
 
-def leggi_pannello(w, guarda) -> List[List[str]]:
+def leggi_pannello(disp, guarda) -> List[List[str]]:
     """Apre il sommario, lo scorre e restituisce le righe di OGNI schermata.
 
     Si tengono separate invece di fonderle: le voci ferme si chiamano tutte
     "Inattivo" o "In attesa", quindi unendo e togliendo i doppioni sei code
     ferme diventano due, e il riassunto mente sui numeri.
     """
-    P.click(w, *APRI_LISTA, 2.5)
+    c = coordinate(disp)
+    disp.tocca(*c["apri_lista"], 2.5)
     # Il pannello RICORDA dove era stato lasciato: riaprendolo riparte da
     # meta' elenco e le prime voci non si vedono. Si torna in cima.
-    P.scroll(w, ROTELLA[0], ROTELLA[1], 15)
+    disp.scorri(c["rotella"][0], c["rotella"][1], 15)
     schermate: List[List[str]] = []
     for tacche in SCORRIMENTI:
         if tacche:
-            P.scroll(w, ROTELLA[0], ROTELLA[1], tacche)
-        im = guarda().crop(PANNELLO)
+            disp.scorri(c["rotella"][0], c["rotella"][1], tacche)
+        im = guarda().crop(c["pannello"])
         righe = [" ".join(r.split()) for r in ocr.righe(ocr.parole(im))]
         schermate.append([r for r in righe if len(r) > 2])
     return schermate
@@ -155,27 +176,39 @@ def riassumi(schermate: List[List[str]]) -> List[str]:
 
 
 def main(argv: Optional[List[str]] = None) -> int:
-    if sys.platform != "win32":
-        print("[ERR] serve Windows con il client PC aperto")
-        return 1
+    argv = sys.argv[1:] if argv is None else argv
+    preferito = None
+    for nome in ("android", "pc"):
+        if f"--{nome}" in argv:
+            preferito = nome
     DEST.mkdir(parents=True, exist_ok=True)
-    w = P.find_game_window()
-    if not P.bring_to_front(w):
-        print("[ERR] non riesco a portare davanti la finestra")
+
+    try:
+        disp = D.apri(preferito)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[ERR] {exc}")
         return 1
-    P.fissa_dimensioni(w)
+    ok, perche = disp.pronto(DEST)
+    print(f"[{'OK ' if ok else 'ERR'}] dispositivo {disp.nome} "
+          f"{disp.dimensioni()[0]}x{disp.dimensioni()[1]}: {perche}")
+    if not ok:
+        return 1
+    try:
+        c = coordinate(disp)
+    except RuntimeError as exc:
+        print(f"[ERR] {exc}")
+        return 1
 
     def guarda() -> Image.Image:
-        P.bring_to_front(w)
-        return Image.open(P.screenshot_window(w, DEST / "_ultimo.png"))
+        return disp.schermo(DEST / "_ultimo.png")
 
-    schermate = leggi_pannello(w, guarda)
-    P.click(w, *APRI_LISTA, 1.5)          # richiude
+    schermate = leggi_pannello(disp, guarda)
+    disp.tocca(*c["apri_lista"], 1.5)          # richiude
 
     totale = sum(len(s) for s in schermate)
     print(f"sommario delle code: {len(schermate)} schermate, {totale} righe" + chr(10))
     avvisi = riassumi(schermate)
-    print("\ncosa e' fermo:")
+    print("cosa e' fermo:")
     for a in avvisi:
         print("  -", a)
     if not avvisi:

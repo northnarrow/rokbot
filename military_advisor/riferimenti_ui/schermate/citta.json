@@ -18,35 +18,7 @@
         83,
         17
       ],
-      "confidenza": 95
-    },
-    {
-      "testo": "@ 1330 [7",
-      "riquadro": [
-        1542,
-        33,
-        1682,
-        82
-      ],
-      "centro": [
-        1612,
-        57
-      ],
-      "confidenza": 58
-    },
-    {
-      "testo": "ENG Ro",
-      "riquadro": [
-        13,
-        72,
-        74,
-        93
-      ],
-      "centro": [
-        43,
-        82
-      ],
-      "confidenza": 55
+      "confidenza": 96
     },
     {
       "testo": "VIP 12",
@@ -60,217 +32,217 @@
         160,
         94
       ],
-      "confidenza": 76
+      "confidenza": 70
     },
     {
-      "testo": "ASS",
+      "testo": "4 Fa",
       "riquadro": [
-        1384,
+        1426,
         96,
-        1434,
-        120
+        1481,
+        112
       ],
       "centro": [
-        1409,
-        108
-      ],
-      "confidenza": 82
-    },
-    {
-      "testo": "eno",
-      "riquadro": [
-        1639,
-        129,
-        1666,
-        136
-      ],
-      "centro": [
-        1652,
-        132
-      ],
-      "confidenza": 58
-    },
-    {
-      "testo": "feudale",
-      "riquadro": [
-        48,
-        130,
-        110,
-        144
-      ],
-      "centro": [
-        79,
-        137
-      ],
-      "confidenza": 95
-    },
-    {
-      "testo": "Eta",
-      "riquadro": [
-        18,
-        131,
-        44,
-        144
-      ],
-      "centro": [
-        31,
-        137
-      ],
-      "confidenza": 96
-    },
-    {
-      "testo": "3 g18 14:23 28",
-      "riquadro": [
-        1373,
-        140,
-        1471,
-        159
-      ],
-      "centro": [
-        1422,
-        149
-      ],
-      "confidenza": 91
-    },
-    {
-      "testo": "3g 18:14:24",
-      "riquadro": [
-        1547,
-        140,
-        1613,
-        150
-      ],
-      "centro": [
-        1580,
-        145
-      ],
-      "confidenza": 56
-    },
-    {
-      "testo": "Costruisci Ì",
-      "riquadro": [
-        1208,
-        189,
-        1294,
-        212
-      ],
-      "centro": [
-        1251,
-        200
+        1453,
+        104
       ],
       "confidenza": 74
     },
     {
-      "testo": "Spedisci",
+      "testo": "dal",
       "riquadro": [
-        735,
-        440,
-        794,
-        454
+        823,
+        108,
+        839,
+        116
       ],
       "centro": [
-        764,
-        447
+        831,
+        112
       ],
-      "confidenza": 95
+      "confidenza": 56
     },
     {
-      "testo": "Scudo romano",
+      "testo": "cal",
       "riquadro": [
-        880,
-        474,
-        960,
-        484
+        823,
+        108,
+        839,
+        116
       ],
       "centro": [
-        920,
-        479
+        831,
+        112
+      ],
+      "confidenza": 57
+    },
+    {
+      "testo": "mai",
+      "riquadro": [
+        1012,
+        125,
+        1028,
+        134
+      ],
+      "centro": [
+        1020,
+        129
+      ],
+      "confidenza": 57
+    },
+    {
+      "testo": "Età feudale",
+      "riquadro": [
+        18,
+        128,
+        110,
+        144
+      ],
+      "centro": [
+        64,
+        136
       ],
       "confidenza": 96
     },
     {
-      "testo": "SEN",
+      "testo": "Costruisci",
       "riquadro": [
-        1147,
-        564,
-        1213,
-        589
+        1208,
+        189,
+        1278,
+        212
       ],
       "centro": [
-        1180,
-        576
+        1243,
+        200
       ],
-      "confidenza": 59
+      "confidenza": 94
     },
     {
-      "testo": "vi.",
+      "testo": "ceo",
       "riquadro": [
-        286,
-        568,
-        309,
-        589
+        1314,
+        338,
+        1338,
+        343
       ],
       "centro": [
-        297,
-        578
+        1326,
+        340
       ],
-      "confidenza": 71
+      "confidenza": 73
     },
     {
-      "testo": "d'animalex",
+      "testo": "Spe",
       "riquadro": [
-        1502,
-        573,
-        1565,
-        583
+        735,
+        440,
+        761,
+        453
       ],
       "centro": [
-        1533,
-        578
+        748,
+        446
       ],
-      "confidenza": 90
+      "confidenza": 95
     },
     {
-      "testo": "Balestriere 2.000",
+      "testo": "Ela",
       "riquadro": [
-        553,
-        796,
-        657,
-        806
+        835,
+        461,
+        879,
+        493
       ],
       "centro": [
-        605,
-        801
+        857,
+        477
       ],
-      "confidenza": 92
+      "confidenza": 64
     },
     {
-      "testo": "“ua",
+      "testo": "O) Xi",
       "riquadro": [
-        1141,
-        799,
-        1158,
-        805
+        450,
+        502,
+        581,
+        531
       ],
       "centro": [
-        1149,
-        802
+        515,
+        516
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "RA:",
+      "riquadro": [
+        1250,
+        511,
+        1284,
+        531
+      ],
+      "centro": [
+        1267,
+        521
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "te _S",
+      "riquadro": [
+        376,
+        622,
+        395,
+        632
+      ],
+      "centro": [
+        385,
+        627
       ],
       "confidenza": 55
     },
     {
-      "testo": "Sua",
+      "testo": "©. >",
       "riquadro": [
-        1141,
-        799,
-        1158,
-        805
+        1340,
+        689,
+        1384,
+        708
       ],
       "centro": [
-        1149,
-        802
+        1362,
+        698
       ],
-      "confidenza": 58
+      "confidenza": 56
+    },
+    {
+      "testo": "SAN",
+      "riquadro": [
+        255,
+        714,
+        314,
+        733
+      ],
+      "centro": [
+        284,
+        723
+      ],
+      "confidenza": 87
+    },
+    {
+      "testo": "bre",
+      "riquadro": [
+        923,
+        724,
+        934,
+        744
+      ],
+      "centro": [
+        928,
+        734
+      ],
+      "confidenza": 55
     },
     {
       "testo": "Comando a",
@@ -301,60 +273,93 @@
       "confidenza": 96
     },
     {
-      "testo": "dal",
+      "testo": "har",
       "riquadro": [
-        400,
-        887,
-        425,
-        907
+        460,
+        869,
+        470,
+        874
       ],
       "centro": [
-        412,
-        897
+        465,
+        871
       ],
-      "confidenza": 57
+      "confidenza": 64
     },
     {
-      "testo": "©):",
-      "riquadro": [
-        186,
-        944,
-        207,
-        965
-      ],
-      "centro": [
-        196,
-        954
-      ],
-      "confidenza": 57
-    },
-    {
-      "testo": "Hadés Scientist",
+      "testo": "Hadés &}: Scientist",
       "riquadro": [
         121,
-        946,
+        916,
         299,
-        962
+        938
       ],
       "centro": [
         210,
-        954
+        927
       ],
-      "confidenza": 80
+      "confidenza": 78
     },
     {
-      "testo": "Hades Scientist",
+      "testo": "ASS",
       "riquadro": [
-        121,
-        974,
-        298,
-        991
+        519,
+        931,
+        601,
+        960
       ],
       "centro": [
-        209,
-        982
+        560,
+        945
       ],
-      "confidenza": 88
+      "confidenza": 56
+    },
+    {
+      "testo": "[ALO8]sAMutairi:",
+      "riquadro": [
+        31,
+        1000,
+        187,
+        1026
+      ],
+      "centro": [
+        109,
+        1013
+      ],
+      "confidenza": 91
+    },
+    {
+      "testo": "justice",
+      "riquadro": [
+        194,
+        1002,
+        254,
+        1023
+      ],
+      "centro": [
+        224,
+        1012
+      ],
+      "confidenza": 96
+    }
+  ],
+  "pulsanti": [
+    {
+      "etichetta": "n A",
+      "riquadro": [
+        1554,
+        900,
+        1644,
+        1002
+      ],
+      "centro": [
+        1599,
+        951
+      ],
+      "dimensioni": [
+        90,
+        102
+      ]
     }
   ]
 }

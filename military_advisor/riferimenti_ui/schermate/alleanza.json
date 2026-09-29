@@ -1,0 +1,366 @@
+{
+  "schermata": "alleanza",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "O X",
+      "riquadro": [
+        1714,
+        10,
+        1770,
+        20
+      ],
+      "centro": [
+        1742,
+        15
+      ],
+      "confidenza": 84
+    },
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Aiuto",
+      "riquadro": [
+        556,
+        332,
+        605,
+        347
+      ],
+      "centro": [
+        580,
+        339
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Alleati",
+      "riquadro": [
+        762,
+        332,
+        822,
+        347
+      ],
+      "centro": [
+        792,
+        339
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Doni",
+      "riquadro": [
+        983,
+        332,
+        1023,
+        347
+      ],
+      "centro": [
+        1003,
+        339
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Territorio",
+      "riquadro": [
+        1170,
+        332,
+        1258,
+        347
+      ],
+      "centro": [
+        1214,
+        339
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "edi",
+      "riquadro": [
+        575,
+        469,
+        616,
+        491
+      ],
+      "centro": [
+        595,
+        480
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "Pro!",
+      "riquadro": [
+        1136,
+        553,
+        1167,
+        567
+      ],
+      "centro": [
+        1151,
+        560
+      ],
+      "confidenza": 60
+    },
+    {
+      "testo": "nia mpo",
+      "riquadro": [
+        554,
+        554,
+        619,
+        571
+      ],
+      "centro": [
+        586,
+        562
+      ],
+      "confidenza": 74
+    },
+    {
+      "testo": "|{o",
+      "riquadro": [
+        959,
+        584,
+        971,
+        594
+      ],
+      "centro": [
+        965,
+        589
+      ],
+      "confidenza": 81
+    },
+    {
+      "testo": "[UE",
+      "riquadro": [
+        1193,
+        584,
+        1211,
+        592
+      ],
+      "centro": [
+        1202,
+        588
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "alla",
+      "riquadro": [
+        625,
+        681,
+        656,
+        698
+      ],
+      "centro": [
+        640,
+        689
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Unisciti",
+      "riquadro": [
+        551,
+        682,
+        618,
+        698
+      ],
+      "centro": [
+        584,
+        690
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "prima alleanza ricevere:",
+      "riquadro": [
+        699,
+        682,
+        955,
+        702
+      ],
+      "centro": [
+        827,
+        692
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "tua",
+      "riquadro": [
+        662,
+        683,
+        691,
+        698
+      ],
+      "centro": [
+        676,
+        690
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "gemme",
+      "riquadro": [
+        1144,
+        685,
+        1245,
+        708
+      ],
+      "centro": [
+        1194,
+        696
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "per",
+      "riquadro": [
+        841,
+        686,
+        871,
+        702
+      ],
+      "centro": [
+        856,
+        694
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "CREA",
+      "riquadro": [
+        1000,
+        758,
+        1071,
+        778
+      ],
+      "centro": [
+        1035,
+        768
+      ],
+      "confidenza": 96
+    }
+  ],
+  "pulsanti": [
+    {
+      "etichetta": "uu \\",
+      "riquadro": [
+        486,
+        498,
+        678,
+        624
+      ],
+      "centro": [
+        582,
+        561
+      ],
+      "dimensioni": [
+        192,
+        126
+      ]
+    },
+    {
+      "etichetta": "nemesi tuoiallat",
+      "riquadro": [
+        702,
+        504,
+        888,
+        624
+      ],
+      "centro": [
+        795,
+        564
+      ],
+      "dimensioni": [
+        186,
+        120
+      ]
+    },
+    {
+      "etichetta": "“ dtoggettiutii.—",
+      "riquadro": [
+        912,
+        516,
+        1098,
+        624
+      ],
+      "centro": [
+        1005,
+        570
+      ],
+      "dimensioni": [
+        186,
+        108
+      ]
+    },
+    {
+      "etichetta": "feta ba",
+      "riquadro": [
+        1122,
+        516,
+        1308,
+        624
+      ],
+      "centro": [
+        1215,
+        570
+      ],
+      "dimensioni": [
+        186,
+        108
+      ]
+    },
+    {
+      "etichetta": "UNISCITI",
+      "riquadro": [
+        654,
+        738,
+        864,
+        798
+      ],
+      "centro": [
+        759,
+        768
+      ],
+      "dimensioni": [
+        210,
+        60
+      ]
+    },
+    {
+      "etichetta": "CREA",
+      "riquadro": [
+        936,
+        738,
+        1134,
+        798
+      ],
+      "centro": [
+        1035,
+        768
+      ],
+      "dimensioni": [
+        198,
+        60
+      ]
+    }
+  ]
+}

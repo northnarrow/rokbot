@@ -1,0 +1,659 @@
+{
+  "schermata": "posta",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "O X",
+      "riquadro": [
+        1714,
+        10,
+        1770,
+        20
+      ],
+      "centro": [
+        1742,
+        15
+      ],
+      "confidenza": 84
+    },
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "SISTEMA",
+      "riquadro": [
+        783,
+        60,
+        879,
+        88
+      ],
+      "centro": [
+        831,
+        74
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Premi classifica Cors...",
+      "riquadro": [
+        417,
+        144,
+        642,
+        161
+      ],
+      "centro": [
+        529,
+        152
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "di ritorno",
+      "riquadro": [
+        995,
+        151,
+        1099,
+        169
+      ],
+      "centro": [
+        1047,
+        160
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Corsa",
+      "riquadro": [
+        928,
+        152,
+        988,
+        169
+      ],
+      "centro": [
+        958,
+        160
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "ricom....",
+      "riquadro": [
+        617,
+        170,
+        678,
+        185
+      ],
+      "centro": [
+        647,
+        177
+      ],
+      "confidenza": 56
+    },
+    {
+      "testo": "Congratulazioni le tue",
+      "riquadro": [
+        416,
+        172,
+        611,
+        189
+      ],
+      "centro": [
+        513,
+        180
+      ],
+      "confidenza": 93
+    },
+    {
+      "testo": "per",
+      "riquadro": [
+        543,
+        176,
+        566,
+        189
+      ],
+      "centro": [
+        554,
+        182
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "y Congratulazioni le ricompense!",
+      "riquadro": [
+        699,
+        180,
+        1141,
+        216
+      ],
+      "centro": [
+        920,
+        198
+      ],
+      "confidenza": 60
+    },
+    {
+      "testo": "Congratulazioni le ricompense!",
+      "riquadro": [
+        749,
+        193,
+        1141,
+        216
+      ],
+      "centro": [
+        945,
+        204
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "tue",
+      "riquadro": [
+        979,
+        195,
+        1011,
+        210
+      ],
+      "centro": [
+        995,
+        202
+      ],
+      "confidenza": 97
+    },
+    {
+      "testo": "Pa x",
+      "riquadro": [
+        592,
+        221,
+        596,
+        222
+      ],
+      "centro": [
+        594,
+        221
+      ],
+      "confidenza": 56
+    },
+    {
+      "testo": "rupi...",
+      "riquadro": [
+        569,
+        235,
+        629,
+        256
+      ],
+      "centro": [
+        599,
+        245
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "delle",
+      "riquadro": [
+        514,
+        236,
+        563,
+        252
+      ],
+      "centro": [
+        538,
+        244
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Saluti governatore,",
+      "riquadro": [
+        749,
+        255,
+        923,
+        277
+      ],
+      "centro": [
+        836,
+        266
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "delle di",
+      "riquadro": [
+        506,
+        262,
+        601,
+        275
+      ],
+      "centro": [
+        553,
+        268
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Hai",
+      "riquadro": [
+        417,
+        263,
+        440,
+        276
+      ],
+      "centro": [
+        428,
+        269
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "rupie ritorno!",
+      "riquadro": [
+        547,
+        263,
+        663,
+        280
+      ],
+      "centro": [
+        605,
+        271
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "trovato",
+      "riquadro": [
+        445,
+        264,
+        500,
+        276
+      ],
+      "centro": [
+        472,
+        270
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "20 ore",
+      "riquadro": [
+        417,
+        286,
+        456,
+        296
+      ],
+      "centro": [
+        436,
+        291
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Congratulazioni! Hai",
+      "riquadro": [
+        749,
+        322,
+        936,
+        343
+      ],
+      "centro": [
+        842,
+        332
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "la posizione nell'evento",
+      "riquadro": [
+        1030,
+        322,
+        1286,
+        342
+      ],
+      "centro": [
+        1158,
+        332
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "ottenuto",
+      "riquadro": [
+        943,
+        324,
+        1023,
+        338
+      ],
+      "centro": [
+        983,
+        331
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "delle rupie di ritorno!",
+      "riquadro": [
+        506,
+        353,
+        663,
+        370
+      ],
+      "centro": [
+        584,
+        361
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Hai trovato",
+      "riquadro": [
+        417,
+        354,
+        500,
+        367
+      ],
+      "centro": [
+        458,
+        360
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "le ricompense di classifica!",
+      "riquadro": [
+        927,
+        355,
+        1207,
+        375
+      ],
+      "centro": [
+        1067,
+        365
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "2026-09-28. Ecco tue",
+      "riquadro": [
+        764,
+        356,
+        976,
+        371
+      ],
+      "centro": [
+        870,
+        363
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "delle rupi...",
+      "riquadro": [
+        514,
+        417,
+        629,
+        438
+      ],
+      "centro": [
+        571,
+        427
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Scultura di luce stellare Forziere",
+      "riquadro": [
+        757,
+        507,
+        978,
+        515
+      ],
+      "centro": [
+        867,
+        511
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "di luce stellare Forziere del",
+      "riquadro": [
+        803,
+        507,
+        998,
+        515
+      ],
+      "centro": [
+        900,
+        511
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "luce stellare Forziere del materiale",
+      "riquadro": [
+        816,
+        507,
+        1050,
+        515
+      ],
+      "centro": [
+        933,
+        511
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Baule delle risorse di Livello",
+      "riquadro": [
+        1115,
+        507,
+        1257,
+        516
+      ],
+      "centro": [
+        1186,
+        511
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "Acceleratore",
+      "riquadro": [
+        1330,
+        512,
+        1424,
+        525
+      ],
+      "centro": [
+        1377,
+        518
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "abbacinante",
+      "riquadro": [
+        785,
+        521,
+        849,
+        530
+      ],
+      "centro": [
+        817,
+        525
+      ],
+      "confidenza": 91
+    },
+    {
+      "testo": "l'equipaggiamento",
+      "riquadro": [
+        955,
+        521,
+        1053,
+        532
+      ],
+      "centro": [
+        1004,
+        526
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "\"Scegline Uno\"",
+      "riquadro": [
+        1151,
+        521,
+        1229,
+        532
+      ],
+      "centro": [
+        1190,
+        526
+      ],
+      "confidenza": 91
+    },
+    {
+      "testo": "RIS",
+      "riquadro": [
+        1031,
+        575,
+        1075,
+        597
+      ],
+      "centro": [
+        1053,
+        586
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Acquisite",
+      "riquadro": [
+        416,
+        766,
+        507,
+        803
+      ],
+      "centro": [
+        461,
+        784
+      ],
+      "confidenza": 93
+    },
+    {
+      "testo": "21 ore",
+      "riquadro": [
+        417,
+        831,
+        456,
+        841
+      ],
+      "centro": [
+        436,
+        836
+      ],
+      "confidenza": 94
+    },
+    {
+      "testo": "Leggieritiratutto",
+      "riquadro": [
+        362,
+        973,
+        496,
+        990
+      ],
+      "centro": [
+        429,
+        981
+      ],
+      "confidenza": 56
+    },
+    {
+      "testo": "Editor di",
+      "riquadro": [
+        568,
+        973,
+        629,
+        985
+      ],
+      "centro": [
+        598,
+        979
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Preferiti",
+      "riquadro": [
+        978,
+        973,
+        1034,
+        986
+      ],
+      "centro": [
+        1006,
+        979
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Elimina",
+      "riquadro": [
+        1133,
+        973,
+        1186,
+        985
+      ],
+      "centro": [
+        1159,
+        979
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "massa",
+      "riquadro": [
+        636,
+        977,
+        682,
+        986
+      ],
+      "centro": [
+        659,
+        981
+      ],
+      "confidenza": 96
+    }
+  ],
+  "pulsanti": [
+    {
+      "etichetta": "apice",
+      "riquadro": [
+        768,
+        36,
+        894,
+        120
+      ],
+      "centro": [
+        831,
+        78
+      ],
+      "dimensioni": [
+        126,
+        84
+      ]
+    }
+  ]
+}

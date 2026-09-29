@@ -1,0 +1,307 @@
+{
+  "schermata": "campagna",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "O X",
+      "riquadro": [
+        1714,
+        10,
+        1770,
+        20
+      ],
+      "centro": [
+        1742,
+        15
+      ],
+      "confidenza": 84
+    },
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Campagna",
+      "riquadro": [
+        800,
+        55,
+        995,
+        92
+      ],
+      "centro": [
+        897,
+        73
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "In Arrivo",
+      "riquadro": [
+        1305,
+        357,
+        1366,
+        369
+      ],
+      "centro": [
+        1335,
+        363
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "del",
+      "riquadro": [
+        772,
+        398,
+        798,
+        411
+      ],
+      "centro": [
+        785,
+        404
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Canyon",
+      "riquadro": [
+        706,
+        399,
+        767,
+        415
+      ],
+      "centro": [
+        736,
+        407
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Spedizione",
+      "riquadro": [
+        399,
+        405,
+        520,
+        428
+      ],
+      "centro": [
+        459,
+        416
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "di Osiride",
+      "riquadro": [
+        1018,
+        405,
+        1122,
+        423
+      ],
+      "centro": [
+        1070,
+        414
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Arca",
+      "riquadro": [
+        962,
+        407,
+        1011,
+        424
+      ],
+      "centro": [
+        986,
+        415
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Tramonto",
+      "riquadro": [
+        710,
+        418,
+        793,
+        431
+      ],
+      "centro": [
+        751,
+        424
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Bat",
+      "riquadro": [
+        432,
+        440,
+        513,
+        465
+      ],
+      "centro": [
+        472,
+        452
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "della missione:",
+      "riquadro": [
+        433,
+        479,
+        544,
+        492
+      ],
+      "centro": [
+        488,
+        485
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Sfide rimaste: 6/6",
+      "riquadro": [
+        687,
+        479,
+        816,
+        495
+      ],
+      "centro": [
+        751,
+        487
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Progresso",
+      "riquadro": [
+        354,
+        480,
+        427,
+        496
+      ],
+      "centro": [
+        390,
+        488
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "2026/10/03 2026/10/04",
+      "riquadro": [
+        1247,
+        661,
+        1424,
+        677
+      ],
+      "centro": [
+        1335,
+        669
+      ],
+      "confidenza": 91
+    }
+  ],
+  "pulsanti": [
+    {
+      "etichetta": "a",
+      "riquadro": [
+        492,
+        294,
+        540,
+        318
+      ],
+      "centro": [
+        516,
+        306
+      ],
+      "dimensioni": [
+        48,
+        24
+      ]
+    },
+    {
+      "etichetta": "Progresso della missione: 80",
+      "riquadro": [
+        360,
+        312,
+        558,
+        474
+      ],
+      "centro": [
+        459,
+        393
+      ],
+      "dimensioni": [
+        198,
+        162
+      ]
+    },
+    {
+      "etichetta": "Sfide rimaste: 6/6",
+      "riquadro": [
+        648,
+        312,
+        858,
+        474
+      ],
+      "centro": [
+        753,
+        393
+      ],
+      "dimensioni": [
+        210,
+        162
+      ]
+    },
+    {
+      "etichetta": "N bi si ”",
+      "riquadro": [
+        942,
+        408,
+        1146,
+        486
+      ],
+      "centro": [
+        1044,
+        447
+      ],
+      "dimensioni": [
+        204,
+        78
+      ]
+    },
+    {
+      "etichetta": "steli",
+      "riquadro": [
+        1302,
+        906,
+        1362,
+        942
+      ],
+      "centro": [
+        1332,
+        924
+      ],
+      "dimensioni": [
+        60,
+        36
+      ]
+    }
+  ]
+}

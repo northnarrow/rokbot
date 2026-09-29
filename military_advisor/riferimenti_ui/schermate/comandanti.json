@@ -1,0 +1,377 @@
+{
+  "schermata": "comandanti",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "O X",
+      "riquadro": [
+        1714,
+        10,
+        1770,
+        20
+      ],
+      "centro": [
+        1742,
+        15
+      ],
+      "confidenza": 88
+    },
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "può",
+      "riquadro": [
+        702,
+        41,
+        733,
+        61
+      ],
+      "centro": [
+        717,
+        51
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "che hanno",
+      "riquadro": [
+        964,
+        42,
+        1051,
+        58
+      ],
+      "centro": [
+        1007,
+        50
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "solo nei regni",
+      "riquadro": [
+        848,
+        43,
+        959,
+        62
+      ],
+      "centro": [
+        903,
+        52
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "raggiunto",
+      "riquadro": [
+        1057,
+        43,
+        1139,
+        63
+      ],
+      "centro": [
+        1098,
+        53
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "usato",
+      "riquadro": [
+        797,
+        44,
+        843,
+        58
+      ],
+      "centro": [
+        820,
+        51
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "sto",
+      "riquadro": [
+        563,
+        45,
+        586,
+        58
+      ],
+      "centro": [
+        574,
+        51
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "essere",
+      "riquadro": [
+        738,
+        47,
+        792,
+        58
+      ],
+      "centro": [
+        765,
+        52
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "la.",
+      "riquadro": [
+        1151,
+        49,
+        1162,
+        59
+      ],
+      "centro": [
+        1156,
+        54
+      ],
+      "confidenza": 84
+    },
+    {
+      "testo": "successive.",
+      "riquadro": [
+        850,
+        65,
+        943,
+        80
+      ],
+      "centro": [
+        896,
+        72
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "Pro",
+      "riquadro": [
+        181,
+        231,
+        204,
+        241
+      ],
+      "centro": [
+        192,
+        236
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "PA =",
+      "riquadro": [
+        1031,
+        336,
+        1091,
+        347
+      ],
+      "centro": [
+        1061,
+        341
+      ],
+      "confidenza": 60
+    },
+    {
+      "testo": "® —",
+      "riquadro": [
+        884,
+        414,
+        928,
+        429
+      ],
+      "centro": [
+        906,
+        421
+      ],
+      "confidenza": 68
+    },
+    {
+      "testo": "Livello 60",
+      "riquadro": [
+        1403,
+        423,
+        1480,
+        438
+      ],
+      "centro": [
+        1441,
+        430
+      ],
+      "confidenza": 89
+    },
+    {
+      "testo": "Capacità",
+      "riquadro": [
+        1403,
+        500,
+        1476,
+        518
+      ],
+      "centro": [
+        1439,
+        509
+      ],
+      "confidenza": 92
+    },
+    {
+      "testo": "Abilità",
+      "riquadro": [
+        1403,
+        602,
+        1456,
+        618
+      ],
+      "centro": [
+        1429,
+        610
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "507 x",
+      "riquadro": [
+        68,
+        655,
+        167,
+        672
+      ],
+      "centro": [
+        117,
+        663
+      ],
+      "confidenza": 56
+    },
+    {
+      "testo": "del comandante:",
+      "riquadro": [
+        773,
+        949,
+        900,
+        962
+      ],
+      "centro": [
+        836,
+        955
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "Potere",
+      "riquadro": [
+        720,
+        950,
+        768,
+        962
+      ],
+      "centro": [
+        744,
+        956
+      ],
+      "confidenza": 96
+    }
+  ],
+  "pulsanti": [
+    {
+      "etichetta": "è %",
+      "riquadro": [
+        1344,
+        30,
+        1500,
+        90
+      ],
+      "centro": [
+        1422,
+        60
+      ],
+      "dimensioni": [
+        156,
+        60
+      ]
+    },
+    {
+      "etichetta": "",
+      "riquadro": [
+        1596,
+        30,
+        1692,
+        108
+      ],
+      "centro": [
+        1644,
+        69
+      ],
+      "dimensioni": [
+        96,
+        78
+      ]
+    },
+    {
+      "etichetta": "L24 rttetuitatittorialica o",
+      "riquadro": [
+        1614,
+        138,
+        1716,
+        192
+      ],
+      "centro": [
+        1665,
+        165
+      ],
+      "dimensioni": [
+        102,
+        54
+      ]
+    },
+    {
+      "etichetta": "TALENTI",
+      "riquadro": [
+        1398,
+        744,
+        1560,
+        804
+      ],
+      "centro": [
+        1479,
+        774
+      ],
+      "dimensioni": [
+        162,
+        60
+      ]
+    },
+    {
+      "etichetta": "ABILITÀ",
+      "riquadro": [
+        1590,
+        744,
+        1752,
+        804
+      ],
+      "centro": [
+        1671,
+        774
+      ],
+      "dimensioni": [
+        162,
+        60
+      ]
+    }
+  ]
+}

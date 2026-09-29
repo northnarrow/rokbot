@@ -1,0 +1,151 @@
+{
+  "schermata": "articoli",
+  "finestra": [
+    1796,
+    1040
+  ],
+  "_nota": "Riquadri in coordinate della finestra, come li produce pc_tools.screenshot_window(). Generati leggendo la schermata, non misurati a mano.",
+  "etichette": [
+    {
+      "testo": "\"= Xi",
+      "riquadro": [
+        1697,
+        10,
+        1791,
+        61
+      ],
+      "centro": [
+        1744,
+        35
+      ],
+      "confidenza": 58
+    },
+    {
+      "testo": "Rise of Kingdoms",
+      "riquadro": [
+        38,
+        11,
+        128,
+        23
+      ],
+      "centro": [
+        83,
+        17
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "@ 1330",
+      "riquadro": [
+        1543,
+        37,
+        1638,
+        70
+      ],
+      "centro": [
+        1590,
+        53
+      ],
+      "confidenza": 63
+    },
+    {
+      "testo": "della",
+      "riquadro": [
+        1410,
+        445,
+        1474,
+        466
+      ],
+      "centro": [
+        1442,
+        455
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "Monete",
+      "riquadro": [
+        1305,
+        446,
+        1402,
+        466
+      ],
+      "centro": [
+        1353,
+        456
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "stagione",
+      "riquadro": [
+        1333,
+        476,
+        1446,
+        503
+      ],
+      "centro": [
+        1389,
+        489
+      ],
+      "confidenza": 96
+    },
+    {
+      "testo": "(O)",
+      "riquadro": [
+        280,
+        592,
+        330,
+        634
+      ],
+      "centro": [
+        305,
+        613
+      ],
+      "confidenza": 94
+    },
+    {
+      "testo": "175 =",
+      "riquadro": [
+        293,
+        701,
+        361,
+        743
+      ],
+      "centro": [
+        327,
+        722
+      ],
+      "confidenza": 59
+    },
+    {
+      "testo": "possesso:",
+      "riquadro": [
+        1327,
+        762,
+        1412,
+        777
+      ],
+      "centro": [
+        1369,
+        769
+      ],
+      "confidenza": 95
+    },
+    {
+      "testo": "Statistiche",
+      "riquadro": [
+        1594,
+        850,
+        1693,
+        865
+      ],
+      "centro": [
+        1643,
+        857
+      ],
+      "confidenza": 96
+    }
+  ],
+  "pulsanti": []
+}

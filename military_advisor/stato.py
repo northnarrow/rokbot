@@ -31,6 +31,31 @@ SCORRIMENTI = (0, -6, -8)       # posizioni successive dell'elenco
 
 FERMO = ("inattivo", "in attesa")
 
+# ATTENZIONE: nel gioco "Spedisci" sono DUE cose diverse.
+#  - Nel Sommario delle code sta sotto "Acquisizione armamento", accanto a
+#    "Viaggia": e' il Dispatch degli armamenti, costa PA e da' armamenti.
+#  - In citta', vicino al Mercato, c'e' un altro pulsante "Spedisci" che manda
+#    RISORSE a un alleato.
+# Stesso nome, effetti diversi: confonderli farebbe spedire risorse credendo
+# di cercare armamenti. Qui si legge sempre e solo quello degli armamenti,
+# perche' si legge la sezione che lo contiene.
+
+# A cosa servono davvero gli scout, dal proprietario (29/09/2026):
+#  - spiare una citta' nemica per sapere truppe e comandanti;
+#  - togliere la nebbia dalla mappa, soprattutto a inizio gioco;
+#  - esplorare le caverne, che danno ricompense;
+#  - esplorare i villaggi NPC, che danno ricompense.
+# Le ultime due sono guadagno gratuito, ed e' il motivo per cui tre scout
+# fermi contano come una perdita e non come un dettaglio.
+CONSIGLI = {
+    "scout": "mandali su caverne e villaggi NPC: ricompense gratuite, "
+             "e intanto tolgono la nebbia dalla mappa",
+    "costruttori": "una coda costruttori ferma e' tempo che non torna: "
+                   "il tempo e' l'unica risorsa che non si rigenera",
+    "viaggi": "costano solo PA e danno armamenti: gli PA si rigenerano e "
+              "sopra il tetto vanno sprecati",
+}
+
 
 def leggi_pannello(w, guarda) -> List[List[str]]:
     """Apre il sommario, lo scorre e restituisce le righe di OGNI schermata.
@@ -108,13 +133,18 @@ def riassumi(schermate: List[List[str]]) -> List[str]:
     ferme = _voci_ferme(schermate)
     if ferme:
         avvisi.append(f"{len(ferme)} voci ferme: " + "; ".join(ferme))
+        unite = " ".join(ferme).lower()
+        if "scout" in unite:
+            avvisi.append("  scout fermi -> " + CONSIGLI["scout"])
+        if "edifici" in unite:
+            avvisi.append("  code costruttori ferme -> " + CONSIGLI["costruttori"])
 
     visti = set()
     for r in piatte:
         b = r.lower()
         if "viaggi" in b and "/" in r and "viaggi" not in visti:
             visti.add("viaggi")
-            avvisi.append(f"Viaggi armamenti non usati ({r}): costano solo PA")
+            avvisi.append(f"Viaggi armamenti non usati ({r}) -> " + CONSIGLI["viaggi"])
         if "rimanenti" in b and "/" in r and "spedisci" not in visti:
             visti.add("spedisci")
             avvisi.append(f"Spedizioni non usate ({r})")

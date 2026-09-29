@@ -12,7 +12,7 @@ sinistra, sotto la potenza, a (160, 94) su finestra 1796x1040.
 | Mancano | **44.625 punti** |
 | Punti di oggi | 80 |
 | Giorni consecutivi di login | 3 |
-| Forziere gratuito | già riscosso, prossimo fra ~11 h |
+| Le due casse | già riscosse oggi, prossime fra ~10 h 51 m |
 
 ## Cosa dà il VIP 12 (attivo adesso)
 
@@ -35,20 +35,35 @@ riempiono in fretta, e quindi perché svuotarle spesso rende.
 
 Il forziere gratuito giornaliero diventa "Solo per VIP 13", cioè migliore.
 
-## Cosa conta per il bot
+## Le due casse giornaliere: la cosa che conta davvero qui
 
-**Il forziere gratuito ogni giorno è la sola cosa da non perdere mai.** Dà
-punti VIP e oggetti, costa zero, e se salti un giorno quel giorno è perso.
-La routine giornaliera lo prevede già; qui c'è il timer per sapere quando
-torna disponibile.
+Nella schermata VIP ci sono **DUE casse**, non una, e vanno premute **tutte e
+due ogni giorno**:
 
-**Il livello VIP 13 è lontano.** Mancano 44.625 punti e oggi ne sono entrati
-80: a quel ritmo sarebbero anni. I punti arrivano soprattutto da forzieri,
-eventi e oggetti "punti VIP", non dal login. Quindi il VIP non è una leva su
-cui il bot possa agire: è un moltiplicatore che si accumula da solo se non
-si saltano i giorni.
+| Cassa | Dove | Punto |
+|---|---|---|
+| cassa di legno (accesso giornaliero) | in alto a destra, accanto alla barra | (1270, 330) |
+| cassa metallica "GRATIS OGNI GIORNO" | nel riquadro Forzieri esclusivi | (1050, 525) |
+
+Danno **teste d'oro** (sculture universali), **stelle** (sculture di luce
+stellare) e **punti VIP**.
+
+Questo cambia il peso della sezione. Le sculture sono la risorsa che serve per
+far avanzare di stella i comandanti fermi al tetto, ed e' oggi il collo di
+bottiglia dell'account: Minamoto no Yoshitsune e Aethelflaed sprecano oltre
+9 milioni di esperienza a testa perche' non possono salire.
+
+Quindi il VIP non e' solo un moltiplicatore passivo: e' una **fonte
+giornaliera di sculture**. Saltare un giorno non fa perdere una percentuale,
+fa perdere sculture.
+
+Il livello VIP 13 resta lontano - mancano 44.625 punti e oggi ne sono entrati
+80 - ma i punti delle due casse ci vanno a sommarsi, quindi premerle serve a
+due scopi insieme.
 
 ## Da non toccare mai
+
+Le due casse NON sono in questa lista: vanno premute ogni giorno.
 
 - Il **"+" verde accanto alla barra dei punti**, a (1168, 367): serve a
   comprare punti VIP, ed è la strada per spendere gemme. Mai premuto, e

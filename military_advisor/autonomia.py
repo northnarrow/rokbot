@@ -32,7 +32,7 @@ from typing import List, Optional, Tuple
 
 from PIL import Image
 
-from . import pc_tools as P
+from . import ocr, pc_tools as P, pulsanti
 from .advisor import MilitaryAdvisor
 
 DEST = Path("test_pc/autonomia")
@@ -41,12 +41,30 @@ DEST = Path("test_pc/autonomia")
 # solo qui. Sulla schermata comandanti sono grigi, nel Codice quasi neri.
 SONDA_CITTA = (1500, 963, 1545, 1010)
 
-# Zona in cui cercare le bolle di raccolta: si esclude l'interfaccia in alto
-# (barra risorse, eventi) e in basso (chat, pulsanti), dove ci sono altri
-# elementi chiari che non sono raccolte.
-ZONA = (200, 150, 1700, 820)
+# Zona in cui cercare le nuvolette, e i rettangoli di interfaccia da saltare.
+# La prima versione tagliava a y=820 "per stare larghi sull'interfaccia" e
+# cosi' perdeva tutte le nuvolette di cibo in fondo al villaggio, piu' una di
+# monete in alto. Meglio una zona ampia con esclusioni precise che un
+# rettangolo prudente: le esclusioni si vedono e si correggono, un ritaglio
+# troppo stretto toglie roba in silenzio.
+ZONA = (120, 90, 1700, 1010)
+
+ESCLUSIONI = [
+    (0, 0, 300, 330),        # avatar, potenza, VIP, pergamena missioni
+    (1180, 0, 1796, 175),    # barra risorse ed eventi
+    (1670, 170, 1796, 560),  # pannello delle marce in corso
+    (0, 800, 335, 1040),     # comando rapido e chat
+    (1190, 900, 1796, 1040), # pulsanti in basso a destra
+    (1680, 820, 1796, 915),  # pulsante costruisci
+]
+
+
+def _fuori(x: int, y: int) -> bool:
+    return any(a <= x < c and b <= y < d for a, b, c, d in ESCLUSIONI)
+
 
 TETTO_CLIC = 40
+INDIETRO = (47, 69)   # freccia in alto a sinistra delle schermate a tutto schermo
 
 
 def _media(im: Image.Image, box) -> tuple:
@@ -60,68 +78,87 @@ def e_vista_citta(im: Image.Image) -> bool:
     return b > 150 and b > r + 60
 
 
-def bolle(im: Image.Image, passo: int = 10, minimo: int = 14) -> List[Tuple[int, int]]:
-    """Trova le bolle bianche di raccolta sopra gli edifici.
+def _nuvoletta(rgb) -> bool:
+    """Il fondo di una nuvoletta di raccolta, nei suoi DUE colori.
 
-    Sono riquadri chiari e piccoli su uno sfondo di citta' che chiaro non e'.
-    Si campiona a griglia grossa invece di esaminare ogni pixel: basta per
-    localizzarle e costa poco.
+    Misurati sul client il 29/09/2026:
+      - bianco  (240, 242, 230): monete e pietra, produzione normale;
+      - beige   (231, 202, 136): legno e cibo, e il beige vuol dire che il
+        giacimento e' PIENO.
+
+    La prima versione cercava solo il bianco e quindi saltava proprio le
+    miniere piene, cioe' quelle che urgeva svuotare. Cercare una sola tinta
+    perche' e' quella che si era vista per prima e' un errore facile da fare
+    e difficile da notare: il bot raccoglieva, solo non tutto.
+    """
+    r, g, b = rgb[:3]
+    bianco = min(r, g, b) > 210 and abs(r - b) < 25
+    beige = r > 200 and 175 < g < 225 and 100 < b < 170 and r - b > 65
+    return bianco or beige
+
+
+def _cornice(px, cx: int, cy: int, rx: int = 18, ry: int = 14) -> float:
+    """Quanta parte del bordo di una nuvoletta, centrata qui, ha il suo colore.
+
+    Si guarda la CORNICE e non il pieno. La nuvoletta ha al centro l'icona
+    della risorsa - tronco, pannocchia, moneta - che del colore di fondo non
+    e' nulla: pretendere una macchia piena la spezza in frammenti da 20x40,
+    che il filtro di forma poi scarta. Misurato il 29/09/2026: cercando macchie
+    piene si trovavano 15 nuvolette su 16, e quelle perse erano proprio le
+    piene, cioe' quelle che urge svuotare.
+    """
+    punti = []
+    for dx in (-rx, -rx // 2, 0, rx // 2, rx):
+        punti += [(cx + dx, cy - ry), (cx + dx, cy + ry)]
+    for dy in (-ry, 0, ry):
+        punti += [(cx - rx, cy + dy), (cx + rx, cy + dy)]
+    dentro = [(x, y) for x, y in punti
+              if ZONA[0] <= x < ZONA[2] and ZONA[1] <= y < ZONA[3]]
+    if len(dentro) < len(punti) * 0.8:
+        return 0.0
+    return sum(1 for q in dentro if _nuvoletta(px[q])) / len(dentro)
+
+
+def bolle(im: Image.Image, passo: int = 8, soglia: float = 0.72,
+          distanza_minima: int = 34) -> List[Tuple[int, int]]:
+    """Trova le nuvolette di raccolta sopra gli edifici.
+
+    Due passate. La prima scandisce la citta' a griglia larga con una soglia
+    bassa; la seconda affina ogni candidato guardandogli intorno e tiene solo
+    chi supera la soglia vera.
+
+    L'affinamento serve davvero: il punteggio ha un picco stretto, e una
+    nuvoletta il cui centro cade fra due punti della griglia dava 0.69 contro
+    lo 0.94 del suo centro esatto: sotto soglia, quindi persa. Abbassare la
+    soglia avrebbe fatto entrare falsi positivi; cercare meglio no.
     """
     px = im.convert("RGB").load()
     x0, y0, x1, y1 = ZONA
-    celle = set()
-    for cy in range(y0, y1, passo):
-        for cx in range(x0, x1, passo):
-            chiari = 0
-            for y in range(cy, min(cy + passo, y1), 3):
-                for x in range(cx, min(cx + passo, x1), 3):
-                    r, g, b = px[x, y]
-                    if min(r, g, b) > 215:
-                        chiari += 1
-            if chiari >= minimo // 3:
-                celle.add((cx // passo, cy // passo))
+    grezzi = []
+    for cy in range(y0 + 20, y1 - 20, passo):
+        for cx in range(x0 + 20, x1 - 20, passo):
+            if _fuori(cx, cy):
+                continue
+            if _cornice(px, cx, cy) >= soglia - 0.18:
+                grezzi.append((cx, cy))
 
-    # unisce le celle adiacenti in gruppi
-    gruppi: List[List[Tuple[int, int]]] = []
-    viste = set()
-    for c in celle:
-        if c in viste:
-            continue
-        coda, gruppo = [c], []
-        viste.add(c)
-        while coda:
-            cx, cy = coda.pop()
-            gruppo.append((cx, cy))
-            for dx in (-1, 0, 1):
-                for dy in (-1, 0, 1):
-                    v = (cx + dx, cy + dy)
-                    if v in celle and v not in viste:
-                        viste.add(v)
-                        coda.append(v)
-        gruppi.append(gruppo)
+    affinati = []
+    for cx, cy in grezzi:
+        migliore = (0.0, cx, cy)
+        for dy in range(-4, 5, 2):
+            for dx in range(-4, 5, 2):
+                p = _cornice(px, cx + dx, cy + dy)
+                if p > migliore[0]:
+                    migliore = (p, cx + dx, cy + dy)
+        if migliore[0] >= soglia:
+            affinati.append(migliore)
 
-    # Filtro di forma. La bolla di raccolta e' un riquadro bianco compatto e
-    # quasi quadrato, circa 40-50 px. I falsi positivi della prima versione
-    # erano decorazioni, cime di edifici e icone evento: piu' grandi, oppure
-    # allungate, oppure sparse. Senza questo filtro su 30 candidati un terzo
-    # non erano raccolte, e cliccarli apre finestre invece di raccogliere.
-    punti = []
-    for g in gruppi:
-        xs = [c[0] for c in g]
-        ys = [c[1] for c in g]
-        larghezza = (max(xs) - min(xs) + 1) * passo
-        altezza = (max(ys) - min(ys) + 1) * passo
-        if not (25 <= larghezza <= 70 and 25 <= altezza <= 70):
-            continue
-        if max(larghezza, altezza) > 1.6 * min(larghezza, altezza):
-            continue
-        celle_possibili = (larghezza // passo) * (altezza // passo)
-        if celle_possibili and len(g) / celle_possibili < 0.5:
-            continue                      # gruppo sparso: non e' un riquadro pieno
-        mx = sum(xs) / len(g) * passo + passo // 2
-        my = sum(ys) / len(g) * passo + passo // 2
-        punti.append((int(mx), int(my)))
-    return sorted(punti, key=lambda p: (p[1], p[0]))
+    affinati.sort(reverse=True)
+    scelti: List[Tuple[int, int]] = []
+    for _, cx, cy in affinati:
+        if all(abs(cx - a) + abs(cy - b) > distanza_minima for a, b in scelti):
+            scelti.append((cx, cy))
+    return sorted(scelti, key=lambda p: (p[1], p[0]))
 
 
 def segna(im: Image.Image, punti: List[Tuple[int, int]], dest: Path) -> Path:
@@ -134,6 +171,29 @@ def segna(im: Image.Image, punti: List[Tuple[int, int]], dest: Path) -> Path:
         d.text((x - 6, y - 34), str(i), fill=(255, 255, 0))
     out.save(dest)
     return dest
+
+
+def riconnetti(w, guarda) -> bool:
+    """Se c'e' la finestra "RETE DISCONNESSA", preme Conferma e torna True.
+
+    E' l'unica finestra che il bot chiude da solo, e solo perche' la sa
+    IDENTIFICARE: legge il testo e trova il pulsante. La regola generale resta
+    che una finestra sconosciuta ferma tutto, perche' chiudere alla cieca e' il
+    modo piu' rapido per premere qualcosa di costoso.
+
+    Serve davvero: il 29/09/2026 la connessione e' caduta tre volte in una
+    mattina, e ogni volta bloccava il lavoro in corso.
+    """
+    im = guarda()
+    if not ocr.trova_testo(im, "connessione persa", 0.75):
+        return False
+    b = pulsanti.trova_pulsante(im, "CONFERMA", 0.7)
+    if not b:
+        print("  rete caduta ma non trovo il pulsante Conferma: mi fermo")
+        return False
+    print("  rete caduta: premo Conferma e riprendo")
+    P.click(w, *b.centro, 6.0)
+    return e_vista_citta(guarda())
 
 
 def main(argv: Optional[List[str]] = None) -> int:
@@ -160,7 +220,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 1
     P.fissa_dimensioni(w)
 
-    im = Image.open(P.screenshot_window(w, DEST / "_citta.png"))
+    def guarda() -> Image.Image:
+        P.bring_to_front(w)
+        return Image.open(P.screenshot_window(w, DEST / "_citta.png"))
+
+    im = guarda()
+    if not e_vista_citta(im) and riconnetti(w, guarda):
+        im = guarda()
     if not e_vista_citta(im):
         print(f"[ERR] non siamo nella vista citta' (sonda {_media(im, SONDA_CITTA)}). Mi fermo.")
         return 1
@@ -180,34 +246,46 @@ def main(argv: Optional[List[str]] = None) -> int:
               "probabile riconoscimento sbagliato. Mi fermo senza cliccare.")
         return 1
 
+    def guarda_ora() -> Image.Image:
+        P.bring_to_front(w)
+        return Image.open(P.screenshot_window(w, DEST / "_dopo.png"))
+
     raccolte = 0
-    rimaste = len(punti)
     for i, (x, y) in enumerate(punti, 1):
         P.click(w, x, y, 1.0)
         dopo = Image.open(P.screenshot_window(w, DEST / "_dopo.png"))
         if not e_vista_citta(dopo):
+            # Non tutte le nuvolette sono raccolte: alcune sono indicatori di
+            # edifici. Il 29/09/2026 una ha aperto il MUSEO. Si esce con la
+            # freccia indietro, che e' navigazione e non un'azione, si verifica
+            # di essere tornati in citta' e si tira dritto: fermare tutto per
+            # una casella sbagliata su diciassette sarebbe sproporzionato.
+            # Se il ritorno NON avviene, li' ci si ferma davvero.
             dopo.save(DEST / "_finestra_inattesa.png")
-            print(f"  clic {i} in ({x}, {y}): si e' aperta una finestra. "
-                  "NON la chiudo da solo: mi fermo qui.")
-            print(f"  schermata salvata in {DEST / '_finestra_inattesa.png'}")
-            break
+            print(f"  clic {i} in ({x}, {y}): non era una raccolta, si e' aperta "
+                  "una schermata. Esco e proseguo.")
+            P.click(w, *INDIETRO, 2.5)
+            if not e_vista_citta(guarda_ora()):
+                print("  non sono tornato in citta': mi fermo qui.")
+                break
+            continue
 
-        # Una raccolta riuscita fa sparire la sua bolla. Se il conteggio non
-        # scende, quel clic ha colpito altro: un edificio o una decorazione,
-        # che aprono un menu a raggiera senza cambiare schermata - e quel menu
-        # contiene pulsanti come "riponi" o "addestra". La sonda sulla vista
-        # citta' non basta a vederlo, perche' i pulsanti in basso a destra
-        # restano visibili. Successo il 28/09/2026 con un Albero di Sakura.
-        ora = len(bolle(dopo))
-        if ora >= rimaste:
+        # Una raccolta riuscita fa sparire LA SUA nuvoletta. Si ricontrolla
+        # quel punto, non il totale: il totale balla da solo perche' le
+        # nuvolette ondeggiano e ne ricompaiono di nuove, e infatti al primo
+        # tentativo passava da 17 a 13 dopo una sola raccolta, fermando tutto.
+        # Se la nuvoletta e' ancora li', il clic ha colpito altro - un edificio
+        # o una decorazione, che aprono un menu a raggiera senza cambiare
+        # schermata, e quel menu contiene voci come "riponi" o "addestra".
+        resta = _cornice(dopo.convert("RGB").load(), x, y)
+        if resta >= 0.72:
             dopo.save(DEST / "_clic_a_vuoto.png")
-            print(f"  clic {i} in ({x}, {y}): nessuna bolla e' sparita "
-                  f"({rimaste} -> {ora}). Ho colpito qualcosa che non e' una "
+            print(f"  clic {i} in ({x}, {y}): la nuvoletta e' ancora li' "
+                  f"(cornice {resta:.2f}). Ho colpito qualcosa che non e' una "
                   "raccolta: mi fermo.")
             break
-        rimaste = ora
         raccolte += 1
-        print(f"  {i}/{len(punti)} raccolto in ({x}, {y}), ne restano {rimaste}")
+        print(f"  {i}/{len(punti)} raccolto in ({x}, {y})")
 
     print(f"fatto: {raccolte} raccolte su {len(punti)} candidati")
     return 0
